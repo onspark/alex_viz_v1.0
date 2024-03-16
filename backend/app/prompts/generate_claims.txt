@@ -1,0 +1,27 @@
+{question}
+
+Given the crime fact related to a Korean fraud case, along with reference to arguments from similar cases, generate one claim candidates each for the defense and the prosecution. The aim is to create claims that serve as the ultimate contention points or conclusion, essentially forming the root nodes for an argumentation network in legal discourse. Follow these steps:
+
+1. Read the Crime Fact: Understand the details of the case, focusing on the nature of the fraud, evidence, and involved parties.
+
+2. Use Similar Case References: Leverage arguments from similar cases given in Refernce Materials to inform your claims, identifying legal patterns and precedents.
+
+3. defense's Claim Formation: Craft a claim for the defense arguing innocence, lack of intent, or mitigating circumstances, informed by step 2.
+
+4. Prosecution's Claim Development: Construct the prosecution's counterclaim emphasizing the defense's guilt, intent, and the fraud's impact, also informed by similar case patterns.
+
+5. Ensure Claims Contradict: The claims must rebut each other, showcasing the adversarial nature of legal discourse.
+
+6. Clear Formatting: Present claims distinctly, marking each role before the claim. Use "$$$" to separate the defense's and prosecution's claims:
+
+### OUTPUT FORMAT ###
+id: defense1 $$$
+role: defense $$$
+claim: <generated claim of the defense>$$$
+id: prosecution1 $$$
+role: prosecution $$$
+claim: <generated claim of the prosecution>$$$$
+
+The claim MUST BE in KOREAN. If it is not in Korean, translate it to Korean.
+
+### CRIME FACT ###

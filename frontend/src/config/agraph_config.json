@@ -1,0 +1,12 @@
+{
+    "directed": true,
+    "physics": true,
+    "hierarchical": false,
+    "width": "100%",
+    "groups": {
+        "accepted_defense": {"color": "#ffd966", "shape": "circle"},
+        "defeated_defense": {"color": "#fff2cc", "shape": "circle"},
+        "accepted_prosecution": {"color": "#16537e", "shape": "circle"},
+        "defeated_prosecution": {"color": "#bfc5ff", "shape": "circle"}
+    }
+}

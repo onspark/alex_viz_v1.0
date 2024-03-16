@@ -1,0 +1,324 @@
+{
+    "success": true,
+    "data": {
+        "case_id": "c00001",
+        "arguments": {
+            "nodes": [
+                {
+                    "node_id": "mc00001",
+                    "node_type": "main_claim",
+                    "role": "defendant",
+                    "text": "피고인은 사기 범행에 공모 또는 가담하지 않았다.",
+                    "label": "MC_01"
+                },
+                {
+                    "node_id": "-mc00001",
+                    "node_type": "main_claim",
+                    "role": "prosecution",
+                    "text": "피고인은 자신의 행위가 보이스피싱 사기 범행에 가담하는 것임을 미필적으로라도 인식하면서 이를 용이한 채 성명불상의 보이스피싱 조직원들과 순차적 또는 암묵적 의사결합 아래 피해자들이 송금한 돈을 체크카드를 이용하여 인출하여 위 성명불상자에게 송금하거나 피해자들로부터 피해금을 교부받아 위 성명불상자에게 전달하는 등 사기 범행에 대한 본질적인 기여를 하였다고 봄이 상당하다.",
+                    "label": "MC_02"
+                },
+                {
+                    "node_id": "d00001",
+                    "node_type": "datum",
+                    "role": "defendant",
+                    "text": "피고인은 보이스피싱에 사용된 현금을 수거하였다.",
+                    "label": "D_01"
+                },
+                {
+                    "node_id": "w00001",
+                    "node_type": "warrant",
+                    "role": "defendant",
+                    "text": "피고인이 성명불상자로부터 제안을 받고 체크카드를 통해 돈을 인출하고 송금하는 일을 하기로 한 사실은, 피고인이 수거한 현금이 보이스피싱 사기 범행으로 인한 피해금이라는 인식이 없었다는 주장을 뒷받침한다.",
+                    "label": "W_01"
+                },
+                {
+                    "node_id": "c00001",
+                    "node_type": "claim",
+                    "role": "defendant",
+                    "text": "피고인은 피고인이 수거한 현금이 보이스피싱 사기 범행으로 인한 피해금이라는 인식이 없었다고 주장한다.",
+                    "label": "C_01"
+                },
+                {
+                    "node_id": "d00002",
+                    "node_type": "datum",
+                    "role": "defendant",
+                    "text": "성명불상자로부터 대출이 될 떄까지 다른 일거리를 주겠다는 제안을 받고, 이를 수락하여, 인출액의 3%를 받기로 하고 편의점 택배로 체크카드를 받아서 현금인출기에서 돈을 인출하여 무통장 송금하는 일을 하기로 하였다.",
+                    "label": "D_02"
+                },
+                {
+                    "node_id": "w00002",
+                    "node_type": "warrant",
+                    "role": "defendant",
+                    "text": "피고인이 보이스피싱 조직원의 지시에 따른 것이며, 반드시 사기에 가담할 의도가 있었다고 볼 수 없다는 주장을 지지한다.",
+                    "label": "W_02"
+                },
+                {
+                    "node_id": "c00002",
+                    "node_type": "claim",
+                    "role": "defendant",
+                    "text": "피고인은 보이스피싱 조직원에게 지시를 받아 행동한 것일 뿐 사기에 가담할 의도는 없었다.",
+                    "label": "C_02"
+                },
+                {
+                    "node_id": "d00003",
+                    "node_type": "datum",
+                    "role": "prosecution",
+                    "text": "피해자로부터 현금을 교부받을 때 피해자에게 피고인의 본명을 숨기고 AD대리라고 거짓 소개하였다.",
+                    "label": "D_03"
+                },
+                {
+                    "node_id": "w00003",
+                    "node_type": "warrant",
+                    "role": "prosecution",
+                    "text": "피고인이 피해자에게 본명을 고의적으로 숨기고 거짓 소개를 하면서 자신의 행위가 범행이라는 인식이 있었다는 주장을 뒷받침한다.",
+                    "label": "W_03"
+                },
+                {
+                    "node_id": "c00003",
+                    "node_type": "claim",
+                    "role": "prosecution",
+                    "text": "(피해자에게 본명을 고의적으로 숨기고 거짓 소개를 하면서 자신의 행위가 범행이라는 인식이 있었다.)",
+                    "label": "C_03"
+                },
+                {
+                    "node_id": "d00004",
+                    "node_type": "datum",
+                    "role": "prosecution",
+                    "text": "피고인은 성명불상자로부터 타인 명의의 체크카드를 10여개를 편의점 택배의 방법으로 수령하였고, 성명불상자로부터 텔레그램을 이용하여 비밀번호를 전달받아 현금을 인출하여 성명불상자가 알려준 회사나 외국인 명의 계좌로 100만원씩 무통장 입금하였고, 성명불상자의 지시에 따라 수령한 체크카드를 버리기도 하였으며",
+                    "label": "D_04"
+                },
+                {
+                    "node_id" : "w00004",
+                    "node_type" : "warrant",
+                    "role" : "prosecution",
+                    "text" : "피고인이 성명불상자로부터 체크카드를 선불하라는 등 이례적인 요청에 응하며 그의 행위가 범행이라는 인식이 있었다는 주장을 뒷받침한다.",
+                    "label" : "W_04"
+                },
+                {
+                    "node_id": "c00004",
+                    "node_type": "claim",
+                    "role": "prosecution",
+                    "text": "(피고인이 성명불상자로부터 체크카드를 선불하라는 등 이례적인 요청에 응하며 그의 행위가 범행이라는 인식이 있었다)",
+                    "label": "C_04"
+                },
+                {
+                    "node_id": "d00005",
+                    "node_type": "datum",
+                    "role": "prosecution",
+                    "text": "(피해금이라는 인식이 있었다.)",
+                    "label": "D_05"
+                },
+                {
+                    "node_id": "w00005",
+                    "node_type": "warrant",
+                    "role": "prosecution",
+                    "text": "수거한 현금이 미필적으로나마 피해금이라는 인식이 있었으므로 사기범행에 가담하였다는 주장을 뒷받침한다.",
+                    "label": "W_05"
+                },
+                {
+                    "node_id": "c00005",
+                    "node_type": "claim",
+                    "role": "prosecution",
+                    "text": "(수거한 현금이 미필적으로나마 피해금이라는 인식이 있었으므로 사기범행에 가담하였다.)",
+                    "label": "C_05"
+                },
+                {
+                    "node_id": "d00006",
+                    "node_type": "datum",
+                    "role": "prosecution",
+                    "text": "(조직원의 제안에 응하였다.)",
+                    "label": "D_06"
+                },
+                {
+                    "node_id": "w00006",
+                    "node_type": "warrant",
+                    "role": "prosecution",
+                    "text": "본질적으로 범행에 기여하였으므로 사기범행에 가담하였다는 주장을 뒷받침한다.",
+                    "label": "W_06"
+                },
+                {
+                    "node_id": "c00006",
+                    "node_type": "claim",
+                    "role": "prosecution",
+                    "text": "(조직원의 제안에 응하여 본질적으로 범행에 기여하였으므로 사기범행에 가담하였다)",
+                    "label": "C_06"
+                }, 
+                {
+                    "node_id": "c00007",
+                    "node_type": "claim",
+                    "role": "defense",
+                    "label": "C_07",
+                    "text": " 피고인은 금전적 어려움을 해결하기 위한 단순한 수단으로 성명불상자의 제안을 수락했다."
+                },
+                {
+                    "node_id": "w00007",
+                    "node_type": "warrant",
+                    "role": "defense",
+                    "label": "W_07",
+                    "text": " 금전적 어려움에 처한 개인이 범죄에 연루될 경우, 그 행위의 배경에는 종종 경제적 필요성이 큰 영향을 미친다."
+                },
+                {
+                    "node_id": "d00007",
+                    "node_type": "datum",
+                    "role": "defense",
+                    "label": "D_07",
+                    "text": " 피고인이 성명불상자로부터 \"택배로 체크카드를 받아 체크카드에 입금된 돈을 인출해주면 인출액의 3%를 주겠다\"는 제안을 수락한 것은, 피고인이 금전적 어려움을 겪고 있었기 때문이다."
+                },
+                {
+                    "node_id": "c00008",
+                    "node_type": "claim",
+                    "role": "defense",
+                    "label": "C_08",
+                    "text": " 피고인은 보이스피싱 조직의 전체적인 운영 구조나 계획에 대한 정보를 가지고 있지 않았다."
+                },
+                {
+                    "node_id": "w00008",
+                    "node_type": "warrant",
+                    "role": "defense",
+                    "label": "W_08",
+                    "text": " 범죄 조직에 깊숙이 관여된 인물일 경우, 그 조직의 운영 구조나 계획에 대해 상세히 알고 있을 가능성이 높다."
+                },
+                {
+                    "node_id": "d00008",
+                    "node_type": "datum",
+                    "role": "defense",
+                    "label": "D_08",
+                    "text": " 피고인은 단지 성명불상자로부터 체크카드를 사용하여 돈을 인출해주는 역할을 부여받았을 뿐, 보이스피싱 조직의 전체적인 운영 구조나 범죄 계획에 대한 구체적인 정보를 가지고 있지 않았다."
+                }
+            ],
+            "edges": [
+                {
+                    "from": "-c00001",
+                    "to": "c00001",
+                    "edge_type": "attack"
+                },
+                {
+                    "from": "d00001",
+                    "to": "w00001",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "w00001",
+                    "to": "c00001",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "d00002",
+                    "to": "w00002",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "w00002",
+                    "to": "c00002",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "c00002",
+                    "to": "c00001",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "d00003",
+                    "to": "w00003",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "w00003",
+                    "to": "c00003",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "c00003",
+                    "to": "c00001",
+                    "edge_type": "attack"
+                },
+                {
+                    "from": "d00004",
+                    "to": "w00004",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "w00004",
+                    "to": "c00004",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "c00004",
+                    "to": "c00001",
+                    "edge_type": "attack"
+                },
+                {
+                    "from": "d00005",
+                    "to": "w00005",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "w00005",
+                    "to": "c00005",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "c00005",
+                    "to": "c00001",
+                    "edge_type": "attack"
+                },
+                {
+                    "from": "d00006",
+                    "to": "w00006",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "w00006",
+                    "to": "c00006",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "c00006",
+                    "to": "-c00001",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "c00006",
+                    "to": "w00002",
+                    "edge_type": "attack"
+                },
+                {
+                    "from": "c00004",
+                    "to": "d00005",
+                    "edge_type": "attack"
+                },
+                {
+                    "from": "d00007",
+                    "to": "w00007",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "w00007",
+                    "to": "c00007",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "d00008",
+                    "to": "w00008",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "w00008",
+                    "to": "c00008",
+                    "edge_type": "support"
+                },
+                {
+                    "from": "c00007",
+                    "to": "w00001",
+                    "edge_type": "attack"
+                },
+                {
+                    "from": "c00008",
+                    "to": "d00002",
+                    "edge_type": "attack"
+                }
+            ]
+        }
+    }
+}

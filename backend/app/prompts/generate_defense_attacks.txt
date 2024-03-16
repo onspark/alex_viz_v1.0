@@ -1,0 +1,41 @@
+{question}
+
+Given the context of a Korean fraud case, where the focus is on undermining the prosecution's assertions that challenge the defendant's innocence or mitigation of their role, utilize the detailed crime facts, historical nodes (ARGUMENT HISTORY), and insights from similar cases (REFERENCE MATERIALS) to generate three distinct defense counterarguments. Each counterargument must be structured as a claim-warrant-datum triple:
+
+1. Focus on Challenging the Prosecution's TARGET NODE: Concentrate on the specific TARGET NODE identified within the prosecution's argumentation structure by developing counterarguments that question its validity, reliability, or completeness. The TARGET NODE, being a claim, warrant, or datum from the prosecution's side, represents a point of contention. Your counterarguments should directly challenge this node, aiming to weaken the prosecution's case and strengthen the defense within the argumentation network.
+
+2. Extract Datum from the Crime Fact: Identify specific evidence within the provided crime fact that undermines the prosecution's argument in the TARGET NODE or bolsters a counterargumentative claim in favor of the defendant. This evidence must be directly relevant to the case's details, such as actions taken by the defendant, communications, or transactions that can be interpreted favorably towards the defendant's narrative.
+
+3. Form Claim-Warrant-Datum Triples:
+- Claim: Develop a claim that acts as the inferential step towards challenging the prosecution's TARGET NODE. This claim should focus on a specific aspect of the issue that contradicts or undermines the narrative or evidence presented by the prosecution in the TARGET NODE.
+- Warrant: Develop logical connections that justify how the datum refutes the prosecution's claim or supports an alternative interpretation that favors the defendant, related to the TARGET NODE. Utilize reasoning, common sense, legal principles, and patterns observed in similar fraud cases to construct these warrants. Each warrant should provide a clear rationale for why the datum leads to a claim that challenges the prosecution's narrative, particularly regarding the TARGET NODE.
+- Datum: When specifying concrete evidence from the crime fact to serve as the foundation for each counterargument, focus on utilizing keywords that are central to the specifics of the fraud case. This evidence should be detailed and directly tied to the specifics of the fraud case, providing a factual basis for contesting the prosecution's claim of guilt, especially in relation to the TARGET NODE.
+
+4. Create Diverse Counterarguments: Generate three claim-warrant-datum triples covering different aspects of the defense's narrative. Each triple should address a unique element of the case, ensuring a comprehensive and multifaceted strategy. This approach will help in creating a robust argumentation network that thoroughly challenges the prosecution's position from multiple angles.
+
+5. Structure the Output Clearly: Present each of the three counterarguments as distinct claim-warrant-datum triples. Ensure clarity and conciseness in your language, and structure the counterarguments using $$$ as a delimiter. The output should be formatted as below:
+
+### OUTPUT FORMAT ###
+id: defense1$$$
+role: defense $$$
+claim: <defense's inference for this counterargument, directly challenging the prosecution's TARGET NODE>$$$
+warrant: <defense's logical connection to the claim> $$$
+datum: <evidence from CRIME FACT to support the warrant respectively> $$$
+
+id: defense2 $$$
+role: defense $$$
+claim: <defense's inference for this counterargument, directly challenging the prosecution's TARGET NODE>$$$
+warrant: <defense's logical connection to the claim> $$$
+datum: <evidence from CRIME FACT to support the warrant respectively> $$$
+
+id: defense3 $$$
+role: defense $$$
+claim: <defense's inference for this counterargument, directly challenging the prosecution's TARGET NODE>$$$
+warrant: <defense's logical connection to the claim> $$$
+datum: <evidence from CRIME FACT to support the warrant respectively> $$$
+
+Generate three defense counterarguments in claim-warrant-datum triples that challenge the prosecution's narrative based on Toulmin's model. Each counterargument should consist of a claim that directly challenges a specific TARGET NODE from the prosecution, a warrant that logically connects a specific datum from the crime fact to the claim. Ensure each argument is diverse, covering various facets of the defense, and clearly articulate both the warrant and the datum for each argument to effectively undermine the prosecution's narrative.
+
+The warrant and datum MUST BE in KOREAN. If they are not in Korean, translate them to Korean.
+
+### CRIME FACT ###

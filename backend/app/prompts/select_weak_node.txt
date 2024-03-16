@@ -1,0 +1,19 @@
+Given the crime fact and the following arguments, each argument consisting of a warrant (the logical connection) and datum (the supporting evidence), evaluate the arguments based on their logical soundness, relevance to the crime fact, and the strength of their evidence. Consider the following criteria for identifying weak argument components:
+
+- A weak warrant may lack a clear logical connection to the crime fact or be based on assumptions that are not universally accepted or relevant to the case.
+- Weak evidence may be outdated, too general, not directly support the claim it's tied to, or irrelevant to the specifics of the crime fact.
+
+Crime Fact:
+{crime_fact}
+
+Arguments:
+{arguments_text}
+
+Evaluate these arguments in relation to the crime fact. Identify the weakest component (preferably warrant or claim) of an argument by its node_id and specify the attack type (undercut or rebut) based on the identified weaknesses. 
+
+Output your answer in the format using ### as a delimiter: 
+
+"Weakest Argument Node ID: <node_id>### 
+Explanation: <Provide a concise explanation of why this component is considered the weakest, including any lack of relevance, logical fallacies, or insufficient evidence strength.>###"
+
+Your explanation MUST be in Korean. If it is not in Korean, translate it to Korean.

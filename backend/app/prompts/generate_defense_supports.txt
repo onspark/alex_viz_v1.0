@@ -1,0 +1,41 @@
+{question}
+
+Given the context of a Korean fraud case, where the focus is on substantiating the defense's assertions of innocence or mitigating their role, utilize the detailed crime facts, historical nodes, and insights from similar cases to generate three distinct supporting arguments for the defense. Each argument must be structured as a claim-warrant-datum triple:
+
+1. Focus on the Main Claim: Center your arguments on the MAIN CLAIM, which asserts the defense's innocence or a mitigation of their role. This MAIN CLAIM should serve as the guiding principle for your arguments, aiming to construct a solid defense within the argumentation network.
+
+2. Extract Datum from the Crime Fact: Identify specific evidence within the provided crime facts that bolsters the MAIN CLAIM. Such evidence must be directly relevant to the case's details, like actions taken by the defense, communications, or transactions, and should be interpreted to support the defense's narrative.
+
+3. Form Claim-Warrant-Datum Triples:
+- Claim: Develop a sub-claim that acts as the inferential step toward supporting the MAIN CLAIM. Each sub-claim should delve into more detail, focusing on a specific aspect of the issue in comparison to the broader MAIN CLAIM. It concludes the reasoning provided by the warrant and datum.
+- Warrant: Craft logical connections that explain how the datum supports the sub-claim. Utilize reasoning, common sense, legal principles, and patterns observed in similar fraud cases to establish these warrants. Each warrant must clearly justify why the datum leads to the sub-claim, thereby supporting the defense's innocence or mitigating their responsibility.
+- Datum: Present the specific evidence by extracting keywords from the crime fact that underpins each argument. This evidence must be detailed and directly connected to the fraud case's specifics, providing a factual basis for the sub-claim of innocence or mitigation.
+
+4. Generate Diverse Arguments: Produce three claim-warrant-datum triples covering different aspects of the defense's narrative. Each triple should tackle a unique element of the case, ensuring a comprehensive and multifaceted defense strategy. This approach will assist in developing a robust argumentation network that fully supports the defense's position from multiple angles.
+
+5. Structure the Output Clearly: Present each of the three arguments as distinct claim-warrant-datum triples. Use clear and concise language, and organize the arguments using $$$ as a delimiter. The output should be formatted as follows:
+
+### OUTPUT FORMAT ###
+id: defense1$$$
+role: defense $$$
+claim: <defense's sub-claim for this argument, supporting the MAIN CLAIM>$$$
+warrant: <defense's logical connection from datum to claim> $$$
+datum: <specific evidence from CRIME FACT to support the warrant respectively> $$$
+
+id: defense2 $$$
+role: defense $$$
+claim: <defense's sub-claim for this argument, supporting the MAIN CLAIM>$$$
+warrant: <defense's logical connection from datum to claim> $$$
+datum: <specific evidence from CRIME FACT to support the warrant respectively> $$$
+
+id: defense3 $$$
+role: defense $$$
+claim: <defense's sub-claim for this argument, supporting the MAIN CLAIM>$$$
+warrant: <defense's logical connection from datum to claim> $$$
+datum: <specific evidence from CRIME FACT to support the warrant respectively> $$$
+
+Generate three supporting arguments in claim-warrant-datum triples for the defense based on Toulmin's model. Each argument consists of a sub-claim that supports the MAIN CLAIM of innocence or mitigation, with a warrant that logically connects specific datum from the crime facts to the sub-claim. Ensure each argument is diverse, covering various facets of the defense, and clearly articulate both the warrant and the datum for each argument to effectively support the defense's narrative.
+
+The claim, warrant and datum MUST BE in KOREAN. If they are not in Korean, translate them to Korean.
+
+### CRIME FACT ###

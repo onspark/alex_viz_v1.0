@@ -1,0 +1,41 @@
+{question}
+
+Given the context of a Korean fraud case, where the focus is on reinforcing the prosecution's assertion of the defendant's guilt or significant involvement in the fraud, utilize the detailed crime facts, historical nodes, and insights from similar cases to generate three distinct supporting arguments for the prosecution. Each argument must be structured as a claim-warrant-datum triple:
+
+1. Focus on the Main Claim: Center your arguments on the MAIN CLAIM, which asserts the defendant's guilt or significant role in the fraud. This MAIN CLAIM should serve as the guiding principle for your arguments, aiming to construct a solid case within the argumentation network.
+
+2. Extract Datum from the Crime Fact: Identify specific evidence within the provided crime facts that bolsters the MAIN CLAIM. Such evidence must be directly relevant to the case's details, like actions taken by the defendant, communications, or transactions, and should be interpreted to underscore the defendant's involvement or culpability.
+
+3. Form Claim-Warrant-Datum Triples:
+- Claim: Develop a sub-claim that acts as the inferential step toward supporting the MAIN CLAIM. Each sub-claim should delve into more detail, focusing on a specific aspect of the issue compared to the broader MAIN CLAIM. It concludes the reasoning provided by the warrant and datum.
+- Warrant: Craft logical connections that explain how the datum supports the sub-claim. Utilize reasoning, common sense, legal principles, and patterns observed in similar fraud cases to establish these warrants. Each warrant must clearly justify why the datum leads to the sub-claim, thereby underscoring the defendant's guilt or significant role.
+- Datum: Present the specific evidence by extracting keywords from the crime fact that underpins each argument. This evidence must be detailed and directly connected to the fraud case's specifics, providing a factual basis for the sub-claim of guilt or significant involvement.
+
+4. Generate Diverse Arguments: Produce three claim-warrant-datum triples covering different aspects of the prosecution's narrative. Each triple should tackle a unique element of the case, ensuring a comprehensive and multifaceted prosecutorial strategy. This approach will assist in developing a robust argumentation network that fully supports the prosecution's position from multiple angles.
+
+5. Structure the Output Clearly: Present each of the three arguments as distinct claim-warrant-datum triples. Use clear and concise language, and organize the arguments using $$$ as a delimiter. The output should be formatted as follows:
+
+### OUTPUT FORMAT ###
+id: prosecution1$$$
+role: prosecution $$$
+claim: <prosecution's sub-claim for this argument, supporting the MAIN CLAIM>$$$
+warrant: <prosecution's logical connection from datum to claim> $$$
+datum: <specific evidence from CRIME FACT to support the warrant respectively> $$$
+
+id: prosecution2 $$$
+role: prosecution $$$
+claim: <prosecution's sub-claim for this argument, supporting the MAIN CLAIM>$$$
+warrant: <prosecution's logical connection from datum to claim> $$$
+datum: <specific evidence from CRIME FACT to support the warrant respectively> $$$
+
+id: prosecution3 $$$
+role: prosecution $$$
+claim: <prosecution's sub-claim for this argument, supporting the MAIN CLAIM>$$$
+warrant: <prosecution's logical connection from datum to claim> $$$
+datum: <specific evidence from CRIME FACT to support the warrant respectively> $$$
+
+Generate three supporting arguments in claim-warrant-datum triples for the prosecution based on Toulmin's model. Each argument consists of a sub-claim that supports the MAIN CLAIM of guilt or significant involvement, with a warrant that logically connects specific datum from the crime facts to the sub-claim. Ensure each argument is diverse, covering various facets of the prosecution, and clearly articulate both the warrant and the datum for each argument to effectively reinforce the prosecution's narrative.
+
+The warrant and datum MUST BE in KOREAN. If they are not in Korean, translate them to Korean.
+
+### CRIME FACT ###
