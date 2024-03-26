@@ -3,6 +3,7 @@
 This is the repository for ALEX, an Argumentation System for Legal Explanations. 
 
 
+![alex-system](images/alex_viz_demo.gif)
 
 
 
