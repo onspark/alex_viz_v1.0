@@ -3,8 +3,12 @@
 This is the repository for ALEX, an Argumentation System for Legal Explanations. 
 
 
+<<<<<<< HEAD
 ![alex-system](images/demo_alex_viz.gif)
 
+=======
+![alex_viz](https://github.com/onspark/alex_viz_v1.0/assets/19409430/cc26df22-7456-457a-88a0-1bb4210e09a7)
+>>>>>>> origin/main
 
 
 ## Setup Instructions
