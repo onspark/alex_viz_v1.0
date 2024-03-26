@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000420202109032020077003575",
+    "crime_fact": "Criminal Facts\n「2020고단3575」\n[Prior Criminal Record]\nThe defendant was sentenced to 8 months in prison for fraud, etc., by the Seoul Western District Court on September 14, 2018, and completed the execution of the sentence on February 23, 2019.\n[Criminal Facts]\n1. Theft\na. On May 24, 2020, around 01:00, in Mapo-gu, Seoul, at locations C and D, the defendant took advantage of the victim E being asleep and stealthily took a mobile phone case, which contained the victim's safety training certificate, identification card, etc., and an LG flip phone worth 1,000,000 KRW that was inside the case.\nb. On July 10, 2020, around 13:00, at the residence of victim B in Seongsan-gu, Changwon, the defendant took advantage of the victim being at work and not home to steal a F check card owned by the victim that was inside a wallet.\nc. On July 10, 2020, around 17:48, at the H Bank Changwon Central Branch in Uichang-gu, Changwon, the defendant inserted the F check card of B, stolen as described in item b, into an Automated Teller Machine (ATM) installed there, entered the password he knew beforehand, and withdrew a total of 2,230,000 KRW in three transactions, thereby stealing property under the possession of victim H Bank, which managed the ATM.\n2. Fraud Using Computer, etc.\nFrom around 01:49 to 04:20 on June 11, 2020, at the residence of victim B in Seongsan-gu, Changwon, while the victim was asleep, the defendant accessed the KakaoTalk application using the victim's mobile phone and purchased 8 emoticons worth 2,500 KRW each, entering the victim's personal information without authorization to make a total payment of 20,000 KRW. Similarly, on June 18, 2020, around 05:29, at the same location and by the same method, the defendant purchased Lineage M diamonds worth 110,000 KRW each on 8 occasions, entering the victim's personal information without authorization to make a total payment of 880,000 KRW.\nThus, the defendant acquired property benefits totaling 900,000 KRW by entering information into a mobile phone, an information processing device, without authorization and processing information.\n「2021고단1928」\n[Prior Criminal Record]\nThe defendant was sentenced to 8 months in prison for fraud, etc., by the Seoul Western District Court on September 14, 2018, and completed the execution of the sentence on February 23, 2019.\n[Criminal Facts]\nThe defendant had been in a relationship with victim I (female, 34 years old) for about 4 months before they broke up in early April 2020.\nOn April 30, 2020, around 00:20, the defendant went to the boiler room in front of the victim's residence in Yeoju City, J, ***dong, ***ho, and because the victim would not meet with him, he broke the boiler room's glass window, the value of which is unknown, by punching it, thereby damaging it.",
+    "target_node": {
+        "node_id": "w00015",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_15",
+        "text": "A crime committed by a defendant with a criminal record, using methods similar to their previous acts, indicates intent and the risk of recidivism.",
+        "label_expanded": "D_15=>C_15"
+    },
+    "target_reason": "The guarantee of w00015 is claimed to be based on the defendant overstating their financial capabilities to gain the victims' trust and receive property from them. However, this does not provide sufficient information to directly prove the defendant's intent or plan. Moreover, this guarantee is not directly linked to concrete evidence or facts showing that the defendant actually used the property received from the victims for personal purposes such as repaying personal debts and living expenses. Therefore, this guarantee appears to be based on assumptions, has weak logical connectivity with the criminal facts, and is insufficient in clearly proving the defendant's actual intent or actions. For these reasons, w00015 is considered a weak guarantee.\n\nExplanation: The guarantee of w00015 is claimed to be based on the defendant overstating their financial capabilities to gain the victims' trust and receive property from them. However, this does not provide sufficient information to directly prove the defendant's intent or plan. Moreover, this guarantee is not directly linked to concrete evidence or facts showing that the defendant actually used the property received from the victims for personal purposes such as repaying personal debts and living expenses. Therefore, this guarantee appears to be based on assumptions, has weak logical connectivity with the criminal facts, and is insufficient in clearly proving the defendant's actual intent or actions. For these reasons, w00015 is considered a weak guarantee.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant made payments using a check card and mobile phone due to a misunderstanding with the victim, and this was not an intentional criminal act.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant, without the explicit permission of the victim, used a check card and mobile phone to embezzle property, which is a clear criminal act committed with intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant believed that they had obtained prior consent for the use of the check card due to a misunderstanding that occurred between them and the victim B.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "People often misunderstand the consent of the other party in intimate relationships, and this is distinguished from intentional criminal acts.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant claims to have received prior permission for the use of a check card and mobile phone payment transactions.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant did not use the victim's personal information to make payments without authorization, but acted in such a manner due to a misunderstanding arising from their relationship.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Misunderstandings in relationships often arise due to failures in communication, and this is different from intentional legal violations.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The misunderstanding may have originated from the relationship between the defendant and Company B, and it is difficult to see it as an intentional criminal act.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant's inconsistent statements may stem from misunderstandings of the situation or differences in memory, and this does not sufficiently prove intent.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Differences in memory or misunderstandings of situations must be distinguished from intentional crimes, and especially in complex human relationships, such misunderstandings can commonly occur.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "Even if the defendant's argument is inconsistent, this can stem from a misunderstanding of the situation or differences in memory.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant was aware of the victim's personal information and PIN number in advance and used this information to utilize the check card.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The fact that the defendant was aware of the victim's personal information and PIN number in advance shows that the defendant had the intention to use the victim's financial information without authorization.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant, on July 10, 2020, around 17:48, at the H Bank Changwon Central Branch located in Ui-Chang District, Changwon City, inserted a B-named F check card, which was stolen as described in Exhibit 1, into the cash dispenser installed there. After entering the password, which the defendant already knew, a total of 2,230,000 won was withdrawn in three separate transactions.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant unauthorizedly used the victim's mobile phone to make a payment.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The act of making unauthorized payments using the victim's mobile phone constitutes the theft of property without the victim's explicit consent, and is an intentional criminal act.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant, from around 01:49 to 04:20 on June 11, 2020, at the residence of the victim B in Seongsan-gu, Changwon City, accessed the KakaoTalk application using the victim's mobile phone while the victim was asleep. The defendant then purchased 8 emoticons, each worth approximately 2,500 won, by entering the victim's personal information without authorization, resulting in a total payment of 20,000 won. Furthermore, on June 18, 2020, around 05:29, at the same location and by the same method, the defendant purchased Lineage M diamonds worth approximately 110,000 won each, on 8 occasions, by entering the victim's personal information without authorization, resulting in a total payment of 880,000 won.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant has a history of being punished for similar crimes in the past, indicating that this act was premeditated and intentional.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "A past criminal record indicates a high likelihood of the defendant committing similar crimes, and it serves as an important indicator that the actions were taken with intent.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant was sentenced to 8 months in prison for fraud and other charges by the Seoul Western District Court on September 14, 2018, and completed serving the sentence on February 23, 2019.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "A past criminal record does not indicate the intent of the current crime.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Past actions do not necessarily predict future behavior, and the circumstances and context of each case must be considered.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant claims to have received prior permission for the use of a debit card and mobile phone payments. Unlike past crimes, this action in the current case could be due to a misunderstanding, indicating a lack of intent.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant's actions stem from a misunderstanding in their relationship with the victim and cannot be considered an intentional crime.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "Misunderstandings arising among people can distort the intention behind actions, and this should be distinguished from intentional criminal acts.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant claims that there was prior consent for the use of a check card and mobile phone payments within the relationship with the victim B. This could be a result of a simple misunderstanding between the two parties, rather than an intentional criminal act.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The inconsistency in the defendant's argument may stem from a misunderstanding of the situation or differences in memory.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Human memory is not perfect, and misunderstandings are especially likely to occur in stressful situations. Such misunderstandings or differences in memory should be approached with caution when definitively assessing intent.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant claims to have received prior permission for the use of a check card and mobile phone payments, arguing that such claims could stem from a mere difference in memory or misunderstanding of the situation. This raises significant doubts in proving intentional criminal activity.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The fact that the defendant has committed similar crimes in the past strongly suggests intent in this case.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "A past criminal record reflects the defendant's pattern of behavior and disposition, indicating a high likelihood that the defendant intentionally committed the crime again.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant was sentenced to 8 months in prison for fraud and other charges by the Seoul Western District Court on September 14, 2018, and completed serving the sentence on February 23, 2019.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The act of the defendant using the check card in the name of the victim B to withdraw cash is a clear act of property theft, and this cannot be supported by the claim that permission was obtained in advance.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The act of withdrawing cash using a check card in the name of victim B, carried out without the explicit consent of the victim, is considered an intentional criminal act.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant, around 17:48 on July 10, 2020, at the H Bank Changwon Central Branch located in G, Ui-chang District, Changwon City, inserted a B-named F check card, which was stolen as described in Article 1, into the cash dispenser installed there. After entering a previously known PIN, the defendant withdrew a total of 2,230,000 won in three transactions, thereby stealing property under the possession of the victim, H Bank, which manages the cash dispenser.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The fact that the defendant used the victim's mobile phone to make unauthorized payments clearly proves the crime of fraud through the intentional use of an information processing device.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "Fraud using information processing devices refers to the acquisition of financial benefits through the use of personal information without the explicit consent of the victim, and is considered an intentional act.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant, from around 01:49 to 04:20 on June 11, 2020, at the residence of the victim B in Seongsan-gu, Changwon City, accessed the KakaoTalk application using the victim's mobile phone while the victim was asleep. The defendant then purchased 8 emoticons, each worth approximately 2,500 won, by entering the victim's personal information without authorization, resulting in a total payment of 20,000 won. Furthermore, on June 18, 2020, around 05:29, at the same location and using the same method, the defendant purchased Lineage M diamonds 8 times, each worth approximately 110,000 won, by again entering the victim's personal information without authorization, resulting in a total payment of 880,000 won.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The act of the defendant using the victim's check card to withdraw cash is a criminal act with clear intent.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The act of stealing a check card while the victim was away at work and withdrawing cash by entering a previously known PIN demonstrates an intentional act.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant, around 13:00 on July 10, 2020, took advantage of the victim B's absence due to work and stole a F check card owned by the victim, which was inside a wallet at the victim's residence located in Seongsan District, Changwon City.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The fact that the defendant used the victim's mobile phone to make unauthorized payments nullifies the claim that prior consent was obtained.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The act of the defendant proceeding with unauthorized payments using a mobile phone while the victim was asleep suggests that it was done without the explicit consent of the victim.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant, from around 01:49 to 04:20 on June 11, 2020, accessed the KakaoTalk application using the victim B's mobile phone while the victim was asleep at their residence in Seongsan-gu, Changwon City. The defendant then purchased 8 emoticons, each valued at 2,500 won, by unauthorizedly entering the victim's personal information and thus made a total payment of 20,000 won.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant, having been previously punished for fraud, can be considered to have a high likelihood of recidivism and intentionality.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "A crime committed by a defendant with a criminal record, using methods similar to their previous acts, indicates intent and the risk of recidivism.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant was sentenced to 8 months in prison for fraud and other charges by the Seoul Western District Court on September 14, 2018, and completed serving the sentence on February 23, 2019.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "Past criminal records do not have a direct connection to the current case, and do not strongly suggest intent in this incident.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "Past behavior or tendencies cannot always be seen as repeating in the same manner in identical situations, and the specific circumstances and context of each case must be considered.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant claims to have received prior permission for the use of a check card and mobile phone payments, stating that this is a different situation from past crimes.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "Due to the relationship between the defendant and the victim B, there was a misunderstanding, and the use of the check card and mobile phone payments can be seen as actions without intent.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Misunderstandings arising in the relationship with the victim are an important consideration in proving intent, and such misunderstandings can indicate the absence of criminal intent.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant claims to have received prior permission for the use of a check card and mobile phone payments, and this could be a misunderstanding arising from the relationship between the two individuals.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "Even if the defendant's claims are inconsistent, this can stem from a misunderstanding of the situation or differences in memory, and it is difficult to view it as an intentional criminal act.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Human memory is not perfect, and it can change over time and be interpreted differently depending on the situation, which requires a careful approach in proving intent.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant claims to have received prior permission for the use of a debit card and mobile phone payments, arguing that such claims could stem from a misunderstanding of the situation or differences in memory.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "d00018",
+                "d00001",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

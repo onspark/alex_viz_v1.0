@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000313202210122022077000945",
+    "crime_fact": "Crime Facts\n[Criminal Record]\nThe defendant was sentenced to one year in prison for violating the Electronic Financial Transactions Act by the Incheon District Court on April 15, 2022, and the judgment became final on April 26, 2022.\n[Crime Facts]\nThe mastermind of a voice phishing (commonly known as 'voice phishing') organization, whose name is unknown, organized various stages including deception, management, and delivery, and members of the organization involved in deception randomly called an unspecified number of victims, pretending to be financial institutions, etc., and lied to them, causing the deceived victims to hand over the money. The manager recruited cash collectors, deliverers, and withdrawers, the collectors handed over the collected cash to the deliverers, the deliverers then transferred it to another deliverer or sent it to an account directed by the manager, and the withdrawers used a check card linked to the account that received the transferred victim's money to withdraw the money through an ATM and deposit it into an account designated by the unknown person by non-face-to-face deposit.\nThe defendant conspired to act as a cash withdrawer upon receiving such instructions from a member of the voice phishing organization.\nAccording to such conspiracy, an unknown person impersonated victim B's child around 20:00 on November 16, 2021, at an unknown place and sent a KakaoTalk message to the victim saying, \"Dad, I lost my phone. To receive compensation for the lost phone, you need to enter the authentication number, but I don't have a phone right now, so please receive it for me. You need to access the site being sent,\" causing the victim to access an unknown site, then installing an application that could remotely control the mobile phone, and after receiving a photo of the victim's ID, the account number of the victim's name, password, etc., used them to transfer 6,020,000 won from the victim's C bank account (account number 1 omitted) to D's E bank account (account number 2 omitted) and from then until around 00:45 on November 17, 2021, a total of 7 unauthorized information entries were made to transfer a total of 42,210,000 won as listed in the attached crime list (1).\nMeanwhile, according to such conspiracy, following the instructions of the unknown person, the defendant withdrew 1,000,450 won from G bank Unju station branch in Gangnam-gu, Seoul, around 22:35 on November 16, 2021, and from then until around 01:19 on November 17, 2021, a total of 15 withdrawals were made to withdraw a total of 14,992,700 won as listed in the attached crime list (2) and then deposited it into an account designated by the unknown person by non-face-to-face deposit.\nThus, the defendant, in conspiracy with the unknown person, by entering information without authorization into a computer or other information processing device to process information, thereby acquired a property benefit totaling 42,210,000 won.",
+    "target_node": {
+        "node_id": "c00015",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_15",
+        "text": "The defendant's actions prove that they played a key role in the voice phishing organization, going beyond merely following orders.",
+        "label_expanded": "C_15"
+    },
+    "target_reason": "Claim c00015 argues that the defendant did not act under the instructions of a telephone financial fraud organization, but rather participated in the criminal activity voluntarily. However, the weakness of this claim lies in the fact that performing a specific role in consultation with a criminal organization and agreeing to share the profits does not necessarily mean voluntary criminal conspiracy. The mere fact that the defendant received and accepted an offer is insufficient to prove the defendant's voluntariness. Especially considering the systematic structure and role allocation of the telephone financial fraud organization, it is difficult to see the defendant acting independently without the organization's instructions. Therefore, this claim lacks logical coherence and relevance to the criminal facts.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was not in collusion with the voice phishing organization, and was only incidentally involved in the process of trying to resolve the fraud they had fallen victim to. Therefore, it can be seen that there was no intent to commit deliberate fraudulent acts.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant acted as a member of a voice phishing organization and met the elements of the crime of fraud by receiving money from the victim in accordance with the organization's instructions. This can be clearly proven through the defendant's use of accounts and withdrawal of money.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant did not have a clear conspiracy relationship with the voice phishing organization.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "To prove a conspiracy, clear and specific evidence is required, and mere actions following instructions cannot constitute evidence of conspiracy.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant argues that \"no clear evidence or specific facts of conspiracy that can be acknowledged have been presented\" regarding the phrase \"in conspiracy with an unidentified person.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant had no intent to commit fraud.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "To commit fraud intentionally, there must be a legally recognizable clear intent, and the actions taken by the defendant in the process of resolving the fraud cannot be considered as intentional fraudulent acts.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant claims that it occurred \"in the process of trying to resolve the fraud they suffered,\" suggesting that there was no intent of deliberate fraudulent activity.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant merely acted in accordance with the instructions of an organization member.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "To be considered an accomplice to a crime, clear awareness of and conspiracy in the crime must be proven, and mere execution of instructions is not sufficient grounds for accomplice liability.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant claims to have \"simply acted upon the orders of an organization member,\" emphasizing that the actions were taken without a clear conspiracy or awareness of the crime, merely following instructions.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant was directly involved in illegally transferring funds from the victim's account in accordance with the organization's orders.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The transfer of funds carried out in accordance with the organization's instructions is part of the fraudulent activities of a voice phishing organization, and the defendant's involvement in this process satisfies the elements of the crime of fraud.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant, upon receiving instructions from an unidentified individual, impersonated the child of victim B around 20:00 on November 16, 2021, at an unknown location. The defendant sent a message to the victim via KakaoTalk, stating, \"Dad, I lost my phone. To receive compensation for the lost phone, a verification code needs to be entered, but I don't have a phone right now, so could you receive the verification code for me? You need to access the site I'm sending.\" Consequently, the defendant made the victim access an unknown site and install an application capable of remote control on the mobile phone. After receiving a photo of the victim's ID, the account number and password of an account in the victim's name, the defendant used this information to transfer 6,020,000 won from the victim's C bank account to an E bank account under the name D. From that point until around 00:45 on November 17, 2021, the defendant unauthorizedly entered information and transferred a total of 42,210,000 won in 7 instances, as listed in the attached crime summary table (1).",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant executed the fraud by directly withdrawing the victim's money and depositing it into an account designated by an unidentified person as part of a voice phishing organization.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Withdrawing the defrauded money and depositing it into a designated account is the final stage of the voice phishing scam, proving that the defendant completed the act of fraud by directly participating in this process.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant, around 22:35 on November 16, 2021, starting with the withdrawal of 1,000,450 won from the G Bank Unju Station branch located in Gangnam-gu, Seoul, continued until approximately 01:19 on November 17, 2021, to withdraw a total of 14,992,700 won over 15 occasions as listed in the attached Crime Summary Table (2), and then deposited it into an account designated by the unidentified person without a bankbook.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant's acts of withdrawing and transferring money are components of an organized voice phishing fraud, indicating that the defendant played a key role in the criminal organization.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The criminal activities of voice phishing organizations are carried out through the division of roles at various stages, and the defendant's acts of withdrawing and transferring money are essential to the execution of such organized crimes, thereby proving the defendant's significant role and complicity in the fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant conspired with a member of a voice phishing organization to act as a cash withdrawal agent following such instructions, and in accordance with this conspiracy, under the direction of an unidentified person, withdrew 1,000,450 KRW from G Bank's Eunju Station branch in Gangnam-gu, Seoul, around 22:35 on November 16, 2021. From then until approximately 01:19 on November 17, 2021, as listed in the attached crime summary (2), a total of 14,992,700 KRW was withdrawn over 15 occasions and then deposited into an account designated by the aforementioned unidentified person without a bankbook.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant did not conspire in the deliberate act of fraud as they were unaware of the specific activities or criminal intentions of the voice phishing organization.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The instructions and actions taken by the defendant were merely incidental actions in the process of trying to resolve the fraud they had suffered, and there is no evidence that they understood the overall criminal plan or structure of the organization.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant claims that there was no collusion with the voice phishing organization, and there was also no intent to commit fraud.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant's actions were not carried out under the orders of the organization, but were temporary measures taken upon personal judgment, therefore, it is unreasonable to prove complicity in an organized fraud crime.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "When an individual acts independently without the instructions of an organization, this should be distinguished from organized criminal activity, and suggests that the defendant's actions cannot be seen as part of an organized fraud crime.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant is not guilty of aiding and abetting fraud, but merely acted in accordance with the instructions of an organization member.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant cannot be considered a principal conspirator in a serious crime, as they had no knowledge of the structure or plan of the criminal organization and merely acted according to instructions.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "To recognize criminal conspiracy, the conspirator must be aware of the specific plan and intent of the crime, and merely acting upon instructions is not sufficient evidence of conspiracy.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant claims that there was no collusion with the voice phishing organization, and there was also no intent to commit fraud.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant had a clear intention to gain financial benefits from the victim.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The withdrawal of funds and deposit without a bankbook carried out by the defendant played an essential role in the complex activities of a voice phishing organization, and such actions constitute clear fraudulent criminal activities, not merely a process of resolving damages.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant, around 22:35 on November 16, 2021, starting with the withdrawal of 1,000,450 KRW from the Unju Station branch of G Bank located in Gangnam-gu, Seoul, until around 01:19 on November 17, 2021, made a total of 15 withdrawals amounting to 14,992,700 KRW as listed in the attached Crime Summary Table (2), and then deposited the sum into an account designated by an unidentified person.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant's claim of 'trying to resolve the fraud they suffered' is actually nothing more than an attempt to conceal their involvement as a component of a voice phishing organization.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The defendant's actions, as part of a complex voice phishing organization, involved receiving money from victims and transferring it to other members of the organization, which constitutes the execution of a highly planned fraudulent crime.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant conspired to act as a cash withdrawal agent upon receiving such instructions from a member of a voice phishing organization. Accordingly, following the orders of an unidentified individual, the defendant withdrew 1,000,450 KRW from G Bank's Eunju Station branch in Gangnam-gu, Seoul, around 22:35 on November 16, 2021. From that time until approximately 01:19 on November 17, 2021, as listed in the attached crime summary table (2), the defendant made a total of 15 withdrawals amounting to 14,992,700 KRW and then deposited this sum into an account designated by the aforementioned unidentified individual.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant cannot deny the collusion with the voice phishing organization, and this can be clearly proven through the use of the defendant's account and the act of withdrawing money.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The financial transactions and withdrawal actions involving the defendant were carried out in accordance with the instructions of a voice phishing organization, and such actions appear difficult to perform alone or spontaneously, making it clear that there was collusion with the voice phishing organization.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant, until approximately 00:45 on November 17, 2021, transferred a total of 42,210,000 won on 7 occasions without authorization by entering information, and from that time until approximately 01:19 on November 17, 2021, withdrew a total of 14,992,700 won on 15 occasions as listed in the attached crime summary (2), and then deposited it into an account designated by the person of unknown identity.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant actually conspired with an unidentified person to carry out a voice phishing fraud.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Receiving money from the victim upon the instructions of an unidentified person and depositing it into a designated account without a passbook is an organized criminal activity that cannot be carried out without conspiracy.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant, around 22:35 on November 16, 2021, starting with the withdrawal of 1,000,450 won from the Unju Station branch of G Bank located in Gangnam-gu, Seoul, made a total of 15 withdrawals amounting to 14,992,700 won until around 01:19 on November 17, 2021, and then deposited the sum into an account designated by an unidentified person without using a bankbook.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's claim that they acted solely on the instructions of a voice phishing organization is not valid.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Large-scale transfers and cash withdrawals from accounts in the victims' names, as directed by the voice phishing organization, demonstrate that this is a highly planned fraudulent criminal act that cannot be executed without specific instructions.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "On November 16, 2021, around 20:00, at an unknown location, the defendant impersonated the victim B's child, causing the victim to access an unknown site. Subsequently, the defendant transferred 6,020,000 KRW from the victim's C Bank account to a D-named account at E Bank, among other actions. From that time until approximately 00:45 on November 17, 2021, the defendant unauthorizedly entered information a total of 7 times as listed in the attached crime summary (1), transferring a total of 42,210,000 KRW.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's actions prove that they played a key role in the voice phishing organization, going beyond merely following orders.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The role of handling the withdrawal and transfer of the embezzled funds within the organization occupies an important position in the overall fraud scheme, indicating that the defendant was not merely a simple executor of orders but played a substantial role within the organization.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "Following the instructions of an unidentified individual, the defendant withdrew 1,000,450 KRW from G Bank's Eonju Station branch in Gangnam-gu, Seoul, around 22:35 on November 16, 2021. From then until approximately 01:19 on November 17, 2021, as detailed in the attached crime list (2), the defendant made a total of 15 withdrawals amounting to 14,992,700 KRW and then deposited the sum into an account designated by the unidentified individual.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant did not intentionally transfer or withdraw the victim's funds.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The defendant's claim that they acted impulsively in an attempt to resolve the fraud they were subjected to means that it was not an act of deliberate fraud.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant claimed, \"There was no collusion with the voice phishing organization, and there was also no intent to commit fraud.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's actions were not based on specific instructions from the organization, but merely carried out upon receiving orders.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "To prove a conspiracy, clear and specific evidence is required, and mere actions following instructions cannot constitute evidence of conspiracy.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The defendant stated that there was no collusion with the voice phishing organization, and they were not complicit in fraud, but merely acted according to the instructions of an organization member.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant did not act as a cash withdrawal agent following instructions from a voice phishing organization member, but acted as one of the victims.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Even if the defendant acted under the instructions of a voice phishing organization member, it can be seen as something that occurred in the process of trying to resolve the fraud they were subjected to, and this means that there was no intent of deliberate fraudulent activity.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant argued that \"it can be seen as something that occurred in the process of trying to resolve the fraud they were subjected to,\" and stated, \"they are not bearing the guilt of aiding and abetting fraud, but merely acted according to the instructions of an organization member.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00005",
+                "c00005",
+                "d00013",
+                "w00003",
+                "c00003",
+                "w00014",
+                "c00014",
+                "w00012",
+                "c00012",
+                "w00011",
+                "c00011",
+                "d00003",
+                "d00010",
+                "w00016",
+                "c00016",
+                "w00013",
+                "c00013",
+                "d00009",
+                "d00012",
+                "d00002",
+                "d00017",
+                "d00004",
+                "d00014",
+                "w00001",
+                "c00001",
+                "d00015",
+                "d00005",
+                "w00010",
+                "c00010",
+                "d00016",
+                "d00018",
+                "d00011",
+                "w00009",
+                "c00009",
+                "w00007",
+                "c00007",
+                "w00004",
+                "c00004",
+                "d00006",
+                "w00017",
+                "c00017",
+                "d00007",
+                "d00001",
+                "w00018",
+                "c00018",
+                "d00008"
+            ]
+        }
+    }
+}

@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000513202302092021077001668",
+    "crime_fact": "Crime Facts\nThe defendant was sentenced to 10 months in prison with a 2-year suspended sentence for fraud at the Suncheon branch of the Gwangju District Court on September 7, 2016, and the judgment became final on the 20th of the same month.\nThe defendant operates Corporation C, a company engaged in the wholesale and retail of aggregates, located in Hadong County, Gyeongsangnam-do.\n1. Fraud against Victim D\nAround August 17, 2011, in the office of Corporation C located on the 2nd floor in Gwangyang City, Jeollanam-do, the defendant lied to victim D, saying, \"If you provide oil, I will pay for the fuel every fortnight.\"\nHowever, in reality, the defendant was in a financially difficult situation, unable to pay wages to employees and having a debt of 65 million won, and thus had neither the intention nor the ability to pay for the fuel every fortnight even after receiving it from the victim.\nBy deceiving the victim in this manner, the defendant received fuel worth a total of 80,686,039 won from the victim from that time until around September 30 of the same year.\nThus, the defendant deceived the victim and received property.\n2. Fraud against Victim F\nOn August 9, 2011, in the office of H Corporation operated by victim F in Gwangyang City, Jeollanam-do, the defendant lied to the victim, saying, \"We supply aggregates to Russia. If you provide the aggregates handled by H, we will pay 8,700 won per cubic meter for stones larger than 40mm and 8,800 won per cubic meter for stones smaller than 25mm. We will deposit the payment the day after we receive the supply.\"\nHowever, in reality, the defendant was in a financially difficult situation, unable to pay wages to employees and having a debt of 65 million won, and thus had neither the intention nor the ability to pay for the aggregates even after receiving them from the victim.\nBy deceiving the victim in this manner, the defendant received aggregates worth a total of 78,127,490 won from the victim from that time until around September 20 of the same year.\nThus, the defendant deceived the victim and received property.\n3. Fraud against Victim I\nIn early August 2011, in the office of Limited Company K operated by victim I in Gwangyang City, Jeollanam-do, the defendant lied to the victim, saying, \"If you transport aggregates from the aggregate workshop of H located in Gwangyang City, G, to Gwangyang Port, we will pay a transportation fee of 2,700 won per cubic meter.\"\nHowever, in reality, the defendant was in a financially difficult situation, unable to pay wages to employees and having a debt of 65 million won, and thus had neither the intention nor the ability to pay the transportation fee even after having the aggregates transported by the victim.\nBy deceiving the victim in this manner, the defendant made the victim transport aggregates from around November of the same month until around September 21 of the same year, and did not pay the victim a total transportation fee of 15,954,840 won, thereby acquiring a financial benefit of the same amount.\nThus, the defendant deceived the victim and acquired a financial benefit.",
+    "target_node": {
+        "node_id": "w00010",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_10",
+        "text": "The fact that the defendant has debts and has failed to pay wages to employees suggests that the defendant was incapable of settling fuel costs.",
+        "label_expanded": "D_10=>C_10"
+    },
+    "target_reason": "Explanation: The argument that w00010 used the deposit received for financing the business as an initial investment for the success of the business does not hold true. The defendant had neither the intention nor the capability to operate a C rice direct sales outlet or supply C rice to the victim, and planned to use the deposit for personal purposes. Therefore, this warrant does not accurately reflect the intentions and actions of the defendant, and the logical connection based on facts is weak. It includes a logical leap and is a claim that does not match the actual situation of the case.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant had the intention and ability to pay the victims, but faced a temporary liquidity issue due to an unexpected deterioration in external economic conditions, which proves that there was no intentional embezzlement.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant was already in financial difficulty at the time of entering into the contract and committed a clear act of fraud by lying to the victims about their ability to pay, thereby obtaining financial benefits despite having no means to make payments.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant proves that there was an intention to pay the victims.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The argument that the defendant could have paid the victims if they had received the payment normally from N Corporation indicates that the defendant had the intention to pay the victims.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant argues that if they had concluded the contract and completed its performance, and had received the payment normally from N Corporation, they would have been able to pay the victims as well.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant's failure to pay the victims was not intentional but due to the deterioration of external economic conditions.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The defendant's inability to pay the victims was due to external circumstances of not receiving payment from N Corporation. This demonstrates that the defendant had no intentional intent to embezzle.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant did not receive payment from N Corporation, and therefore was unable to pay the victims. This was not due to the defendant's intention but was caused by external circumstances.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant faced temporary liquidity issues and did not intend to defraud the victims to gain financial benefits.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The fact that a temporary liquidity issue arose indicates that the defendant had the intention and ability to pay the victims, but was unable to do so due to the unexpected deterioration of external economic conditions. This suggests that there was no intentional intent to embezzle.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant had the intention and ability to pay the victims, but faced a temporary liquidity problem due to the unexpected deterioration of external economic conditions.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant committed fraud by falsely promising to pay for fuel expenses to the victim D.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The defendant's false promise to the victim, despite lacking the financial ability to pay for fuel costs due to economic hardship, clearly reveals an intent to commit fraud.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant was in a financially difficult situation, with a debt of 65 million won and unable to pay wages to employees, and lied by saying, \"If you provide oil, I will make payments for the fuel costs once every two weeks.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant committed fraud by falsely promising to pay the aggregate amount to the victim F.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The defendant's act of making false promises to the victim, despite having neither the intention nor the ability to pay for the aggregate in a financially difficult situation, clearly indicates the intent to commit fraud.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant had a debt of 65 million won and was unable to pay the employees' wages. In this state, he lied by saying, \"I will supply aggregates to Russia. If you provide the aggregates handled by H, I will pay 8,700 won per ruble for stones larger than 40mm and 8,800 won per ruble for those 25mm or smaller. I will deposit the payment the day after receiving the supply.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant committed fraud by falsely promising to pay transportation costs to the victim I.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The defendant's false promise to the victim, despite having neither the intention nor the ability to pay for transportation costs due to financial difficulties, indicates an intent to commit fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant was in financial difficulty, with a debt of 65 million won and unable to pay the employees' wages. He lied by stating, \"If you transport aggregates from the aggregate workshop of H located in G, Gwangyang City, to Gwangyang Port, I will pay you a transportation fee of 2,700 won per cubic meter.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant did not delay the payment to the victims, but was unable to pay due to temporary liquidity issues caused by the deterioration of external economic conditions.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The defendant's failure to pay the victims was not due to financial difficulties, but occurred because they did not receive the payment normally from N Corporation.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant argues that if they had concluded the contract and completed its performance, and had received the payment normally from N Corporation, they would have been able to pay the victims as well.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant did not intend to defraud the victims for financial gain.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The defendant did not make false promises to the victims, but rather failed to keep the promises due to temporary problems caused by changes in external economic conditions.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant did not receive payment from N Corporation and therefore was unable to pay the victims. Thus, this was not due to the defendant's intent but was caused by external circumstances.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant clearly had no intention of committing fraud.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The defendant, despite being in a financially difficult situation and lacking the ability to pay for fuel costs, made false promises to the victim not with the intention of acquiring financial benefits, but merely due to a temporary liquidity issue.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant claims that if they had concluded the contract and completed its performance, and had received the payment normally from N Corporation, they would have been able to pay the victims as well.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "Despite being in a financially difficult situation at the time of signing the contract, the defendant's act of lying to the victims clearly indicates an intent to commit fraud.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The fact that the defendant has debts and has failed to pay wages to employees suggests that the defendant was incapable of settling fuel costs.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendant had a debt of 65 million won and was in financial difficulty, including being unable to pay wages to employees.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "There is clear evidence that the defendant acquired financial benefits by making false promises to the victims.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The fact that the defendant made false promises to the victims, despite having no intention or ability to fulfill them, clearly indicates an intent to defraud.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The defendant, by deceiving the victim in this manner, received fuel worth a total of 80,686,039 won from the victim, who was tricked by the defendant, from that time until around September 30 of the same year.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's fraudulent act was not due to failure to perform a contract or lack of management skills, but was clearly due to fraudulent intent.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "If the failure to perform the contract or lack of managerial skills is the cause, there is no reason for the defendant to make false promises to the victims from the beginning.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The defendant is a person who operates Corporation C, which is engaged in the wholesale and retail of aggregates and other businesses, located in B, Hadong County, Gyeongnam.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "It is clear from the fact that the defendant lied to the victims that he committed fraud.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Despite the defendant's promise to pay the victims for fuel, aggregate, and transportation costs within a specified time, their failure to do so proves the defendant's fraudulent actions.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"The defendant, being in a financially difficult situation with a debt of 65 million won and unable to pay wages to employees, had neither the intention nor the ability to pay for the fuel costs every two weeks, even if they were to receive fuel from the victim.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's financial difficulties indicate that the defendant had neither the intention nor the ability to pay the victims.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The fact that the defendant entered into a contract while already in a financially difficult situation is interpreted as having concluded a fraudulent contract to gain benefits, despite having no intention or ability to pay the victims.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"On or around August 17, 2011, in the office of Company C located on the 2nd floor of E, Gwangyang City, South Jeolla Province, the defendant lied to the victim D, stating, 'If you provide the oil, I will make the fuel payments every fortnight.'\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "It is clear that the defendant deceived the victims to gain financial benefits.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The act of the defendant receiving property from the victims through deception constitutes the crime of fraud, and this is a criminal act intentionally committed by the defendant to gain financial benefits.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"The defendant, by deceiving the victim in this manner, received fuel worth a total of 80,686,039 won from the victim, who was tricked by the defendant, from that time until around September 30 of the same year.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant had the intention to pay the victims, and the deterioration of the external economic situation was the main issue.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The defendant's failure to receive payment from N Corporation was due to unavoidable external economic circumstances, which suggests that the defendant had no intention of embezzlement.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant argues that if they had concluded the contract and completed its performance, and had received the payment normally from N Corporation, they would have been able to pay the victims as well.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's financial difficulties are due to temporary liquidity issues, which are unrelated to any intent to commit fraud.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Economic difficulties or liquidity issues can often arise due to unforeseen external circumstances, and the occurrence of such problems cannot immediately be considered as indicative of fraudulent intent.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant had a debt of 65 million won and was in a financially difficult situation, unable to pay wages to employees. However, this was not with the intention of defrauding the victim to obtain financial benefits, but rather due to a temporary liquidity issue.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The main reason the defendant failed to pay the victims was not due to a breach of contract or lack of managerial skills, but rather the unexpected deterioration of external economic conditions.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The deterioration of the external economic situation is an event beyond an individual's control, and the temporary liquidity issues arising from it are separate from the defendant's intent to commit fraud.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant, having not received payment from N Corporation, was unable to pay the victims. Therefore, this was not due to the defendant's intent but rather due to external circumstances.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00004",
+                "d00017",
+                "w00014",
+                "c00014",
+                "d00007",
+                "d00008",
+                "w00015",
+                "c00015",
+                "d00013",
+                "d00005",
+                "d00002",
+                "w00013",
+                "c00013",
+                "d00003",
+                "w00018",
+                "c00018",
+                "w00011",
+                "c00011",
+                "d00016",
+                "w00012",
+                "c00012",
+                "w00008",
+                "c00008",
+                "d00012",
+                "w00007",
+                "c00007",
+                "w00017",
+                "c00017",
+                "w00006",
+                "c00006",
+                "w00016",
+                "c00016",
+                "d00001",
+                "d00010",
+                "d00011",
+                "w00002",
+                "c00002",
+                "d00014",
+                "w00001",
+                "c00001",
+                "d00009",
+                "w00004",
+                "c00004",
+                "d00018",
+                "d00015",
+                "d00006"
+            ]
+        }
+    }
+}

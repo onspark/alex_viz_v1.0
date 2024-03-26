@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000412202212142021077001154",
+    "crime_fact": "Crime Facts\n\nThe defendant was sentenced to 1 year in prison with a 3-year suspended sentence for establishing a gambling space, among other charges, by the Busan District Court, Eastern Division, on July 3, 2019, and the judgment became final on July 11, 2019.\n\"2021고단1154\"\nThe defendant was in a relationship with the victim B, living together from around May 2019 to around August 2020.\nOn or around May 1, 2019, at the victim's house, apartment D in Haeundae District, Busan, the defendant said, \"If you invest 60 million won in a construction company run by a younger sibling of my acquaintance E, you will make 100 million won in a week. If you give me the money, I will invest it as mentioned and make money for you.\"\nHowever, the claim that investing in the acquaintance's construction company would yield profit was false, and the defendant intended to use the money for personal expenses, including entertainment costs.",
+    "target_node": {
+        "node_id": "w00014",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_14",
+        "text": "The relationship with the victim was one of cohabitation during courtship, and the financial transactions that occurred within this de facto marriage can be considered to have been made by mutual consent.",
+        "label_expanded": "D_14=>C_14"
+    },
+    "target_reason": "The guarantee of w00014 suggests that the defendant's past similar criminal acts indicate their intention and capability to commit the same type of crime. However, this guarantee has a weak link. The past criminal record does not directly prove the defendant's intention or capability for the current case. People can change over time, and past behavior does not necessarily predict future behavior. This assumption is not a universal principle that can be generally applied to everyone, especially in a legal context where each case should be evaluated independently. Therefore, the guarantee of w00014 is based on assumptions, making it the weakest component due to its lack of direct connection to the criminal facts.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant claims that there was no intent to embezzle in the financial transactions arising from the relationship with the victim, and that all transactions were conducted with the explicit or implicit consent of the victim.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant is accused of intentionally lying to exploit the trust relationship with the victim for economic gain, and it is argued that there was a clear intent to embezzle money from the victim through this.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant had no intent to embezzle in the economic transaction with the victim.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The financial transactions that occurred within the de facto marriage relationship with the victim were based on the implicit consent of both parties, demonstrating that it was a decision based on mutual trust, not intentional embezzlement.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant was in a relationship with the victim, cohabitating from around May 2019 to August 2020.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant intended to use the money for personal purposes such as entertainment expenses, but this can be seen as part of the economic support implicitly approved within the relationship with the victim.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Mutual financial support during a relationship is a common phenomenon in a de facto marriage, and it can be seen that the defendant receiving money from the victim was with the victim's tacit consent. In such circumstances, the defendant's use of the victim's money for personal purposes can be interpreted as mutual financial support within the relationship.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant, around May 1, 2019, at the victim's house located in C Apartment, D, Haeundae District, Busan, stated, \"If you invest in the construction company run by E's younger sibling, who is an acquaintance of mine, you will make 100 million won in a week. If you give me the money, I will invest it as mentioned and make money for you.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant's past legal issues should not influence the judgment on this case.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Past legal judgments or punishments should be treated separately from the current case, and bringing the defendant's past legal issues into the judgment of this case can lead to unreasonable prejudice. This can be a factor that undermines fairness in legal judgments.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant was sentenced to 1 year in prison with a 3-year suspended sentence for the crime of establishing a gambling venue, among others, by the Busan District Court, Eastern Division, on July 3, 2019, and the judgment became final on July 11, 2019.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "It is clear that the defendant exploited the trust relationship with the victim to gain economic benefits by lying.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Lies based on trust established in the relationship with the victim can be considered as deliberate acts of embezzlement.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The defendant, around May 1, 2019, in the victim's house located in C Apartment, D unit, Haeundae District, Busan, stated, 'If you invest 60 million won in the construction company run by the younger sibling of my acquaintance E, you will make 100 million won in a week. If you give me the money, I will invest it as mentioned and make money for you.'\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant had a clear intent to embezzle money from the victim.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The act of the defendant using the money received from the victim for personal purposes indicates that there was an intention to deceive the victim and gain economic benefits.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "```\nHowever, the truth was that the statement about being able to make money by investing in an acquaintance's construction company was false, and the defendant intended to use the received money for personal expenses such as entertainment expenses.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant, having previously been legally punished for criminal activities, is likely to commit the same type of crime again.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Given that individuals with a criminal record tend to repeat similar crimes, the defendant's past actions further strengthen the intent of the defendant in relation to the current case.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "\"The defendant was sentenced to 1 year in prison with a 3-year suspended sentence for the crime of establishing a gambling venue, etc., by the Busan District Court, Eastern Division, on July 3, 2019, and the judgment became final on July 11, 2019.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The argument that the defendant's past criminal record strengthens the intentionality of the current case is not logically valid.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The principle that past actions do not necessarily predict future behavior aligns with general legal reasoning and common sense.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant was sentenced to 1 year in prison with a 3-year suspended sentence by the Busan District Court, Dongbu Branch, on July 3, 2019, for the crime of establishing a gambling place, among others, and the judgment became final on July 11, 2019.\" Although this is a fact from the past, it is difficult to see it as having a direct impact on proving intent in the current case.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "Even if the defendant deceived the victim about their financial situation, this does not directly link to the intent to embezzle.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The financial transaction that occurred in the relationship with the victim was conducted under the presumed consent of both parties, indicating that there was no intent to embezzle.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant acknowledges deceiving the victim about their financial situation during their relationship, but this indicates a lack of intent to embezzle.\" and \"The financial transactions that occurred within the de facto marriage with the victim can be seen as having been made under the presumed consent of both parties.\" make it difficult to prove the intent to embezzle.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "Even if the defendant used the money for personal purposes such as entertainment expenses, this act was carried out with the consent of the victim.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "If there was explicit or implicit consent regarding the use of the funds provided by the victim, this precludes viewing the defendant's actions as having the intent to embezzle.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant, around May 1, 2019, at the victim's house located in C Apartment, D unit, Haeundae District, Busan, stated, 'If you invest 60 million won in the construction company run by E's younger sibling, who is an acquaintance of mine, you will make 100 million won in a week. If you give me the money, I will invest it as mentioned and make a profit for you.' This could be interpreted that the victim was aware of how the money would be used and had agreed to it.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The fact that the defendant intentionally used lies in the process of embezzling money from the victim shows that there was clearly an intent to embezzle.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Lies made with the purpose of gaining economic benefits by exploiting the trust relationship with the victim clearly prove the intent to embezzle.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"There was a statement made that if one invests 60 million won in a construction company operated by the younger sibling of E, who is an acquaintance, one would make 100 million won in a week. It was said that if the money was given to them, they would invest it in such a manner to earn money. However, this was false, and the defendant intended to use this money for personal expenses, including entertainment expenses.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "ENGLISH OUTPUT \nThe argument that the financial transaction between the defendant and the victim was made with the presumed consent of both parties is based on false information provided by the defendant, therefore, the intent to embezzle cannot be excluded.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Given that the premise of the transaction agreed upon by the victim was based on the defendant's lies, such a transaction cannot be considered a genuine consent between the parties, but rather represents the defendant's intentional deception.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant's statement to the victim, \"If you invest 60 million won in a construction company run by the younger sibling of my acquaintance E, you will make 100 million won in a week. If you give me the money, I will invest it as such and make a profit for you,\" was false, and this is a clear case of the defendant deceiving the victim.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's prior criminal record suggests that the defendant had prior knowledge and intent regarding the crime, which further strengthens the intent to embezzle.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "If there is a previous experience related to a crime, actions in similar situations can be considered to reflect premeditated intent and knowledge, which further clarifies the act as deliberate.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant was sentenced to 1 year in prison with a 3-year suspended sentence for the crime of establishing a gambling venue, among others, by the Busan District Court, Eastern Division, on July 3, 2019, and the judgment became final on July 11, 2019.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_13",
+                "text": "The defendant argues that their prior criminal record has no direct relevance to the intent of embezzlement in the current case.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_13",
+                "text": "The previous criminal record is related to the crime of establishing a gambling place, and it is essentially a different type of crime from the embezzlement involved in the current case.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_13",
+                "text": "The defendant was sentenced to 1 year in prison with a 3-year suspended sentence for the crime of establishing a gambling venue, among others, by the Busan District Court, Eastern Division, on July 3, 2019, and the judgment became final on July 11, 2019.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_14",
+                "text": "The defendant claims that there was no intent to embezzle through the financial transaction with the victim.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_14",
+                "text": "The relationship with the victim was one of cohabitation during courtship, and the financial transactions that occurred within this de facto marriage can be considered to have been made by mutual consent.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_14",
+                "text": "The defendant was in a relationship with the victim B, cohabitating from around May 2019 to August 2020.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_15",
+                "text": "The defendant received money from the victim, but this was done with the explicit or implicit consent of the victim, making it difficult to prove the intent to embezzle.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_15",
+                "text": "While it is acknowledged that the economic situation was misrepresented, it can be seen as having been done with the presumptive consent of both parties, and it is difficult to conclusively determine that the defendant had the intention of embezzlement.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_15",
+                "text": "The defendant stated, \"If you invest 60 million won in a construction company run by the younger sibling of my acquaintance E, you will make 100 million won in a week. If you give me the money, I will invest it in the same way and make money for you.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_16",
+                "text": "The defendant's act of lying to the victim under the guise of investment clearly demonstrates the intent to embezzle.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_16",
+                "text": "The defendant's statement to the victim, \"If you invest 60 million won in a construction company run by E's younger sibling, who I know, you will make 100 million won in a week. If you give me the money, I will invest it as mentioned and make money for you,\" was false, and it indicates that this was not a rational act based on the victim's consent, but a deliberate act of deception.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_16",
+                "text": "The defendant is based on the fact that around May 1, 2019, in the victim's house located in C Apartment, D unit, Haeundae District, Busan, he said, \"If you invest 60 million won in the construction company run by E's younger sibling, who is an acquaintance of mine, you will make 100 million won in a week. If you give me the money, I will invest it as mentioned and make money for you.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_17",
+                "text": "The defendant's past legal punishment history demonstrates a repetitive criminal tendency, and the act in this case can also be seen as part of an intentional embezzlement.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_17",
+                "text": "The fact that the defendant has been punished in the past for crimes such as establishing a gambling place suggests that the defendant's deviant behavior is not a one-time occurrence, and this tendency indicates that the defendant acted with intent in this case of embezzling money from the victim.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_17",
+                "text": "The defendant was sentenced to 1 year in prison with a 3-year suspended sentence for the crime of establishing a gambling venue, among others, by the Busan District Court, Eastern Division, on July 3, 2019, and the judgment became final on July 11, 2019.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_18",
+                "text": "The fact that the defendant's actual use was for personal purposes such as entertainment expenses proves that the defendant intentionally violated the agreement with the victim.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_18",
+                "text": "The discrepancy between the investment purpose promised by the defendant to the victim and the actual use of funds is clear evidence that false information was intentionally provided to obtain the victim's consent. This shows that the defendant lied with the intention of embezzling money from the victim.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_18",
+                "text": "\"However, the truth is that the statement that one could make money by investing in an acquaintance's construction company was false, and the defendant intended to use the received money for personal expenses such as entertainment expenses.\" is based on this fact.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "d00017",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

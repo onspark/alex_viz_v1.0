@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000414202209282022077001167",
+    "crime_fact": "Criminal Facts\n1. Conspiracy Relationship\nThe voice phishing organization, operating from areas in China or other regions difficult for domestic investigative agencies to track, deceives numerous victims in Korea through impersonation of financial institutions, loan fraud, etc., using internet calls. They trick victims into transferring money to accounts they manage or directly receiving money from them, a method commonly known as 'voice phishing'. The organization is structured into point organizations with divided roles: the 'mastermind' who oversees the entire operation and manages internal communication between each point organization, the 'manager' who follows the mastermind's orders to supervise internal members and instructs them on deception techniques and cash collection methods, the 'lure/call center' that calls numerous victims pretending to be government agencies to deceive them, and the 'cash withdrawal/collection agent' who withdraws deposited victim funds or directly collects money from victims. They also operate relay offices to change internet phone numbers to domestic phone numbers using VoIP gateways, exploiting the fact that victims are more likely to answer calls from domestic numbers. Recently, to avoid crackdowns on domestic relay offices and for convenience of movement, they have started using mobile relay devices by inserting SIM cards purchased from specific carriers into mobile phones, notably using Samsung Galaxy phones' CMC method and iPhones' 'Izzbie' app for coordination.\nThe defendant, a Thai national, accepted an offer in early April 2022 from unidentified members of a voice phishing organization (referred to as 'D, etc.') to install and manage relay devices for a monthly payment of 3 million won. Following 'D, etc.'s' instructions, the defendant rented room G in building F, Buk-gu, Busan, in mid-April 2022, met with an unidentified man to receive mobile phones with SIM cards, chargers, and other equipment, and from then until around June 9, 2022, linked mobile phones with the voice phishing organization members' iPads and other devices using the 'Izzbie' app on iPhones, managed the power of the mobile phones according to the call center's operating hours, and replaced any suspended SIM cards with new ones as per the instructions of 'D, etc.' and other unidentified members of the voice phishing organization.\n\n2. Criminal Facts\na. Violation of the Telecommunications Business Act\n(1) Alteration of Caller ID Display\nIt is prohibited for anyone to deceive others for financial gain or to inflict harm such as verbal abuse, threats, or harassment by making calls and falsely displaying the caller's phone number through alteration.\nDespite this, the defendant, using a mobile relay device (iPhone) managed by them in room G, building F, Buk-gu, Busan, around May 19, 2022, altered the caller ID as described in section (1) so that the phone number sent by unidentified members of the voice phishing organization to person H appeared as '(phone number 1 omitted)', among other instances from May 9, 2022, to June 9, 2022, totaling 1,170 times as listed in the crime summary table, displaying the caller ID as phone numbers '(phone number 1 omitted)' to '(phone number 6 omitted)', registered under other people's names.\nThus, the defendant conspired with unidentified members of the voice phishing organization to deceive others for financial gain by altering the caller's phone number.\n(2) Mediation of Communication for Others\nNo one is allowed to mediate or provide others' communications using the telecommunications services provided by telecommunications business operators.\nNevertheless, the defendant, while managing a mobile relay device (iPhone) in room G, building F, Buk-gu, Busan, around May 19, 2022, enabled unidentified members of the voice phishing organization in China and other places to make calls using the SIM connected to the domestic phone number '(phone number 1 omitted)' through the defendant's relay device, among other instances from May 4, 2022, to June 9, 2022, totaling 2,309 times as listed in the crime summary table, allowing communication with numerous people through domestically converted mobile phone numbers.\nThus, the defendant conspired with unidentified members of the voice phishing organization to mediate or provide others' communications using the telecommunications services provided by telecommunications business operators.\n(3) Operation of an Unregistered Telecommunications Business\nAnyone wishing to operate a telecommunications business must register with the Minister of Science and ICT according to the Presidential Decree, including financial and technical capabilities, user protection plans, and other business plans.\nThe defendant operated a telecommunications business without registering with the Minister of Science and ICT from around May 4, 2022, to June 9, 2022, in room G, building F, Buk-gu, Busan, managing mobile relay devices such as iPhones, enabling unidentified members of the voice phishing organization to call numerous people in Korea, converting the calls to domestic mobile phone numbers as listed in the crime summary table, totaling 2,309 times.\nThus, the defendant conspired with unidentified members of the voice phishing organization to operate a telecommunications business without registering with the Minister of Science and ICT.\nb. Fraud\n(1) Fraud against Victim H\nFollowing the conspiracy, the defendant, from mid-April 2022 in room G, building F, Buk-gu, Busan, managed a mobile relay device (iPhone) into which a SIM card purchased from a specific carrier was inserted, converting the caller ID used by unidentified members of the voice phishing organization to '(phone number 1 omitted)' (subscriber name I).\nAn unidentified member of the voice phishing organization contacted victim H around May 19, 2022, from an unknown location, pretending to be an investigator from the Seoul Central District Prosecutors' Office, saying, \"A person named J has opened an account using your identity at K Bank and L. A prosecutor will call you shortly.\" Then, another unidentified member of the voice phishing organization, using the defendant's relay device to convert the caller ID, contacted the victim pretending to be a prosecutor, saying, \"You need to check the serial numbers of the money in your account, so go to a nearby bank, withdraw the cash, and meet the Financial Supervisory Service's internal investigation officer at Iksan Station to hand over the cash.\"\nIn reality, the unidentified members of the voice phishing organization were neither investigators nor prosecutors, and they had no intention or ability to return the money received from the victim.\nThe unidentified members of the voice phishing organization deceived the victim and received 16 million won in cash from the victim around 16:00 on May 19, 2022, in front of N ophthalmology clinic in Iksan city, M.\nThus, the defendant conspired with unidentified members of the voice phishing organization to deceive the victim and receive property from the victim.\n(2) Fraud against Victim O\nFollowing the conspiracy, the defendant, from mid-April 2022 in room G, building F, Buk-gu, Busan, managed a mobile relay device (iPhone) into which a SIM card purchased from a specific carrier was inserted, converting the caller ID used by unidentified members of the voice phishing organization to '(phone number 4 omitted)' (subscriber name unknown).\nAn unidentified member of the voice phishing organization contacted victim O around May 24, 2022, from an unknown location, pretending to be an investigator from the Seoul Central District Prosecutors' Office, saying, \"We are investigating a financial fraud case, and it has been confirmed that an account opened under your name was used for money laundering. It seems your personal information has been stolen, so I will connect you to the responsible prosecutor.\" Then, another unidentified member of the voice phishing organization, using the defendant's relay device to convert the caller ID, contacted the victim pretending to be a prosecutor, saying, \"Your account might be a shell account, so it needs to be checked. Cancel all your savings and transfer the money to P Bank's account, withdraw the cash, and hand it over to our account tracking officer.\"\nIn reality, the unidentified members of the voice phishing organization were neither investigators nor prosecutors, and they had no intention or ability to return the money received from the victim.\nThe unidentified members of the voice phishing organization deceived the victim and received 29 million won in cash from the victim around 12:19 on May 25, 2022, in front of R veterinary clinic in Pyeongtaek city, Q.\nThus, the defendant conspired with unidentified members of the voice phishing organization to deceive the victim and receive property from the victim.\n(3) Fraud against Victim S\nFollowing the conspiracy, the defendant, from mid-April 2022 in room G, building F, Buk-gu, Busan, managed a mobile relay device (iPhone) into which a SIM card purchased from a specific carrier was inserted, converting the caller ID used by unidentified members of the voice phishing organization to '(phone number 2 omitted)' (subscriber name T).\nAn unidentified member of the voice phishing organization contacted victim S around May 25, 2022, from an unknown location, pretending to be an investigator from the Seoul Central District Prosecutors' Office, saying, \"Your account has been used as a mule account, causing many victims, and a complaint has been filed.\" Then, another unidentified member of the voice phishing organization, using the defendant's relay device to convert the caller ID, contacted the victim pretending to be a prosecutor, saying, \"All accounts under your name are involved in the crime, so to safely protect the money in the accounts, you need to withdraw all the cash and hand it over to a Financial Supervisory Service employee. Once your innocence is proven, your accounts will be restored, and the cash will be handed over by our sent employee.\"\nIn reality, the unidentified members of the voice phishing organization were neither investigators nor prosecutors, and they had no intention or ability to return the money received from the victim.\nThe unidentified members of the voice phishing organization deceived the victim and received 28 million won in cash from the victim between 11:32 and 12:00 on May 26, 2022, in front of U in Mapo-gu, Seoul, among other instances, receiving a total of 96,700,000 won from the victim through the same method until around May 27, 2022, as listed in the crime summary table, totaling 5 times.\nThus, the defendant conspired with unidentified members of the voice phishing organization to deceive the victim and receive property from the victim.\n(4) Fraud against Victim B\nFollowing the conspiracy, the defendant, from mid-April 2022 in room G, building F, Buk-gu, Busan, managed a mobile relay device (iPhone) into which a SIM card purchased from a specific carrier was inserted, converting the caller ID used by unidentified members of the voice phishing organization to '(phone number 3 omitted)' (subscriber name V).\nAn unidentified member of the voice phishing organization contacted victim B around May 26, 2022, from an unknown location, pretending to be an investigator from the Seoul Central District Prosecutors' Office, saying, \"You are involved in an identity theft case, and an investigation is needed.\" Then, another unidentified member of the voice phishing organization, using the defendant's relay device to convert the caller ID, contacted the victim pretending to be a prosecutor, saying, \"It needs to be checked if your account is normal, so try taking out a loan. Financial sanctions won't apply. We will restore your account, so hand over the borrowed cash to a Financial Supervisory Service employee.\"\nIn reality, the unidentified members of the voice phishing organization were neither investigators nor prosecutors, and they had no intention or ability to return the money received from the victim.\nThe unidentified members of the voice phishing organization deceived the victim and received 25 million won in cash from the victim around 17:00 on May 26, 2022, at the entrance of building X, W in Seocho-gu, Seoul.\nThus, the defendant conspired with unidentified members of the voice phishing organization to deceive the victim and receive property from the victim.\n(5) Fraud against Victim Y\nFollowing the conspiracy, the defendant, from mid-April 2022 in room G, building F, Buk-gu, Busan, managed a mobile relay device (iPhone) into which a SIM card purchased from a specific carrier was inserted, converting the caller ID used by unidentified members of the voice phishing organization to '(phone number 5 omitted)' (subscriber name unknown).\nAn unidentified member of the voice phishing organization contacted victim Y around June 3, 2022, from an unknown location, using the defendant's relay device to convert the caller ID, pretending to be a prosecutor, saying, \"You are involved in a fraud case, and an investigation is needed. Since it's a bank-related crime, if you send the cash, we can check the serial numbers to find out where this cash was used. Hand over the cash to a Financial Services Commission employee.\"\nIn reality, the unidentified members of the voice phishing organization were not prosecutors, and they had no intention or ability to return the money received from the victim.\nThe unidentified members of the voice phishing organization deceived the victim and received 70 million won in cash from the victim around 17:00 on June 3, 2022, in front of AA in Gangnam-gu, Seoul.\nThus, the defendant conspired with unidentified members of the voice phishing organization to deceive the victim and receive property from the victim.\n(6) Fraud against Victim C\nFollowing the conspiracy, the defendant, from mid-April 2022 in room G, building F, Buk-gu, Busan, managed a mobile relay device (iPhone) into which a SIM card purchased from a specific carrier was inserted, converting the caller ID used by unidentified members of the voice phishing organization to '(phone number 7 omitted)' (subscriber name AB).\nAn unidentified member of the voice phishing organization contacted victim C around June 8, 2022, from an unknown location, using the defendant's relay device to convert the caller ID, pretending to be a prosecutor, saying, \"Your account has been involved in a second-hand goods fraud case, and the account has been seized. A bill of indictment will be sent tomorrow, so check it.\" Then, on June 9, 2022, the same unidentified member of the voice phishing organization contacted the victim again, pretending to be a prosecutor, saying, \"Withdraw 90% of the amount in the account and hand it over to our employee so we can conduct an investigation. Once the investigation is concluded, the money will be returned.\"\nIn reality, the unidentified members of the voice phishing organization were not prosecutors, and they had no intention or ability to return the money received from the victim.\nThe unidentified members of the voice phishing organization deceived the victim and received 50 million won in cash from the victim around 13:50 on June 9, 2022, in front of AD veterinary clinic in Yangcheon-gu, Seoul.\nThen, the unidentified member of the voice phishing organization contacted the victim again, saying, \"Convert the remaining 40 million won in checks to cash and hand it over again.\" Around 16:00 on June 9, 2022, in front of AF veterinary clinic in Yeongdeungpo-gu, Seoul, the victim handed over 40 million won in cash, totaling 90 million won received from the victim in 2 instances.\nThus, the defendant conspired with unidentified members of the voice phishing organization to deceive the victim and receive property from the victim.\nc. Violation of the Immigration Control Act\nForeign nationals may stay in the Republic of Korea within the scope of their status of stay and period of stay.\nThe defendant, a Thai national, entered the Republic of Korea on May 19, 2018, with the status of stay 'visa exemption (B-1)' and the expiration date of stay 'August 17, 2018'. Despite the expiration of the stay period on August 17, 2018, the defendant continued to reside in places such as Buk-gu, Busan, until around June 9, 2022, staying in the Republic of Korea beyond the scope of the stay period.",
+    "target_node": {
+        "node_id": "w00013",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_13",
+        "text": "If the defendants' claims that it was a normal financial activity for business operation were true, then the defendants should have used the money borrowed from the victim not for personal debt repayment but for the company's construction funds.",
+        "label_expanded": "D_13=>C_13"
+    },
+    "target_reason": "The explanation is based on the fact that the defendant had previously been sentenced to imprisonment for violating the Electronic Financial Transactions Act, concluding that the defendant actively participated in voice phishing fraud. This logical connection is based on a weak assumption, and the assumption that all ex-convicts will re-engage in similar crimes is too broad and generalized. Moreover, no direct evidence has been presented that the previous criminal experience is directly related to the current crime. Therefore, this warrant is considered weak due to the weak logical connection with the facts of the crime and the generalized claim based on assumptions.\n\nExplanation: The explanation is based on the fact that the defendant had previously been sentenced to imprisonment for violating the Electronic Financial Transactions Act, concluding that the defendant actively participated in voice phishing fraud. This logical connection is based on a weak assumption, and the assumption that all ex-convicts will re-engage in similar crimes is too broad and generalized. Moreover, no direct evidence has been presented that the previous criminal experience is directly related to the current crime. Therefore, this warrant is considered weak due to the weak logical connection with the facts of the crime and the generalized claim based on assumptions.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant indeed borrowed money from the victim, but there was a clear intention to use that money as operating funds for the company, and there was absolutely no intention to deceive.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant, despite having neither the intention nor the ability to repay, deceived the victim through lies to borrow money, which clearly constitutes the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant borrowed money from the victim by mutual agreement, and this was a legitimate expense necessary for business operations.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "In the process of operating a business, one may face financial difficulties, and in such situations, borrowing external funds can be essential. Therefore, the monetary transactions between the defendant and the victim can be seen as part of normal financial activities for business operations.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendants admit to lying to the victim by saying, \"Our company urgently needs money for another construction site, so if you receive the contract payment of 190 million won, please lend us only 150 million won. We have enough money in the company, so we can pay you back anytime. We will definitely pay you back within 2 months at the latest.\" However, they argue that this was done to secure urgent funding needed for business operations.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant had no intention of deceiving the victim.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The defendant denies the intention of deceit in borrowing money from the victim, arguing that it was necessary for business purposes and that there was an intention to repay. If there had been an intention to deceive, the transaction would have been carried out without any plan to repay after borrowing. However, the defendant had the intention to repay.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant acknowledges borrowing money from the victim but claims that the money was provided for the purpose of expenses. The defendant asserts that there was no intention to deceive the victim, and it was merely requested as necessary expenses for business operations.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant was unable to repay the borrowed money due to unforeseen financial difficulties.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "When faced with unexpected economic difficulties, it can become difficult to fulfill financial commitments. This indicates that the defendant's inability to repay is not derived from an intentional deception or embezzlement, but rather from changes in external circumstances. Therefore, the defendant's actions can be seen as not intentional criminal acts, but rather as a result of force majeure.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant had the intention to repay the money received from the victim, but was unable to do so due to unforeseen financial difficulties.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "It is proven that the defendants had neither the intention nor the ability to repay the money when they borrowed it from the victim.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The fact that the defendants mentioned they had no income due to the poor management of Corporation E and personal debts, and had neither the intention nor the ability to repay the borrowed money, proves that the defendants had no intention or ability to repay the money at the time of borrowing.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The defendants, even if they received money from the victim, had no intention of allocating it to other construction sites of Corporation E but planned to use it for their personal debt repayment. Moreover, they had personal debts amounting to tens of millions of won borrowed from acquaintances, and due to the poor management of Corporation E, which resulted in no significant income, they had neither the intention nor the ability to repay the borrowed money to the victim.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendants defrauded the victim to borrow money.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The fact that the defendants lied to the victim, claiming they would borrow a down payment, but actually used it for personal debt repayment, clearly demonstrates a fraudulent act of deceiving the victim.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "\"When the victim entered into a subcontract, the defendants immediately lied to the victim, saying, 'Our company urgently needs money for another construction site, so when you receive the advance payment of 190 million won, please lend us 150 million won. Our company has enough money, so we can repay it at any time. We will definitely pay it back within 2 months at the latest.'\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendants conspired to receive property from the victim.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The fact that the defendants conspired together to borrow money from the victim and provided false information in the process serves as evidence of the conspired fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "\"Defendant A, facing financial difficulties due to the liquidity crisis of Corporation E and personal debts that made life challenging, proposed to Defendant B, with whom he had a close relationship, to borrow money from the victim under the pretext of urgently needing funds for the company's construction projects. In response, Defendant B, also burdened with personal debts borrowed from acquaintances, agreed to Defendant A's proposal, conspiring together to embezzle funds from the victim.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The prosecution's claim that the defendants borrowed money without the intention to repay is based on insufficient evidence.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The fact that the defendants were experiencing financial difficulties does not necessarily mean that they had no intention of repayment.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant had the intention to repay the money received from the victim, but was unable to do so due to unforeseen financial difficulties.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendants genuinely attempted to fulfill the contract with the victim, which demonstrates the absence of any intent to deceive.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The attempt to enter into a contract and commence construction demonstrates the defendants' sincerity and willingness to repay in relation to their business.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"In the end, the victim entered into a subcontracting agreement with Company E for the steel structure construction work among the factory construction projects in Hamyang County ordered by Company J, with a total construction cost of 957 million won, an advance payment of 190 million won, and a construction period from March 2, 2020, to July 31, 2020.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendants' alleged intent to embezzle can be refuted by the trust relationship in the transaction process with the victim.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The already established trust relationship between the victim and the defendant contradicts the claim that the defendant acted with the intention to deceive.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant A, who was close to the victim, suggested to defendant B to borrow money from the victim under the pretext that the company urgently needed funds for construction. Defendant B, having a significant amount of personal debt borrowed from acquaintances, agreed to defendant A's proposal, conspiring together to embezzle funds from the victim.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's implication of the possibility of repaying the borrowed money to the victim, despite having no intention or ability to do so, clearly reveals an intent to deceive.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "If the defendants' claims were true, they would have planned to invest the borrowed money into another construction site of Corporation E. However, the fact that \"even if the defendants received the money from the victim, they had no intention of investing it in another construction site of Corporation E, but rather planned to use it for the repayment of their personal debts\" proves that the defendants had no intention or ability to repay the loan at the time of borrowing.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendants, even upon receiving money from the victim, had no intention of allocating it to other construction sites of E Corporation but planned to use it for the repayment of their personal debts.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendants had already devised a plan to defraud the victim at the time of entering into a contract with the victim.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The defendants, in requesting the victim to lend them the earnest money, lied by saying, \"Our company urgently needs money for another construction site, so when we receive the earnest money of 190 million won, just lend us 150 million won. We have enough money in the company, so we can repay it at any time. We will definitely pay it back within 2 months at the latest.\" This shows that from the beginning, they intended to borrow the money from the victim for personal use.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"Our company urgently needs money for another construction site, so when we receive the contract payment of 190 million won, please lend us 150 million won. The company has enough money, so we can repay it at any time. We will definitely pay it back within 2 months at the latest,\" he lied.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendants, despite having neither the intention nor the ability to repay the borrowed money to the victim, deliberately deceived the victim in order to receive the funds.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The fact that the defendants had neither the intention nor the ability to repay the borrowed money to the victim is clearly evident from the fact that \"they had personal debts of tens of millions of won borrowed from acquaintances, and due to the poor management of Company E, they had no significant income, thus lacking both the intention and the ability to repay the borrowed money to the victim.\"",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The individual had personal debts amounting to tens of millions of won borrowed from acquaintances, and due to the deterioration of Corporation E's management, there was no significant income, thus there was neither the intention nor the ability to repay the borrowed money to the victim.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant's lie that they could repay the victim proves that the defendant had no intention or ability to repay.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "If the defendants' claims that it was a normal financial activity for business operation were true, then the defendants should have used the money borrowed from the victim not for personal debt repayment but for the company's construction funds.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "However, even though the defendants received money from the victim, they had no intention of allocating it to other construction sites of Corporation E, but rather planned to use it for the repayment of their personal debts. Moreover, they had personal debts amounting to tens of millions of won borrowed from acquaintances, and due to the poor management of Corporation E, which resulted in no significant income, they had neither the intention nor the ability to repay the borrowed money to the victim.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's lies are clear evidence of fraudulent acts of deceiving the victim to borrow money.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Immediately after the victim expressed willingness to pay the deposit, the defendants asking the victim to lend them money by lying indicates a premeditated action and shows that there was an intention to use the funds for purposes other than the business.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "When the victim entered into a subcontract, the defendant immediately lied, saying, \"Our company urgently needs money for another construction site, so if you receive the advance payment of 190 million won, please lend us 150 million won. The company has enough money, so we can repay it at any time. We will definitely pay it back within 2 months at the latest.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendants' promise to repay the borrowed money to the victim is unreliable, and this shows that the defendants had no intention or ability to repay at the time of the transaction.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Given the management situation of Corporation E and the personal debt situation of the defendants, the repayment plan presented to the victim was realistically impossible, which means that the defendants intentionally deceived the victim.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "Due to the deteriorating management of Corporation E, there was no significant income, and the defendants had personal debts of tens of millions of won borrowed from acquaintances. Even if they received money from the victim, the defendants intended not to invest it in other construction sites of Corporation E but to use it for the repayment of their personal debts. Moreover, they had neither the intention nor the ability to repay the borrowed money to the victim.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendants can prove that the money borrowed from the victim was not used for the repayment of personal debts.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The fact that the use of the funds was not for the repayment of personal debts indicates that the defendants had no intention of embezzling the funds.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendants argued, \"Our company urgently needs money for another construction site, so if we receive the contract payment of 190 million won, please lend us only 150 million won. Our company has enough money, so we can repay it at any time. We will definitely pay it back within 2 months at the latest.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendants borrowing money from the victim can be seen as part of normal financial activities for business operations.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "In the course of operating a business, it is a common management activity to procure funds from external sources when there is an urgent need for capital.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant A claimed, \"As Corporation E was struggling with financial difficulties, and I was also facing hardships in life due to personal debts, I suggested to the defendant B, who had been close to the victim, to borrow money from the victim under the pretext that it was urgently needed for the company's construction funds.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendants had the intention to repay the borrowed money to the victim.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The intention to repay the borrowed money suggests that the defendants did not intend to deceive.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendants promised the victim, \"We will definitely pay you back within 2 months at the latest,\" which indicates that the defendants had the intention to repay the money they borrowed from the victim.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00001",
+                "c00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00012",
+                "c00012",
+                "d00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

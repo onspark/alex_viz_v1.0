@@ -1,0 +1,801 @@
+﻿{
+    "case_id": "CASE000212202301272021077003406",
+    "crime_fact": "Crime Facts\n[Criminal Record]\nThe defendant was sentenced to six months in prison with a two-year suspended sentence by the Seoul Southern District Court on September 16, 2020, for violating the Attorney-at-Law Act, and the judgment became final on October 7, 2021.\n[2021고단3406]\nAround April 27, 2020, in a certified real estate agent's office located in Gangseo-gu, Seoul, the defendant lied to the victim B, saying, \"If son E joins F, there will be support from Gangwon-do Taebaek City, G, etc., but a corporation must be established to receive the support funds, and it is possible to pay salaries to employed players and coaches. If you transfer 20 million won to open a corporate account for balance certification purposes, I will repay the money as soon as the corporate approval is completed.\"\nHowever, in reality, the defendant was operating F and was burdened with a debt of about 45 million won to a baseball equipment supplier at the time, and was unable to pay the baseball team's coach for six months, making it impossible to operate the baseball team normally. The defendant was also burdened with a debt of 13 million won during the baseball team's establishment process, intending to use the money received from the victim for debt repayment, living expenses, and other personal purposes, without the intention or ability to repay the victim within the agreed period.\nEventually, the defendant deceived the victim in this manner and received 20 million won on the same day into the defendant's H cooperative account (account number omitted) under the pretext of corporate account opening expenses.\n[2021고단5138]\nSince around November 2018, despite being in personal rehabilitation and lacking the financial ability to operate an amateur baseball team, the defendant established a corporation 'F' to participate in the amateur baseball league around May 4, 2020, and started operating the baseball team as the representative and manager of 'F', responsible for fundraising, with a plan to rely solely on external sponsorships and donations without any basic assets of the baseball team or funds directly contributed by the defendant.\n1. Crime against victim I\nAround June 2020, at a restaurant operated by victim I inside J Pension in Taebaek City, Gangwon-do, the defendant told the victim, \"From June 9, 2020, to October 31, 2020, and from March 1, 2021, to October 31, 2021, F and other visiting baseball teams belonging to the amateur baseball league will use J Pension as accommodation and have their meals at J Pension's restaurant. If one team comes, it will be 20-25 people, and since they play games in Taebaek two to three days a week, you can make quite a lot of money. I will pay for F's lodging and meals, and you can earn more income than that from the restaurant revenue, so please provide 10 million won as a donation and provide lodging and meals for F.\"\nHowever, at that time, 'F' Corporation had no other assets except for about 50,000 won in the account balance, and the defendant, being in personal rehabilitation, had no assets but only debts. The defendant hoped for support funds from K Association, L Sports Council, M Social Contribution Team, etc., for 'F', but it was uncertain whether the support funds would be provided. With the spread of COVID-19, the operation of the amateur baseball league itself was uncertain, and it was impossible to secure other sponsorship funds. Even if other visiting teams came to Taebaek City for the league, the accommodation for the visiting teams was determined by the teams themselves, not arbitrarily by the defendant, so the defendant had neither the intention nor the ability to pay for 'F's lodging and meals and to earn revenue from the lodging of the visiting teams for the victim.\nNevertheless, the defendant lied to the victim in this manner and received a total of 10,000,000 won transferred to the defendant's N cooperative account (account number omitted) under the pretext of donations on June 1, 2020, 7,000,000 won, and on June 7, 3,000,000 won, and received lodging and meals for 'F' worth a total of 8,937,000 won, including meal expenses of 8,750,000 won, beverage and liquor expenses of 87,000 won, and delivery fuel costs of 100,000 won, from around June 9 to July 10, 2020.\nAs a result, the defendant deceived the victim and embezzled 10,000,000 won worth of property and gained property benefits worth 8,937,000 won.\n2. Crime against victim O\nAround July 12, 2020, at 'Q Restaurant' operated by victim O in Taebaek City, Gangwon-do, through 'F's bus driver R, the defendant told the victim, \"If you provide three meals a day to the baseball team players, we will settle twice a month, and use four rooms on the second floor of the same rest area from July 15 to August 31, 2020, and pay the accommodation fee of 4.8 million won by July 31.\"\nHowever, at that time, 'F' Corporation had no other assets except for about 70,000 won in the account balance, and the defendant, being in personal rehabilitation, had no assets but only debts. The defendant hoped for support funds from K Association, L Sports Council, M Social Contribution Team, etc., for 'F', but it was uncertain whether the support funds would be provided. With the spread of COVID-19, the operation of the amateur baseball league itself was uncertain, making it impossible to secure other sponsorship funds, so the defendant had neither the intention nor the ability to pay for 'F's lodging and meals for the victim.\nNevertheless, the defendant lied to the victim in this manner and received lodging and meals for 'F' worth a total of 7,672,000 won, including meal expenses of 2,872,000 won and accommodation expenses of 4,800,000 won, from July 12 to July 28, 2020.\nAs a result, the defendant deceived the victim and embezzled property benefits worth a total of 7,672,000 won.",
+    "target_node": {
+        "node_id": "w00015",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_15",
+        "text": "The defendant exaggerated their financial capabilities to gain the victims' trust and received property from them, but in reality, used the property obtained from the victims for personal purposes, such as repaying personal debts and living expenses.",
+        "label_expanded": "D_15=>C_15"
+    },
+    "target_reason": "Explanation: w00015 argues that the defendant's demand for money from the victim, knowing that an agreement was impossible, was for personal gain rather than for business progression or negotiation. However, this argument fails to provide a sufficient logical link to directly prove the defendant's intention. Concluding that the defendant lacked the intention or capability for business progression, based solely on the fact that they knew an agreement on the amount was impossible, is a logical leap. For these reasons, w00015 is considered to have a weak connection and is judged as the weakest component for not sufficiently supporting the claim.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant did not intend to embezzle financial benefits from the victim and acted with the pure purpose of raising funds necessary for the operation of the baseball team.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant defrauded the victims to embezzle financial benefits and lied about having a specific plan or possibility to raise funds necessary for operating a baseball team.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant acted to raise the necessary funds for the operation of the baseball team, thus there was no intent to embezzle.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The fact that the defendant acted in anticipation of sponsorship funds due to the need for capital to operate a professional baseball team demonstrates that the defendant's intention was more strongly aimed at normalizing the operation of the baseball team rather than embezzling property benefits.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant argued that \"the selection of a temporary financing method was merely a part of the process to raise the necessary funds for the operation of the baseball team,\" and revealed that \"there was an expectation of support from external sources.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant had the intention to repay the money to the victim.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The defendant's failure to make restitution due to the non-payment of sponsorship funds was due to the uncertainty of external circumstances, and this does not mean that the defendant lacked the intention to pay. The expectation of the possibility of receiving sponsorship funds indicates that the defendant had the intention to repay the money to the victim.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant claimed, \"I acted with the purpose of receiving donations, and it was merely because the donations were not paid that I could not make restitution, not because I intended to deceive the victim,\" and revealed, \"I was expecting support from external sources.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant chose a temporary method of financing for the operation of the baseball team.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The defendant's actions were a temporary measure to secure essential funds for the operation of the baseball team, and such measures stemmed from the will to maintain the baseball team even in economic difficulties, rather than acting with the intention of embezzlement.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant argued that \"the choice of a temporary financing method was merely for the purpose of raising funds necessary for the operation of the baseball team,\" which aligns with the claim that \"the actions were taken with the intention of receiving sponsorship money, and the inability to repay was solely because the sponsorship money was not received.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "ENGLISH OUTPUT \nThe defendant defrauded the victim B by lying to obtain financial benefits.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "If the defendant provided false information to the victim and received property as a result, this constitutes the crime of fraud.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant falsely claimed, \"If my son E joins F, there will be support from Gangwon Province, Taebaek City, G, and others. To receive the funding, a corporation must be established, and it will also enable the payment of salaries to employed athletes and coaches. If you transfer 20 million won to open a corporate account for the purpose of balance verification, I will repay the money as soon as the corporate approval is completed.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant deceived the victims by falsely representing that there was financial support, despite lacking the financial capacity to operate a baseball team.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "If the defendant claimed to the victims that there would be financial support, while in reality, they had no plan or ability to secure such financial support, this can be seen as intentionally deceiving the victims.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant stated, \"The plan was to rely solely on external sponsorship or donations without any basic assets of the baseball team itself or direct financial contributions from the defendant.\" However, in reality, there was no other asset except for about 50,000 won in the account balance, and the defendant was undergoing personal rehabilitation with no assets owned, only bearing debts.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant defrauded the victims by making false promises to obtain financial benefits.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "If the defendant made specific false promises to the victims, and received property from the victims despite having no intention or ability to fulfill those promises, this constitutes an act of fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant told the victim I, \"From June 9, 2020, to October 31, 2020, and from March 1, 2021, to October 31, 2021, the amateur baseball league team F and other visiting baseball teams will use J Pension as their accommodation and the players will have their meals at the restaurant of J Pension. When a team comes, it will consist of 20-25 people, and since they will play games in Taebaek two to three times a week, you could earn quite a lot of money. I will pay for the lodging and meals of team F. You will be able to make more income from the restaurant revenue, so please provide 10 million won as a donation and provide lodging and meals for F.\" However, the operation of the amateur baseball league itself was uncertain, and it was not possible to secure other sponsorship funds. The defendant had hoped for sponsorship funds for 'F' from the K Association, L Sports Council, and M Community Contribution Team, but it was uncertain whether the funds could be provided.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant did not claim that there would be financial support for the victims, but rather, this was a reasonable strategy expecting external support.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Relying on external sponsorship or donations is a financial strategy commonly used by many non-profit organizations and sports teams, and depending on such a strategy cannot be considered a deceit.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant expected financial support for 'F' from the K Association, L Sports Council, and M Community Service Team, but it was uncertain whether the support would be provided.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant had no intention of deceiving the victim, and was unable to make restitution because the sponsorship funds were not paid.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "If the perpetrator had the intention to compensate the victim but was unable to do so because external funding was not secured as expected, this shows that there was no intent to deceive.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant chose a temporary method of financing in the process of raising the necessary funds for the operation of the baseball team, and was expecting support from external sources.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "Even if the defendant claimed to have provided financial support to the victim, this cannot be seen as an intention to deceive the victim.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Exploring short-term financing options for the funds necessary to operate a baseball team is a part of normal business activities, and if there was an actual attempt to secure funds for the operation of the baseball team through this, it cannot be considered an act of fraud.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"On or about April 27, 2020, in a licensed real estate agent's office located in Gangseo-gu, Seoul, the defendant lied to the victim B, stating, 'If your son E joins F, there will be support from Gangwon-do Taebaek City, G, etc., but in order to receive the funding, a corporation must be established. It will also enable the payment of salaries to employed athletes and coaches. If you transfer 20 million won for the purpose of balance certification to open a corporate account, I will repay the money as soon as the corporation is approved.'\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant had a clear intent to deceive the victims and embezzle financial benefits.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Even if the defendant claims to have acted to raise funds necessary for the operation of a baseball team, the fact that they actually intended to use the money received from the victim for personal debt repayment and living expenses shows that the defendant's actions constitute fraud.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant was burdened with a debt of approximately 45 million won to a baseball equipment supplier and was unable to pay the baseball team's coach's salary for six months, effectively rendering the operation of the baseball team unfeasible. Additionally, during the preparation for the establishment of the baseball team, the defendant incurred a debt of 13 million won. Therefore, even if the defendant received money from the victim, the intention was to use it for debt repayment, living expenses, and other personal purposes, indicating that the defendant had neither the intention nor the ability to repay the money to the victim within the agreed period.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant's actions constitute fraud, and the defendant had the intent to embezzle.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The fact that the defendant lied to the victims about the existence of sponsorship funds and embezzled financial benefits clearly indicates the defendant's intent to deceive the victims and gain benefits.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant told the victim I that from June 9, 2020, to October 31, 2020, and from March 1, 2021, to October 31, 2021, the F team, which is part of the amateur baseball league, and other visiting baseball teams would use J Pension as their accommodation and that the players would have their meals at the restaurant of J Pension. However, in reality, the defendant was undergoing personal rehabilitation and lied without having a concrete plan or possibility to secure the necessary funds for operating the baseball team.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant attempted to conceal the fact that they had defrauded the victims by deceiving them into believing there were grants available, thereby illicitly gaining financial benefits.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The fact that the defendant concealed their financial difficulties and provided false information to the victims in order to misappropriate financial benefits can be seen as the defendant intentionally deceiving the victims.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant, as the representative and head of the corporation 'F', took responsibility for fundraising and began operating a baseball team. However, he planned to rely solely on external sponsorships or donations without any basic assets of the baseball team itself or direct financial contributions from him. This was despite the fact that the defendant had no concrete plan or possibility to secure funding or sponsorships, yet deceived the victims into believing that there would be financial support.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "It is clear that the defendant defrauded the victims by lying to obtain financial benefits.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The defendant's actions constitute fraud, involving clear lies and deceit, as the defendant lied to the victims despite having no intention or ability to repay the money.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant lied to victim B, without any concrete plan or likelihood of securing the funds necessary for operating a baseball team, stating, 'If son E joins F, there will be support from Gangwon-do, Taebaek-si, G, and others, but a corporation must be established to receive the support funds, and it will also be possible to pay salaries to employed players and coaches.'",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant deceived the victims into believing there would be support funds and received property from them, but in reality, there was no concrete plan or likelihood of securing such funds.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The expectation of support funds presented by the defendant to the victims was a groundless and fanciful promise with no realistic basis, and it was used to deceive the victims and embezzle their property.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant told victim I, 'From June 9, 2020, to October 31, 2020, and from March 1, 2021, to October 31, 2021, F, which is part of the amateur baseball league, and other visiting baseball teams will use J Pension as accommodation and will arrange for the players to have their meals at the restaurant of J Pension.' The defendant then asked for a donation of 10 million won to cover the lodging and meals for F, but at that time, the corporation 'F' had no other assets except for about 50,000 won in the bank account.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "Despite being under personal rehabilitation and lacking the financial capacity to operate a baseball team, the defendant lied to the victims to embezzle financial benefits.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The defendant exaggerated their financial capabilities to gain the victims' trust and received property from them, but in reality, used the property obtained from the victims for personal purposes, such as repaying personal debts and living expenses.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "Around July 12, 2020, through R, the bus driver for 'F', the defendant communicated to victim 0, who operates 'Q Restaurant' in Taebaek-si, Gangwon, that 'If you provide three meals a day to the baseball team players, we will settle the payments twice a month, and we will use four rooms on the second floor of the same rest area from July 15, 2020, to August 31, 2020, and pay the accommodation fee of 4.8 million won by July 31, 2020.'However, at that time, the corporation 'F' had no other assets except for about 70,000 won in the bank account.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant received property from the victims expecting sponsorship funds, but the failure to repay was due to the non-payment of the sponsorship, not an intention to deceive the victims.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "D_16=>C_16",
+                "text": "The defendant was expecting support from external sources, which demonstrates that the defendant had the intention to repay the money to the victim.",
+                "label_expanded": "W_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "'The defendant expected support funds for 'F' from the K Association, L Sports Council, and M Social Contribution Team, but it was uncertain whether the support funds would be provided.'",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The information provided by the defendant to the victims was based on the expectations and plans at the time, and the defendant actually made efforts to operate the baseball team.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "D_17=>C_17",
+                "text": "The defendant merely chose a temporary method of financing in the process of securing the funds necessary for operating the amateur baseball team, which indicates that the actions were taken with a pure intention of operating the baseball team.",
+                "label_expanded": "W_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "'Around May 4, 2020, the defendant established the corporation 'F' participating in the amateur baseball league and began operating the baseball team as the representative and manager of the corporation 'F', taking responsibility for fundraising.'",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant did not use the property received from the victims for personal purposes such as repaying personal debts and living expenses, but used it for expenses related to operating the baseball team.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "D_18=>C_18",
+                "text": "The defendant was incurring debt related to the operation of the baseball team, which indicates that the expenses were necessary for the establishment and operation of the baseball team.",
+                "label_expanded": "W_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "'While operating F, the defendant was incurring a debt of approximately 45 million won to a baseball equipment supplier at the time, and was unable to pay the baseball team's coach's salary for six months, indicating that the defendant was not in a situation to operate the baseball team normally.'",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "c00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "c00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "c00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00010",
+                "c00010",
+                "d00006",
+                "d00003",
+                "w00012",
+                "c00012",
+                "w00013",
+                "c00013",
+                "w00004",
+                "c00004",
+                "w00009",
+                "c00009",
+                "d00014",
+                "d00012",
+                "w00002",
+                "c00002",
+                "w00008",
+                "c00008",
+                "d00011",
+                "d00002",
+                "d00013",
+                "d00004",
+                "w00007",
+                "c00007",
+                "d00015",
+                "w00017",
+                "c00017",
+                "d00001",
+                "d00018",
+                "d00005",
+                "w00016",
+                "c00016",
+                "d00009",
+                "w00011",
+                "c00011",
+                "w00006",
+                "c00006",
+                "d00008",
+                "d00016",
+                "d00017",
+                "d00010",
+                "d00007",
+                "w00003",
+                "c00003",
+                "w00014",
+                "c00014",
+                "w00018",
+                "c00018"
+            ]
+        }
+    }
+}

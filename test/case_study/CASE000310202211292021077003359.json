@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000310202211292021077003359",
+    "crime_fact": "Crime Facts\n\nThe defendant A, after developing a type of 'ERC-20' token, D, which had no significant property value due to the inability to establish an independent blockchain network, deceived unspecified investors by claiming that D would be listed on exchanges and could be used as a valid payment method in convenience stores in China, etc., thereby suggesting that holding D given as a return on investment would generate future investment profits, and conspired with defendant B to embezzle the investment funds received in this manner. In return for attracting investors, defendant B agreed to share the embezzled funds.\n\nAccordingly, around July 23, 2018, at a coffee shop in Yeoksam-dong, Seoul, of unknown name, defendant B lied to the victims E and C, who are a married couple, stating, \"D will be listed on a cryptocurrency exchange within about 3 months, and it is expected to be actually used as a payment method like H in convenience stores nationwide operated by 'G', an organization equivalent to F in China. Invest in the business and keep D for future profits.\"\n\nHowever, in reality, the defendants lacked the professional knowledge and funds to list D on an exchange, and had no concrete plan to secure the approximately 10 billion won needed to establish the system required for D to be used as a payment method. Therefore, even if they received investment funds for the D project from the victims, they had neither the intention nor the ability to generate investment returns for them.\n\nConspiring together, the defendants deceived the victims in the aforementioned manner and, as a result, received 40 million won into the bank account of defendant A at I Bank (account number omitted) around 19:05 on July 23, 2018.",
+    "target_node": {
+        "node_id": "c00015",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_15",
+        "text": "The fact that the defendants attracted investment by presenting an unfeasible business plan satisfies the elements of the crime of embezzlement.",
+        "label_expanded": "C_15"
+    },
+    "target_reason": "Claim c00015 is based on the assumption that the defendant intended to repay the borrowed money, but it is logically weak because, in fact, the defendant never had the intention or ability to repay from the beginning. This directly contradicts the facts of the case and weakens the validity of the claim. Therefore, this claim is not sufficiently strong in proving the intent to commit fraud, and it lacks relevance to the core facts of the case.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendants believed in the potential value of the D token business, and the information presented to investors was based on the business plan, therefore there was no intent to embezzle.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendants embezzled investment funds by providing false information to investors and promising returns that were impossible to achieve, clearly indicating an intent to embezzle.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendants believed that the D token would have actual value and provided information to investors based on this belief.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The information provided to investors is part of a business plan, an action taken in belief of the business's potential for success.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendants provided information to the effect that \"D will be listed on a cryptocurrency exchange within about three months, and it is scheduled to be actually used as a payment method in convenience stores nationwide operated by 'G', an organization equivalent to China's F, just like H.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendants gathered investment funds and made efforts for the success of the business, therefore, there was no intent to embezzle.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Raising investment funds and then working towards the success of the business demonstrates the absence of an intent to embezzle.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendants raised investment funds according to the business plan and stated that they \"encountered unexpected difficulties,\" which suggests that they made efforts for the success of the business.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendants were not without a specific plan for the listing of D tokens and their use as a means of payment, but encountered necessary funding and technical difficulties.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Having a specific business plan but facing unexpected financial and technical issues during execution is unrelated to the intent of embezzlement.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "\"The fact that the defendants lacked the professional knowledge and funds to list D on the exchange, and had no specific plan to raise the approximately 10 billion won needed to establish the system required for D to be used as a means of payment, indicates that they encountered financial and technical difficulties during the execution of the business.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendants A and B clearly intended to embezzle investment funds by providing false information to investors and inducing them to invest in an unfeasible project.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The act of inducing investment and receiving money from investors, despite the impossibility of the information provided, meets the elements of the crime of embezzlement.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendants deceived that D would be listed on the exchange and used as a valid payment method in convenience stores in China, but in reality, they lacked the professional knowledge and funds to list D on the exchange, and they had no specific plan to raise the approximately 10 billion won needed to establish the system required for D to be used as a payment method.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendants conspired to deceive the victims and, as a result, embezzled a large amount of investment funds from them.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The act of deception carried out through conspiracy, resulting in the victims incurring substantial economic losses, clearly demonstrates the outcome of embezzlement.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant B induced investments from the victims E and C by providing false information, and as a result, received 40 million won from the deceived victims into the I Bank account under the name of defendant A around July 23, 2018.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendants manipulated investment information and made false promises, thereby gaining financial benefits without any real possibility for the investors to earn investment returns.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Providing false information and promises that distort investment decisions, thereby causing investors to suffer financial losses, can be seen as an act of intentional embezzlement.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendants lied that D would be listed on a cryptocurrency exchange within about three months and that it was going to be actually used as a payment method in convenience stores nationwide operated by 'G', an organization equivalent to China's F. However, in reality, they lacked the professional knowledge or funds to be listed, and they had no plan to secure the funds needed to establish a payment system.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The information provided by the defendants was conveyed to investors as part of the business plan at the time, without any intention of deliberate embezzlement.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The defendants made efforts for the success of the business during the process of raising investment funds, and encountering unexpected difficulties can be seen as part of the unavoidable business risks.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendants argued that \"they sincerely believed in the viability of D's business and received investments accordingly, raised investment funds in accordance with the business plan, and made efforts for the success of the business.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendants did not intend to deceive the investors, and the information provided was based on the potential of the business plan.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "ENGLISH OUTPUT \nThe provision of information related to the business plan was based on business judgment, and at that time, there was confidence in the possibility of the business succeeding.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendants argued that they sincerely believed in the viability of D's business and that the information provided was part of the business plan at the time, not intended to deceive investors.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendants did not intend to cause financial harm to the investors, and although the business failed, it cannot be considered an act of deliberate embezzlement.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The failure of the business is a result of various external factors and unpredictable market changes, and cannot be equated with the defendants' deliberate acts of embezzlement.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendants argued that \"they raised investment funds according to the business plan and made efforts for the success of the business, but encountered unexpected difficulties.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The falsity of the information provided by the defendants to the investors clearly indicates the defendants' intent to embezzle.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Providing investors with false information and promising unattainable profits can be seen as a clear intention to deceive victims deliberately in order to gain financial benefits.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendant B lied to the victims E and C at a coffee shop in Yeoksam-dong, Seoul, saying, 'D will be listed on a cryptocurrency exchange within about 3 months, and it is planned to be actually used as a means of payment in convenience stores nationwide operated by 'G', an organization equivalent to F in China, just like H. Invest in the business and hold D, and you will make a profit in the future.'\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The act of the defendants receiving investment funds from investors itself proves the intent to embezzle.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The absence of the necessary funds and technical capabilities for business execution that the defendants possessed means that despite receiving money from investors, they had neither the intention nor the ability to complete the project. This can be interpreted as a clear intent to deceive the investors.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The defendants conspired to deceive the victims as described above, and as a result of the deception, they received 40 million won from the deceived victims into the account of defendant A at I Bank (account number 1 omitted) around 19:05 on July 23, 2018.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendants' attempt to explain the absence of a specific business plan as due to financial and technical difficulties is an intentional act to conceal their embezzlement intentions.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "Attracting investors before starting a business without sufficient funds and technical preparation can be seen as an act aimed solely at financial gain without considering the likelihood of the business's success, and this constitutes an act of defrauding investors.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The defendants lacked the professional knowledge and funds to list D on the exchange, and they had no specific plan to raise the approximately 10 billion won needed to establish the system required for D to be used as a payment method.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The false nature of the information provided by the defendants to the investors clearly demonstrates the intent to embezzle.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Obtaining investment funds by providing false information and promising profits that are impossible to achieve is a key element of the crime of embezzlement.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"The defendants lacked the professional knowledge and funds to list D on an exchange, and they had no concrete plan to raise the approximately 10 billion won needed to establish the system required for D to be used as a payment method. Therefore, even though they received investment funds for the D project from the victims, they had neither the intention nor the ability to generate investment returns for them.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The fact that the defendants advertised guaranteed high returns despite knowing the possibility of business failure is clear evidence of an intent to embezzle.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Despite being aware of the potential for business failure, the act of enticing investors by guaranteeing high returns indicates an intent to embezzle legally.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"However, in reality, the defendants lacked the professional knowledge and funds to list D on the exchange, and they had no concrete plan to raise the approximately 10 billion won needed to establish the system required for D to be used as a payment method. Therefore, even though they received investment funds for the D project from the victims, they had neither the intention nor the ability to generate investment returns for them.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The fact that the defendants attracted investment by presenting an unfeasible business plan satisfies the elements of the crime of embezzlement.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Inducing investors with business plans that are impossible to realize and providing false information in the process is an act of deceiving investors to gain financial benefits, and this constitutes the crime of embezzlement.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"The defendant B lied to the victims E and C at a coffee shop in Yeoksam-dong, Seoul, saying, 'D will be listed on a cryptocurrency exchange within about 3 months, and it is planned to be actually used as a payment method just like H in convenience stores nationwide operated by 'G', an organization equivalent to F in China. Invest in the business and hold onto D, and you will make a profit in the future.'\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The difficulties in the defendants' business planning and execution process demonstrate the absence of an intent to embezzle.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The information provided to investors is part of the business plan, and encountering unforeseen difficulties does not indicate an intention of embezzlement but is a risk of investment.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendants sincerely believed in the viability of D's business and received investments accordingly. They raised investment funds in accordance with the business plan and made efforts for the success of the business, but encountered unexpected difficulties.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The information presented by the defendants to the investors was based on the potential value of the business, therefore it is impossible to prove the intent to embezzle.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Presenting a business plan and attracting investment are generally part of business operations, and the difficulties encountered in this process imply the risk of business failure, not the intention of embezzlement.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The information presented by the defendants to the investors was part of the business plan at the time, and was not intended to deceive the investors.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendants intended to use the investment funds for the business, which suggests that there was no intent to embezzle.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The fact that the defendants actually made efforts for the success of the business and intended to use the investment funds for business operations is strong evidence proving the absence of an intent to embezzle.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendants raised investment funds according to the business plan and, despite encountering unexpected difficulties, made efforts for the success of the business.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "d00018",
+                "d00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

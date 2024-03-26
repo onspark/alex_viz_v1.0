@@ -1,0 +1,903 @@
+﻿{
+    "case_id": "CASE000213202210122021077004027",
+    "crime_fact": "Criminal Facts\n\"2021고단4027\"\nThe defendant, around October 2021, conspired sequentially with unidentified members of a voice phishing (also known as 'voice phishing') organization, upon their proposal, to take on the role of a cash collector, collecting cash from victims of voice phishing and delivering it.\nAn unidentified member of the voice phishing organization called the victim BV from an unknown location around October 11, 2021, impersonating an employee of W, and lied, \"Apply for a loan refinancing, and we will provide it,\" and around the same time, another unidentified member of the voice phishing organization, impersonating an employee of M, lied, \"The loan product you are currently using is prohibited from loan refinancing, and you have violated the contract by applying for loan refinancing. We have notified the Financial Supervisory Service of the contract violation, and if you do not directly repay the existing loan in cash to the employee we send, you could become a defaulter.\"\nHowever, in fact, the victim had not violated any loan contract, and the unidentified members of the voice phishing organization were not employees of financial institutions like W, M, etc., so even if the victim repaid the existing loan, they had no intention or ability to provide a loan.\nThe unidentified members of the voice phishing organization deceived the victim as described above, and the defendant, around 17:00 on October 12, 2021, in front of BX apartment in Paju City, deceived the victim again by acting as if they were an employee of M, and received 18.15 million won in cash under the guise of loan repayment from the victim.\n\"2022고단333\"\nThe defendant, around October 2021, conspired sequentially with unidentified members of a voice phishing organization, upon their proposal, to take on the role of a cash collector, collecting cash from victims of voice phishing and delivering it.\nAn unidentified member of the voice phishing organization called the victim BY from an unknown location around October 18, 2021, impersonating an employee of AC, and lied, \"We will lend you up to 38 million won at an interest rate of 2.4%,\" and again called the victim around October 20, 2021, lying, \"You have borrowed 1,215 million won from BZ, CA, and you must repay all of it in cash to an employee for the loan to be processed.\"\nHowever, in fact, the unidentified members of the voice phishing organization were not employees of financial institutions like AC, etc., so even if the victim repaid the existing loan, they had no intention or ability to provide a loan.\nThe unidentified members of the voice phishing organization deceived the victim as described above, and the defendant, around 13:16 on October 20, 2021, in Pal-dal District, Suwon, deceived the victim again by acting as if they were an employee of a financial institution, and received 1.215 million won in cash from the victim.\nThus, the defendant, in conspiracy with the unidentified members of the voice phishing organization, deceived the victim and embezzled 1.215 million won in cash from the victim who was deceived.\n\"2022고단545\"\nThe defendant, around October 2021, conspired sequentially with unidentified members of a voice phishing organization, upon their proposal, to take on the role of a cash collector, collecting cash from victims of voice phishing and delivering it.\nAn unidentified member of the voice phishing organization called the victim BU from an unknown location around 16:47 on October 7, 2021, impersonating an employee of W Bank, and lied, \"Refinancing is possible, so we will send an official document to CC Bank to proceed with the refinancing,\" and again called the victim around 10:34 on October 8, 2021, impersonating an employee of CC Bank, and lied, \"It is a violation of the contract to cancel the existing loan contract for refinancing when the loan contract period remains. If you repay the existing loan of 4.08 million won, the account payment suspension will be stopped, and the refinancing will proceed. It will be delayed if you deposit it into the account number, and you must pay in cash to an employee for the refinancing to proceed immediately.\"\nHowever, in fact, the unidentified members of the voice phishing organization were not employees of financial institutions like W Bank or CC Bank, so even if the victim repaid the existing loan, they had no intention or ability to provide a loan.\nThe unidentified members of the voice phishing organization deceived the victim as described above, and the defendant, around 14:16 on October 8, 2021, in front of CD Villa in Seocho District, Seoul, deceived the victim again by acting as if they were an employee of CC Bank, and received 4.08 million won in cash from the victim.\nThus, the defendant, in conspiracy with the unidentified members of the voice phishing organization, deceived the victim and embezzled 4.08 million won in cash from the victim who was deceived.\n\"2022고단671\"\nThe defendant, around October 2021, conspired sequentially with unidentified members of a voice phishing organization, upon their proposal, to take on the role of a cash collector, collecting cash from victims of voice phishing and delivering it.\nAn unidentified member of the voice phishing organization sent a text message to the victim BW from an unknown location around October 15, 2021, in the name of Industrial Bank, stating that a government-supported low-interest loan was available, and then again called the victim around October 18, 2021, impersonating an employee of AC Bank, and lied, \"It has been confirmed that you have applied for a loan from another bank, which is a violation of the Financial Transactions Act, and the loan will not be processed, and you could become a defaulter if you make a mistake. To avoid becoming a defaulter, repay the existing loan repayment cost of 8 million won to an employee.\"\nHowever, in fact, the unidentified members of the voice phishing organization were not employees of financial institutions like AC Bank, so even if the victim repaid the existing loan, they had no intention or ability to provide a loan.\nThe unidentified members of the voice phishing organization deceived the victim as described above, and the defendant, around 11:50 on October 18, 2021, in front of CF Gayang branch in Gangseo District, Seoul, deceived the victim again by acting as if they were an employee of AC Bank, and received 8 million won in cash from the victim.\nThus, the defendant, in conspiracy with the unidentified members of the voice phishing organization, deceived the victim and embezzled 8 million won in cash from the victim who was deceived.",
+    "target_node": {
+        "node_id": "c00003",
+        "node_type": "claim",
+        "role": "defense",
+        "label": "C_03",
+        "text": "The defendant, having been sentenced and completed their sentence for a similar legal issue in the past, was well aware of the importance of legal procedures.",
+        "label_expanded": "C_03"
+    },
+    "target_reason": "Claim c00003 argues that the defendants were unaware of the consequences of the financial fraud crime beforehand. However, this claim has very weak evidence in relation to the facts of the crime. The act of the defendants acquiring access media and providing it to a financial fraud crime organization can itself be seen as part of an intentional criminal act. Moreover, the claim that the defendants were unaware of the consequences of the financial fraud crime beforehand lacks logical persuasiveness when considering the nature of the crime and the actions of the defendants. For these reasons, claim c00003 is considered the weakest argument.",
+    "current_role": "defense",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant did not attempt to extort money from the victim, but merely requested the necessary legal fees. The defendant's threats were a temporary action due to emotional agitation, and there was no actual intention to harm the victim.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant has a criminal record of being sentenced to imprisonment for violating the Capital Market and Financial Investment Industry Act in the past, and in this case, also attempted to extort money from the victim. The defendant's actions were premeditated, and since they caused severe mental distress to the victim, the intent is clear.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant emphasizes the actual need for attorney's fees.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The request for attorney fees originates from the defendant's intention to properly carry out legal procedures, demonstrating that the defendant had no intention of extorting money.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant, around 12:47 on November 6, 2017, called the victim D from their office in Gangbuk-gu, Seoul, and stated, \"I need money for legal fees for the case I am currently facing,\" thereby demanding 20 million won for the cost of hiring a lawyer.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant emphasizes that the threatening remarks were a temporary action due to an emotional outburst.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The threatening remarks made towards the victim were made in a state of heightened emotion, indicating that the defendant had no actual intention of causing harm to the victim.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "After being refused the attorney fees by the victim, the defendant said, \"Hey you fucking bitch, you dog-like bitch, if you don't give me the money, I'll pour thinner on your face.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant, having been sentenced and completed their sentence for a similar legal issue in the past, was well aware of the importance of legal procedures.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The experience of having been sentenced in the past and having completed the execution thereof demonstrates that the defendant has an understanding and respect for legal procedures, and this emphasizes that the defendant had no intention of extorting money.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant was sentenced to 1 year and 6 months in prison for violating the Capital Market and Financial Investment Business Act by the Seoul Central District Court on April 28, 2011, and completed the execution of the sentence on April 30, 2012.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant used threatening language to inflict severe mental distress on the victim.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Threatening to inflict physical harm on the victim, in that it is carried out with the purpose of extorting money by causing extreme anxiety to the victim, can be interpreted as part of the defendant's intentional criminal activity.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"Hey you fucking bitch, you dog-like bitch, I'll pour thinner on your face if you don't give me the money,\" he attempted to extort money but the victim reported this to the police, and he failed to achieve his goal, resulting in an attempted crime.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant threatened the victim once again through retaliatory threats for a specific crime.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Retaliatory threats are a direct response to the victim's crime report, demonstrating the defendant's clear intent to conceal their criminal actions and silence the victim.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant went to \"F Hospital\" in Seongbuk-gu, Seoul, where the victim's husband was hospitalized, around 14:40 on November 6, 2017, and threatened the victim by saying, \"I will slit your throat.\" because the victim had reported to the police that she had been a victim of attempted extortion by the defendant.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant committed a premeditated act of fraud by deceiving the victim and embezzling money.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Fraud is an act highly planned to deceive the victim for financial gain, and the defendant providing false information to the victim and obtaining money is clear evidence of fraudulent activity.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant, around November 12, 2013, in a coffee shop in front of exit 1 of H station on subway line 6 in Seongbuk-gu, Seoul, lied to the victim I, saying, \"I can purchase dishonored promissory notes and deposit 10 billion won into a bank account, then create a balance certificate showing 10 billion won. I will charge a fee of 20 million won for this service.\" However, in reality, it was impossible to create a bank account balance certificate by purchasing dishonored promissory notes, and the defendant had planned to use the money received under the guise of a fee for personal expenses, such as at the racetrack, rather than fulfilling the promise.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant's threatening remarks originated more from an emotional agitation than an actual intent to harm the victim.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Given that the defendant had no specific plan or preparation to actually harm the victim, these statements can be seen as driven by a momentary emotion.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"Hey you fucking bitch, you dog-like bitch, I'll pour thinner on your face if you don't give me the money,\" he attempted to extort money but the victim reported this to the police, and he failed to achieve his purpose, resulting in an attempted crime.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant did not intend to extort money from the victim.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The amount requested by the defendant was a legitimate amount required for actual attorney fees, and this demonstrates that the intention was not to extort money but was based on actual necessity.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant, around 12:47 on November 6, 2017, in the defendant's office located in Gangbuk-gu, Seoul, called the victim D and stated, \"I need money for attorney fees for the case I am being tried for,\" and demanded 20 million won for the cost of hiring an attorney.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant's actions cannot be interpreted as part of an intentional criminal act.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Despite the defendant having a history of being sentenced and completing the execution for legal issues in the past, such past facts do not directly prove the intentionality of the current case.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant was sentenced to 1 year and 6 months in prison for violating the Capital Market and Financial Investment Business Act by the Seoul Central District Court on April 28, 2011, and completed the execution of the sentence on April 30, 2012.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's claim that they actually needed the attorney fees is merely an excuse to deceive the victim.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The claim that attorney fees are necessary is less credible considering that the defendant has a history of deceiving the victim in a similar manner in the past.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant was sentenced to 1 year and 6 months in prison for violating the Capital Market and Financial Investment Business Act by the Seoul Central District Court on April 28, 2011, and completed the execution of the sentence on April 30, 2012.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant attempted to extort money from the victim by using threatening language, thus, requesting attorney fees was not a genuine legal necessity.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Threatening to inflict physical harm on the victim in the process of requesting attorney fees is far from the legitimate execution of legal procedures and instead reveals the intent to commit a crime.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant, at approximately 12:47 on November 6, 2017, from their office in Gangbuk District, Seoul, called the victim D and said, \"Hey you motherfucker, you bitch, if you don't give me the money, I will pour thinner on your face,\" attempting to extort money. However, the victim reported this to the police, and the defendant's attempt was unsuccessful, resulting in an attempted crime.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's actions were premeditated and consistent with past patterns of crime, clearly indicating the intent to commit financial fraud against the victim.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The history of being punished for similar crimes in the past and the current pattern of behavior show continuity, indicating that the defendant clearly intended to deceive the victim and misappropriate financial benefits.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant, around November 12, 2013, in a coffee shop in front of exit 1 of H station on subway line 6 in Seongbuk-gu, Seoul, lied to the victim I, saying, \"I can purchase dishonored promissory notes and deposit 10 billion won into a bank account, then create a balance certificate showing 10 billion won. I will charge a fee of 20 million won for this service.\" However, in reality, it was impossible to create a bank account balance certificate by purchasing dishonored promissory notes, and the defendant had planned to use the money received under the guise of a fee for personal expenses, such as at the racetrack, rather than fulfilling the promise.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant clearly intended to extort money from the victim.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The act of the defendant calling the victim D and threatening, \"Hey you bitch, you dog-like woman, if you don't give me the money, I'll pour thinner on your face,\" clearly indicates an intent to extort money from the victim.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"Hey you fucking bitch, you dog-like bitch, I'll pour thinner on your face if you don't give me the money,\" he attempted to extort money but failed to achieve his goal as the victim reported the incident to the police, resulting in an attempted crime.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant embezzled money from the victim by providing false information.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The defendant's act of lying to the victim I, saying, \"I can buy a promissory note and deposit 10 billion won into a bank account, then create a balance certificate showing 10 billion won. Give me 20 million won as a fee,\" represents an intentional act of deceiving the victim to embezzle money.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"I lied that I could purchase a promissory note and deposit 10 billion won into a bank account, thereby creating a balance certificate for 10 billion won. I asked for a fee of 20 million won.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant has a history of being punished for similar legal violations in the past, demonstrating that such actions were premeditated and repetitive.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The fact that the defendant was previously sentenced to imprisonment for violating the Capital Markets and Financial Investment Business Act indicates that the defendant systematically committed similar types of crimes.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The Seoul Central District Court sentenced him to 1 year and 6 months in prison for violating the Capital Market and Financial Investment Business Act, and he completed serving this sentence on April 30, 2012.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's claim that the request for attorney's fees was not a fraudulent act is valid.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "Even if the defendant has a history of deceiving in a similar manner in the past, the context and circumstances of each case can be different, so it cannot be uniformly assessed.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant was sentenced to imprisonment in 2011 for violating the Capital Market and Financial Investment Business Act and has completed serving the sentence. However, the nature of the previous crime and the current case are different, and there can indeed be situations where legal fees are necessary.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's threatening remarks were a temporary reaction caused by an emotional outburst, not a premeditated act.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "People can behave differently under extreme stress situations, and this cannot be directly interpreted as criminal intent.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant, in a state of heightened emotion, threatened the victim by saying, \"Hey you fucking bitch, you dog-like bitch, if you don't give me the money, I'll pour thinner on your face.\" However, this was due to a moment of anger rather than an actual intent to harm the victim.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant had no intention of deceiving the victim.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "It is reasonable to view the issue as arising from the lack of a specific financing plan rather than the defendant acting with a planned intention for a specific financial gain.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant made efforts to secure a loan using the real estate in question as collateral in order to make the final payment, but it is true that there was no specific financing plan. This suggests that the defendant did not even have conditional intent.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00019",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00019",
+                "to": "c00019",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00019",
+                "to": "w00019",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00020",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00020",
+                "to": "c00020",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00020",
+                "to": "w00020",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00021",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00021",
+                "to": "c00021",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00021",
+                "to": "w00021",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00022",
+                "to": "c00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00022",
+                "to": "c00022",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00022",
+                "to": "w00022",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00023",
+                "to": "c00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00023",
+                "to": "c00023",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00023",
+                "to": "w00023",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00024",
+                "to": "c00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00024",
+                "to": "c00024",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00024",
+                "to": "w00024",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00020",
+                "d00016",
+                "d00023",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "d00017",
+                "w00023",
+                "c00023",
+                "w00014",
+                "c00014",
+                "w00012",
+                "c00012",
+                "w00021",
+                "c00021",
+                "d00003",
+                "d00010",
+                "w00019",
+                "c00019",
+                "d00005",
+                "d00021",
+                "d00019",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "d00024",
+                "d00015",
+                "d00022",
+                "d00008",
+                "d00011",
+                "w00024",
+                "c00024",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00020",
+                "c00020",
+                "w00018",
+                "c00018",
+                "w00022",
+                "c00022",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

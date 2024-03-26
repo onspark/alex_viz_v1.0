@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000214202004032019077005162",
+    "crime_fact": "Crime Facts\n\nThe defendant BG was sentenced to 2 years in prison for fraud by the Uijeongbu District Court on July 24, 2015, and the judgment became final on August 12, 2015. The defendant A was sentenced to 3 years in prison for fraud and other charges by the Busan District Court on February 23, 2018, and the judgment became final on January 17, 2019.\n\nThe defendants, in conspiracy with an unidentified person, decided to gain financial benefits equivalent to the amount loaded on the gift cards by selling gift cards to a gift card business that specializes in trading gift cards, and then using the card information, which they had previously written down on paper and knew at the time of purchase, to buy other products.",
+    "target_node": {
+        "node_id": "w00014",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_14",
+        "text": "The fact that the defendant was previously sentenced to imprisonment for fraud suggests a tendency to commit crimes in a similar manner, and this tendency is an important consideration in the judgment of the current case.",
+        "label_expanded": "D_14=>C_14"
+    },
+    "target_reason": "Explanation: w00014 argues that the size and abnormality of the compensation received by the defendant can infer the intentionality of the criminal act, but this is based on excessive assumptions. Excessive compensation does not necessarily indicate an awareness of the illegal nature and risks involved. The mere fact that the defendant received a high amount of compensation does not directly prove that the defendant was aware of participating in a criminal act. Therefore, this argument is merely hypothetical and only indirectly suggests the intentionality of the criminal act. For these reasons, w00014 can be seen as a weak argument with a weak logical connection and lacking direct relevance to the criminal facts.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendants argue that their act of purchasing other goods using gift card information does not meet the elements of fraud. They claim it was a temporary measure arising during the process of trading gift cards, and there was no intention from the beginning to gain financial benefits. The actions of the defendants can be seen as an inevitable result during the process of fulfilling a contract, and cannot be considered as having the intent to deceive.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendants, in conspiracy with an unidentified person, sold gift cards and then used the information of the sold cards to purchase other items, thereby illegally acquiring property benefits equivalent to the monetary value loaded on the gift cards. This constitutes a clear act of deception, and the actions of the defendants caused financial loss to the gift card businesses. The defendants had the intention to acquire financial benefits from the beginning, and such actions meet the elements of the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendants argue that the use of gift card information was inevitable as part of the performance of the contract.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "Temporary measures that may arise during the execution of a contract indicate the absence of intent to deceive, and therefore do not constitute the elements of fraud.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendants argued that their actions, such as purchasing other goods using the information of the gift cards they sold, occurred during the process of fulfilling the contract and that they had no intention of acquiring financial benefits from the outset.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendants argue that they had no intention of acquiring financial benefits from the beginning.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "For the crime of fraud to be constituted, the defendant must engage in deceptive acts with the purpose of acquiring financial benefits, and if there was no intention, it does not satisfy the elements required for the crime of fraud.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendants argue that although they sold gift cards in collusion with an unidentified person and then used that information to purchase other goods, this was not with the intention of acquiring financial benefits from the outset, but rather an inevitable result during the process of fulfilling the contract.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendants argue that their actions cannot be seen as having the intent to deceive, and therefore do not meet the elements required for the crime of fraud.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Acts that occur temporarily in the course of performing a contract, without the intention to deceive, do not meet the requirement of deceptive acts for the crime of fraud.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendants argue that the act of using gift card information was a temporary measure that occurred during the process of contract fulfillment, and that there was no intention from the beginning to acquire financial benefits.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendants illegally obtained financial benefits through premeditated fraudulent acts during the process of buying and selling gift cards.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The act of the defendants purchasing other goods using the card information they already knew after selling gift cards represents a premeditated act of deception.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendants conspired with an unidentified person to sell gift cards to a business specializing in the trade of gift cards. After selling the cards, they planned to use the card information, which they had previously written down on paper and knew at the time of purchase, to buy other goods, thereby acquiring financial benefits equivalent to the monetary value loaded on the gift cards.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendants' past criminal records demonstrate their intent to illegally acquire financial gains.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "People who have been convicted of fraud in the past are likely to commit similar types of crimes, suggesting that the actions of the defendants are premeditated and intentional.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant BG was sentenced to 2 years in prison for fraud by the Uijeongbu District Court on July 24, 2015, and that judgment became final. The defendant A was sentenced to 3 years in prison for fraud, among other charges, by the Busan District Court on February 23, 2018, and that judgment became final.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The fact that the defendants conspired with an unidentified person indicates that they planned and executed fraudulent activities in an organized manner.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "When multiple people conspire to commit a crime, the crime becomes more organized and premeditated, which increases the severity of the crime.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendants conspired with an unidentified person to sell gift cards to a business specializing in the trade of gift cards. After selling the cards, they planned to use the card information, which they had previously written down on paper and knew at the time of purchase, to buy other goods, thereby acquiring financial benefits equivalent to the amount loaded on the gift cards.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "Even if the defendants were convicted of fraud in the past, they can prove that their actions in this case do not meet the elements of fraud.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Past convictions do not directly influence the legal judgment of the current case, and the specific facts and legal requirements of each case must be independently assessed.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant only used the victim company's electronic wallet account information to show the representative D of E the amount of cryptocurrency held.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The actions of the defendants were temporary measures taken during the process of contract fulfillment, and there was no intent to deceive.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "Temporary measures or misunderstandings arising in the process of contract performance do not satisfy the requirements for the act of deception in fraud, and must be distinguished from actions intended for the deliberate acquisition of financial benefits.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"This was a temporary measure taken during the process of contract execution, and there was never an intention to illegally transfer cryptocurrency from the beginning.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "Even if the defendants used gift card information to purchase other items, this was merely a result of exercising contractual rights and not indicative of fraudulent intent.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Actions taken in the course of exercising rights under a contract do not constitute fraud, unless the misunderstandings or discrepancies arising in the process are considered to be with the intent to deceive.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The act of the defendant transferring cryptocurrency later occurred in the context of a complex contractual relationship and a delay in the payment of the purchase price, and cannot be seen as having been done with the intent to deceive.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's act of purchasing other goods using gift card information clearly reveals an intent to deceive.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Additional purchases made using information after the sale of gift cards occurred without the victim's prior knowledge, which constitutes an illegal infringement of the victim's property.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendants conspired with an unidentified person to sell gift cards to a business specializing in the trade of gift cards. After selling the cards, they planned to use the card information, which they had previously written down on paper and knew at the time of purchase, to buy other goods, thereby acquiring financial benefits equivalent to the amount loaded on the gift cards.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant's past guilty verdict suggests a high likelihood of the defendant committing the same type of crime again.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Past convictions indicate the defendant's propensity for crime, and a pattern of behavior in similar cases can infer that the act in the current case was intentional.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The defendant BG was sentenced to 2 years in prison for fraud by the Uijeongbu District Court on July 24, 2015, and the judgment became final on August 12, 2015. The defendant A was sentenced to 3 years in prison for fraud and other charges by the Busan District Court on February 23, 2018, and the judgment became final on January 17, 2019.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's claim that they used it only to show the representative D of E the amount of cryptocurrency held can be seen as an attempt to conceal a deceitful act intended to actually acquire financial benefits.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "If the purpose is to verify the amount of cryptocurrency held, the use of such information must be made with the explicit consent of the victim, and using it without permission is clear evidence of deception.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The defendant only used the victim company's electronic wallet account information to confirm the amount of cryptocurrency held to E's representative D.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant's claim that they used it to verify the amount of cryptocurrency held is merely an attempt to conceal the intent of fraudulent acts.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "\"The act of 'just to confirm' actually led to financial damage to the gift card business and the illegal acquisition of the funds loaded on the gift card, which clearly indicates an intent to deceive.\"",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendants conspired with an unidentified person to sell gift cards and then, using the card information they had previously written down on paper at the time of purchase, decided to acquire financial benefits equivalent to the monetary value loaded on the gift cards by purchasing other items with the sold cards.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's past guilty verdict shows a high likelihood of the defendant committing the same type of crime again.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The fact that the defendant was previously sentenced to imprisonment for fraud suggests a tendency to commit crimes in a similar manner, and this tendency is an important consideration in the judgment of the current case.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant BG was sentenced to 2 years in prison for fraud by the Uijeongbu District Court on July 24, 2015, and the judgment became final on August 12, 2015. The defendant A was sentenced to 3 years in prison for fraud, among other charges, by the Busan District Court on February 23, 2018, and the judgment became final on January 17, 2019.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The property benefits illegally acquired by the defendants caused serious property damage to the gift certificate establishments.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Acquiring financial benefits through the use of gift card information constitutes a clear act of deception against the gift card establishments, and since the affected establishments suffer financial losses as a result, this meets the elements of the crime of fraud.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendants conspired with an unidentified person to sell gift cards and then, using the card information they had previously written down on paper and knew at the time of purchase, decided to acquire property benefits equivalent to the monetary value loaded on the gift cards by purchasing other items with the sold cards.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "It can be proven that the fact that the verification of the amount of cryptocurrency held was conducted with the explicit consent of the victim is not clear evidence of deception.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "If the victim had previously consented to the use of information for the verification of the amount of cryptocurrency held, this is not considered unauthorized use and cannot be seen as an act of deception.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant only used the victim company's electronic wallet account information to show the representative D of E the amount of cryptocurrency held.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "Using gift card information to purchase other products was a temporary measure that occurred during the process of contract performance and cannot be seen as an act of deception.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Temporary measures taken during the performance of a contract cannot be considered as acts of deception intended to acquire financial benefits, and do not meet the elements required for the crime of fraud.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The defendants conspired with an unidentified person to sell gift cards to a business specializing in the trade of gift cards. After selling the cards, they planned to gain financial benefits equivalent to the amount loaded on the gift cards by purchasing other items using the card information, which they had previously written down on paper and knew at the time of purchasing the cards.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The actions of the defendants occurred in the context of complex contractual relationships and delays in payment of the purchase price, and cannot be seen as having been done with the intent to deceive.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Complex contractual relationships and delays in payment of the purchase price can inevitably occur, and actions arising in such situations cannot be conclusively determined as fraudulent acts.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"The defendants conspired with an unidentified person to sell gift cards to a business specializing in the trade of gift cards. After selling the cards, they planned to gain financial benefits equivalent to the value loaded on the gift cards by purchasing other items using the card information, which they had previously written down on paper and knew at the time of purchase.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00012",
+                "c00012",
+                "d00003",
+                "d00010",
+                "d00015",
+                "d00016",
+                "d00008",
+                "d00014",
+                "d00009",
+                "d00001",
+                "w00010",
+                "c00010",
+                "w00004",
+                "c00004",
+                "d00013",
+                "w00003",
+                "c00003",
+                "d00007",
+                "w00009",
+                "c00009",
+                "d00005",
+                "w00015",
+                "c00015",
+                "d00006",
+                "w00008",
+                "c00008",
+                "w00006",
+                "c00006",
+                "d00002",
+                "d00017",
+                "w00018",
+                "c00018",
+                "w00017",
+                "c00017",
+                "d00004",
+                "w00013",
+                "c00013",
+                "w00011",
+                "c00011",
+                "d00018",
+                "d00011",
+                "w00016",
+                "c00016",
+                "d00012",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

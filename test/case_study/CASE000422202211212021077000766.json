@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000422202211212021077000766",
+    "crime_fact": "```\nCriminal Facts\n\"2021고단766\" - Defendants A, B, C\n[Prior Criminal Record]\nDefendant B was sentenced to 1 year in prison with a 2-year suspended sentence for fraud on October 6, 2020, by the Changwon District Court, Tongyeong Branch, and the judgment became final on October 14, 2020.\nDefendant C was sentenced to 1 year and 6 months in prison with a 3-year suspended sentence for fraud, etc., on February 18, 2021, by the Changwon District Court, and the judgment became final on February 26, 2021.\n[Criminal Facts]1)\nThe defendants conspired in mid-May 2020 over the phone to commit an internet merchandise fraud, with Defendant C obtaining a bank account number to be used for the fraud, Defendant B providing his own account number to receive money transfers from the victims and then transferring the embezzled funds to an accomplice responsible for the final withdrawal, and Defendant A being responsible for the final withdrawal of the victim's funds, distributing the profits among the accomplices, and, in case the crime was discovered, taking the role of confessing to the authorities that he had committed all the acts.\nFollowing this conspiracy, Defendants C and B decided to receive the payment for the goods into the D bank account under B's name (account number omitted) from the victims. Subsequently, around May 28, 2020, at an undisclosed location, using a mobile phone (phone number omitted), they posted an advertisement on E Cafe, falsely claiming to sell a coffee machine, ice maker, etc., and deceived the victim F, who contacted them after seeing the post, into transferring 2.2 million KRW as payment for the goods into the above-mentioned D bank account under B's name on the same day.\nThus, the defendants conspired to deceive the victim and received property from the victim who was deceived.\n\"2021고단1039\" - Defendant B\nAround 16:00 on July 13, 2021, Defendant B entered room H of building G in Geoje City as a guest and threw a coffee pot owned by the victim I against a vanity mirror, breaking it and causing damage worth approximately 50,000 KRW to the coffee pot and approximately 500,000 KRW to the vanity mirror.",
+    "target_node": {
+        "node_id": "w00012",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_12",
+        "text": "When defendants who have been previously convicted of fraud commit fraud again, it indicates a clear propensity on their part to engage in fraudulent activities.",
+        "label_expanded": "D_12=>C_12"
+    },
+    "target_reason": "Explanation: The guarantor w00012 argues that the act of the defendant creating a fair document for a monetary loan agreement as a joint and several debtor to the victim shows a clear intent to deceive the victim in order to borrow money. However, this guarantee does not provide specific evidence or a logical connection necessary to directly prove the defendant's intent. The claim that the creation of the fair document for a monetary loan agreement itself indicates a clear intent to deceive is too broad and abstract, and it does not present a universal recognition or legal basis that such an act necessarily leads to deceptive behavior. Therefore, this guarantee is based on assumptions and has a weak logical connection in clearly proving the defendant's intent to deceive.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendants did not intend to commit fraud, but rather, there was a problem with the supply of goods they intended to provide to the victim. This is merely a business failure and cannot be considered a criminal act.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendants conspired to deceive the victim and had a clear intent to embezzle funds. Obtaining bank account numbers and deceiving the victim into transferring money through lies is a clear criminal act.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant A can prove that there was no actual intent to commit the crime.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The act of defendant A introducing a business plan to the victim and attempting to attract investment can be seen as part of a failed business, which is distinct from the intent to defraud.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant A argues that there was no intention to embezzle money from the victim through collusion. The failure of a business plan does not imply criminal intent, and all businesses carry the risk of failure. Defendant A introduced the business plan to the victim and attracted investment, not acting with the intention to commit fraud.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendants had the intention to actually supply the goods to the victim.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The defendants' failure to supply goods to the victim was due to external factors, which is a different issue from the intent to defraud.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "In mid-May 2020, the defendants conspired over the phone to commit internet merchandise fraud. Defendant C obtained a bank account number to be used for the fraudulent act, and Defendant B provided his own account number to receive money from the victims, transferring the embezzled funds to an accomplice responsible for the final withdrawal. Defendant A was to ultimately withdraw the victim's money, distribute the profits among the accomplices, and, in the event the crime was discovered, take on the role of confessing to the authorities that he alone committed the entire crime. From this, it can be inferred that the defendants actually intended to sell merchandise.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant B's previous criminal record is irrelevant to this case, and one should not judge the present by past mistakes.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Past criminal records do not directly prove the intent of the crime in the current case, and each case must be evaluated independently.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "On October 6, 2020, the defendant B was sentenced to one year in prison with a two-year suspended sentence for fraud at the Changwon District Court, Tongyeong Branch, and the judgment became final on October 14, 2020.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendants B and C played an essential role in deceiving the victim through premeditation, such as obtaining and providing bank account numbers, for the purpose of committing fraud.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "In fraud, obtaining and providing account numbers is a crucial step for embezzling funds, and such actions clearly demonstrate the premeditation and intent of the crime.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "Around mid-May 2020, the defendants conspired over the phone to commit internet merchandise fraud, and Defendant C obtained a bank account number to be used for the fraudulent act, while Defendant B provided his own account number for the crime.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendants systematically divided their roles to commit fraud, and this was a premeditated criminal act carried out in conspiracy.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "It is clear that each defendant played a specific role to maximize the efficiency of the crime and to disperse the responsibility. This is an important indicator of the professionalism and premeditation of the crime.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "Defendant A conspired to ultimately withdraw the stolen funds, distribute the profits among the accomplices, and, in the event that the crime was discovered, to take on the role of stating to the investigative authorities that they had committed all the acts themselves.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendants executed fraud by receiving money transfers from the victim through lies, which clearly demonstrates the defendants' intent to embezzle.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The act of deceiving the victim to obtain property is an essential element of fraud, and such actions clearly reveal the defendants' intent and premeditation regarding their fraudulent activities.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendants, around May 28, 2020, from an undisclosed location, used a mobile phone to post a message on E-cafe indicating that they were selling items such as coffee machines and ice makers. They then lied to the victim, F, who contacted them after seeing the post, stating that if they sent 2.2 million won, they would sell them the coffee machine, etc. Consequently, they deceived the victim into transferring 2.2 million won on the same day to a bank account under the name B at D Bank.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendants argue that their actions were not planned criminal acts, but rather the result of unforeseen business failures.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Failure in business must be distinguished from intentional criminal acts.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "Defendant A argues that there was no intention to embezzle funds from the victim by conspiring. The failure of a business plan does not imply criminal intent, and all businesses carry the risk of failure.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The roles performed by each defendant were not to maximize the efficiency and professionalism of the crime, but merely acts of division of labor according to their respective capabilities.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "Division of labor is a natural process that often occurs in cooperative business activities.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendants conspired to commit internet merchandise fraud over the phone, but this was merely a division of labor based on each individual's capabilities, and there is no clear evidence of an intention to diffuse responsibility.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "There is no clear evidence that the defendants acted with the intention to defraud the victim, and the evidence presented does not clearly reflect the intentions of the defendants.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Concrete and clear evidence is required to prove intent.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "Defendant A argues that they introduced a business plan and attracted investment, not with the intention of committing fraud, but rather as a legitimate business activity. Therefore, this can be seen as a business failure, and cannot be considered a criminal act.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The fact that the defendants conspired to commit fraud in advance shows that they had a clear intention to embezzle money from the victim.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The fact that the defendants obtained account numbers to be used in the crime and divided the roles of receiving money transfers from the victims is clear evidence of intent to defraud.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "In mid-May 2020, the defendants conspired over the phone to commit internet fraud, with defendant C obtaining a bank account number to be used for the scam, and defendant B providing his own account number to receive money from the victims and then transferring the embezzled funds to an accomplice responsible for the final withdrawal. Defendant A was to ultimately withdraw the defrauded money, distribute the proceeds among the accomplices, and, in the event that the crime was discovered, take on the role of confessing to the authorities that he alone had committed the entire crime.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The money transferred from the victim by the defendants, as a result of their conspiracy, is the outcome of their premeditated fraudulent act.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The act of the defendants deceiving the victim by lying about selling goods and receiving money transfers is a clear execution of fraud.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendants lied to the victim F, claiming they would sell items such as a coffee machine, and on the same day, received a transfer of 2.2 million won into a D bank account under the name B.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The past fraud convictions of defendants B and C suggest a high likelihood that they would plan and commit fraud again.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "When defendants who have been previously convicted of fraud commit fraud again, it indicates a clear propensity on their part to engage in fraudulent activities.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "Defendant B was sentenced to 1 year in prison with a 2-year suspended sentence for fraud at the Changwon District Court, Tongyeong Branch, on October 6, 2020, and the judgment became final on October 14, 2020. Defendant C was sentenced to 1 year and 6 months in prison with a 3-year suspended sentence for fraud, among other charges, at the Changwon District Court on February 18, 2021, and the judgment became final on February 26, 2021.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendants had a clear intent to embezzle funds by premeditating and conspiring to commit the crime.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Planned actions to deceive the victim indicate an intentional act of fraud.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendants conspired in mid-May 2020 via telephone to commit internet merchandise fraud. Defendant C was responsible for obtaining a bank account number to be used in the fraud, while Defendant B provided his own account number to receive transferred funds from the victims and then send the misappropriated funds to an accomplice responsible for the final withdrawal. Defendant A was tasked with making the final withdrawal of the victim's funds, distributing the proceeds among the accomplices, and, in the event the crime was discovered, taking full responsibility for the crime in statements to the investigative authorities.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The past criminal records of defendants B and C indicate that they have committed similar crimes before, which increases the likelihood of intentional criminal activity in the current case.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Past criminal acts demonstrate that the defendants are skilled in fraud and are likely to repeat such actions.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "Defendant B was sentenced to 1 year in prison with a 2-year suspended sentence for fraud at the Changwon District Court, Tongyeong Branch, on October 6, 2020, and that judgment became final on October 14, 2020. Defendant C was sentenced to 1 year and 6 months in prison with a 3-year suspended sentence for fraud, among other charges, at the Changwon District Court on February 18, 2021, and that judgment became final on February 26, 2021.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The act of the defendants receiving money transfers from the victim F by lying is clear evidence of a premeditated fraud.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Providing false information to deceive the victim clearly indicates an intent to deliberately embezzle property.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendants, around May 28, 2020, from an unknown location, wrote a post on E-cafe using a mobile phone, stating that they were selling a coffee machine, an ice maker, etc., and then lied to the victim F, who contacted them after seeing the post, saying that if they sent 2.2 million won, they would sell them the coffee machine and other items. Believing this, the victim transferred 2.2 million won on the same day to a D bank account under the name B.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "Past convictions for fraud do not prove fraudulent intent in the current case.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "Past criminal behavior does not necessarily predict future actions, and each case should be judged based on its independent circumstances and intentions.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "ENGLISH OUTPUT \nThe defendant A claims that there was no intention to conspire to embezzle money from the victim.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendants actually intended to supply goods to the victim and did not have fraudulent intent.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Business failure is different from criminal intent, and all businesses carry the risk of failure.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "Defendant A argues that the failure of a business plan does not imply criminal intent, and that all businesses carry the risk of failure.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendants did not receive any property from the victim; rather, the supply of goods was delayed due to business-related issues.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "If the act of receiving property from the victim, which is one of the elements of the crime of fraud, can be seen as a delay due to business failure, this suggests the absence of fraudulent intent.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "Defendant A introduced a business plan to the victim and attracted investment, not acting with the intention of committing fraud.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00012",
+                "w00011",
+                "c00011",
+                "d00002",
+                "d00013",
+                "d00004",
+                "d00009",
+                "w00018",
+                "c00018",
+                "w00009",
+                "c00009",
+                "d00006",
+                "w00002",
+                "c00002",
+                "w00017",
+                "c00017",
+                "d00007",
+                "w00013",
+                "c00013",
+                "w00008",
+                "c00008",
+                "w00004",
+                "c00004",
+                "w00015",
+                "c00015",
+                "w00006",
+                "c00006",
+                "d00003",
+                "w00016",
+                "c00016",
+                "w00007",
+                "c00007",
+                "d00008",
+                "w00014",
+                "c00014",
+                "d00010",
+                "d00001",
+                "d00014",
+                "w00010",
+                "c00010",
+                "d00005",
+                "d00015",
+                "d00016",
+                "d00018",
+                "d00011",
+                "d00017"
+            ]
+        }
+    }
+}

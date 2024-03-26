@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000212201701192016077003947",
+    "crime_fact": "Crime Facts\nThe defendant was sentenced to 1 year in prison and 2 years of suspended execution by the Incheon District Court, Bucheon Branch, on April 24, 2015, for fraud, etc., and the judgment became final on May 2, 2015.\nThe defendant is a domestic cash withdrawal agent connected to a so-called phishing fraud organization linked with Chinese individuals.\nIn conspiracy with unidentified members of the phishing organization (alias 'D'), the defendant used fake websites and internet access programs of domestic financial institutions created by the phishing organization members through unknown methods to obtain victims' financial information. Then, by transferring the victims' money to a predetermined account, the defendant, possessing the check card linked to the account where the money was transferred, was instructed by 'D' to withdraw the money in cash and transfer it to another predetermined account.\nAn unidentified member of the phishing organization spread malware capable of accessing fake financial institution websites, creating personal information input fields related to financial fraud, and acquiring the financial information entered by victims, through unknown methods in an unspecified location in China around 2014. This malware infected a computer installed at the office of Company G, located in Seobuk-gu, Cheonan-si, Chungcheongnam-do, with victim F as its representative.\nOn September 24, 2014, around 17:18, the company's accountant H, unaware of the malware infection on the office computer, accessed the KB Kookmin Bank internet banking site using the computer. A popup window appeared, unusually prompting to register for a \"Financial Information Leakage Secondary Damage Prevention Service.\" Believing it to be a normal procedure of the financial institution, H entered the financial information of Company G, including the Kookmin Bank account number, account password, transfer password, and digital certificate password, and similarly entered the financial information of the company's NH Bank account.\nUsing the financial information of Company G entered by H, who was deceived by the fake site on September 24, 2014, around 17:18, the unidentified member of the phishing organization transferred 268,000,000 won stored in Company G's Kookmin Bank account (account number I) and NH Bank account (account number J) into 13,000,000 won to a Saemaul Geumgo account under the name of K (account number L), 30,000,000 won to a Shinhan Bank account under the name of M (account number N), another 30,000,000 won to a different Shinhan Bank account under the name of M (account number O), 30,000,000 won to a Post Office account under the name of P (account number Q), and continued on September 25, 2014, around 08:40, transferring 30,000,000 won to a Hana Daetoo Securities account under the name of R (account number S), 20,000,000 won to a Hana Daetoo Securities account under the name of T (account number U), 20,000,000 won to a Dongyang Securities account under the name of T (account number V), 10,000,000 won to a Dongbu Securities account under the name of T (account number W), 20,000,000 won to an IBK account under the name of X (account number Y), 20,000,000 won to a Shinhyup account under the name of Z (account number AA), 20,000,000 won to an IBK account under the name of AB (account number AC), and 25,000,000 won to a Kookmin Bank account under the name of AD (account number AE).\nSubsequently, the defendant, using the check card of the Shinhan Bank account under the name of M, which he had in possession, withdrew a total of 25,564,600 won from around September 24 to 25, 2014, and transferred it to a person or account as instructed by 'D'.\nThus, the defendant facilitated the acquisition of a property benefit amounting to 25,564,600 won by aiding 'D' and others in unauthorizedly entering and altering information in computers and other information processing devices, thereby facilitating their information processing.",
+    "target_node": {
+        "node_id": "c00010",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_10",
+        "text": "It can be clearly proven that the defendant had the intent to aid and abet the fraudulent act.",
+        "label_expanded": "C_10"
+    },
+    "target_reason": "Claim c00010 argues that the defendant's direct involvement in the bidding process is not persuasive, but this is merely an inference based on a fundamental understanding of the defendant's role and criminal act. This claim does not present concrete evidence or data that clearly proves the defendant's direct involvement, but is based solely on the fact that they were involved in the development and installation of malicious software. Therefore, this claim tends to exaggerate or definitively conclude the defendant's role in the bidding process, including a logical leap.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was unaware of the fact that they had obtained financial benefits from the fraudulent act. Therefore, due to the lack of intent, they cannot be considered an accomplice to the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant has a prior conviction for a similar fraud offense and facilitated the fraud by continuously communicating with a co-conspirator during the commission of the crime. This suggests that the defendant was aware of the essential elements of the fraud offense, clearly indicating intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant did not recognize the essential elements of the crime.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "If there is no intent to commit a crime, the act cannot be considered as aiding and abetting the crime.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant merely withdrew or transferred money following the instructions of 'D', and was not aware of the fact that these actions themselves resulted in obtaining financial benefits from the fraud.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant was unaware of the details of the criminal plan.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "If the defendant was unaware of the details of the criminal plan, he cannot have the intentionality of the crime, and this can mitigate his responsibility.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant is accused of conspiring with members of a phishing organization, including an unidentified person (alias 'D'), to obtain financial information and transfer the victim's money. However, it is claimed that they were unaware of the specific plans or the methods used to acquire the victims' financial information.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant only played the role of an accomplice and was not specifically aware of the principal offender's plan or method of execution.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "If the accomplice was not specifically aware of the principal offender's plan or method of execution, his actions lack intent, and this can be an important factor in mitigating criminal liability.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant only received withdrawal instructions from 'D' and was unaware of how an unidentified member of the phishing organization discovered the victim's financial information using fake financial institution websites and computer internet access programs, nor did they know the specific plans or methods used to transfer the victim's funds.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant actively participated in the fraud by maintaining continuous contact with the co-conspirator.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Continuous contact and cooperation with a co-conspirator is clear evidence of criminal conspiracy, which means that the defendant actively participated in and conspired in the crime.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant agreed to withdraw the said funds in cash upon receiving withdrawal instructions from 'D' and to transfer them to a predetermined account.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant has a prior conviction for a similar crime, which suggests that the defendant fully understood the nature of the crime.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Having a previous conviction indicates an awareness and understanding of the crime, which strongly suggests the presence of intent.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant was sentenced to 1 year in prison and 2 years of suspended sentence for fraud and other charges at the Bucheon branch of the Incheon District Court on April 24, 2015. This judgment was finalized on May 2, 2015.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant collaborated with a phishing scam organization to commit crimes using the victim's financial information.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Discovering the victim's financial information and using it to transfer funds requires a high degree of planning and organized conspiracy, and the defendant's actions played a significant role in the execution of the fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant, in conspiracy with members of a phishing organization including an unidentified person (alias 'D'), used fake websites of domestic financial institutions and internet access programs on computers, which were created by the phishing organization members through unknown methods, to obtain victims' financial information. Subsequently, they arbitrarily transferred the victims' money to pre-determined accounts.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant lacked intent as they were unaware of the details of the phishing scam organization's activities.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The fact that the defendant merely withdrew or transferred money following 'D's instructions does not mean that the defendant was aware of the entire scheme or details of the phishing scam.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant conspired with members of a phishing organization, including an unidentified person known as 'D', to use fake websites of domestic financial institutions and computer internet access programs created by the phishing organization members through unknown methods to obtain victims' financial information. After obtaining this information, they arbitrarily transferred the victims' money to a predetermined account. The defendant, possessing the check card linked to the account where the money was transferred, agreed to withdraw the money in cash upon receiving instructions from 'D' and then transfer it to another predetermined account.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "Even if the defendant has a previous conviction for fraud, it cannot be conclusively determined that there was intent in this case.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "A past guilty verdict does not necessarily mean that the defendant was aware of the specific nature and detailed method of the fraudulent act in this case.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant was sentenced to 1 year in prison and 2 years of suspended sentence for fraud and other charges at the Bucheon branch of the Incheon District Court on April 24, 2015. This judgment was finalized on May 2, 2015.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant cannot be considered an accomplice to the crime of fraud since they did not directly obtain or use the victim's financial information.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "To be recognized as an accomplice to the crime of fraud, there must be an act that directly aids in the execution of the crime, and the defendant is merely performing the role of withdrawing or transferring money as instructed.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "An unidentified member of a phishing organization, in an unspecified date in 2014, in an unknown location in China, distributed malware capable of accessing fake financial institution websites, creating input fields for financial fraud-related personal information, and acquiring financial information entered by victims through an unknown method. This malware infected a computer installed in the office of Company G, represented by victim F, located in Seobuk-gu, Cheonan-si, Chungcheongnam-do.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "It can be clearly proven that the defendant had the intent to aid and abet the fraudulent act.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The fact that the defendant continuously communicated with 'D' and proceeded with cash withdrawals and transfers shows a clear intent to aid and abet the fraud.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant, using a Shinhan Bank check card for an account held under the name M, which they had in their possession beforehand, withdrew a total of 25,564,600 won from around September 24, 2014, to September 25, 2014, and transferred it to a person directed by 'D' or into an account as instructed by 'D'.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant was fully aware of the essential elements of the fraud offense.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The involvement of a defendant, who has already been convicted of a similar type of crime, in the same type of criminal activity again suggests that there was sufficient awareness of the essential elements of the crime and deliberate action utilizing that knowledge.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant was sentenced to 1 year in prison and 2 years of suspended sentence for fraud and other charges at the Bucheon branch of the Incheon District Court on April 24, 2015. This judgment was finalized on May 2, 2015.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant cannot substantiate the claim that they simply acted as instructed.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The conspiracy relationship between the defendant and the members of the phishing organization, as well as the specific roles played, show that the defendant went beyond being a mere executor of orders and directly aided in the commission of the crime.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant conspired with members of a phishing organization, including an unidentified person known as 'D', to use fake websites of domestic financial institutions and computer internet access programs created by the phishing organization members through unknown methods to obtain victims' financial information. After obtaining this information, they would arbitrarily transfer the victims' money to a predetermined account. The defendant, possessing the check card linked to the account where the money was transferred, would then receive withdrawal instructions from 'D' and withdraw the money in cash to transfer it to another predetermined account.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant was fully aware of the essential elements of the fraud crime.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Given that the defendant has previously been sentenced to imprisonment for fraud and was on probation, it is understood that they would have had awareness and understanding of the fraud crime.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant was sentenced to 1 year in prison and 2 years of suspended sentence for fraud and other charges at the Bucheon branch of the Incheon District Court on April 24, 2015. This judgment was finalized on May 2, 2015.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant abetted the fraud, which demonstrates that there was an intent to abet.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The fact that the defendant received direct withdrawal instructions from 'D' and withdrew and transferred the funds demonstrates that this act played a significant role in the execution of the fraud.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "Subsequently, the defendant used a Shinhan Bank check card, which belonged to M and was in the defendant's possession beforehand, to withdraw a total of 25,564,600 won from around September 24, 2014, to September 25, 2014. The defendant then delivered the money to a person directed by 'D' or transferred it to an account as instructed by 'D'.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "Despite being fully aware of the criminal act through a previous conviction, the defendant repeated the same type of criminal behavior.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Despite having awareness and experience of fraud crimes due to a previous conviction, repeating the same type of crime demonstrates clear intent.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant was sentenced to 1 year in prison and 2 years of suspended sentence for fraud, etc., by the Bucheon branch of the Incheon District Court on April 24, 2015, and the judgment became final on May 2, 2015.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "There is insufficient evidence that the defendant intentionally participated in the fraud crime.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "Just because the defendant was found guilty in the past does not mean that they acted with the same awareness and intent in this case.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant claimed not to have known that the money was obtained through fraud, stating that they merely withdrew or transferred the money following orders.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The fact that the defendant was unaware of the essential elements of the crime must be considered in the legal judgment.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "It is difficult to acknowledge intent without an understanding of the essential elements of a crime.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant is emphasizing that they were unaware the money was obtained through fraudulent activities.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant's actions lack intent, thus cannot be seen as an accomplice to the crime of fraud.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "In the absence of intent, one cannot be considered an accomplice to a crime.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant merely withdrew or transferred money upon instruction, and cannot be considered to have recognized the essential elements of the crime.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00008",
+                "c00008",
+                "d00013",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

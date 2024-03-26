@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000210202208242021077005213",
+    "crime_fact": "Crime Facts\n\nThe defendant, since the beginning of November 2017, started visiting the 'D Restaurant' operated by the victim C in Gangnam-gu, Seoul, B, and became acquainted with the victim.\n1. Fraud\nAround the beginning of November 2017, at the aforementioned restaurant, the defendant lied to the victim, saying, \"Isn't the restaurant work too hard? Don't work so hard; I have a place where I'm investing, so if you lend me money, I will make you money. If you lend me 10,000,000 won, I will generate a profit of 500,000 won for you.\" However, in reality, the defendant intended to use the money received from the victim for his own debt repayment, living expenses, stock investments, etc., and thus had neither the intention nor the ability to invest the money properly to repay the promised interest and the principal amount borrowed to the victim.\nThe defendant deceived the victim in this manner and received a transfer of 3,000,000 won to the defendant's postal account (account number omitted) under the guise of a loan on November 24, 2017, and from then until November 7, 2018, received a total of 293,850,000 won in 32 separate transactions as listed in Crime Details Table 1.\n2. Fraud Using Computer, etc.\nWhile borrowing and using the victim C's credit card for living expenses and other payments, promising to pay the card bills, the defendant decided to use the money through loan services and cash withdrawals from ATMs, taking advantage of having possession of the said credit card.\na. Crime using ARS loan service\nOn June 26, 2018, at an unknown location, the defendant used the ARS loan service of victim's company E Card, pretending to be C himself by unauthorizedly entering known personal information such as C's social security number, E Card number, and PIN, to apply for a credit loan, and received a transfer of 6,000,000 won to C's F Bank account under the guise of a loan on the same day. From then until January 7, 2019, using the same method, the defendant received a total of 59,300,000 won in 17 separate transactions as listed in Crime Details Table 2, thereby acquiring the same amount of financial benefit.\nb. Crime using a cash dispenser\nOn June 29, 2018, at an unknown location, the defendant inserted the G Card, which had been given by C and was in C's name, into a cash dispenser managed by victim's company F Bank, pressed the cash service application button, and unauthorizedly entered the known G Card PIN and other information to process the information, thereby withdrawing 1,000,000 won in cash under the guise of a cash service. From then until November 26, 2018, using the same method, the defendant withdrew a total of 8,000,000 won in 12 separate transactions as listed in Crime Details Table 3, thereby acquiring the same amount of financial benefit.",
+    "target_node": {
+        "node_id": "w00006",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_06",
+        "text": "The repeated commission of fraud demonstrates the defendant's intent and the premeditation of the crime, and borrowing money from the victim and then using it for personal purposes constitutes an act of deception towards the victim, satisfying the elements of the crime of fraud.",
+        "label_expanded": "D_06=>C_06"
+    },
+    "target_reason": "Explanation: w00006 argues that the defendant's use of the money received from the victim for personal purposes proves that the promise to facilitate a loan was false. However, this logical connection focuses more on the outcome of the defendant's actions rather than directly proving the falsity of the promise, and is not direct in proving the intent to deceive. The mere fact that the defendant used the money for personal purposes does not clearly prove that the promise to facilitate a loan was false from the beginning. Therefore, this logical connection is based on assumption and has weak direct relevance to the criminal facts.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant claims that they had the intention and ability to generate interest income for the victim, and that the borrowed money from the victim was not used for the defendant's debt repayment or living expenses but was used for legitimate investment purposes. Therefore, the defendant argues that they do not meet the elements of the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant acquired a loan by deceiving the victim and used it for personal purposes such as repaying their own debts, living expenses, and stock investments. Moreover, using the credit card information of the victim without their consent to access financial services constitutes clear fraud and a violation of the Act on the Aggravated Punishment, etc. of Specific Economic Crimes involving computer fraud. The actions of the defendant meet all the elements of fraud, and legal responsibility is required.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant emphasizes that the borrowed money was used for a legitimate investment purpose.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The fact that the defendant was generating interest income through investment at the time of borrowing allows for the reasonable assumption that the borrowed funds were used for investment purposes, not for personal use.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "\"The defendant claims that at the time of borrowing, they were generating interest income through investment and had the ability to repay the borrowed money to the victim.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant received explicit permission from the victim to use the credit card.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "If there was explicit permission, the defendant's use of the credit card occurred with the consent of the victim, so it cannot be considered an act of deception.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "\"The defendant claims to have received comprehensive, explicit permission from the victim to use the credit card.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant had the intention and ability to compensate the victim.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The fact that the defendant was generating interest income and had the ability to repay at the time of borrowing suggests that the defendant had no intent to embezzle.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "\"The defendant claims that at the time of borrowing, they were generating interest income through investment and had the ability to repay the loan to the victim.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant committed fraud by exploiting the trust relationship with the victim to obtain a loan, which was then used for personal purposes.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Lies based on a trust relationship with the victim are a significant means of deceiving the victim, and using the money obtained through this for personal purposes constitutes the elements of the crime of fraud.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "In early November 2017, the defendant lied by saying, \"I have a place where I'm investing, if you lend me money, I will make you earn money,\" and promised the victim to generate a profit of 500,000 won if they lent him 10,000,000 won. However, in reality, the defendant intended to use the money received from the victim for his own debt repayment, living expenses, and stock investments.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant used the victim's credit card information to access financial services without the explicit or implicit consent of the victim, which constitutes the crime of fraud using computers or similar devices.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Using credit card information without the victim's consent to utilize financial services meets the elements of the crime of computer fraud, and acquiring financial benefits through this means is prohibited by law.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant, on June 26, 2018, applied for a credit loan and received money transfers by using the ARS loan service of the victim company, E Card, and entering information such as the resident registration number, E Card number, and password of C, whom they already knew, as if they were C themselves, without authorization. Through these actions, the defendant received a total of 59,300,000 won in transfers, thereby acquiring an equivalent amount of financial benefit.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant repeatedly borrowed money from the victim and used it for personal purposes rather than legitimate investments, which constitutes the repeated commission of fraud.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The repeated commission of fraud demonstrates the defendant's intent and the premeditation of the crime, and borrowing money from the victim and then using it for personal purposes constitutes an act of deception towards the victim, satisfying the elements of the crime of fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant received a total of 293,850,000 won from the victim in 32 separate instances as loans, from November 24, 2017, to November 7, 2018. Such acts can be seen as the defendant repeatedly deceiving the victim to gain financial benefits.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant can prove that the borrowed money from the victim was not used for personal purposes, but was used for legitimate investment purposes.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The defendant claims that at the time of borrowing, they were generating interest income through investment and had the ability to repay the loan to the victim.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant claims that at the time of borrowing, they were generating interest income through investment and had the ability to repay the borrowed money to the victim.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant received comprehensive and explicit permission from the victim to use the credit card, therefore there is no fraudulent act.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The defendant claims to have received comprehensive, explicit permission from the victim to use the credit card, indicating that there was no fraudulent act.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant claims to have received comprehensive and explicit permission from the victim to use the credit card, indicating that there was no fraudulent act.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant's use of the borrowed money does not imply repeated execution of fraud, and there was no intent on the part of the defendant.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The defendant, who had the intention and ability to generate interest income for the victim, can argue the absence of intent as the borrowed money was used for a legitimate investment purpose.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant claims that at the time of borrowing, they were generating interest income through investment and had the ability to repay the loan to the victim.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's claim that the borrowed money was actually used for investment purposes is refuted by the fact that the amount received from the victim was used for personal purposes.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The fact that the amount borrowed from the victim was used for the defendant's debt repayment, living expenses, stock investments, and other personal purposes contradicts the defendant's claim that the borrowed funds were used for investment purposes.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendant intended to use the money received from the victim for purposes such as repaying their own debts, living expenses, and stock investments.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "When the defendant borrowed money from the victim, they had neither the intention nor the ability to generate profits through normal investments.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Contrary to the defendant's claim that the borrowed money was used for investment purposes, there was actually no legitimate investment plan, and the defendant also lacked the intention or ability to repay the promised interest and principal to the victim. Therefore, the defendant's claim lacks credibility.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The defendant had neither the intention nor the ability to invest the borrowed money properly and repay the victim with the promised interest and the principal amount of the loan.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant used the victim's credit card information without their consent to utilize financial services, which constitutes the crime of fraud using computers or similar devices.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "Using credit card information to utilize financial services without the explicit or implicit consent of the victim constitutes a clear act of fraud by the defendant, who deceived the victim to gain financial benefits. This meets the elements of the offense of fraud using computers or similar devices.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The defendant, while borrowing and using a credit card from C, decided to take advantage of having possession of the said credit card to receive loan services and cash services through ATMs, thereby using the funds.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant's claim that they had the intention and ability to compensate the victim lacks credibility.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The defendant's use of the money received from the victim for personal purposes such as repaying their own debts, living expenses, and stock investments suggests that the defendant had neither the intention nor the ability to repay at the time of borrowing.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"The defendant, as described above, deceived the victim and, under the guise of a loan, received a transfer of 3,000,000 KRW into the defendant's postal account from the victim who was tricked on November 24, 2017. From that time until November 7, 2018, using the same method, the defendant received a total of 293,850,000 KRW over 32 occasions as listed in the attached crime summary table 1.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant used the victim's credit card information to access financial services without the victim's explicit or implicit consent.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The act of the defendant using the victim's credit card for ARS loan services and cash services constitutes a clear case of fraud, where the defendant deceived the victim to gain financial benefits.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"The defendant, on June 26, 2018, at an unknown location, used the ARS loan service of the victim company E Card, pretending to be C himself by unauthorizedly entering information he already knew, such as C's social security number, the above E Card number, and password, to apply for a credit loan. On the same day, he received a transfer of 6 million won to C's F Bank account under the guise of a loan, and from that time until January 7, 2019, he received a total of 59,300,000 won transferred in the same manner over 17 occasions as listed in the attached crime summary table, thereby acquiring property benefits of the same amount.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's actions constitute fraud and the crime of computer and other electronic fraud.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The act of the defendant deceiving the victim by promising a definite interest, receiving money from the victim, and using the victim's credit card information to utilize financial services satisfies the elements of the crime of fraud.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"The defendant intended to use the money received from the victim for purposes such as repaying his debts, living expenses, and stock investments. By deceiving the victim in such a manner, the defendant received a transfer of 3,000,000 won under the guise of a loan to his postal account in his name on November 24, 2017. From that time until November 7, 2018, using the same method, he received a total of 293,850,000 won transferred in 32 separate instances, as listed in the attached crime summary table 1.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "There is evidence that proves the defendant used the borrowed money not for personal purposes but for legitimate investment objectives.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The defendant claimed that they were generating interest income through investment at the time of borrowing, which suggests that the borrowed funds were used for investment purposes.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant claims that at the time of borrowing, they were generating interest income through investment and had the ability to repay the borrowed money to the victim.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant can demonstrate that they received comprehensive, explicit permission to use the victim's credit card, indicating that there was no fraudulent activity.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Comprehensive and explicit permission for the use of a credit card means that the defendant did not use the credit card by deceiving the victim, but rather, it was used with the consent of the victim.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"Furthermore, the defendant claims to have received comprehensive, explicit permission from the victim to use the credit card, indicating that there was no fraudulent act.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant's use of the borrowed money was not for personal purposes, but for investment purposes, and this proves that the defendant used the borrowed money legitimately.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The claim that the borrowed money was used for investment purposes means that the defendant did not use the borrowed money for personal purposes, but rather for the purpose of generating the interest income promised to the victim.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"The defendant claims that at the time of borrowing, they were generating interest income through investment and had the ability to repay the borrowed money to the victim.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

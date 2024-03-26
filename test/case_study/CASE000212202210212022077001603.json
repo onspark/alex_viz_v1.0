@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000212202210212022077001603",
+    "crime_fact": "Crime Facts\n\nThe organization behind telephone financial fraud (commonly known as 'voice phishing') operates from foreign countries such as China, deceiving an unspecified number of victims within the country by impersonating financial institutions or investigative agencies over the phone, and embezzling money from those who are tricked into handing it over. The operation is divided into roles such as the 'mastermind' who oversees the entire operation and manages organic communication between internal cells, the 'manager' who follows the mastermind's orders to oversee internal members and instructs them on deception techniques and cash collection methods, the 'call center member' who calls victims impersonating financial institutions or investigative agencies to deceive them, and the 'cash collector' who meets with victims in person to receive the money.\n\nThe defendant, around the end of October 2021, conspired sequentially with members of an unidentified voice phishing organization after receiving a proposal from an unidentified member of the organization to act as a 'cash collector' under the direction of an unidentified person via KakaoTalk mobile messenger, to personally collect the defrauded money from victims and deliver it to the unidentified person, in exchange for a fee.\n\n1. Theft\nAn unidentified person, around November 4, 2021, impersonated 'Seoul Metropolitan Police Agency D' and called victim C (female, 82 years old), claiming \"Your name has been used for international calls. Money amounting to tens of millions of won could be withdrawn from your account, so you must cancel your deposit account and withdraw all the cash.\" Subsequently, another unidentified person impersonated 'Financial Supervisory Service E Manager' and advised over the phone \"All the people who touched the cash must be fingerprinted, so put all the withdrawn cash in a black plastic bag and leave it under the mailbox in front of your house. After fingerprinting, we will return the cash in person or transfer it back to your account.\"\n\nHowever, these unidentified individuals were not employees of any investigative agency or financial institution, and had no intention of returning the cash taken under the pretext of 'fingerprinting'.\n\nDespite this, by deceiving the victim in such a manner, they made the victim leave 48 million won in cash inside a black plastic bag under the mailbox of her home in Seodaemun-gu, Seoul, around 13:00 on November 4, 2021. Following their instructions, the defendant secretly took the cash at the specified time and place and later met with another unidentified member of the organization at an unknown location to hand over the cash.\n\nThus, the defendant, in conspiracy with the unidentified individuals, embezzled 48 million won in cash owned by the victim.\n\n2. Fraud\nAn unidentified person, around 09:50 on November 4, 2021, from an unknown location, called victim B (male, 83 years old) impersonating 'Financial Supervisory Service G', falsely claiming \"A bank employee has been using bank money for personal use and luxury. We are trying to find that bank employee who used your money for personal purposes. Withdraw all the money from your bank account and hand it over to the employee we send, and we will fingerprint the money and return it to you.\"\n\nHowever, in reality, the unidentified person was not an employee of the Financial Supervisory Service, and had no intention of returning the money received from the victim.\n\nNevertheless, by deceiving the victim in such a manner, they made the victim prepare and wait with 35 million won in cash inside room I of H Motel in Eunpyeong-gu, Seoul, around 15:50 on November 4, 2021. Following their instructions, the defendant received the cash from the victim at the specified time and place and later met with another unidentified member of the organization at an unknown location to hand over the cash.\n\nThus, the defendant, in conspiracy with the unidentified individuals, deceived the victim and embezzled 35 million won in cash owned by the victim.",
+    "target_node": {
+        "node_id": "c00012",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_12",
+        "text": "The defendant actively contributed to the voice phishing crime by deceiving the victim and embezzling the funds.",
+        "label_expanded": "C_12"
+    },
+    "target_reason": "The weakest part of claim c00012 is the weak logical connection between the argument (d00012) that the defendant perceived their role simplistically and the conclusion that this is sufficient to acknowledge criminal liability as a co-principal. How the defendant perceived their role may not be directly important to the establishment of joint principalship. Legal responsibility relies more on their actions and objective contribution to the crime than on their subjective perception. Therefore, this argument lacks direct relevance to the defendant's intent to conspire in the crime, weakening the logical foundation of the claim.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was unaware of the actual criminal structure of the voice phishing organization and that their role constituted criminal activity. Therefore, they claim there was no intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant performed the role of collecting cash necessary for the voice phishing crime, and thereby directly contributed to the crime. The actions of the defendant sufficiently prove the presence of constructive intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant was unaware of the overall criminal structure of voice phishing.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "If there is a lack of awareness that the overall structure of a crime and specific roles constitute criminal acts, it is difficult to acknowledge intent for those actions.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "\"The defendant, around the end of October 2021, accepted an offer from an unidentified member of a voice phishing organization and, following the instructions of an unidentified person via KakaoTalk mobile messenger, personally visited the victims of telephone financial fraud to collect the defrauded money and then delivered it to the unidentified person, thus taking on the role of a 'cash collector'. In return for their services, they agreed to sequentially conspire with the unidentified members of the organization to commit telephone financial fraud.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant lacked the intent to commit the crime.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Intentionality originates from the intent to commit a crime and a clear understanding of the substance of that crime. It cannot be conclusively determined that there was intentionality if the defendant did not have a clear understanding of the substance of the crime and their role in it.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "\"The defendant lacks intent in that they were not clearly aware of the nature of the voice phishing crime. While the defendant could have harbored suspicions about the nature of the work they were performing and the abnormally high compensation, this does not directly prove criminal intent.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant carried out their duties in a manner different from the general hiring process.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Performing tasks in situations different from the general hiring process makes it difficult to perceive the defendant as a member of a criminal organization. This makes it hard to see that the defendant intentionally carried out their role as part of criminal activities.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "\"The defendant did not have a direct face-to-face meeting with the hiring entity during the recruitment process, and the work instructions were also given remotely, which was a situation different from the usual recruitment process.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant played a significant role in a telephone financial fraud organization, which demonstrates the defendant's active participation in the crime by performing functions essential to a highly organized criminal activity.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "In a criminal organization, the role of a 'cash collector' is a crucial step in actually securing the proceeds of crime, occupying an essential and significant position in the entire criminal operation process.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant, around the end of October 2021, accepted an offer from an unidentified member of a voice phishing organization and, following the instructions of an unidentified person via KakaoTalk mobile messenger, personally sought out victims of telephone financial fraud to collect the defrauded money and then delivered it to the unidentified person, thus acting as a 'cash collector'.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant directly participated in the process of transferring the proceeds of crime, thereby contributing to the success of the voice phishing crime, which demonstrates that the defendant acted for the substantial benefit of the crime.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "In criminal organizations, securing and delivering profits is considered the final stage in the completion of a crime, and participating in this process is regarded as directly contributing to the criminal outcome.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant, following orders from unidentified individuals, secretly took out 48 million won in cash that was placed inside a black plastic bag under the mailbox of the victim's house located in F, Seodaemun District, Seoul, around 13:00 on November 4, 2021. Around that time, the defendant met with another unidentified member of the organization at an unknown location and handed it over.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant's actions, by performing the essential role of a 'cash collector' in a voice phishing crime, solidify their status as a member of the criminal organization and prove the defendant's active participation and contribution within the criminal organization.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Performing specific roles within a criminal organization signifies active functioning as a member of that organization, and this serves as crucial evidence of conspiracy and direct participation in the crime.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant, around 09:50 on November 4, 2021, called the victim B from an unknown location, impersonating 'Financial Supervisory Service G', and deceived the victim into handing over 35 million won in cash. At that time, the defendant met with another member of the organization, whose name is unknown, at an undisclosed location and handed it over.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The claim that the defendant called the victim B and impersonated the Financial Supervisory Service G does not match the defendant's actual actions, and this means there is a lack of clear evidence necessary to prove intent.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "In criminal law, the proof of intent depends on whether the actor was aware of the legal significance and consequences of their actions.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "As seen in the argument that \"The defendant lacks intent as they were not clearly aware of the essence of the voice phishing crime,\" the fact that the defendant did not clearly understand the legal significance and consequences of the criminal act suggests a lack of intent.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant acted solely on the orders from an unidentified member of the organization, which indicates that the defendant was unaware of the overall structure or intent of the organization.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The essence of criminal conspiracy is the sharing of awareness and intent regarding the legal significance and consequences of the act.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The argument that 'Although one could have suspicions about the nature of the work performed by the defendant and the abnormally high compensation, this does not directly prove criminal intent' suggests that the defendant did not understand the overall purpose or structure of the organization.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant received work instructions through a non-face-to-face hiring process, which implies that the defendant had limited awareness of the organization's substantive aspects or criminal intent.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "To understand the substantial aspects or intentions of a criminal organization, direct face-to-face interactions or clear information sharing within the organization are necessary.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"Moreover, the defendant did not have a direct face-to-face meeting with the hiring entity during the recruitment process, and the work instructions were also given remotely, which differs from the usual recruitment process.\" This indicates that the defendant did not fully understand the essential intent or structure of the organization.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The evidence is clear that the defendant was deeply involved in the voice phishing crime.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The act of directly collecting cash from the victim constitutes a core role in the voice phishing crime, exceeding the scope of duties typically required in the general hiring process.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant, around 13:00 on November 4, 2021, placed 48 million won in cash inside a black plastic bag under the mailbox of the victim's house located in Seodaemun-gu, Seoul, and then secretly took and delivered it.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant had constructive intent in that they committed a clear act in accordance with the directives of a criminal organization.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Receiving direct orders from a criminal organization and acting accordingly indicates a full awareness of the criminal nature of the actions.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant accepted an offer from an unidentified member of a voice phishing organization and, following the instructions of an unidentified person via KakaoTalk mobile messenger, personally sought out the victims of telephone financial fraud to collect the defrauded money and then delivered it to the unidentified person, serving as a 'cash mule.'",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant actively contributed to the voice phishing crime by deceiving the victim and embezzling the funds.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The method of deceiving the victim into withdrawing cash and then collecting it was according to the planned role distribution of the criminal organization, and the defendant's active participation in this process demonstrates that they had criminal intent.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant, around 09:50 on November 4, 2021, inside room I of H Motel in Eunpyeong-gu, Seoul, received 35 million won in cash from the victim B and then met with another member of the organization, whose name is unknown, at an unspecified location to hand it over.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant directly contributed to the crime by acting as a cash collector for a voice phishing organization.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "In voice phishing crimes, the role of a cash collector is a crucial process of directly receiving money from victims and delivering it to the organization. This is an essential step for the success of the crime, and without this process, the realization of criminal profits is impossible.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant, around 13:00 on November 4, 2021, placed 48 million won in cash inside a black plastic bag under the mailbox of the victim's house located in Seodaemun-gu, Seoul, and around that time, met with another unidentified member of the organization at an unknown location to hand it over.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant had intent regarding the voice phishing crime.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Awareness of information related to the crime and the division of roles is an important basis for determining the intentionality of participation in criminal activities. If the defendant acted in accordance with the organization's instructions, knowing the content of the instructions received and the process of their execution, this means that the defendant was aware of the substance of the crime and their own role.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant agreed to a proposal from an unidentified member of a voice phishing organization and, following the instructions of an unidentified person via KakaoTalk mobile messenger, personally visited the victims of telephone financial fraud to collect the defrauded money and then delivered it to the unidentified person, taking on the role of a 'cash collector' and conspiring in sequence with the unidentified members of the organization to commit the telephone financial fraud in exchange for compensation.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The excessive compensation paid to the defendant indirectly proves the intent behind the voice phishing crime.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The distribution of profits derived from a crime reflects the importance of the role and the awareness of participation in the criminal act. Receiving excessively high compensation compared to general tasks or services suggests that the task is legally or morally risky, and that the participants are somewhat aware of its risks.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant conspired in sequence with the members of an unidentified voice phishing organization, agreeing to take on the role of a 'cash collector' and to receive compensation for it, after receiving an offer from an unidentified member of the voice phishing organization around the end of October 2021.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The size of the remuneration received by the defendant does not indirectly prove the intentionality of the crime, but rather indicates a lack of awareness of the crime on the part of the defendant.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "A high remuneration does not necessarily imply the intentionality of criminal conduct, and there is a possibility that the defendant did not properly understand the structure of voice phishing or that their role constituted a criminal act.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant lacks intent as they were not clearly aware of the actual nature of the voice phishing crime.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's remote hiring process is different from the general recruitment procedure, and this suggests that the defendant is not an essential member of the criminal organization.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Unlike the typical recruitment process, recruitment conducted remotely increases the possibility that the defendant did not fully understand the organization's nature and its criminal characteristics.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant did not have a direct face-to-face meeting with the hiring entity during the recruitment process, and the work instructions were also given remotely, which was a situation different from the usual recruitment process.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "There is a lack of clear evidence that the defendant was aware of the specific criminal plans of the voice phishing organization.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "To prove the intent of a crime, direct evidence is required that the defendant was clearly aware of the nature of the crime and their own role in it.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant lacks intent as they were not clearly aware of the actual nature of the voice phishing crime.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00016",
+                "w00016",
+                "c00016",
+                "d00001",
+                "d00015",
+                "w00002",
+                "c00002",
+                "d00003",
+                "d00018",
+                "d00004",
+                "w00010",
+                "c00010",
+                "w00008",
+                "c00008",
+                "w00015",
+                "c00015",
+                "d00012",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007",
+                "w00009",
+                "c00009",
+                "d00010",
+                "d00017",
+                "d00006",
+                "d00009",
+                "w00014",
+                "c00014",
+                "d00011",
+                "d00002",
+                "d00005",
+                "w00017",
+                "c00017",
+                "d00014",
+                "w00013",
+                "c00013",
+                "w00005",
+                "c00005",
+                "d00007",
+                "d00013",
+                "w00011",
+                "c00011",
+                "d00008",
+                "w00004",
+                "c00004"
+            ]
+        }
+    }
+}

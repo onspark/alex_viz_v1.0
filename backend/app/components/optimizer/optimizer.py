@@ -2,13 +2,14 @@ from rouge import Rouge
 from itertools import combinations
 from collections import defaultdict
 
+from app.components.llm import ModelSettings
 from app.components.tools import LeapPrediction
 from app.logger import logger
 
 # TODO: Import threshold from settings
 
 class Optimizer:
-    def __init__(self, rag_result, arguments, crime_fact="", target_node=None):
+    def __init__(self, rag_result, arguments, crime_fact="", target_node=None, model_type="nli-context-coherency-verifier"):
         self.rouge_threshold = 0.8
         self.nli_threshold = 0.3
         
@@ -25,7 +26,11 @@ class Optimizer:
         self.context_coherency_combinations = {}
         
         self.rouge = Rouge()
-        self.leap = LeapPrediction("app/models/koelectra_leap_v1.0.0")
+        
+        settings = ModelSettings().get_setting(model_type)
+        
+        self.leap = LeapPrediction(settings.get("model_name_or_path"))
+        # self.leap = LeapPrediction("app/models/koelectra_leap_v1.0.0")
     
     def _generate_combinations(self):
         '''

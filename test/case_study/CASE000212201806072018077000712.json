@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000212201806072018077000712",
+    "crime_fact": "Criminal Facts\nCriminal Record\nThe defendant was sentenced on March 15, 2018, by the Seoul Southern District Court to one year in prison with a two-year suspended sentence and 120 hours of community service for violations of the Act on Promotion of Information and Communications Network Utilization and Information Protection, etc. (defamation), obstruction of the execution of official duties, assault, refusal to leave, fraud, computer fraud, forgery of electronic records, and use of forged electronic records, etc. This judgment was finalized on March 23, 2018.\nCriminal Facts\nOn June 22, 2017, around 15:40, at the defendant's home in Apartment 601, B Apartment, Gangseo-gu, Seoul, while in the midst of a divorce lawsuit with her husband C, the defendant used the corporate card information (card number: F) of Shinhan Bank belonging to 'E Corporation,' represented by C's mother D, which she knew, to order a 'Show and Comfortable Sofa Modern01 2-Piece 4-Seater' on the internet site 'G' using her mobile phone, without authorization, by entering the corporate card number and password of Shinhan Bank in the payment section.\nIn addition to this, from around 02:59 on June 14, 2017, to 15:41 on June 22, 2017, as listed in the attached crime list, the defendant made a total of 5 unauthorized entries of Shinhan Bank's corporate card information on internet sites, purchasing goods worth a total of 3,843,900 won without paying for them, thereby acquiring property benefits of the same amount.",
+    "target_node": {
+        "node_id": "c00010",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_10",
+        "text": "The defendant's attempt to cancel the payment does not affect the completion of the crime.",
+        "label_expanded": "C_10"
+    },
+    "target_reason": "Claim c00010 argues that the defendant's attempt to transfer funds to a brokerage account for the purchase of stocks was part of a deceitful scheme. However, no specific facts or evidence supporting this claim have been presented. The evidence cited as the basis for the claim, d00010, merely reiterates that the defendant had no intention or ability to make restitution, but lacks direct evidence or explanation that the specific act of attempting to transfer funds to a brokerage account was part of the deceit. Therefore, this claim is considered weak due to its lack of logical coherence and insufficient supporting evidence.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant can argue that they did not reach the completion of the crime of fraud using computers, etc., as they ultimately did not acquire any financial benefit.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant can be considered to have already committed the crime of fraud by using a computer or similar device when they completed the payment using the victim's information without authorization.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant did not reach the completion of the crime of fraud using computers, etc., as there was no actual acquisition of financial benefit through the cancellation of the payment.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "A cancellation of payment is definitive evidence proving that there was no substantial acquisition of financial benefit. Legally, the crime of fraud using computers or similar means requires the substantial acquisition of financial benefit, thus, a cancellation of payment becomes clear proof that such acquisition did not occur.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant can argue that there was no substantial acquisition of financial benefit since the payment was cancelled after being made.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant did not reach the completion of the crime of fraud using computers, etc., due to the lack of intent to actually acquire financial benefits.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The absence of intent to obtain financial gain is one of the important elements of the crime of fraud using computers, etc., and cancellation of payment suggests a lack of such intent. If there was no intent, it is difficult to consider that the crime has been fully committed.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant revealed a lack of intent to actually acquire financial benefits through the cancellation of the payment.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The act of canceling the payment can be seen as the defendant's active attempt to recover financial damages, therefore, the responsibility for the crime of fraud using computers, etc., should be mitigated.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Legally, the possibility of mitigating responsibility can be recognized when the defendant has shown active efforts to remedy the damage. Cancellation of payment can be interpreted as part of such efforts, and this can be an important factor in mitigating the defendant's responsibility.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant canceled the payment, and this can be interpreted as an active attempt to recover property damage.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "It shows that the defendant had premeditation and intent for the crime.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The act of intentionally using the victim's information to make purchases on multiple occasions can be seen as a premeditated and intentional criminal act.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant, from June 14, 2017, to June 22, 2017, over a total of 5 occasions, entered Shinhan Bank corporate card information without authorization on an internet site and purchased goods worth a total of 3,843,900 won.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant has a history of violating similar laws before, indicating a tendency towards repeated criminal behavior.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "If there is a history of legal violations, the defendant is likely to commit the same or similar crimes, which further strengthens the defendant's culpability.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant was sentenced on March 15, 2018, to one year in prison with a two-year suspended sentence and 120 hours of community service for violating the Act on Promotion of Information and Communications Network Utilization and Information Protection, etc. (defamation), obstruction of public duty, assault, refusal to leave, fraud, computer fraud, forgery of electronic records, and use of forged electronic records, etc.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant's act of using the victim's information without authorization to gain financial benefits itself constitutes the crime of fraud using computers or similar devices.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The act of completing a purchase of goods by unauthorized use of the victim's information legally satisfies the requirements for the establishment of the crime of fraud using computers, etc., and this clearly proves the defendant's guilt.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant, on June 22, 2017, around 15:40, at apartment 601 in B Apartment, Gangseo-gu, Seoul, utilized the knowledge of the corporate card information of Shinhan Bank belonging to 'E Corporation,' represented by D, the mother of C, whom the defendant was in the process of divorcing. By using the defendant's mobile phone to access the internet site 'G,' the defendant ordered 'Show and Comfortable Sofa Modern01 2-Piece 4-Seater' and unauthorizedly entered the said Shinhan Bank corporate card number and password in the payment section.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The fact that the defendant has a history of violating the law does not necessarily mean they are guilty in this case.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "If there is no direct relevance between past criminal records and the current case, it is unfair to use the past records as a basis for increasing the culpability of the current case.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant can argue that they did not reach the completion of the crime of fraud using computers, etc., by pointing out that there was no actual acquisition of financial benefit through the cancellation of the payment. From this, it can be understood that the actions in this case do not correspond to a similar legal violation as in the past.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "Since the defendant did not actually acquire any financial benefit, it cannot be considered that the crime of fraud using computers and other means was consummated.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The crime of fraud using computers and other means requires the substantial acquisition of financial benefits. If no substantial benefit arises due to cancellation of payment, then this does not satisfy the establishment of the crime.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant emphasizes the lack of intent to actually acquire financial benefits through the fact that the payment was canceled after being made, suggesting that this did not constitute the completion of the crime of fraud using computers or other means.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "Since the defendant's previous legal violations have no direct relevance to the specific facts of the current case, it is unjust to enhance culpability based on past records.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Legal judgments must be based on the specific facts of each case, and past records themselves cannot directly increase the culpability of the current case.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant was sentenced on March 15, 2018, for various legal violations, but the payment cancellation conducted by the defendant in this case is different in nature from past actions, and it can be confirmed that there is a lack of direct relevance between the current and past cases due to the fact that there was no actual acquisition of financial benefit through this action.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's attempt to cancel the payment does not affect the completion of the crime.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The act of fraud involving the use of computers and similar devices was already completed at the time of payment, and attempts to cancel the payment are subsequent actions that do not affect the criteria for the establishment of the crime.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendant can be seen as having reached the completion of the crime of fraud using computers or similar devices at the point when they entered the victim's information on an internet site and completed the payment.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant had a clear intent to gain financial benefits.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The defendant's act of using the victim's corporate card information without authorization to make multiple purchases demonstrates a clear intent to gain financial benefit.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The defendant, from around 02:59 on June 14, 2017, to around 15:41 on June 22, 2017, as listed in the attached crime summary table, entered Shinhan Bank corporate card information on an internet site without authorization a total of 5 times, purchasing goods worth a total of 3,843,900 won and failing to pay for them, thereby acquiring an equivalent amount of financial benefit.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "Attempts or intentions to cancel payments are not essential elements in determining whether the crime of fraud using computers and other means is consummated.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "From a legal perspective, the moment the defendant completed the payment, the commission of the crime was already accomplished, and any subsequent attempts to cancel the payment do not affect the elements constituting the crime. The intention to cancel the payment, being an act after the commission of the crime, cannot offset the criminality.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"According to Supreme Court precedents, even if a payment is cancelled later, it does not affect the already established crime of fraud through the use of computers or similar devices.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "Even if the payment cancellation has been made, it cannot be denied that the defendant's act of attempting payment using someone else's information without authorization already constitutes the completion of the crime of fraud using computers, etc.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Regardless of whether the payment was canceled or not, the act of using information without authorization itself legally satisfies the elements of the crime of computer fraud.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "On June 22, 2017, at approximately 15:40, at the defendant's residence in Apartment 601, B Apartment, Gangseo-gu, Seoul, the defendant, using the knowledge of the Shinhan Bank corporate card information (card number: F) of 'E Corporation,' represented by D, the mother of C, whom the defendant is in divorce proceedings with, unauthorizedly accessed the internet site 'G' through the defendant's mobile phone and ordered 'Show and Comfortable Sofa Modern01 2-Piece 4-Seater' by entering the said Shinhan Bank corporate card number and password without authorization.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "Given the defendant's past criminal record, it is difficult to deny that the pattern of behavior in this case consistently reveals an intent to defraud.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Past similar criminal acts suggest that the defendant has the intent and capability to commit the same type of crime.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant was sentenced by the Seoul Southern District Court on March 15, 2018, to one year in prison with a two-year suspended sentence and 120 hours of community service for violations of the Act on Promotion of Information and Communications Network Utilization and Information Protection, etc. (defamation), obstruction of public duty, assault, refusal to leave, fraud, computer fraud, forgery of electronic records, and use of forged electronic records, etc. This judgment was finalized on March 23, 2018.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The act of the defendant using Shinhan Bank's corporate card information without authorization on a total of 5 occasions to make payments without compensating, thereby acquiring considerable financial benefits, proves that it was not a mere misunderstanding or coincidence, but a premeditated and intentional act of fraud.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The act of using someone else's property for profit on multiple occasions in the same manner without legal authority is not a matter of chance or simple misunderstanding, but clear evidence of intentional fraud.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant, starting from around 02:59 on June 14, 2017, to around 15:41 on June 22, 2017, as listed in the attached crime summary table, entered Shinhan Bank corporate card information on an internet site without authorization a total of 5 times, purchasing goods worth a total of 3,843,900 won and failing to pay for them, thereby acquiring property benefits of the same amount.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "It can be argued that past similar criminal acts do not necessarily indicate the defendant's intent in the current case.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "There is no clear connection between past actions and the current incident, and the circumstances and motives of each event may differ.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant was sentenced to 1 year in prison with a 2-year suspended sentence by the Seoul Southern District Court on March 15, 2018, for various crimes. However, such past criminal records are not directly linked to the fraudulent intent of the current case.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant can emphasize the point that they did not reach the completion of the crime of fraud using computers, etc., because they did not actually acquire any financial benefit.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The absence of actual pecuniary benefit through cancellation of payment suggests a lack of fraudulent intent on the part of the defendant.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant, having ordered and paid for the 'Show and Comfortable Sofa Modern01 2-Piece 4-Seater' on the internet site 'G', then cancelled the payment, did not actually acquire any financial benefit.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant's actions are differentiated by the fact that, unlike past criminal acts, there was an effort to recover the financial damages.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Unlike past crimes, the fact that there was a genuine effort to recover financial losses through cancellation of payments suggests that the defendant may have lacked fraudulent intent in this act.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant, around 15:40 on June 22, 2017, in B Apartment, Gangseo-gu, Seoul, made a purchase using Shinhan Bank corporate card information and then, instead of paying for the goods, attempted to recover the financial loss by canceling the payment.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00001",
+                "c00001",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018"
+            ]
+        }
+    }
+}

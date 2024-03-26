@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000210202301122022077005236",
+    "crime_fact": "Crime Facts\nThe voice phishing (hereinafter referred to as 'voice phishing') organization operates call centers overseas and commits crimes by impersonating financial institutions or investigative agencies to embezzle money from an unspecified number of people. This organization divides roles strictly among 'call center consultants' who make fraudulent calls to embezzle victim's money, 'money transfer agents' who send the embezzled money overseas, and 'masterminds' who oversee them, and operates in a cell organization form to avoid tracking by investigative agencies by using so-called 'burner phones' or communicating with each other through mobile chatting applications such as 'Telegram' and 'KakaoTalk'.\nMeanwhile, the voice phishing organization, knowing that people do not answer international calls or internet calls (numbers starting with D) but do answer calls or text messages sent from landlines or mobile phones, has installed relay stations in Korea and is using VoIP GateWay (a telecommunications device that relays calls between multiple mobile phones, hereinafter referred to as 'relay device') at these relay stations. These relay stations rent studios or goshiwons in Korea, install relay devices, and connect Korean mobile carrier's USIM to the relay device or insert it into Samsung smartphones and then connect it to Samsung tablets and other devices at overseas call centers using the Call & Message Continuity (hereinafter 'CMC') feature, or insert the USIM of a Korean mobile carrier into an Apple smartphone and then connect it to iPads and other devices at overseas call centers using the Calls on Other Devices (hereinafter 'COD') feature, thereby using the devices as relay devices (hereinafter referred to as 'methods using CMC feature, etc.') to commit crimes.\nThe defendant, around February 18, 2022, received a proposal from an unknown person (alias 'F', 'G') whom he met through a job advertisement on website 'E', and from another unknown person (alias 'H') whom he met through a job advertisement on 'E' around March 16, 2022, to the effect that 'if you install USIM chips opened in other people's names into Samsung, Apple smartphone devices and use methods such as the CMC feature to make it appear as if calls from overseas call centers are coming from domestic mobile phone numbers, and manage the devices, a certain amount of money will be paid into your account as a reward.' Following the instructions of the unknown persons, the defendant agreed to take on the role of changing the caller ID to a domestic mobile phone number using the CMC feature, etc., and another unknown member of the voice phishing organization agreed in sequence to take on roles such as impersonating financial institutions to embezzle money from victims.\n1. Violation of the Telecommunications Business Act\nNo one shall mediate another person's communication using the telecommunication service provided by a telecommunications business operator or provide it for another person's communication.\nNevertheless, following the instructions of an unknown voice phishing organization member (alias 'G'), around April 7, 2022, in front of J building of I apartment in Gangseo-gu, Seoul, parked in a Sonata sedan (car number omitted), the defendant inserted a USIM (phone number omitted) opened in a third party's name into a mobile phone and activated the CMC feature, etc., to enable calls from the tablet and iPad of overseas call center members to be made with the above domestic mobile phone number, among others, provided a total of 44 lines opened in a third party's name for communication purposes to unknown persons from around February 18, 2022, to April 7, 2022, as listed in the attached crime list (1).\nAs a result, the defendant conspired with unknown members of the voice phishing organization to mediate another person's communication using the telecommunication service provided by a telecommunications business operator or provide it for another person's communication.\n2. Fraud\nIn accordance with such conspiracy, the defendant managed mobile phones used for voice phishing crimes, and an unknown telephone financial fraud organization member, around March 18, 2022, at an unknown location, using a mobile phone (phone number omitted) managed by the defendant, called victim K pretending to be an agent of company L M and lied, saying 'You must repay the existing loan in N to receive a low-interest loan, and if you do not repay it today, a penalty of 16 million won will be incurred, so repay at least 5 million won,' thereby deceiving the victim into handing over 5 million won in front of P kindergarten in Seongnam-si, Bundang-gu, on the same day, through an unknown telephone financial fraud organization member, among others, receiving a total of 185.5 million won from a total of 7 victims from around that time to April 4, 2022, as listed in the attached crime list (2).\nAs a result, the defendant conspired with unknown members of the voice phishing organization to deceive victims and embezzled a total of 185.5 million won from them.",
+    "target_node": {
+        "node_id": "c00012",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_12",
+        "text": "The defendant was a member of a voice phishing organization and a co-conspirator in the crime.",
+        "label_expanded": "C_12"
+    },
+    "target_reason": "Explanation: c00012's claim argues that the use of the defendant's IP address and related information is clear evidence of conspiracy, but this has a somewhat weak link. It is difficult to clearly prove intentional criminal activity solely based on the use of an IP address. An IP address can be shared by multiple people, and especially in homes or public places, multiple users can use the same IP. Therefore, the warrant (w00012) that the use of an IP address can be considered clear evidence of conspiracy does not provide a sufficiently strong logical connection. For this reason, c00012's claim can be seen as having relatively weak grounds compared to other claims.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was unaware of the overall criminal plan or intent of the voice phishing organization and acted under the misconception that it was simply a part-time job, indicating a lack of criminal intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant was fully aware that their role and actions were part of a voice phishing crime and continued to participate in the crime to gain benefits.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant was unaware of the overall criminal plan of the voice phishing organization.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The structure and operation of voice phishing organizations are complex, and roles are thoroughly divided, making it difficult for individuals who only perform certain roles to understand the entire plan.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant agreed to perform roles utilizing CMC functions, among others, after responding to a job advertisement on the website 'E', under the condition of receiving a certain amount of money as a fee from an unidentified person.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant acted under the mistaken belief that it was merely a part-time job.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Job advertisements on websites and promised financial compensation are similar to the process of looking for a normal part-time job, and the defendant may not be aware of any association with a criminal organization.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant sought employment through job advertisements on the website 'E' around February 18, 2022, and March 16, 2022, and agreed to take on the role of managing mobile devices and utilizing CMC functions, etc., from individuals whose names are unknown (also known as 'F', 'G', 'H').",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant lacked the subjective element of the crime.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "If the connection with the voice phishing organization is limited to the management and setting of communication devices, it is difficult for the defendant to recognize their actions as part of the overall criminal plan.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant was solely responsible for changing the caller ID to a domestic mobile phone number using CMC functions, etc., under the instructions of an unidentified member of a voice phishing organization and did not directly engage in acts of defrauding victims by impersonating financial institutions or similar entities.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant directly contributed to the crime by providing technical means essential to the voice phishing offense.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The method of utilizing the CMC functions provided by the defendant played a crucial role in deceiving the victims by displaying the calls originating from overseas call centers as domestic mobile phone numbers.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant was responsible for changing the caller ID to a domestic mobile phone number by using functions such as CMC, following the instructions of an unidentified person.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant participated in the crime through continuous collusion with a voice phishing organization, thereby contributing to the embezzlement of a large sum of money from the victims.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The fact that the defendant used a mobile phone under their management to actually make fraudulent calls to the victims and embezzle money clearly proves that the defendant was active as a member of a voice phishing organization.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant, using a mobile phone under their management, made a fraudulent call to the victim K and swindled 5 million won, including this case, received a total of 185.5 million won from 7 victims.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant, as a member of a voice phishing organization, shared roles and thereby sought the success of the crime.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Voice phishing organizations operate through the division of roles, with each member performing a specific role to contribute to the execution of the overall criminal plan. In this regard, the defendant's actions directly contributed to the achievement of the organization's objectives.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant agreed to take on the role of managing devices by installing SIM cards, which were opened under someone else's name and obtained from an unidentified individual met through the website 'E', into smartphone devices to enable the use of functions such as CMC, thereby facilitating the making of calls from an overseas call center.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant's lack of knowledge about the overall scheme or intent of the voice phishing organization weakens the prosecution's argument that the defendant's actions directly contributed to the achievement of the organization's objectives.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "If the defendant was unaware of the organization's overall criminal plan or intent, it suggests that the defendant's actions were merely individual and stemmed from ignorance, not intended to intentionally support the organization's criminal objectives.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant can claim that they acted under the misconception that they were simply taking on a part-time job, without the awareness of participating in a voice phishing crime.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant's perception and actions as merely part-time work indicate the absence of the subjective element of the crime in the defendant.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The absence of the subjective element of the crime means that the defendant had no intention of committing the crime, and therefore, his actions cannot be considered as contributing to the achievement of a criminal objective.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant can be seen as lacking dolus eventualis in that they were not fully aware that their actions were part of a crime.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The fact that the defendant's actions cannot be seen as contributing to the achievement of the criminal organization's objectives means that, even if the defendant played a specific role, it is difficult to see this as directly contributing to the execution of the overall criminal plan.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "If the role played by the defendant was merely a detailed execution within the overall criminal plan, and the defendant was unaware of the overall criminal plan or intent, then the defendant's actions can be seen not as directly contributing to the achievement of the organization's criminal objectives, but as individual actions based on ignorance.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant claims that the incident occurred because they were unaware of the overall criminal plan or intent of the voice phishing organization.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant conspired in the crime by playing a significant role in the voice phishing organization.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The division of roles within the voice phishing organization and the defendant's specific actions demonstrate that the defendant was actively participating in the voice phishing crime, beyond merely working as a part-time job.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant received a proposal from an unidentified person stating, 'If you install USIM chips, which are registered under someone else's name, into Samsung and Apple smartphones and use features such as CMC to make calls from overseas call centers, they will appear as domestic mobile phone numbers, and if you manage these devices, a certain amount of money will be paid into your account as a fee.' The defendant acted according to these instructions.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant contributed to the actual outcome of the voice phishing crime.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The voice phishing calls sent through the devices managed by the defendant were actually used to embezzle money from the victims. This means that the defendant directly contributed to the formation of the criminal outcome.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "An unidentified member of a voice phishing organization used a mobile phone managed by the defendant to call victim K and defraud them of money.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant was a member of a voice phishing organization and a co-conspirator in the crime.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The defendant's actions and the ongoing association with the voice phishing organization form a complicity that goes beyond mere part-time job participation.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant provided a total of 44 lines for communication purposes to unidentified individuals from February 18, 2022, to April 7, 2022, which can be seen as playing a significant role in voice phishing crimes.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant's participation in the crime was committed with implied intent.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The role performed by the defendant as a member of the voice phishing organization is essential to the components of the crime, and this means that the defendant recognized the possibility of the crime being realized and yet took the risk for profit.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant received a proposal stating, 'If you install USIM chips registered under someone else's name into Samsung and Apple smartphones and use features such as CMC to make calls from overseas call centers appear as if they are coming from domestic mobile phone numbers, and manage these devices, a certain amount of money will be paid into your account as a fee,' and acted according to these instructions.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant was fully aware of the crime.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The specific role allocation and operational methods of the voice phishing organization indicate that its members are clearly aware that their actions are illegal.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant conspired in sequence to take on the role of changing the caller ID to a domestic mobile phone number using functions such as CMC, upon receiving instructions from a voice phishing organization member.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's actions played a key role in enabling voice phishing crimes.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The defendant, using the mobile phone they managed, actually committed the crime of embezzling funds by impersonating a financial institution. This proves that the defendant's actions were not merely supportive but directly contributed to the execution of the crime.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "A member of a telephone financial fraud organization, whose name is unknown, used a mobile phone managed by the defendant to impersonate an agent of company L and falsely told the victim that they had to repay an existing loan in N to receive a low-interest loan, and if they did not repay it by today, they would incur a penalty of 16 million won, so they should at least repay 5 million won, thereby deceiving the victim into handing over money.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's lack of knowledge about the specific criminal plans or intentions of the voice phishing organization serves as a basis for denying implied intent.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "If the defendant did not understand the overall intent or plan of the crime, then their actions cannot be considered as intentional participation in the crime.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant was aware of the fact that they had acted according to the instructions after receiving a proposal stating, 'If you install USIM chips, which were opened under someone else's name, into Samsung and Apple smartphone devices and use features such as CMC to make it appear as if the devices have a domestic mobile phone number, and manage these devices, a certain amount of money will be paid into your account as a commission.'",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant was not fully aware that their role was part of the criminal act.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "If the defendant followed only fragmented instructions without understanding the entire context of the criminal act, it is difficult to see that there was implied intent on the part of the defendant.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant agreed to take on the role of altering the caller ID to appear as a domestic mobile phone number using CMC functions, etc., and another unidentified member of the voice phishing organization agreed to take on roles such as using the aforementioned CMC functions to impersonate financial institutions, etc., and defraud victims of money. From this, it is evident that the defendant did not fully comprehend how their role contributed to the overall composition of the crime.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant's actions were not clear participation as a member of a criminal organization, but rather actions based on misunderstanding.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "If the defendant acted merely in accordance with instructions without being aware of the overall context of the voice phishing crime, this cannot be seen as clear participation with criminal intent.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant acted upon a proposal from an unidentified individual whom they came to know through a job advertisement on the website 'E', and this proposal was made without a clear understanding that it was for a criminal act.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00006",
+                "d00013",
+                "w00004",
+                "c00004",
+                "d00015",
+                "w00005",
+                "c00005",
+                "w00003",
+                "c00003",
+                "d00011",
+                "d00010",
+                "w00018",
+                "c00018",
+                "d00014",
+                "d00016",
+                "w00013",
+                "c00013",
+                "w00008",
+                "c00008",
+                "d00005",
+                "w00011",
+                "c00011",
+                "w00010",
+                "c00010",
+                "d00002",
+                "d00017",
+                "d00009",
+                "w00009",
+                "c00009",
+                "d00001",
+                "d00008",
+                "d00018",
+                "w00015",
+                "c00015",
+                "w00017",
+                "c00017",
+                "d00004",
+                "w00014",
+                "c00014",
+                "d00003",
+                "d00007",
+                "w00007",
+                "c00007",
+                "d00012",
+                "w00016",
+                "c00016"
+            ]
+        }
+    }
+}

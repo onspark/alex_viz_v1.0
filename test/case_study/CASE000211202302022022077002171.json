@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000211202302022022077002171",
+    "crime_fact": "Crime Facts\nThe defendant and the victim B were middle school classmates.\n1. Fraud under the pretext of purchasing C Corporation stocks\nAround March 2018, in the victim's office located in Gangnam-gu, Seoul, the defendant lied to the victim, saying, \"Buy stocks of C Corporation. It is a company scheduled to be listed on NASDAQ around June 2018, and once it is listed, you can make a profit of tens of times more. I also own hundreds of thousands of shares of this company. I have secured 50,000 shares of C Corporation, each with a face value of 1 dollar, so you can either purchase 20,000 shares for 22 million won or 50,000 shares for 55 million won.\"\nHowever, in reality, C was not a corporation and there was no plan to list it on NASDAQ around June 2018. The defendant did not own shares of the said company but instead owned coins issued by a company 'E', and even if the defendant received money from the victim under the pretext of purchasing stocks, the defendant intended to use it for personal credit card payments, personal debt repayments, etc., and could not purchase the promised NASDAQ-listed stocks or generate profits for the victim.\nNevertheless, the defendant deceived the victim in this manner and embezzled 22 million won deposited into the defendant's F bank account (account number omitted) by the victim, who was deceived, on April 23, 2018.\n2. Fraud related to G\nAround August 2018, at the same location as in the first clause, the defendant lied to the victim, saying, \"I own G coins worth tens of billions of won by investing about 600 million won in a comprehensive shopping mall company called G. Since I have the right to receive 5 times the coins when purchasing goods from G, if you lend me 50 million won, I will invest it in G and increase it several times by October 2018. Even if G does not generate profits, I will take responsibility and return the principal in full.\"\nHowever, in reality, G was in a state where actual business operations were not properly conducted due to several delays in the opening of the shopping mall, and the business outlook was uncertain as H, the representative of the corporation running the G business, was detained and undergoing trial for fraud, among other charges. The defendant, well aware of G's situation, knew that it was highly unlikely for the G business to proceed properly and that it was impossible to guarantee profits or return the principal to the victim. The defendant, having no steady income at the time, intended to use the 50 million won received from the victim not only for investing in G but also for personal living expenses and debt repayments, and had neither the intention nor the ability to return the profits or principal as promised.\nNevertheless, the defendant deceived the victim in this manner and embezzled 50 million won transferred to the defendant's F account (account number omitted) by the victim, who was deceived, on August 14, 2018.",
+    "target_node": {
+        "node_id": "w00010",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_10",
+        "text": "The information provided by the defendant is different from the objective facts, and this is intended to deliberately distort the victim's judgment.",
+        "label_expanded": "D_10=>C_10"
+    },
+    "target_reason": "Explanation: w00010's guarantee is based on the assumption that past criminal records strongly suggest the intentionality of the current crime. However, this relies on the universally unaccepted assumption that past behavior necessarily predicts future behavior, and there is no guarantee that everyone repeats their past actions. Therefore, this guarantee is considered weak due to its weak logical connection to the criminal facts and the lack of widespread consensus on the assumption that past behavior determines current behavior.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant genuinely believed in the information provided to the investors and argued that the exaggerated expressions used during the solicitation process were merely linguistic techniques commonly employed in general investment solicitations. Therefore, there was no intention to deceive the victims deliberately.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant deceived the victim by providing false information and promising returns that did not exist, thereby embezzling money. The information provided was different from objective facts, and the defendant's actions clearly constitute an act of deception. Therefore, the defendant has met the elements of the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant genuinely believed in the possibility of C Corporation being listed, and this stemmed from a misunderstanding, not from intentional deception.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "Misunderstandings regarding the accuracy of information provided during the investment solicitation process can occur without the intent to deceive deliberately, and if the defendant genuinely believed in that information, it becomes an important factor negating the intent to deceive.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant provided the victim with information, stating, \"Buy shares of C Corporation. It is a company scheduled to be listed on NASDAQ around June 2018, and once it is listed, you can make a profit of tens of times more.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant, while providing information about the G business to the victim, did not explicitly state that profits or principal repayment could not be guaranteed. However, this falls under the general exaggeration commonly seen in the process of soliciting investments.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Among the linguistic techniques used in soliciting investments, exaggeration is often employed to highlight the attractiveness of the investment, and this does not necessarily mean intentional deception. If the defendant truly believed in the success of Company G's business, this can be seen as expressing an optimistic outlook rather than intentional deception.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant told the victim, \"I have invested 600 million won in a comprehensive shopping mall company called G and hold G coins worth tens of billions of won. Since I am entitled to receive five times the coins when I purchase goods from G, if you lend me 50 million won, I will invest it in G and return it multiplied by several times by October 2018.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant's actions originated from a positive intention to provide investment opportunities, which is distinct from an intention to deliberately deceive the victim.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Misunderstandings or exaggerations that may arise in the process of soliciting investments cannot necessarily be seen as involving an intent to deceive. If the defendant has a sincere belief in the information and opportunities provided, this serves as important evidence that the defendant's actions originated from a positive intention.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant acted with the intention of providing an investment opportunity, and argued that \"there might have been a misunderstanding regarding the accuracy of the information provided to the victim, but this was not originated from an intention to deliberately deceive the victim.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant embezzled money from victim B by providing false information.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Knowing that the information provided by the defendant was false and intending to gain financially from it meets the elements of the crime of fraud.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The defendant, around March 2018, in the victim's office located in Gangnam-gu, Seoul, lied to the victim by stating, 'Buy shares of C Corporation. It is a company scheduled to be listed on NASDAQ around June 2018, and once listed, it can yield profits many times over.' However, in reality, C was not a corporation, nor was it scheduled to be listed on NASDAQ around June 2018.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant used the money received from the victim for personal purposes.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The defendant's use of the money received from the victim for purposes other than those promised further clarifies the fact that the defendant deceived the victim to embezzle the money.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "\"The defendant, even though they received money from the victim under the guise of purchasing stocks, only intended to use it for their own credit card payments, personal debt repayments, etc., and was never able to buy the promised stocks listed on NASDAQ or generate any profit for the victim.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant requested to borrow money from the victim despite having no intention or ability to return it.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The fact that the defendant promised to return the principal to the victim, but in reality had neither the intention nor the ability to do so, demonstrates that the victim was deliberately deceived.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "\"In August 2018, at the same location as described in paragraph 1, the defendant lied to the victim, stating, 'I own G Coins worth tens of billions of won, having invested 600 million won in G, a comprehensive shopping mall company. Since I am entitled to receive five times the coins when I purchase goods from G, if you lend me 50 million won, I will invest it in G and return it multiplied by several times by October 2018. Even if G does not generate a profit, I will take responsibility and return the principal in full.' However, in reality, the business prospects were unclear as H, the representative of the corporation running the G business, was detained and undergoing trial for fraud, among other charges. The defendant, well aware of G's circumstances, knew that it was highly unlikely for the G business to succeed and thus knew that it was impossible to guarantee the victim any profit or return of principal.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The information provided by the defendant to the victim was obtained from a reliable source at the time, therefore, the defendant did not have the intention of deliberate deception.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "If the defendant believed that the source of the information provided was reliable, it can be interpreted as having a positive intention to offer the victim a favorable investment opportunity rather than an intention to deceive the victim.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant acted with the intention of providing an investment opportunity, and the information provided to the victim was based on what the defendant believed.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant did not intend to use the money for purposes other than what was promised to the victim, and it became impossible to fulfill the promise due to changes in circumstances.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "If the defendant was in a situation without a stable income and faced financial difficulties, this can be seen as a result of circumstances beyond their control, rather than a deliberate deception, as it deviates from the original intention to fulfill the promise due to external circumstances.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant, at the time, had no steady income and intended to use the money received from the victim for personal purposes, including living expenses and repayment of personal debts.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant used exaggerated expressions in the investment solicitation process as a linguistic technique commonly employed in general investment solicitations, indicating a lack of intent to deceive the victims deliberately.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Using exaggerated expressions during the investment solicitation process is a common and typical method to attract investments, and this is a separate issue from the reliability of the information provided by the defendant to the victim, and does not directly indicate an intentional intent to deceive.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant may have used exaggerated expressions about the possibility of generating profits from investments, but this is merely an exaggeration commonly seen in the process of soliciting investments.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant intentionally committed an act of deception by providing false information to the victim.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The information provided by the defendant is different from the objective facts, and this is intended to deliberately distort the victim's judgment.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"Purchase the stocks of Company C. It is a company scheduled to be listed on NASDAQ around June 2018, and once it is listed, you can make a profit of tens of times more. I also own hundreds of thousands of shares in this company.\" It is alleged that he lied with this intent.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant, after receiving money from the victim, used it in a manner different from what was promised, which satisfies the elements of the crime of fraud.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The defendant's use of the funds received from the victim for personal purposes deviates from the purpose promised by the defendant, and such an act can be seen as deceiving the victim.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The defendant did not hold shares in the aforementioned company but merely possessed coins issued by a company named 'E'. Even though the defendant received money from the victim under the guise of purchasing shares, the intention was to use it for personal expenses such as paying off the defendant's credit card bills and personal debts, rather than fulfilling the promise to purchase shares that were purportedly going to be listed on NASDAQ or generating profits for the victim.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The information about the G coin investment provided by the defendant to the victim was significantly different from the actual business situation, and this constitutes an act of intentionally deceiving the victim.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The information provided by the defendant to the victim was significantly different from the actual situation of G shopping mall, and despite knowing that the business prospects of G were uncertain, the defendant falsely claimed to the victim that it was possible to guarantee profits or the principal through this.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "```\n ENGLISH OUTPUT \nThe fact that they lied with the intent that \"By investing 600 million won in a comprehensive shopping mall company called G, they hold G coins worth tens of billions of won... Even if G does not generate profit, they would take responsibility and return all the principal amount.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The discrepancy between the information provided by the defendant and the facts clearly demonstrates intentional deception.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "If the information provided by the defendant differs from objective facts, it can be interpreted as intentional deception intended to distort the victim's judgment.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "In fact, C Corporation had no plans whatsoever to be listed on NASDAQ, and the defendant did not hold any shares in the said company.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant had no intention or ability whatsoever to generate the profits promised to the victim.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "If the defendant planned to use the investment funds for personal purposes, this suggests that from the beginning, there was no intention or ability to return profits to the victim.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant intended to use the money received from the victim for purposes such as repaying credit card debts and personal debts.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant acted with a clear intent to defraud the victim and embezzle money.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Despite being well aware of the actual business situation, the defendant provided the victim with false investment information and, through this, embezzled money, which can clearly be seen as an intention to deceive.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "Despite the actual business operations of the G shopping mall not being properly conducted and the business outlook being uncertain, the defendant made false investment solicitations to the victim and embezzled money.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's use of the investment funds for personal purposes was a response after the failure of the investment, and it cannot be said that from the beginning, there was no intention or ability to return the profits to the victim.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "In cases where an investment fails or yields results different from expectations, it is observed in typical cases that investors can use the funds for other purposes.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant stated that they \"had no steady income at the time,\" which can be interpreted as the defendant having expected returns from investments, but due to unforeseen circumstances, the funds were used for another purpose.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant genuinely believed in the information provided to the victim, and the error in the information stemmed from a misunderstanding, not from intentional deceit.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Misunderstandings regarding the accuracy of information should be distinguished from intentional deception, and if it is confirmed that the defendant acted based on the information they believed in, it can negate the intent to deceive.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant stated, \"The information provided to the victim was based on what the defendant believed,\" which suggests that the defendant sincerely believed in the accuracy of the information.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The exaggerated expressions used by the defendant are merely linguistic techniques commonly employed during the investment solicitation process and do not necessarily imply an intent to deceive.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "ENGLISH OUTPUT \nThe use of exaggerated expressions in the process of soliciting investments is a common strategy to attract investments, and in itself, cannot prove the intent to deceive.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant argued, \"While I may have used exaggerated expressions about the possibility of generating profits through investment, these are merely the kind of exaggerations commonly seen in the process of soliciting investments.\" This indicates that the defendant employed the typical linguistic techniques of investment solicitation.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018"
+            ]
+        }
+    }
+}

@@ -213,7 +213,8 @@ class Operator:
             rag_result=rag_result,
             arguments=self._arguments,
             crime_fact=self.crime_fact,
-            target_node=self.target_node
+            target_node=self.target_node,
+            model_type = "nli-context-coherency-verifier"
         )
         optimized_output = optimizer.optimize(filter_threshold=1)
         # logger.debug(f"Optimizer returned: {optimized_output}")

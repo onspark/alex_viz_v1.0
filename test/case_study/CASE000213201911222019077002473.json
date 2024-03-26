@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000213201911222019077002473",
+    "crime_fact": "Crime Facts\nCryptocurrency is a type of digital currency that is recorded in electronic form on computers and traded over the Internet without a physical counterpart, operating on a decentralized system utilizing blockchain technology, with Bitcoin and Ethereum being notable examples.\nCryptocurrencies that have built their own blockchain platform are referred to as 'coins', while those that have not and instead utilize the blockchain platforms of other cryptocurrencies like Ethereum and Qtum are called 'tokens', which can still be exchanged for coins despite being tokens.\nC Token is a token created using the Ethereum blockchain platform, initially issued by D Limited Liability Company (hereinafter referred to as 'D') around January 22, 2018, and listed on the Hong Kong F cryptocurrency exchange (hereinafter referred to as 'F Exchange') operated by the victim company E Limited Liability Company (E) around May 22, 2018, 16:00.\nBefore listing C Token on F Exchange, D conducted what is known as a 'private sale', selling C Tokens at a discount to those who contributed to or recognized the value of C Token's establishment, development, and listing, under the condition of a sales ban (Lock-up) for three months after listing. During the private sale period, investors who purchased C Tokens were provided with an electronic wallet, G, for managing and storing the purchased C Tokens, and technical measures were taken to enforce the sales ban on all C Tokens sold during the private sale period for three months after listing.\n1. Defendant A\nThe defendant, during the private sale period around January 2018, purchased 1,370,000 C Tokens and stored them in G.\nOn May 21, 2018, around 16:30, just before C Token was listed on F Exchange, the defendant, while sharing cryptocurrency-related information with other investors in a KakaoTalk group chat, heard from investor H that \"I tried transferring 676 of my locked-up C Tokens stored in G to my account on F Exchange as a test, and it appeared as if the transfer was successful with 676 C Tokens being created in the account, while the original number of C Tokens in G remained unchanged.\" This led the defendant to realize there was a system error in F Exchange and others.\nUtilizing this system error, the defendant attempted to continuously transfer C Tokens, which were under a sales ban for three months after listing, from G to the F Exchange account, creating C Tokens in the F Exchange account without actual transfer, and then decided to exchange these created C Tokens for other cryptocurrencies like Bitcoin (BTC) through F Exchange.\nOn May 21, 2018, around 16:50, from the defendant's residence in Gangbuk-gu, Seoul, knowing that C Tokens were under a trading ban, the defendant accessed G, entered the defendant's F Exchange account address 'J' and the number of tokens '6' in the transfer field, and clicked the Generate Transaction button, thereby entering an unauthorized command into the computer or information processing device operated by the victim company running F Exchange, creating 6 C Tokens in the account without reducing the C Tokens stored in G.\nAs a result, the defendant entered unauthorized commands into the computer or information processing device of F Exchange, creating 6 C Tokens worth 81 KRW in the account, and from that time until May 21, 2018, 20:15, using the same method, created a total of 20,236,912 C Tokens worth 274,412,524 KRW in the defendant's F Exchange account as listed in Appendix Crime List 1, thereby acquiring property benefits of the same value and causing an obstruction in information processing, thereby disrupting the cryptocurrency trading brokerage business operated by the victim company running F Exchange.\n2. Defendant B\nThe defendant, during the private sale period around January 2018, purchased 115,000 C Tokens and stored them in G.\nOn May 21, 2018, around 16:30, just before C Token was listed on F Exchange, the defendant, while sharing cryptocurrency-related information with other investors in a KakaoTalk group chat, heard from investor H that \"I tried transferring 676 of my locked-up C Tokens stored in G to my account on F Exchange as a test, and it appeared as if the transfer was successful with 676 C Tokens being created in the account, while the original number of C Tokens in G remained unchanged.\" This led the defendant to realize there was a system error in F Exchange and others.\nUtilizing this system error, the defendant attempted to continuously transfer C Tokens, which were under a sales ban for three months after listing, from G to the F Exchange account, creating C Tokens in the F Exchange account without actual transfer, and then decided to exchange these created C Tokens for other cryptocurrencies like Bitcoin (BTC) through F Exchange.\nOn May 21, 2018, around 20:21, from the defendant's residence in Seongbuk-gu, Seoul, knowing that C Tokens were under a trading ban, the defendant accessed G, entered the defendant's F Exchange account address 'L' and the number of tokens '60,000' in the transfer field, and clicked the Generate Transaction button, thereby entering an unauthorized command into the computer or information processing device operated by the victim company running F Exchange, creating 60,000 C Tokens in the account without reducing the C Tokens stored in G.\nAs a result, the defendant entered unauthorized commands into the computer or information processing device of F Exchange, creating 60,000 C Tokens worth 813,600 KRW in the account, and from that time until May 22, 2018, 18:31, using the same method, created a total of 1,192,344 C Tokens worth 13,441,594 KRW in the defendant's F Exchange account as listed in Appendix Crime List 2, thereby acquiring property benefits of the same value and causing an obstruction in information processing, thereby disrupting the cryptocurrency trading brokerage business operated by the victim company running F Exchange.",
+    "target_node": {
+        "node_id": "c00014",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_14",
+        "text": "The defendant did not follow a reasonable procedure to verify after discovering a system error.",
+        "label_expanded": "C_14"
+    },
+    "target_reason": "Claim c00014 argues that the defendant's claim of acting solely under the instructions of a voice phishing organization is not valid, but this claim holds relatively weaker logical grounds compared to other claims directly related to the criminal facts. According to the criminal facts, the defendant clearly acted upon the instructions of a voice phishing organization, suggesting that the defendant's actions were part of organized criminal activities. Therefore, claim c00014 has less relevance to other claims based on criminal facts and, for this reason, is considered the weakest claim.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant indeed exploited a system error, but the benefits gained through this do not legally constitute property benefits. Instead, it merely exposed the system's vulnerabilities, thereby providing an opportunity to strengthen security.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant's act of exploiting a system error to exchange falsely generated cryptocurrency for another cryptocurrency can be recognized as a fact that ostensibly gains financial benefit. Therefore, this corresponds to the acquisition of financial benefits legally recognized.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The act committed by the defendant merely exposed vulnerabilities in the information processing system, providing an opportunity to strengthen security.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "Discovering vulnerabilities in a system and reporting them contributes to strengthening the security of that system in the long term.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant caused a malfunction in information processing by transferring C tokens using a system error just before C tokens were listed on the F exchange.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The value of cryptocurrencies is highly volatile, and it is difficult to ascertain the value of tokens that have not actually been traded as a property gain.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The determination of property-related benefits requires that the value of the relevant property be clearly defined and fixed, and assets with high volatility in value are difficult to determine.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant exploited a system error to generate C tokens in an F exchange account, but these C tokens were not actually traded.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant merely confirmed the existence of the system error, rather than exploiting it.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Discovering a system error and exploiting it, and merely verifying the existence of an error, can be legally assessed differently.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant, upon hearing about a system error at F exchange from another investor in a KakaoTalk group chat, attempted to test this by transferring C tokens.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The act of defendants A and B exploiting a system error to generate C tokens that were not actually transmitted and exchanging them for other cryptocurrencies constitutes the input of unauthorized commands into an information processing system, which is clearly a criminal act aimed at acquiring financial benefits.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Entering unauthorized commands into an information processing system to gain financial benefits is recognized as a crime by the Supreme Court precedents.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The defendant entered unauthorized commands into the computer or information processing device of the F exchange, resulting in the creation of 6 C tokens worth 81 won in the account, among other actions. From that time until around May 21, 2018, 20:15, using the same method, a total of 20,236,912 C tokens worth 274,412,524 won were created in the F exchange account under the defendant's name, as listed in Crime List 1, thereby acquiring property benefits of the same value. At the same time, by causing a disruption in information processing through the same method, the defendant obstructed the cryptocurrency trading brokerage business operated by the victim company, F exchange.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The actions of the defendants caused serious disruptions to the cryptocurrency trading brokerage services of F exchange, resulting in financial damage to the victim company.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Acts that interfere with the normal operation of information processing systems cause financial damage to those using the system and are legally prohibited.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "\"The defendant entered unauthorized commands into the computer or information processing device of the F exchange, resulting in the creation of 6 C tokens worth 81 KRW in the account, among other actions. From that time until approximately 20:15 on May 21, 2018, using the same method, a total of 20,236,912 C tokens worth 274,412,524 KRW were created in the F exchange account under the defendant's name, as listed in Crime List 1, thereby acquiring property benefits of the same value. At the same time, by causing a disruption in information processing through the same method, the defendant obstructed the cryptocurrency trading brokerage services operated by the victim company, F exchange.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The fact that the defendants exploited system errors with prior planning indicates a premeditated criminal act intended to deliberately gain financial benefits.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Sharing information in advance and exploiting system errors demonstrate the characteristics of intentional and premeditated criminal acts, which legally require significant responsibility.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "\"The defendant, around 16:30 on May 21, 2018, just before the C token was listed on the F exchange, was sharing information related to cryptocurrency with other investors in a KakaoTalk group chat. During this time, the defendant heard from investor H, who said, 'I tried transferring 676 locked C tokens, which I had stored in my G, to my account on the F exchange just to test it out, and it appeared that the transfer was successful because 676 C tokens were generated in that account, while the number of C tokens stored in G did not decrease and remained the same.' Through this, the defendant became aware of the fact that there was an error in the system of the F exchange and others.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant's act of exploiting a system error was not for the purpose of intentionally acquiring financial gain, but rather to test the vulnerabilities of the system.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Discovering vulnerabilities in a system and notifying them to provide an opportunity to strengthen the security of the system is different from a deliberate criminal act that requires significant legal responsibility.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant, while sharing information related to cryptocurrency with other investors in a KakaoTalk group chat just before the C token was listed on the F exchange, heard from investor H that 'I tried transferring 676 locked C tokens, which were stored in my G, to my account opened on the F exchange just to see what would happen, and it appeared as though 676 C tokens were created in that account, while the number of C tokens stored in G did not decrease but remained the same.' \"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "Despite the prosecution's claim that the defendant exploited a system error to gain financial benefits, in reality, they suffered financial losses.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "Due to the highly volatile nature of cryptocurrency values, it is difficult to accurately assess the value of tokens generated through system errors, and one must not overlook the potential financial losses that may arise from this.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant purchased C tokens, which were subject to a sales ban for three months after being listed. It is true that a system error was exploited, but the actual value of the C tokens generated due to this error remains unclear.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant's actions merely exposed vulnerabilities in the information processing system, which had the positive effect of prompting the strengthening of the system's security.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Exposing vulnerabilities in information processing systems and thereby strengthening the system's security should be distinguished from deliberate criminal acts that require significant legal responsibility.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant acknowledges exploiting a system error, but argues that the benefits gained through this cannot be considered legally recognized property interests, and it is difficult to ascertain the value of tokens, for which no actual transactions occurred, as property interests.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's act of exploiting a system error to exchange falsely generated cryptocurrency for another cryptocurrency constitutes the intentional acquisition of financial gain.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Exploiting known vulnerabilities of a system to gain financial benefits is legally prohibited as a criminal act.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendant, while sharing information related to cryptocurrency with other investors in a KakaoTalk group chat just before the C token was listed on the F exchange, heard from investor H that 'I tried transferring 676 locked C tokens, which I had stored in my G, to my account opened on the F exchange just to see if it would work, and it appeared as though 676 C tokens were created in that account, while the number of C tokens I had stored in G did not decrease but remained the same.' \"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The act committed by the defendant, ostensibly as a trial, can be seen as actually intended for the deliberate acquisition of financial benefits.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "When acting on a trial basis without the purpose of substantially gaining financial benefits, the act results in no actual financial benefits being derived.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The defendant, knowing that C tokens were prohibited from being traded, accessed their G from their residence in I, Gangbuk-gu, Seoul, around 16:50 on May 21, 2018. They then entered the address of their F exchange account 'J' and the number of tokens '6' in the transmission field and clicked the 'Generate Transaction' button. By doing so, they exploited a system error to input unauthorized commands into the computer or information processing device of the F exchange operated by the victim company, resulting in the creation of 6 C tokens in the above account on the F exchange without reducing the C tokens stored in the defendant's G.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's actions were not to test the vulnerabilities of the system, but were deliberately aimed at acquiring financial benefits.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The act of the defendant knowingly exploiting a system error to actually gain financial benefits can be considered an intentional criminal act.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"Hereby, the defendant entered unauthorized commands into the computer or information processing device of the F exchange, leading to the creation of 6 C tokens, worth 81 KRW, in the account, among other actions. From that time until approximately 20:15 on May 21, 2018, using the same method, as listed in the attached crime list 1, a total of 20,236,912 C tokens, worth a total of 274,412,524 KRW, were generated in the F exchange account under the defendant's name, thereby acquiring property benefits of the same value. At the same time, by causing a disruption in information processing in the same manner, the defendant obstructed the cryptocurrency trading brokerage business operated by the victim company, F exchange.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "It can be proven that the defendant actually exploited a system error.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The defendant's act of exchanging falsely generated cryptocurrency for another cryptocurrency, despite knowing the existence of a system error, clearly indicates an intention to gain financial benefit.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant, knowing that C tokens were prohibited from being traded, accessed their G from their residence in I, Gangbuk-gu, Seoul, around 16:50 on May 21, 2018. They then entered their F exchange account address 'J' and the number of tokens '6' in the transmission field and clicked the 'Generate Transaction' button. By doing so, they exploited a system error to input an unauthorized command into the computer or information processing device of the F exchange operated by the victim company. This command generated 6 C tokens in the aforementioned account on the F exchange without reducing the C tokens stored in the defendant's G.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant did not follow a reasonable procedure to verify after discovering a system error.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "In the event of discovering a system error in cryptocurrency transactions, the responsible action is to report the error to the relevant authorities or company, and exploiting the error for financial gain is clearly an illegal act.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "After discovering a system error, the defendant, instead of reporting it to the F exchange or relevant authorities, exploited the error to falsely generate C tokens in their F exchange account.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant entered unauthorized commands into the information processing system to gain financial benefits.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Entering unauthorized commands into an information processing system to create cryptocurrency that does not exist in one's account is legally considered the acquisition of financial benefits and constitutes a criminal act.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant, by the same method until 20:15 on May 21, 2018, caused the creation of a total of 20,236,912 C tokens, valued at a total market price of 274,412,524 won, in an F exchange account registered under the defendant's name over 19 occasions. By doing so, the defendant acquired property benefits of equivalent value, resulting in a disruption of information processing.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "Even if the defendant exploited a system error, since the benefits obtained are based on the variable and uncertain value of cryptocurrency, it cannot be considered a legally established property interest.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "In the case of cryptocurrencies where no actual transactions have occurred, it is difficult to accurately assess their value, and therefore, recognizing them as property gains is not appropriate.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "Cryptocurrency is a type of digital currency that is recorded electronically on computers and traded over the Internet without a physical form. It operates on a decentralized system utilizing blockchain technology, with Bitcoin and Ethereum being among the most well-known examples.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's actions exposed vulnerabilities in the information processing system, providing an opportunity to strengthen security, and cannot be seen as an intentional criminal act.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Discovering vulnerabilities in a system and providing an opportunity to strengthen the security of that system by notifying them is different from deliberate criminal acts that require significant legal responsibility.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant, around 16:30 on May 21, 2018, just before the C token was listed on the F exchange, was sharing cryptocurrency-related information with other investors in a KakaoTalk group chat. During this time, the defendant heard from investor H, who said, \"I tried transferring 676 locked C tokens, which I had stored in my G, to my account on the F exchange just to test it out, and it appeared as though the transfer was successful because 676 C tokens were generated in that account, while the number of C tokens stored in G did not decrease and remained the same.\" Through this, the defendant became aware of a system error in the F exchange and others.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The act committed by the defendant was essentially carried out on a trial basis without the purpose of obtaining any material gain, and no actual material gain was realized.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "When acting on a trial basis without the purpose of substantially gaining financial benefits, the act results in no actual financial benefits being realized.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant, around 16:30 on May 21, 2018, just before the C token was listed on the F exchange, was sharing cryptocurrency-related information with other investors in a KakaoTalk group chat. During this time, the defendant heard from investor H that \"I tried transferring 676 locked C tokens, which were stored in my G, to my account opened on the F exchange as a test, and it appeared as though the transfer was successful with 676 C tokens being generated in the above account, while the number of existing C tokens stored in G did not decrease and remained the same.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00002",
+                "d00011",
+                "d00017",
+                "d00010",
+                "d00016",
+                "d00015",
+                "w00017",
+                "c00017",
+                "d00004",
+                "d00005",
+                "w00016",
+                "c00016",
+                "d00001",
+                "d00013",
+                "w00011",
+                "c00011",
+                "w00015",
+                "c00015",
+                "w00005",
+                "c00005",
+                "d00008",
+                "w00007",
+                "c00007",
+                "w00004",
+                "c00004",
+                "w00010",
+                "c00010",
+                "w00013",
+                "c00013",
+                "d00018",
+                "d00003",
+                "w00018",
+                "c00018",
+                "d00006",
+                "d00012",
+                "d00007",
+                "d00009",
+                "w00003",
+                "c00003",
+                "w00012",
+                "c00012",
+                "w00008",
+                "c00008",
+                "w00009",
+                "c00009",
+                "d00014"
+            ]
+        }
+    }
+}

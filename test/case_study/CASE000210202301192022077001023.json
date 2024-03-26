@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000210202301192022077001023",
+    "crime_fact": "<Criminal Facts>\n[Criminal Record]\nThe defendant was sentenced to 8 months in prison for fraud by the Busan District Court on July 23, 2020, and the judgment became final on September 25, 2020.\n[Criminal Facts]\nOn or around October 4, 2019, at a coffee shop in B Hotel, Gangnam District, Seoul, the defendant lied to the victim C, stating, \"If you give me 100 million won, I can help you obtain a loan of either 35 billion won or 120 billion won from domestic financial institutions.\"\nHowever, in reality, the defendant was being prosecuted for fraud at the time and intended to urgently use the money received from the victim for personal purposes such as settlement payments to the victims of the ongoing case, without any intention or ability to assist the victim in obtaining a loan from financial institutions.\nNevertheless, the defendant deceived the victim in the aforementioned manner and received a total of 100 million won from the victim, under the guise of initial fees for loan processing, into the defendant's Industrial Bank of Korea account (account number omitted) - 65 million won on the same day and 35 million won on the 16th of the same month - and embezzled the amount.",
+    "target_node": {
+        "node_id": "w00010",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_10",
+        "text": "The fact that the defendant made false promises to the victim and received money through this, even while already being indicted and tried for fraud, clearly demonstrates the defendant's intent to deceive.",
+        "label_expanded": "D_10=>C_10"
+    },
+    "target_reason": "Explanation: w00010 is arguing that the defendant's use of the borrowed money for business operating expenses and repayment of existing debts is different from the prior agreement with the victim. However, this argument does not present any specific information or evidence regarding what agreement was made with the victim beforehand. Therefore, this argument lacks a clear connection to the existence or content of any prior agreement between the defendant and the victim, and can be seen as a weak logical connection based on assumption. For these reasons, w00010's argument has relatively weak grounds compared to other arguments, and it does not serve as important evidence or a logical basis for evaluating the defendant's actions.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant did not have the intention of deliberate embezzlement in receiving the loan initiation fee, and merely used it out of necessity, thus lacking the intent necessary for the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant committed a clear act of fraud by deceiving the victim and embezzling the loan initiation fee, which constitutes a fraud offense due to the intentional act of deception and embezzlement.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant argued that the promise made to the victim to secure a loan was an unfulfillable promise, not made with the intention to deceive deliberately.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The impossibility of fulfilling a promise does not imply the absence of intentional deceit.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant claimed, \"If you give me 100 million won, I will help you secure a loan of either 35 billion won or 120 billion won from a domestic financial institution,\" but argues that there was no intention to deceive deliberately.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant used the loan initiation funds for personal purposes such as compensation for the victim of the case under trial, but this was not for the purpose of embezzlement but out of necessity.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The necessity of using funds does not imply the absence of an intention to embezzle.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant only intended to quickly use the money received from the victim for personal reasons such as settlement money for the victim of the case under trial, and had neither the intention nor the ability to assist the victim in obtaining a loan from a financial institution.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant has been previously sentenced to imprisonment for fraud, but this cannot serve as direct evidence in proving intent in the current case.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Past criminal records cannot be used as definitive evidence to determine the intent of the current case.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant was sentenced to 8 months in prison for fraud by the Busan District Court on July 23, 2020, and the judgment became final on September 25, 2020. However, in the current case, the defendant claims a lack of intent.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant received money from the victim by lying that a loan was possible.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "If the defendant provided false information to the victim and then received a transfer of money after making the victim believe that information, it can be considered an act of deception.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant falsely claimed, \"If you give me 100 million won, I will make it possible for you to receive a loan of either 35 billion won or 120 billion won from a domestic financial institution.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant committed this act while being indicted for fraud.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Committing a similar crime while being indicted for fraud demonstrates the defendant's intent to commit fraud.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant was being tried for fraud at the time.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant used the money received from the victim for personal purposes.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The use of money received from the victim for personal purposes proves that the defendant's promise to facilitate a loan was false.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant intended to urgently use the money received from the victim for personal purposes, such as a settlement payment to the victim of the case under trial.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The fact that the defendant committed a similar crime while being indicted for fraud does not necessarily prove the intention to commit fraud.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The fact of past prosecution does not clearly prove the intent behind current actions.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant claims that there was no intent to embezzle when receiving the loan initiation fee, arguing that it was merely an unfulfillable promise rather than an intention to deceive deliberately.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "It is more likely that the defendant's lack of intention or ability to help the victim secure a loan from a financial institution originated from a misunderstanding of the situation rather than from an intent to deceive.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "If there was no intent to deceive, it can be considered that there is a lack of intent, which is a core element of fraud.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant claims that the intention was to use the settlement money for personal purposes, such as compensating the victim of the case being tried, and that this was out of necessity.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The fact that the defendant used the amount received from the victim for personal purposes reinforces the defendant's argument that there was no intent to embezzle.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Using money for personal purposes does not necessarily imply the intent to embezzle, and other interpretations are possible.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant claims that receiving the loan initiation fee was not with the intent of embezzlement, arguing that it was out of necessity.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's promise to enable the victim to receive a loan was an act with the intent to deceive.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The fact that the defendant made false promises to the victim and received money through this, even while already being indicted and tried for fraud, clearly demonstrates the defendant's intent to deceive.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "On or around October 4, 2019, at a coffee shop in B Hotel, Gangnam District, Seoul, the defendant lied to the victim C, stating, \"If you give me 100 million won, I will make it possible for you to receive a loan of 35 billion won or 120 billion won from a domestic financial institution.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant, despite having neither the intention nor the ability to assist the victim in obtaining a loan from a financial institution, demanded and received an initial fee for the loan processing. This constitutes an act of deliberate embezzlement.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The act of the defendant receiving money from the victim indicates that there was intent on the part of the defendant to commit fraud, and legally, receiving money with the intention of embezzlement is a clear act of fraud.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "In fact, the defendant was being tried for fraud at the time and had received money from the victim with the intention of using it urgently for personal reasons such as settlement money for the victim of the case being tried, without any intention or ability to assist the victim in obtaining a loan from a financial institution.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's act of embezzling the amount transferred from the victim under the guise of a loan initiation fee constitutes the crime of fraud, and contrary to the defendant's claim, there was an intentional intent to deceive.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The defendant receiving a large sum of money from the victim under the guise of a loan initiation fee and using it for personal purposes is clear evidence of intentionally deceiving the victim.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant embezzled a total of 100 million won by receiving transfers from the victim under the guise of a loan initiation fee: 65 million won into the defendant's IBK (Industrial Bank of Korea) account on the same day, and 35 million won into the same account on the 16th of the same month.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant's act of deception is clearly intentional, and claiming use out of necessity does not prove the absence of intent to embezzle.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The defendant's claim that they would enable the victim to receive a loan was a lie, and this clearly demonstrates the intent to deceive the victim in order to obtain money.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "On or about October 4, 2019, in a coffee shop at B Hotel in Gangnam District, Seoul, the defendant lied to the victim C, stating, \"If you give me 100 million won, I will make it possible for you to receive a loan of 35 billion won or 120 billion won from a domestic financial institution.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's use of the money received from the victim for personal purposes clearly indicates an intent to embezzle.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The act of using the funds for personal purposes demonstrates that the defendant already had the intention to embezzle when receiving the loan disbursement funds.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant intended to quickly use the money received from the victim for personal purposes such as settlement money for the victim of the case under trial.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's history of fraud charges further strengthens the intentionality of the deceitful act.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The fact that the defendant, who has a criminal record, committed fraud again in a similar manner demonstrates a pattern of deliberate and repetitive deceitful acts.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant was sentenced to 8 months in prison for fraud by the Busan District Court on July 23, 2020, and the judgment became final on September 25, 2020.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's use of the money received from the victim for personal purposes does not necessarily imply an intentional intent to embezzle.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The fact that the money was used for personal purposes supports the defendant's lack of intent to embezzle.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant intended to use it for personal purposes such as settlement money for the victim of the case being tried.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant promised the victim to facilitate obtaining a loan, but this was merely an unfeasible promise without any intention to deceive deliberately.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "If there was no intent to deceive, then the intentionality, which is a major component of the fraud charge, is lacking.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant promised the victim that they would enable them to receive a loan, but this promise was impossible to fulfill.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The purpose of the defendant's use of the money received from the victim was due to urgent personal needs, therefore, it should be distinguished from the intention of deliberate embezzlement.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Using the funds due to an urgent personal need demonstrates the absence of intent to embezzle.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant intended to urgently use the money received from the victim for personal purposes, such as a settlement payment to the victim of the case under trial.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

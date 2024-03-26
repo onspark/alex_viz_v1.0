@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000263202210052022077000168",
+    "crime_fact": "Crime Details 1)\n[Criminal Record]\nThe defendant was sentenced on October 1, 2019, by the Gwangju District Court, Suncheon Branch, to 4 months in prison with a 2-year suspended sentence for violations of the Automobile Management Act, among other charges, and the judgment became final on October 9, 2019. Additionally, on April 1, 2022, the defendant was sentenced by the Incheon District Court to 1 year in prison for fraud, and this judgment became final on April 9, 2022.\n[Specific Crime Details]\nThe defendant operated Company B (hereinafter referred to as 'B') from around 2009 to 2018, and the victim C has been a bus driver who started to operate a vehicle under B since around 2013.\nOn or around April 20, 2017, the defendant purchased a bus (hereinafter referred to as 'the new bus') under the name of B, intending to pay for the new bus in installments upon its release. On April 24, 2017, a mortgage right worth 180 million KRW was established in favor of creditor D Association for the new bus.\nDuring the process of releasing the new bus, around March 2017, at B's office located in Gwangyang City E, the defendant lied to the victim, stating, \"We plan to release a bus worth 220 million KRW, but the company doesn't have the funds. How about you pay for the bus and operate it under lease? The cost of acquiring the bus will be offset by the company purchasing your existing leased vehicle for 100 million KRW, and after releasing the bus on installment, you will bear the remaining 102 million KRW. With that money, we will pay off the installment and then cancel the mortgage on the vehicle.\"\nHowever, in reality, even if the defendant received money from the victim, the plan was to use it for the lease deposit of apartment F, with no intention or capability to pay off the bus installment and cancel the mortgage due to financial difficulties and multiple debts at the time.\nThe defendant, by deceiving the victim in such a manner, fraudulently received a total of 100 million KRW in four transactions (5 million KRW on May 2, 2017, 5 million KRW on the same month 3, 85 million KRW on the same month 4, and 5 million KRW on the same month 12) transferred to the G Bank account under the name of F, thereby embezzling the victim's property.",
+    "target_node": {
+        "node_id": "c00011",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_11",
+        "text": "The credibility of the statement of accounts presented by the defendant to the victim is in question.",
+        "label_expanded": "C_11"
+    },
+    "target_reason": "Claim c00011 argues that the defendant's act, which was purportedly done on a trial basis, can actually be seen as intentionally aimed at acquiring financial benefits. However, the basis of this claim, document d00011, only describes the fact that the defendant generated C tokens by exploiting a system error, and lacks specific evidence or explanation to support that this act was done 'on a trial basis'. Therefore, the foundation of this claim does not sufficiently back up the argument that the defendant's act was aimed at intentionally acquiring financial benefits. This can be seen as a weakness in the warrant due to the weak logical connection between the claim and its basis, and for this reason, claim c00011 is considered a relatively weaker component compared to other claims.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant argues that the money received from the victim was not a payment related to the acquisition of a new car, but rather took the form of a personal loan, and that repayment was made in various ways, therefore it cannot be considered that the defendant deceived the victim to embezzle property.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant clearly committed an act of deception by requesting money from the victim under the guise of payment for a new car, and then using the received funds for personal purposes, thereby sufficiently proving the fact that the defendant embezzled the victim's property.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant received financial compensation from the victim C in relation to the acquisition of a new car, but this was not due to deception but rather was based on an agreement between both parties.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The transaction conducted under the agreement between the defendant and the victim was without the intent to deceive, and this serves as evidence that the defendant cannot be considered to have committed fraud against the victim.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant claims to have purchased a new car as the actual vehicle owned by B, and alleges that the victim C had first intended to replace their vehicle with a new car.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant borrowed the money from the victim for personal use, and the repayment was made in a different manner.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "If evidence that can exclude intentional deception in the process of loans and repayments recognized by the court is presented, it can be determined that the defendant had no intent to commit fraud.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant received 100 million won from the victim, but it was borrowed for personal use, not under the guise of new car purchase funds, and it is said that the repayment was made in a different manner.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant cannot be considered to have defrauded the victim and embezzled property, as the defendant repaid the victim's loan in a different manner.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The value provided by the defendant to the victim (such as the cost of maintaining a new car, fuel expenses, etc.) can be seen as a reasonable means of repaying the money received from the victim, and this method of repayment is far removed from fraudulent activities.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant claims to have repaid the loan by taking on expenses such as maintenance costs and fuel costs for a new car on behalf of the victim.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant received money from the victim C under the pretense of paying for a new car.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Using the money received from the victim for personal purposes is clear evidence of fraudulent behavior.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant falsely claimed, \"We plan to release a bus worth 220 million won, but since the company doesn't have the funds, how about you pay for the bus and take it out for consignment and operation? For the bus acquisition cost, the company will offset it by purchasing your existing consigned vehicle for 100 million won, and after releasing the bus on installment, you will bear the remaining 120 million won. With that money, we will pay off the installment and then remove the mortgage set on the vehicle.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant had neither the intention nor the ability to use the money received from the victim to fully pay off the bus installment payments and to cancel the mortgage.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Using the money received from the victim for a different purpose can be seen as an act of intentionally deceiving the victim.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant, even upon receiving money from the victim during the process of delivering a new car, only intended to use it for the lease deposit of apartment F and had no intention of paying off the bus installment payments to cancel the mortgage. Moreover, due to poor management at the time and being burdened with multiple debts, the defendant had neither the intention nor the ability to repay the money received from the victim.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant defrauded the victim and embezzled property.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The fact that the defendant received a total of 100 million won from the victim and used it for personal purposes satisfies the elements of the crime of fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant embezzled a total of 100 million won from the victim in four separate instances over the course of May 2017, by receiving transfers into an F-named account at G Bank (5 million won on May 2, 5 million won on May 3, 85 million won on May 4, and 5 million won on May 12).",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The use of money received from the victim for personal purposes was not an act of deception but was part of an already agreed upon loan transaction.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Upon reviewing the conversation and agreement between the victim and the defendant, it can be seen that the defendant receiving money from the victim was in the form of a personal loan, and this was not fraud but rather based on an agreement between both parties.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant purchased a new car as the actual vehicle owned by B, and claims that the victim C wanted to replace their vehicle with a new car first. The defendant received 100 million won from the victim, but states that this was borrowed for personal use, not as a payment for the new car, and that repayment was made in a different manner.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant established a repayment plan in agreement with the victim and actually made efforts to repay the borrowed money.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The fact that the defendant made substantial efforts, such as covering maintenance costs and fuel expenses, as a way to repay the borrowed money to the victim, shows that the defendant had no intention to deceive the victim.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant claims to have repaid the loan to the victim by taking on expenses such as maintenance costs and fuel costs for a new car.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant's use of the money received from the victim for other purposes was not intended to embezzle the victim's money.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The defendant used the money received from the victim for other purposes due to the worsening management situation and the burden of numerous debts at the time. This reflects the economic difficulties faced by the defendant, and it was not an attempt to embezzle the victim's money with the intent to deceive.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "In fact, the defendant had no intention of using the money received from the victim to pay off the bus installment and remove the mortgage, but rather planned to use it for the lease deposit of apartment F. At the time, due to poor management, the defendant was burdened with numerous debts and had neither the intention nor the ability to repay the money received from the victim.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's use of the money received from the victim for other purposes clearly constitutes an act of deception.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Even if the defendant was experiencing financial difficulties, demanding money from the victim under the guise of payment for a new car purchase and then using the received money for personal purposes can be seen as intentionally defrauding the victim of their money with deceitful intent.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"In March 2017, at the B office located in Gwangyang City, E, the defendant lied to the victim, saying, 'We plan to release a bus worth 220 million won, but the company does not have the money. How about you pay for the bus and take it out for consignment and operation? The cost of acquiring the bus will be offset by the company purchasing your existing consigned vehicle for 100 million won, and after releasing the bus on installment, you will bear the remaining 120 million won. With that money, we will pay off the installment and then remove the mortgage set on the vehicle.'\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The credibility of the statement of accounts presented by the defendant to the victim is in question.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "In a normal transaction, an accurate and transparent statement must be provided, and if the statement presented by the defendant lacks credibility, this raises doubts about the truthfulness of the information provided to the victim.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The victim's statements have been consistent from the investigation stage, and there are doubts about the credibility of the statement of accounts presented by the defendant.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's use of money received from the victim for personal purposes proves the act of defrauding the victim and embezzling property.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The essence of the crime of fraud is the act of deceiving the victim to gain financial benefits, and the fact that the defendant used the money received from the victim as a security deposit for apartment F is a clear act of deception against the victim, which can be considered as fraud.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The defendant, as described above, deceived the victim and, having fooled the victim, received a total of 100 million won (5 million won on May 2, 2017, 5 million won on the 3rd of the same month, 85 million won on the 4th of the same month, and 5 million won on the 12th of the same month) transferred to a G Bank account under the name of F, thereby embezzling the victim's property.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant met the elements of the fraud offense by lying to the victim to receive money and then using it for personal purposes.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "ENGLISH OUTPUT \nOne of the elements of the crime of fraud, 'deceptive act,' means to deceive another person by providing false information.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant, around March 2017, in the office of Company B located in Gwangyang City, E, lied to the victim by stating, \"We plan to release a bus worth 220 million won, but the company does not have the funds. How about you pay for the bus and take it out for consignment and operation? The cost of acquiring the bus will be offset by the company purchasing your existing consigned vehicle for 100 million won, and after releasing the bus on installment, you will bear the remaining 120 million won. With that money, we will pay off the installment and then remove the mortgage set on the vehicle.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's past criminal record and the similarity of the current case can prove that the defendant acted with the intention of committing fraud.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "According to past precedents and legal principles, if the defendant's criminal record is related to similar crimes, it is possible to infer the defendant's pattern of behavior and criminal intent.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant was sentenced to 4 months in prison with a 2-year suspended sentence for violating the Automobile Management Act, among other charges, by the Gwangju District Court, Suncheon Branch, on October 1, 2019, and the judgment became final on October 9, 2019. Furthermore, on April 1, 2022, the defendant was sentenced to 1 year in prison for fraud by the Incheon District Court, and this judgment became final on April 9, 2022.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The fact that the defendant used the money received from the victim for personal purposes proves that the defendant had no intention or ability to repay the victim.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "In the crime of fraud, the use of funds after the act of deception is an important element in proving the intent to deceive and the lack of ability to repay.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant, as described above, deceived the victim and, having fooled the victim, received a total of 100 million won (5 million won on May 2, 2017, 5 million won on the same month 3rd, 85 million won on the same month 4th, and 5 million won on the same month 12th) transferred to a G Bank account under the name of F, thereby embezzling the victim's property. The intention was to use this for the lease deposit of F's apartment, with no intention of paying off the bus installment payments to cancel the mortgage.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The claim that the defendant acted with the intent to defraud is insufficient in that it does not take into account the trust relationship between the defendant and the victim, as well as the nature of the financial transaction.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "If the victim wanted to replace their vehicle with a new one first, and agreed to have the defendant pay for the vehicle and take it out for operation, this indicates that a trust relationship had already been established between the two parties, and it is highly likely that the victim handed over the money to the defendant based on this trust.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant claims to have purchased the new car as the actual vehicle owned by B, and alleges that the victim C had first intended to replace their vehicle with a new car.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's claim that they repaid the loan by covering expenses related to the new car, such as maintenance and fuel costs, supports the argument that the defendant had no intent to commit fraud.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "If the defendant has borne the costs related to the victim's vehicle, this indicates that the defendant has the intention and ability to make financial restitution to the victim, suggesting that the act was not intended for fraud.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The defendant claims to have repaid the loan to the victim by taking on expenses such as maintenance costs and fuel costs for a new car, among other methods.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "Even if the defendant's past criminal record is similar to the current case, it is a logical leap to conclude that the defendant had the intention to commit fraud in this case based on that alone.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "If past behavior patterns or criminal records are not directly related to the specific facts or intentions of the current case, inferring the defendant's intent based on this should be approached with caution in making an accurate judgment.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"The defendant received legal judgments in 2019 and 2022, however, these past judgments cannot serve as direct evidence of the defendant's intent to commit fraud in the current case.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00008",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00005",
+                "c00005",
+                "d00018",
+                "d00009",
+                "w00004",
+                "c00004",
+                "w00015",
+                "c00015",
+                "d00011",
+                "d00015",
+                "w00010",
+                "c00010",
+                "w00001",
+                "c00001",
+                "d00014",
+                "w00008",
+                "c00008",
+                "w00012",
+                "c00012",
+                "w00016",
+                "c00016",
+                "d00012",
+                "d00017",
+                "d00002",
+                "d00003",
+                "d00013",
+                "w00017",
+                "c00017",
+                "d00010",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00009",
+                "c00009",
+                "d00001",
+                "d00005",
+                "w00002",
+                "c00002",
+                "d00016",
+                "d00007",
+                "d00006"
+            ]
+        }
+    }
+}

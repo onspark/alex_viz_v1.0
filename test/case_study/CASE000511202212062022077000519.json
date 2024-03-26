@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000511202212062022077000519",
+    "crime_fact": "<translated text>\n\nCrime Details\n1. Installment Vehicle Fraud\nThe defendant, around October 2015, at an unspecified location, called the victim B and lied, saying, \"I need a vehicle to transport live eels, but I can't get a loan because I have bad credit. If you take out a capital loan and purchase a vehicle for me, I will pay back the principal and interest on your behalf.\"\nHowever, in reality, the defendant had no steady income or significant assets at the time and had no experience in the eel distribution business, making the success of the business unlikely. Therefore, the defendant had neither the intention nor the ability to pay the monthly loan principal and interest even if the vehicle was purchased under the victim's name.\nThe defendant deceived the victim in this manner and, having fooled the victim, received a Sorento vehicle worth 26,700,000 KRW purchased under the victim's name around October 29, 2015, thereby embezzling it.\n2. Loan Fraud\nThe defendant, around January 2016, at an unspecified location, called the victim B and lied, saying, \"Selling live eels can yield profits of tens of millions of won. If you lend me the money to buy the eels, I will share the profits with you and pay back the vehicle loan in full.\"\nHowever, in reality, the defendant had no steady income or significant assets at the time and had no experience in the eel distribution business, making the success of the business unlikely. Therefore, the defendant had neither the intention nor the ability to repay the borrowed money.\nThe defendant deceived the victim in this manner and, having fooled the victim, received a deposit of 2,000,000 KRW into the defendant's account around January 5, 2016, among other instances. Using the same method, from then until around September 14, 2016, the defendant received a total of 41,700,000 KRW deposited into the defendant's account from the victim on 6 occasions as listed in items 1 to 4, 9, and 10 of the attached crime list, thereby embezzling it. Additionally, as listed in items 5 to 8 of the same list, the defendant acquired property benefits equivalent to a total of 10,000,000 KRW by having it deposited 4 times under the guise of salary.",
+    "target_node": {
+        "node_id": "w00004",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_04",
+        "text": "The defendant, by telling the victim that they were a credit delinquent and could not obtain a loan, and then lying about paying the principal and interest if the victim took out a capital loan to purchase a vehicle, and subsequently embezzling the vehicle purchased in the victim's name, approached the victim with the intention to deceive from the outset, without any intention or ability to repay.",
+        "label_expanded": "D_04=>C_04"
+    },
+    "target_reason": "The guarantee of w00004 is based on the assumption that without the defendant's account, the voice phishing organization could not have successfully collected the damages. However, this has a weak logical connection because there is no explicit evidence that the voice phishing organization could not use other methods or accounts. Voice phishing organizations can commit crimes using various means and methods, and they may not depend on a single account. Therefore, this guarantee is considered the weakest component because it has a weak direct relevance to the criminal facts and is based on broad assumptions about the working methods of the voice phishing organization.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant requested funds from the victim with the intention of running an eel distribution business, and it can be seen that there was no intent to deceive as some of the amount was used for a vehicle collateral loan and business operating expenses.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "Despite the low likelihood of success in the eel distribution business, the defendant concealed this fact and lied to the victim to borrow money, which was then mostly used for gambling, clearly intending to deceive the victim from the beginning.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant can prove that there was no intent to deceive by actually using a portion of the amount for the purchase of a vehicle in the financial transaction with the victim.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The fact that a portion of the amount was actually used for the purchase of a vehicle demonstrates that the defendant did not request the entire amount from the victim with false intent, but rather, there was a purpose for a certain portion to be used for the eel distribution business.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "\"The defendant used a portion of the amount for the actual purpose of a vehicle secured loan\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "Even if the defendant exaggerated the prospects of success in the eel distribution business, it cannot be conclusively determined that there was never any intention or ability to repay from the beginning.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The fact that the defendant used a certain portion of the vehicle secured loan and business operating expenses indicates that there was an intention to actually operate a business, which weakens the argument that the defendant had no intention or ability to repay from the beginning.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "\"The defendant cannot be seen as having received all the money with the intent to deceive, as some of the amount was actually used for the purpose of a vehicle-secured loan.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "It is wrong for the defendant to have used the remaining amount for gambling, etc., but this is a different issue from the essence of the fraudulent act, and not all of the amount was demanded with the intent to deceive.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The fact that the defendant used a portion of the funds for business operating expenses suggests that the defendant had a genuine intention to operate a business. Although it was wrong to use the remaining funds for gambling, this should be seen as a separate issue from the business operation and can serve as evidence to completely deny any intent to deceive.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "\"Moreover, although it is wrong for the defendant to have used the remaining amount for gambling, etc., this is a different issue from the essence of the fraudulent act.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant, by lying to the victim to borrow money for purchasing a vehicle and then embezzling it, clearly had the intent to deceive.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The defendant, by telling the victim that they were a credit delinquent and could not obtain a loan, and then lying about paying the principal and interest if the victim took out a capital loan to purchase a vehicle, and subsequently embezzling the vehicle purchased in the victim's name, approached the victim with the intention to deceive from the outset, without any intention or ability to repay.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The defendant, around October 2015, called the victim B from an unknown location and lied, saying, \"I need a vehicle to transport eels, but I can't get a loan because I have bad credit. If you take out a capital loan and purchase a vehicle for me, I will pay back the principal and interest on your behalf.\" However, in reality, the defendant had no steady income or significant assets at the time and had no experience in the eel distribution business, making the success of the business unlikely. Therefore, even if a vehicle was purchased in the victim's name, the defendant had neither the intention nor the ability to make the monthly loan principal and interest payments.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant, after borrowing money from the victim under the pretext of purchasing eels, did not invest it in the business but used it for gambling and other purposes, demonstrating a lack of intention to repay from the beginning.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The defendant's act of disguising the borrowing of money from the victim for the purchase of eels, and actually using this money for gambling, proves that the defendant had no intention or ability to repay the money at the time of borrowing from the victim.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "\"The defendant, around January 2016, at an unknown location, called the victim B and lied, saying, \\\"Selling glass eels can yield profits of tens of millions of won. If you lend me the money to buy the glass eels, I will share the profits with you and even pay back the principal and interest of the vehicle.\\\" However, in reality, the defendant had no steady income or significant assets at the time, and had absolutely no experience in the glass eel distribution business, making the success of the business unlikely. Therefore, the defendant had neither the intention nor the ability to repay the borrowed money to the victim.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant deceived the victim into taking out a loan and then used it for purposes other than those agreed upon, indicating an intent to deceive from the outset.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The reason the victim provided a loan to the defendant was based on the defendant's lies and deception, and the fact that the defendant used the loan for purposes other than what was promised, such as gambling, clearly shows that the defendant approached the victim with the intention to deceive from the beginning.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "\"The defendant, around October 29, 2015, embezzled a Sorento vehicle worth approximately 26.7 million won, which was purchased in the victim's name and delivered to him.\" and \"Starting from receiving 2 million won into an account under the defendant's name, by the same method, until around September 14, 2016, as listed in items 1 to 4, 9, and 10 of the attached crime list, the defendant embezzled a total of 41.7 million won from the victim in six instances, deposited into an account under the defendant's name. Furthermore, as listed in items 5 to 8 of the same list, by causing a total of 10 million won to be deposited in four instances under the guise of salary, the defendant acquired property benefits of the same amount.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The fact that the defendant used a portion of the funds received from the victim for the actual purpose of a vehicle secured loan indicates an intention to repay.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The fact that the defendant did not use all of the received funds for unproductive purposes such as gambling, but used some of it for a vehicle-secured loan, shows that there was at least some intention to repay the victim.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant cannot be seen as having received all the money with the intent to deceive, as some of the amount was actually used for the purpose of a vehicle-secured loan.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The fact that the defendant used funds for gambling, etc., is a separate issue that cannot conclusively determine the absence of an intention to repay.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "Using funds for gambling is indeed wrong, but this alone cannot conclusively determine that the defendant had no intention of repayment from the beginning, and this should be distinguished from the nature of fraudulent acts.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"Moreover, although it was wrong for the defendant to use the remaining amount for gambling, etc., this is a different issue from the essence of the fraudulent act.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The mere possibility of failure in the eel distribution business cannot be seen as lacking the defendant's intention or ability to repay.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "There may be instances where the likelihood of a business's success is deemed low, but this falls under the general risks associated with undertaking a business venture, and it cannot be conclusively determined from this alone that the defendant lacked the intention or ability to repay from the outset.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"However, in reality, the defendant had no steady income or significant assets at the time, and had absolutely no experience in the eel distribution business, making the success of the business unlikely. Therefore, even if a vehicle was purchased under the victim's name, the defendant had neither the intention nor the ability to make the monthly loan principal and interest payments.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "It is clear from the act of deceiving the victim and embezzling money that the defendant had no intention or ability to repay from the beginning.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The defendant's act of borrowing money from the victim while concealing the low likelihood of the business's success, and then primarily using that amount for gambling, proves that there was no intention or ability to repay from the beginning.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant borrowed an amount of money from the victim by lying, and then used most of it for gambling instead of the agreed purpose.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant deceived the victim by intentionally concealing the potential failure of the business.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The act of hiding the possibility of business failure and borrowing money can be seen as an intentional act of deception intended to deceive the victim.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"However, in reality, the defendant had no steady income or significant assets at the time, and had absolutely no experience in the eel distribution business, making the likelihood of business success low. Therefore, even if the defendant borrowed money from the victim, they had neither the intention nor the ability to repay it.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant used the victim's money not for business purposes, but for personal consumption, which indicates that there was no intention to repay from the beginning.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The act of using money borrowed from the victim for purposes other than business, especially for gambling, demonstrates that the defendant had the intention to deceive the victim from the beginning, and lacked the intention or ability to use it as capital needed for the business.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The defendant borrowed an amount of money from the victim by lying, and then used most of it for gambling instead of the agreed purpose.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_13",
+                "text": "The prosecution's claim that the defendant concealed the potential success of the eel business lacks sufficient evidence.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_13",
+                "text": "There is evidence showing that the defendant had a specific plan and intention for the eel distribution business.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_13",
+                "text": "The defendant actually used a portion of the amount for the purpose of vehicle secured loans and business operating expenses.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_14",
+                "text": "The fact that the defendant used funds for gambling cannot be evidence of a lack of intent to repay.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_14",
+                "text": "Expenditure due to gambling does not imply an absence of ability to repay, and it cannot be overlooked that the defendant has made a certain effort to repay.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_14",
+                "text": "The defendant used a portion of the amount received from the victim for a vehicle secured loan and business operating expenses, which suggests the existence of an intention to repay.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_15",
+                "text": "The defendant's actions cannot be seen as having an overall intent to deceive, and it is more reasonable to view them as a failure of investment in the business.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_15",
+                "text": "The fact that the defendant initially used a certain amount of funds necessary for business operations indicates a positive will towards the business, and not all actions can be conclusively determined as having the intent to deceive.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_15",
+                "text": "The defendant used a portion of the funds for a vehicle-secured loan and the purchase of live eels, among other things. Although the business operation failed, it cannot be said that there was never any intention or ability to repay from the beginning.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The reason the defendant requested a loan from the victim was for an actual business, and it shows that not all of the borrowed money was received with the intent to deceive.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The fact that the defendant used a portion of the funds for the actual purpose of a vehicle secured loan and business operating expenses suggests that the defendant did not initially intend to deceive the victim.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant cannot be seen as having received all the money with the intent to deceive, as some of the amount was actually used for the purpose of a vehicle-secured loan.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant was unaware of the risk of business failure, and this is a separate issue from the intent to deceive.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The possibility of failure in business is an issue that all entrepreneurs face, and in the case of the defendant, it was merely a misjudgment of the business's potential for success, not an intention to deceive.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The defendant had no fixed income or significant assets at the time, and had absolutely no experience in the eel distribution business, which made the likelihood of the business's success low because\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "Although it was wrong for the defendant to use the remaining amount for gambling, this is a different issue from the essence of the fraudulent act, and it cannot be conclusively determined that there was never any intention or ability to repay from the beginning.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Improper use of funds for gambling, although it may be unethical, is a separate issue from fraud and does not prove that there was no intention or ability to repay from the beginning.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"Moreover, although it is wrong for the defendant to have used the remaining amount for gambling, etc., this is a different issue from the essence of the fraudulent act.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00013",
+                "d00018",
+                "d00001",
+                "d00011",
+                "w00006",
+                "c00006",
+                "d00017",
+                "w00013",
+                "c00013",
+                "d00012",
+                "d00015",
+                "w00007",
+                "c00007",
+                "d00002",
+                "w00014",
+                "c00014",
+                "d00009",
+                "d00006",
+                "w00017",
+                "c00017",
+                "d00005",
+                "d00014",
+                "d00007",
+                "w00009",
+                "c00009",
+                "d00004",
+                "w00010",
+                "c00010",
+                "w00015",
+                "c00015",
+                "w00016",
+                "c00016",
+                "d00008",
+                "d00003",
+                "d00016",
+                "w00008",
+                "c00008",
+                "w00011",
+                "c00011",
+                "w00012",
+                "c00012",
+                "w00018",
+                "c00018",
+                "d00010",
+                "w00003",
+                "c00003"
+            ]
+        }
+    }
+}

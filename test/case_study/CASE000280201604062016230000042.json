@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000280201604062016230000042",
+    "crime_fact": "<Crime Details>\nThe defendant conspired with an unidentified person who called people, impersonating prosecutors and others, and deceived them by claiming that their personal information had been leaked and that they would provide a personal financial protection device. The scheme involved having the victims access an internet site created by the unidentified person and enter their personal information, which was then used to transfer deposit amounts to the defendant's account. The defendant would then withdraw the money and deliver it to the unidentified person.\nOn July 29, 2015, around 10:55, from an unknown location, the unidentified person called victim C, impersonating an official from the Seoul Central District Prosecutors' Office, and lied, saying, \"Your personal information has been exposed, and under the cooperation of the Financial Supervisory Service, we will provide a personal financial protection device. Log into the internet site (D) and enter your account number and password among other information.\" The deceived victim accessed the said site and entered the relevant information. Using this information, the unidentified person entered false information or unauthorized commands into a computer or other information processing device, or unauthorizedly altered information, thereby transferring 30 million won from the victim's Shinhan Bank account (E) to the defendant's post office account (F).",
+    "target_node": {
+        "node_id": "w00009",
+        "node_type": "warrant",
+        "role": "defense",
+        "label": "W_09",
+        "text": "There is no evidence that the defendant directly committed or planned the criminal act, and actions taken simply in accordance with the instructions of a third party may be misunderstood as a crime.",
+        "label_expanded": "D_09=>C_09"
+    },
+    "target_reason": "Explanation: The defendant argues that if there was explicit or implicit consent from the victim regarding the use of the funds provided, then this cannot be seen as an intent to embezzle. However, this argument is logically weak considering the fact that the defendant obtained the money from the victim through lies. Since the defendant's claim of making money through investment was false and the intention was actually for personal use, it is difficult to see the victim's consent as genuine. Therefore, assuming the victim's consent in this situation is not logically valid, and this warrant is based on assumptions that are not directly related to the essence of the case.",
+    "current_role": "defense",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was not aware of the substantive content of the voice phishing crime and merely acted according to the instructions of a third party, and therefore cannot be considered a conspirator.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant, in conspiracy with an unidentified person, actively participated in the crime by entering false information into an information processing device in order to illegally acquire the victim's property, and therefore, cannot be exempt from responsibility.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant was unaware of the specific information necessary for the execution of the crime.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The subject deeply involved in the criminal plan must know all the details necessary to execute the crime.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant was unaware of the specific information of the loan company",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant was merely an actor who acted under the instructions of a third party, not the principal offender of the voice phishing crime.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "If one is neither a conspirator nor an executor of a crime, merely acting upon the instructions of a third party cannot be considered as being a party to the conspiracy, and this suggests a lack of awareness of the substantive content of the crime.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant merely attempted to withdraw money deposited into the account at the direction of a third party.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant did not attempt to withdraw proceeds of crime but intended to take out a loan.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "People deeply involved in crime act with a clear intent to obtain the proceeds of crime. However, the intent to take out a loan is distinctly different from the intent to withdraw criminal proceeds.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant claims that they intended to take out a loan, not to withdraw proceeds from crime.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "It is clear that the defendant, in conspiracy with an unidentified person, illegally acquired the victim's property.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The use of the defendant's account in the process of transferring the victim's property to the defendant's account can be seen as clear evidence of conspiracy.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The unidentified person transferred 30 million won from the victim's Shinhan Bank account (E) to the defendant's post office account (F).",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "There was decisive action showing the defendant actively participated in the crime.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The act of the defendant withdrawing the transferred money and agreeing to deliver it to an unidentified person indicates active involvement and execution of the criminal plan.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant conspired to withdraw it and deliver it to an unidentified person.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant played a central role in taking the technical measures necessary for the fraudulent act.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Entering false information or unauthorized commands into an information processing device was a technical measure essential for the execution of the crime, and this implies the defendant's significant role.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The unidentified person used the above information to input false information or unauthorized commands into a computer or other information processing device, or to input or alter information without authorization, thereby transferring 30 million won from the victim's Shinhan Bank account (E) to a post office account (F) held in the defendant's name.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant cannot be considered to have played a significant role in entering false information into an information processing device, as they lacked the knowledge or ability to implement technical measures for voice phishing crimes.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The technical measures to input false information into an information processing device require specialized knowledge, and it can be seen that the defendant played no significant role given the lack of such expertise or ability.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant claims that the intention was to take out a loan, not to withdraw proceeds of crime, suggesting that the defendant was unaware of the substantive content of the crime.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "Since there is a lack of direct evidence that the defendant was deeply involved in the criminal plan, they cannot be considered a conspirator.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "To prove conspiracy to commit a crime, clear evidence is required that the defendant was deeply involved in the criminal plan. However, the fact that the defendant was unaware of the specific information of the loan company shows that the defendant was not deeply involved in the criminal plan.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The fact that the defendant was unaware of the specific information of the loan company shows that the defendant was not deeply involved in the criminal plan.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The act of the defendant agreeing to deliver money to an unidentified person may not be intended to withdraw proceeds of crime, but could stem from a misunderstanding.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "There is no evidence that the defendant directly committed or planned the criminal act, and actions taken simply in accordance with the instructions of a third party may be misunderstood as a crime.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant merely attempted to withdraw money deposited into the account following the instructions of a third party and did not directly conspire or participate in the execution of the voice phishing crime.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's claim that he was trying to take out a loan, not withdraw proceeds of crime, does not match his actual actions.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The actions actually carried out by a person deeply involved in a crime reflect his true intentions.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant, in conspiracy with an unidentified person, entered false information into an information processing device or entered or altered information without authorization, thereby acquiring financial benefits.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant actively participated in the criminal act, proving that his intention was not merely to take out a loan.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Withdrawing criminal proceeds and agreeing to deliver them to an unidentified person can be considered as actively contributing to the crime.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant agreed to transfer 30 million won from the victim's account to their own postal account and then withdraw it to deliver to an unidentified person.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "Contrary to the defendant's claim, the notion that he intended to take out a loan is not realistically persuasive, and in fact, it is clear that his intention was to obtain criminal proceeds.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "It is practically impossible to borrow a large sum of money without any significant assets or income, and this strongly suggests that the defendant acted with the intention of obtaining criminal proceeds.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant, in conspiracy with an unidentified person, entered false information or unauthorized commands into an information processing device, or entered or altered information without authorization, thereby acquiring financial benefits.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant's denial of conspiracy with an unidentified person is not valid.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The transfer of 30 million won from the victim's Shinhan Bank account to the defendant's post office account is an act that cannot be explained without a conspiracy between the defendant and an unidentified person.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"On July 29, 2015, at approximately 10:55, an unidentified individual called the victim C, impersonating a prosecutor from the Seoul Central District Prosecutors' Office, and falsely claimed, \\\"Your personal information has been exposed. In cooperation with the Financial Supervisory Service, we will provide a personal financial protection device. Log into the internet site (D) and enter your account number and password.\\\" The deceived victim accessed the said site and entered the relevant information. Using this information, the unidentified individual entered false information or unauthorized commands into a computer or other information processing device, or unauthorizedly altered information, thereby transferring 30 million won from the victim's Shinhan Bank account (E) to a post office account (F) held in the defendant's name.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant actively participated in voice phishing crimes.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The act of the defendant transferring the deposit amount to their own account, and withdrawing it to deliver to an unidentified person, played an essential role in the execution of the voice phishing crime.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"The defendant conspired with an unidentified person who called people, impersonating prosecutors and others, deceiving them by claiming their personal information had been leaked and offering to provide personal financial protection devices. This led the victims to access an internet site created by the unidentified person and enter their personal information. The unidentified person then used this information to transfer deposit amounts to the defendant's account, and the defendant agreed to withdraw and deliver these amounts to the unidentified person.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's actions did not stem from a mere misunderstanding.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The defendant's active participation in illegally acquiring the victim's property through a prior conspiracy with an unidentified person clearly demonstrates the criminal intent.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"On July 29, 2015, at approximately 10:55, an unidentified person called the victim C from an unknown location, impersonating a prosecutor from the Seoul Central District Prosecutors' Office, and falsely claimed, \\\"Your personal information has been exposed. In cooperation with the Financial Supervisory Service, we will provide a personal financial protection device. Log into the internet site (D) and enter your account number and password among other information.\\\" The deceived victim accessed the said site and entered the relevant information. Using this information, the unidentified person entered false information or unauthorized commands into a computer or other information processing device, or unauthorizedly altered information, thereby transferring 30 million won from the victim's Shinhan Bank account (E) to a post office account (F) held in the defendant's name.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's actions may not have been aimed at obtaining criminal proceeds, but rather originated from the intention to secure a loan.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "It is common for individuals to attempt to take out loans due to urgent economic needs, even without any particular assets or income, and this cannot necessarily be seen as aiming for criminal proceeds.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant claims that \"the intention was to take out a loan, not to withdraw proceeds of crime, suggesting that the defendant was unaware of the substantive content of the crime.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant may not have been deeply involved in the criminal plan and could have unconsciously followed the orders of an unidentified person.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The fact that there was no specific knowledge about the crime and that the defendant was unaware of the specific information about the loan company shows that the defendant simply acted according to instructions and was not deeply involved in the criminal plan.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The fact that the defendant was unaware of the specific information of the loan company shows that the defendant was not deeply involved in the criminal plan.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant may be a victim deceived by an unidentified person, and there is a possibility that they were exploited without properly understanding the substantive content of the crime.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "If the defendant was unaware of the substantive content of the crime and merely acted in accordance with the instructions of a third party, then the defendant was used as a tool of deception, rather than being seen as a principal conspirator.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"The defendant merely attempted to withdraw money deposited into the account following the instructions of a third party, and did not directly conspire in or participate in the execution of the voice phishing crime.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00001",
+                "c00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

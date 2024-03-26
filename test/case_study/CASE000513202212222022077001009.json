@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000513202212222022077001009",
+    "crime_fact": "```\nCriminal Facts\nCase Number: 2022고단1009\nThe defendant, upon seeing a post about a \"high-paying part-time job\" on Facebook around April 2022, contacted an unidentified person and agreed to post items for sale on second-hand trading websites and other platforms without the intention or ability to sell any items. They planned to deceive buyers into paying for these non-existent items. The unidentified person was responsible for posting the fraudulent sales posts online, while the defendant was responsible for opening a bank account in their name to withdraw and hand over the money transferred by the victims.\nOn or around April 25, 2022, the unidentified person accessed the game 'C' by Company B from an unknown location and created a false post stating, \"Selling D (game money)”. They lied to the victim E, who contacted them after seeing the post, stating, \"I will sell 20.7 billion D for 538,200 won.\"\nHowever, in reality, both the defendant and the unidentified person had neither the intention nor the ability to sell any items or game money, even after receiving money from the victims.\nDespite this, the defendant, in conspiracy with the unidentified person, deceived the victims and received a total of 28,808,300 won in 99 transactions, including 538,200 won transferred to the defendant's F bank account (account number omitted) around 16:39 on the same day, from April 25, 2022, to May 16, 2022, as listed in the attached crime summary table 1.\nThus, the defendant, in conspiracy with the unidentified person, defrauded the victims and misappropriated their property.\n\nCase Number: 2022고단1652\nThe defendant, upon seeing a post about a \"high-paying part-time job\" on Facebook around April 2022, contacted an unidentified person and agreed to post items for sale on second-hand trading websites and other platforms without the intention or ability to sell any items. They planned to deceive buyers into paying for these non-existent items. The unidentified person was responsible for posting the fraudulent sales posts online, while the defendant was responsible for opening a bank account in their name to withdraw and hand over the money transferred by the victims.\nOn or around April 25, 2022, the unidentified person, after seeing a post in a KakaoTalk open chat room posted by victim G, contacted the victim and lied, saying, \"I will sell 12 billion D (game money used in Company B's game C) for 336,000 won in cash.\"\nHowever, in reality, both the defendant and the unidentified person had neither the intention nor the ability to sell any game money, even after receiving money from the victims.\nThe defendant, in conspiracy with the unidentified person, deceived the victims and received a total of 15,790,700 won in 46 transactions, including 336,000 won transferred to the defendant's F bank account (account number omitted) around 18:48 on the same day, from April 25, 2022, to May 17, 2022, as listed in the attached crime summary table 2.\nThus, the defendant, in conspiracy with the unidentified person, defrauded the victims and misappropriated their property.",
+    "target_node": {
+        "node_id": "w00011",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_11",
+        "text": "The act of embezzling funds by deceiving the victims is a typical pattern of intentional fraud, and cannot be explained as a mistake made in the course of business.",
+        "label_expanded": "D_11=>C_11"
+    },
+    "target_reason": "Explanation: w00011 argues that an actor with awareness of a crime actively contributes to the success of that crime, but this fails to provide sufficient logical basis to prove a direct connection between the existence of criminal consciousness and the defendant's active contribution. Just because there is a consciousness of crime does not necessarily mean that active contribution follows, which is merely an assumption. Therefore, this argument shows weakness in terms of direct relevance to the criminal facts and logical validity. For these reasons, w00011 is considered the weakest argument element.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant argues that there is insufficient evidence related to the conspiracy with an unidentified person, and that the use of an account alone cannot be seen as evidence of conspiracy, thus there was no intent to commit the crime.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The close cooperation and conspiracy between the defendant and the person(s) of unknown identity are clearly proven through the use of accounts and the transfer of funds from the victims, therefore, it can be seen that the defendant committed the crime intentionally.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant was unaware of the conspiracy with an unidentified person.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "Merely using an account is not sufficient as evidence of conspiracy, and there is an absence of direct evidence that the defendant shared a prior plan or intent with an unidentified person.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "ENGLISH OUTPUT \nThe defendant denies conspiring with an unidentified person and claims to have been unaware that the transfer statement was false.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant's actions were not intentional criminal acts but were due to mistakes made in the course of their duties.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Unlike intentional criminal acts, mistakes made in the course of duty lack intent, and the outcomes resulting from such mistakes should be distinguished from the intent of a crime.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "This issue arose from a mistake made in the course of work, and it should be distinguished from an intentional crime.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The use of an IP address alone cannot prove a direct connection between the defendant and the crime.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Since an IP address can be shared by multiple users, it is difficult to clearly prove an individual's participation in a crime based solely on the fact that they used the same IP.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The use of an IP address does not prove a direct connection to the crime, and the mere fact of using the same IP cannot prove conspiracy.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "It is clearly proven through the use of accounts that the defendant conspired with an unidentified person to embezzle funds.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The fact that the defendant was responsible for withdrawing and delivering the embezzled funds transferred to an account in the defendant's name can be interpreted as evidence of conspiracy.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant agreed to take on the role of opening an account in their own name, withdrawing the transferred funds from said account, and delivering them.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant, in close cooperation with an unidentified person, deceived the victims through false postings.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "It is clear that the act of an unidentified person creating a post with false content and the defendant withdrawing the amount transferred as a result constitutes a clear act of conspiracy.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The unidentified person wrote a false post stating 'D (game money) is for sale.', and the defendant received money transferred from the victim who was deceived by it.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The fact that the defendant and an unidentified person conspired to embezzle a large sum of money from the victims is proven through the scale of the damage amount and the number of remittances.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Large amounts and numerous transactions can be seen as the result of systematic and intentional actions, rather than mere mistakes or coincidences.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant received a total of 44,599,000 won through 145 transactions from around April 25, 2022, to May 17, 2022.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "Large amounts and numerous transactions do not necessarily imply intentional actions.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The defendant acknowledges receiving the amount, but this does not mean there was an intentional conspiracy.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant denies conspiring with an unidentified person and claims to have been unaware that the bank statement was false.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The collusion between the defendant and the person of unknown identity has not been sufficiently proven.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "To prove a conspiracy relationship, clear evidence beyond mere account usage is required.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "This issue arose from a mistake made in the course of work, and it should be distinguished from an intentional crime.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The use of an IP address alone cannot prove the defendant's conspiracy.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The fact that the same IP address was used alone has limitations in proving conspiracy in a crime.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The use of an IP address does not prove a direct connection to the crime, and the mere fact of using the same IP cannot prove conspiracy.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's intentional actions are clearly proven through the act of transferring money from the victims using an account under the defendant's name.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The act of the defendant receiving money transfers into their own account can be interpreted as an intentional criminal act, and cannot be considered a mistake made in the course of their duties.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant, in conspiracy with an unidentified person, received a transfer of 538,200 won into the defendant's F Bank account (account number partially omitted) under the pretext of payment for goods from the victim around 16:39 on the same day. Starting from that time until around May 16, 2022, as listed in the attached crime schedule 1, the defendant received a total of 28,808,300 won over 99 transactions.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The collaboration and conspiracy between the defendant and the person of unknown identity are clearly proven through the method of deceiving the victims and embezzling funds.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The act of embezzling funds by deceiving the victims is a typical pattern of intentional fraud, and cannot be explained as a mistake made in the course of business.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "An unidentified person conspired with the defendant around April 25, 2022, at an unknown location, to access the game 'C' of B Corporation and create a false posting stating 'Selling D (game money).' They then lied to the victim E, who contacted them after seeing the post, saying 'I will sell 20.7 billion D for 538,200 won.'",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The IP address and related information used by the defendant serve as clear evidence of conspiracy, proving that the defendant's actions were not merely a mistake in the course of business but an intentional criminal act.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The use of the same IP address can be considered clear evidence of collusion, which indicates an intentional criminal act beyond a mere mistake in the course of business.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The fact that the defendant and the person of unknown identity used the same IP, as well as the IP of the defendant's sister, is clear evidence of conspiracy.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant's claim of being unaware of the conspiracy with an unidentified person is invalidated through the actions of account usage and withdrawal of the damaged funds.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Opening an account and withdrawing the victim's funds is clear evidence of conspiracy, suggesting that the defendant had shared prior planning and intent.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant was responsible for withdrawing and delivering the funds that were transferred to the F Bank account under the defendant's name.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's claim that they did not share any prior plan or intention with the person of unknown identity contradicts the continuous collaborative actions between the defendant and the person of unknown identity.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Ongoing cooperation and acts of deception against the victim would not be possible without a premeditated conspiracy, indicating that the defendant participated in the conspiracy.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The fact that the victim's money was transferred a total of 145 times from around April 25, 2022, to around May 17, 2022.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The actions related to the use of the defendant's account cannot be seen as mere mistakes in the course of business, but are interpreted as part of an intentional act of embezzlement.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The act of the defendant receiving a transfer of funds from the victims and withdrawing them in conspiracy with an unidentified person represents a planned and intentional criminal act.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "According to the records in Annexed Crime Lists 1 and 2, the fact that a total of 145 instances of embezzlement amounting to 44,598,000 won occurred",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The IP address used by the defendant proves that there is no direct connection with the intentional act of the crime.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The use of IP addresses can overlap for various reasons, and this does not necessarily imply collusion or intentional criminal activity.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant denies collusion with an unidentified person and argues that the use of an IP address does not directly prove its association with a crime.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The act of the defendant providing an account may not be with the intentional purpose of committing a crime, but rather the result of being deceived by an unidentified person.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Merely providing an account is insufficient to prove the defendant's intent, and it is entirely possible that they were deceived without any malicious intent.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant contacted an unidentified person after seeing a post about a 'high-paying part-time job', which can be interpreted as the defendant being deceived by the claims of the unidentified person.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant's actions were due to a mistake made in the course of their duties, and should be distinguished from intentional criminal acts.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Mistakes made in the course of work lack intent, and the outcomes resulting from such mistakes should be distinguished from the intent of a crime.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant claims not to have known that the transfer statement was false and emphasizes that the issue arose due to a mistake in the course of business.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00008",
+                "d00015",
+                "d00016",
+                "d00004",
+                "w00007",
+                "c00007",
+                "w00008",
+                "c00008",
+                "w00015",
+                "c00015",
+                "w00009",
+                "c00009",
+                "w00004",
+                "c00004",
+                "d00012",
+                "w00013",
+                "c00013",
+                "d00017",
+                "d00006",
+                "d00001",
+                "w00001",
+                "c00001",
+                "w00018",
+                "c00018",
+                "w00017",
+                "c00017",
+                "d00013",
+                "w00012",
+                "c00012",
+                "d00011",
+                "d00002",
+                "d00003",
+                "w00014",
+                "c00014",
+                "d00014",
+                "d00005",
+                "d00009",
+                "w00006",
+                "c00006",
+                "d00018",
+                "w00016",
+                "c00016",
+                "d00007",
+                "d00010",
+                "w00010",
+                "c00010"
+            ]
+        }
+    }
+}

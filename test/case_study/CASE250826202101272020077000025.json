@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE250826202101272020077000025",
+    "crime_fact": "<translated text>\n\nCrime Details\nThe defendant, on July 13, 2019, in Siheung City, Building B, Unit C, received a proposal from an unidentified member of a voice phishing organization using the WeChat ID 'D', which impersonated a 'luxury goods purchasing agent' business. The proposal stated, 'It involves working from home. If you provide your bank account number, money will be deposited into it. After withdrawing the money, contact us, and you will meet with an employee sent by the company. You must then travel together to E in Seoul, exchange the money for gift vouchers, and hand over the vouchers to the employee. For each transaction, you will receive a commission of 150,000 won.' Knowing that the defendant's bank account would be used for illegal activities such as voice phishing, the defendant, desiring to gain financial benefit, agreed to this and provided their F account number (account number 1 omitted) to the unidentified individual, thereby allowing the account to be used in the crime. The defendant decided to follow the instructions of the unidentified individual by purchasing gift vouchers in cash and delivering them.\n\nMeanwhile, the unidentified member of the voice phishing organization, on or around July 12, 2019, from an unknown location, sent a text message to the victim G stating, '800 dollars have been charged overseas.' After receiving the text message and calling back, the victim was told, 'If you haven't made any overseas transactions, it seems like your information has been stolen. I will report it to the police.' Pretending to be a police officer, the scammer then called the victim and said, 'Your identity has been stolen, and an H bank account has been opened in your name, which seems to have been used in a crime. Install the H application on your mobile phone, issue a digital certificate, enter the digital certificate password, and transfer the money from other accounts to H.' By lying in this manner, the scammer tricked the victim into installing a hacking program on the victim's mobile phone.\n\nUsing the application, the unidentified individual remotely manipulated the victim's mobile phone on July 15, 2019, around 15:09, accessed H, and without authorization, entered the OTP number obtained from the victim, transferring 30 million won to the defendant's aforementioned F account.\n\nThus, by providing the account number to receive the stolen funds to the unidentified individual, the defendant facilitated the unidentified individual's computer fraud crime by aiding and abetting.",
+    "target_node": {
+        "node_id": "w00015",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_15",
+        "text": "Within the crime flow of voice phishing organizations, the cashing and movement of the stolen funds play a crucial role in the success of the crime, and participating in this process indicates a clear awareness and intent regarding the criminal activity.",
+        "label_expanded": "D_15=>C_15"
+    },
+    "target_reason": "Explanation: w00015's argument claims that the defendant's awareness of collusion with the voice phishing organization is discredited by acts that were specific and actively performed. However, this argument does not directly prove that the defendant was sufficiently aware of the collusion through the acts demonstrated in the specific execution process of the crime. Whether the defendant was aware of collusion with the criminal organization pertains to his internal state, which may be difficult to clearly determine based solely on external actions. Therefore, the basis of this argument is merely hypothetical, and such assumptions cannot be universally accepted or applied in all cases, making w00015's argument weakly founded.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was unaware of the specific details of the voice phishing scam and merely engaged in a work-from-home part-time job, thus lacking intent and should not bear legal responsibility.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant, by collaborating with a voice phishing organization to collect the proceeds of crime and converting them into gift vouchers, among other actions, clearly intended to facilitate the crime, and therefore must bear legal responsibility.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant was completely unaware of the specific methods or objectives of the voice phishing scam.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "An act committed without a clear understanding of the crime indicates a lack of intent.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant received a proposal stating, 'It involves working from home, and if you provide your bank account number, money will be deposited into it. After withdrawing the money, you should contact us, meet with an employee sent by the company, and then travel together. You must exchange the money for gift cards at E in Seoul and then hand over the gift cards to the employee, for which you will receive a fee of 150,000 won per transaction.'",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant was not active as a member of a voice phishing organization, but merely worked part-time.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Actions taken simply in accordance with the instructions of a third party, without direct connection or cooperation with a criminal organization, cannot be considered as complicity in a crime.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant accepted a part-time job offer from an unidentified member of a voice phishing organization and carried out the task. Despite knowing that the account under the defendant's name would be used for illegal activities such as voice phishing, the defendant consented to it in order to gain financial benefits, but was unaware of the organization's specific activities or criminal plans.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant did not have the intent to abet the voice phishing fraud.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Unless intent is proven, it is difficult to impose legal liability.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant claims to have been completely unaware that the collection of the victim's money was related to a voice phishing scam. This implies that the defendant had no intent to abet the crime.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The account provided by the defendant was essential to the voice phishing fraud crime.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Without the defendant's account, the voice phishing organization would not have been able to successfully collect the damages.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant received a proposal on July 13, 2019, from an unidentified member of a voice phishing organization using the WeChat ID 'D', which pretended to be a 'luxury goods purchasing agent' business, at building B, room C in Siheung city. The proposal stated, 'It involves working from home, and if you provide your bank account number, money will be deposited into it. After withdrawing the money, you should contact us, then meet with an employee sent by the company and move together to E in Seoul, where you will exchange the money for gift cards and then hand over the gift cards to the employee, for which you will receive a fee of 150,000 won per transaction.' Knowing that the use of the defendant's bank account for voice phishing and other illegal activities, the defendant, seeking financial gain, accepted the offer and provided the unidentified individual with the account number of the defendant's F account.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant acted under the instructions of a voice phishing organization and committed the crime.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The fact that the defendant actively participated in the process of collecting the damages and converting them into gift vouchers means that the defendant played a role as a member of the voice phishing organization, not merely as a tool.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The fact that the defendant decided to purchase gift cards with cash as instructed by the unidentified person, and the fact that on July 15, 2019, around 15:09, the defendant remotely manipulated the victim's mobile phone to access H and then unauthorizedly entered the OTP number obtained from the victim to transfer 30 million won to the defendant's F account, demonstrates that the defendant acted in accordance with the instructions of a voice phishing organization.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant played an essential role in the voice phishing scam and had the intent to abet the crime.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The defendant providing the account number to receive the defrauded money, and participating in the process of collecting the defrauded money and converting it into gift vouchers, played an essential role in facilitating the voice phishing crime. This proves that the defendant had the intent to abet the crime.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant facilitated the commission of computer fraud by an unidentified person by providing them with a bank account number to receive funds from a voice phishing organization, clearly demonstrating the defendant's intent to abet the crime through the act of agreeing to convert the received funds into gift cards.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The prosecution's claim that the defendant played an active role as a member of a voice phishing organization is incomplete, as it fails to accurately consider the defendant's previous actions and awareness of the situation.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Given that the defendant was unaware of the specific details of the voice phishing fraud and perceived it as a form of home-based part-time work, it is difficult to conclude that the defendant acted intentionally as a member of the voice phishing organization.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant claims to have been completely unaware that the money collected was from a voice phishing scam. This means that the defendant had no intention of abetting the crime, and without intent, legal responsibility cannot be assigned.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "There is not enough concrete evidence to conclude that the defendant acted under the instructions of a voice phishing organization.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "It is more likely that the defendant perceived the provision of account numbers and the purchase and delivery of gift vouchers not as following the instructions of a voice phishing organization, but as part of a work-from-home part-time job, and it is difficult to conclude solely based on these actions that the defendant was aware of the specific criminal plans of the voice phishing.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant was not aware of the illegality of the debt collection part-time job, and was not acting as a member of a voice phishing organization, but merely took on a part-time job.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant's actions do not imply collusion with a voice phishing organization or active abetment.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Even if the defendant acted under the instructions of a voice phishing organization, it is difficult to consider the defendant's actions as complicity or active abetment of the voice phishing organization, given the limited scope and awareness of the information obtained through such actions. In particular, the fact that the defendant believed they were engaged in a work-from-home part-time job supports this view.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant claims to have been completely unaware that the money collected was from a voice phishing scam... This means that the defendant had no intent to abet the crime.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant clearly had the intent to abet the criminal act by actively supporting it through collaboration with the voice phishing organization.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Accepting a direct offer from a voice phishing organization and carrying out the task goes beyond the level of a simple part-time job, as it means facilitating a crime by performing specific actions in accordance with the demands of a criminal organization.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant accepted a proposal from an unidentified member of a voice phishing organization using the WeChat ID 'D', which impersonated a 'luxury goods purchasing agent' business. The proposal involved working from home, providing a bank account number, withdrawing money, exchanging it for gift cards, and then delivering those cards.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant directly participated in the voice phishing crime by transferring the victim's money into their own account in accordance with the orders of a criminal organization.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The fact that the defendant's account was used for voice phishing crimes, and the defendant continued the act despite being aware of it, indicates that there was intent regarding the criminal activity.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "An unidentified person, around 15:09 on July 15, 2019, remotely manipulated the victim's mobile phone and without authorization entered the OTP number obtained from the victim, thereby transferring 30 million won to the defendant's above-mentioned F account.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant contributed to the realization of profits from voice phishing crimes by purchasing and delivering gift cards in accordance with instructions from a criminal organization.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The act of cashing out criminal proceeds is one of the key stages of voice phishing crimes, and by carrying out this act, the defendant directly contributed to the realization of the criminal organization's profits.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant accepted a proposal stating, \"After withdrawing money, contact us, and then meet with an employee sent by the company. You must travel together to E in Seoul, exchange the money for gift cards, and then hand over the gift cards to the employee. For each transaction, you will receive a fee of 150,000 won.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant acted in accordance with the instructions of a voice phishing organization, which indicates that the defendant had a clear awareness of the crime.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Exchanging proceeds of crime for gift cards is not a normal financial activity, and to carry out such instructions, one must be aware that it is part of a criminal act.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant received a proposal stating, 'It involves working from home, and if you provide your bank account number, money will be deposited into that account. After withdrawing the money, you should contact us, meet with an employee sent by the company, and then travel together to E in Seoul to exchange the money for gift cards. If you hand over the gift cards to the employee, you will receive a fee of 150,000 won per transaction.' The fact is that the defendant carried out this proposal.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The fact that the account provided by the defendant was used in a voice phishing crime implies that the defendant played a role as an accomplice to the crime.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Providing one's account for the transfer of proceeds from crime is a serious act that facilitates the crime, and this constitutes a clear act of intentional aiding and abetting.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant, having received an offer from an unidentified member of a voice phishing organization, provided their account number, thereby allowing it to be used for criminal activities.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant actively cooperated in the criminal act by participating in the process of exchanging and delivering the proceeds of crime for gift vouchers.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Within the crime flow of voice phishing organizations, the cashing and movement of the stolen funds play a crucial role in the success of the crime, and participating in this process indicates a clear awareness and intent regarding the criminal activity.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant received a proposal from a member of a voice phishing organization, stating, \"It involves working from home. If you provide your bank account number, money will be deposited into it. After withdrawing the money, you should contact us, then meet with an employee sent by the company and move together. You are to exchange the money for gift cards at E in Seoul, and then hand over the gift cards to the said employee. For each transaction, you will receive a commission of 150,000 won.\" The defendant decided to carry out this proposal.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's account was used by a voice phishing organization without the defendant's intention.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The account information provided by the defendant was for the purpose of a work-from-home part-time job, and there was no knowledge that it would be used for voice phishing fraud crimes.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant received a proposal stating, 'It involves working from home, and if you provide your bank account number, money will be deposited into it. After withdrawing the money, you should contact us, then meet with an employee sent by the company and travel together. In Seoul, at location E, you will exchange the money for gift cards and then hand those gift cards over to the employee, for which you will receive a commission of 150,000 won per transaction.'\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant must deny intent as they were unaware of the overall plan or method of the voice phishing organization.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "In order to hold legal liability, intent must be proven, and the fact that the defendant perceived it merely as part-time work suggests a lack of intent.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The defendant claims to have been completely unaware that the money collected was from a voice phishing scam. This means that the defendant had no intent to abet the crime.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The account information provided by the defendant could have been merely one of the numerous criminal acts committed by a voice phishing organization.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The argument that only the defendant's account was essential for the voice phishing fraud excludes the existence of other possible means or accounts, making it difficult to see the defendant's actions as crucial to the entire crime.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"On or around July 12, 2019, an unidentified person sent a text message to the victim G from an unknown location, stating '800 dollars have been charged overseas.' Subsequently, pretending to be a police officer, they called the victim. This demonstrates that the crime was committed using a variety of methods, not relying on a single account.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00014",
+                "d00009",
+                "d00006",
+                "d00010",
+                "d00003",
+                "w00012",
+                "c00012",
+                "w00008",
+                "c00008",
+                "d00013",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00011",
+                "c00011",
+                "w00017",
+                "c00017",
+                "d00005",
+                "d00001",
+                "w00007",
+                "c00007",
+                "d00018",
+                "d00002",
+                "d00008",
+                "w00009",
+                "c00009",
+                "w00003",
+                "c00003",
+                "d00016",
+                "w00004",
+                "c00004",
+                "w00016",
+                "c00016",
+                "d00015",
+                "d00007",
+                "w00010",
+                "c00010",
+                "w00013",
+                "c00013",
+                "w00014",
+                "c00014",
+                "d00017",
+                "w00006",
+                "c00006",
+                "d00011",
+                "d00012"
+            ]
+        }
+    }
+}

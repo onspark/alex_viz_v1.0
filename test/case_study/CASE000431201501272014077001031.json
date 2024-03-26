@@ -1,0 +1,943 @@
+﻿{
+    "case_id": "CASE000431201501272014077001031",
+    "crime_fact": "Crime Facts\nThe defendants called a large number of unspecified individuals, pretending to be employees of a liquor company, and deceived them into leasing their bank accounts and other access media by promising to pay rent for them. After obtaining their bank accounts, cash cards, and other access media, they provided these to an unidentified financial fraud organization involved in voice phishing and other financial frauds, receiving compensation from the criminal organization. If the provided bank account was blocked or transactions were not possible, they contacted the account holder to unblock it, and if the account holder withdrew the deposited money arbitrarily, they conspired with the criminal organization to recover a certain amount.\n\nAccordingly, Defendant A rented an office to obtain access media, installed telephones, computers, etc., and instructed Defendants B, C, D, etc., to recruit access media, promising to pay them based on the number of access media they collected. They conspired to play roles in which Defendant A would oversee the recruitment of \"mule\" bank accounts by providing the collected access media to the criminal organization and receiving compensation, while Defendants B, C, D followed Defendant A's instructions to recruit access media from a large number of unspecified individuals.\n1. Access Media Acquisition Crime\nFollowing the conspiracy, around late August 2014, in office 903 of Building I in Ilsan-dong, Goyang-si, Gyeonggi-do, which served as the mule bank account recruitment office, they called Victim J, falsely claiming to be employee K of an imported liquor company, and lied that they would pay 6 million won per month if J leased them bank accounts and other access media.\n\nIn reality, the defendants were neither employees of a liquor company nor had the intention or ability to pay the rent even if they received the bank accounts and other access media.\nThe defendants thus deceived Victim J and, around 13:00 on August 29, 2014, at J's office in Masanhoewon-gu, Changwon-si, received a cash card connected to J's Saemaul Geumgo account (M) and a note with the password through a courier service, thereby acquiring them.\n\nFollowing this method, in collaboration with members of the unidentified criminal organization, Defendants A, B, and C acquired a total of 121 bank accounts connected to cash cards and passwords from around July 16, 2014, to November 6, 2014, as listed in Crime List 1, and Defendant D acquired 67 bank accounts connected to cash cards and passwords from November 3, 2014, to November 6, 2014, as listed from item 55 to 121 in Crime List 1.\n2. Money Acquisition Crime\nThe defendants delivered the collected bank accounts, cash cards, and passwords to unidentified individuals (nicknamed 'N', 'O', 'P'), and members of the unidentified financial fraud criminal organization called Victim Q around 12:30 on September 1, 2014, from an unknown location, claiming to be an employee of Kookmin Bank and stating that due to a policy change related to resident registration numbers starting from September 1, due to voice phishing, etc., the victim should enter their account number, password, and OTP (One-Time Password) generator password.\n\nUsing the financial information obtained in this manner, the criminal organization members accessed Kookmin Bank's internet banking between 12:47 and 12:50 on the same day and transferred a total of 84,740,000 won in four transactions from Victim Q's Kookmin Bank account R to Saemaul Geumgo account M under J's name, to post office account T under S's name, to post office account V under U's name, and to Industrial Bank of Korea account X under W's name, thereby acquiring the money.\n\nIn the same manner, Defendants A, B, and C acquired a total of 2,453,427,559 won from 56 victims from around July 16, 2014, to November 6, 2014, as listed in Crime List 2, and Defendant D acquired a total of 13,186,000 won from 3 victims from November 3, 2014, to November 6, 2014, as listed in Crime List 3.",
+    "target_node": {
+        "node_id": "w00013",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_13",
+        "text": "The fact that the victims were lied to in order to obtain access media suggests that the defendants knew the access media would be used for criminal purposes.",
+        "label_expanded": "D_13=>C_13"
+    },
+    "target_reason": "The explanation of w00013's warranty states that even if one did not directly participate on-site, there is a joint responsibility for the planned and conspired fraudulent acts. However, this seems to be an application of legal principles in a generalized manner. Yet, this warranty does not provide specific cases or legal grounds to support that defendant A's absence from the site does not exempt them from responsibility for the fraudulent act. Therefore, this warranty can be seen as an overly broad interpretation of legal principles, especially without specific circumstances or legal precedents related to defendant A's absence at the time of borrowing. For these reasons, w00013's warranty is considered the weakest component.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendants can argue that they lacked the intent to commit the crime as they did not have direct decision-making authority during the execution of the financial fraud and were merely limited to the role of recruiting access media.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendants played an essential role in the execution of the crime by embezzling access media and providing it to a financial fraud crime organization, and must be held responsible for all consequences arising from this act.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendants did not play a leading role in the financial fraud crime.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "In the execution of a crime, if one does not have direct decision-making authority and their role is limited solely to the recruitment of access mediums, then their actions can be considered lacking in intent and not in a leading role.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "\"The defendant A rented an office to embezzle access media, installed telephones, computers, etc., there, and instructed defendants B, C, D, etc., to recruit access media, agreeing to pay them according to the number of access media they collected. He played the role of the overall coordinator for recruiting fraudulent bank accounts, by handing over the access media secured in such a manner to the above criminal organization and receiving the corresponding payment from the criminal organization.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendants were unaware of the detailed execution plan of the financial fraud crime.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "If the defendants did not know how the access media they provided would be used, it indicates a lack of intent, as they were unaware of the detailed execution plan of the crime.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "\"The defendants called an unspecified number of people, impersonating a liquor company, and deceived them by promising to pay rent if they leased their bank accounts and other financial instruments. After obtaining their bank accounts, cash cards, and other access media through deception, they provided these obtained access media to an unknown financial fraud organization, which then used them for other financial fraud crimes such as voice phishing. The defendants received compensation from this criminal organization for providing the access media.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendants were unaware of the consequences of the financial fraud crime.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "If the defendants did not know in advance the consequences of the financial fraud, namely the harm that would befall the victims, this indicates a lack of intent, and means there was no foresight or intention regarding the outcome.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "\"The defendants, as described in the preceding paragraph, handed over the collected bankbooks, cash cards, and PINs to an unidentified person, and the member of the unidentified financial fraud organization accessed the victim's account through Kookmin Bank's internet banking using the victim's financial information, and embezzled money by transferring it out of the victim's account.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendants provided financial fraud organizations with access media after embezzling them through highly planned and organized actions.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Access media theft and financial fraud using it are impossible without sophisticated planning and organized execution.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant A rented an office, installed telephones, computers, etc., and instructed defendants B, C, D, and others to recruit access media. Subsequently, the access media obtained through fraud were provided to a financial fraud crime organization.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendants directly contributed to the execution of financial fraud crimes by deceiving the victims and taking possession of their access media.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Obtaining access media from victims is an essential element in the execution of financial fraud crimes.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendants impersonated a liquor company and lied to the victim J, saying they would pay 6 million won per month if J leased them access media such as bank accounts. They thereby fraudulently acquired the access media.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "After the crime, the defendants maintained ongoing cooperation with the criminal organization by providing solutions when problems such as the victims' bank accounts being suspended occurred.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Ongoing collaboration with a criminal organization is evidence of organized and continuous criminal activity that goes beyond the mere commission of a crime.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "If the issued passbook is suspended from payment or transactions cannot be made, the holder will be contacted to lift the suspension. In cases where the passbook holder arbitrarily withdraws the deposited money, it was conspired with the above criminal organization to recover a certain amount.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendants did not have direct decision-making authority in the execution process of the financial fraud crime and were limited only to the role of recruiting access media, thus should not be held responsible for high-level planning or organized execution.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Participants without direct decision-making authority cannot be seen as the main responsible parties for high-level planning or organized execution.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "Defendant A leased an office and installed telephones, computers, etc., but this was merely basic preparation for recruiting access media and does not prove direct organization or planning for the execution of financial fraud.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "It is unfair to hold the defendants primarily responsible for financial fraud crimes when the evidence of conspiracy is not clear legally.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "In cases where the evidence of conspiracy is unclear, it is necessary to clearly distinguish and judge the specific roles and scope of responsibility of each individual.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "Defendant A argued that they should not be held responsible for transfers made to an account not conspired with, suggesting that the roles and responsibilities of the defendants in the execution of the financial fraud crime were not clearly distinguished.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendants obtained access media from victim J through deception, but this does not necessarily imply a high level of planning or organized action for the execution of a financial fraud crime.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Obtaining access media through mere lies can be done without sophisticated planning or organized execution, and such acts alone make it difficult to prove intent for the entire criminal process.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendants called the victim J, falsely claiming to be employees of an imported liquor company, and promised to pay 6 million won per month if J would rent out their bank account or other access media. However, in reality, they had neither the intention nor the ability to pay the rent. This was merely a temporary and simple lie by the defendants to deceive the victim, and does not directly prove the high level of planning or organized execution typical of financial fraud crimes.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendants were essential to the success of the entire crime by playing a key role in the financial fraud.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "In the execution of a crime, the appropriation and provision of access media are basic and important steps in financial fraud, and through this, criminal organizations were able to extract money from the victims' accounts.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendant A rented an office to obtain access media, installed telephones, computers, etc., there, and directed defendants B, C, D, etc., to recruit access media, agreeing to pay them according to the number of access media they collected. He played the role of the overall coordinator for recruiting dummy accounts, by handing over the access media obtained in such a manner to the criminal organization and receiving payment from the criminal organization in return.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendants acted with intent in planning and executing financial fraud crimes.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "In the planning and execution of financial fraud crimes, intent means that the defendants acted with the purpose of benefiting, foreseeing the consequences of the crime.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"The defendants called an unspecified number of people, impersonating liquor companies, and deceived them by promising to pay rent if they leased their bank accounts and other such access media. After fraudulently obtaining their bank accounts, cash cards, and other access media, the defendants provided these to an unidentified financial fraud organization, which used them for committing other financial frauds such as voice phishing. The defendants received compensation from this criminal organization for providing the stolen access media.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The actions of the defendants have caused serious economic losses to the victims, and they must bear full responsibility for this.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The economic loss suffered by the victims due to the crime occurred directly as a result of the defendants' actions, and responsibility for such loss cannot be denied.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"Using the same method, Defendants A, B, and C, from around July 16, 2014, to November 6, 2014, as listed in Crime Schedule 2, embezzled a total of 2,453,427,559 won from 56 victims. Defendant D, from around November 3, 2014, to November 6, 2014, as listed in Crime Schedule 3, embezzled a total of 13,186,000 won from 3 victims.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "There is evidence proving that the defendants were aware of the purpose of using the access medium.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The fact that the victims were lied to in order to obtain access media suggests that the defendants knew the access media would be used for criminal purposes.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"In late August 2014, from an office located in Suite 903 of Building I, Ilsandong District, Goyang City, Gyeonggi Province, which was used for recruiting straw bank accounts, the victim J was called and lied to by a person claiming to be employee K of an imported liquor company, stating that if they would lease their bank account and other access media, they would be paid 6 million won per month.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendants provided access media necessary for embezzling funds through collusion with a financial fraud criminal organization.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The fact that the defendants provided the access media, which they embezzled from the victim, to a financial fraud criminal organization and received compensation for it, shows that they had sufficient knowledge of the detailed execution plan of the crime.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"The defendants called an unspecified number of people, impersonating a liquor company, and deceived them by promising to pay rent if they leased their bank accounts and other such access devices. After obtaining these bank accounts, cash cards, and other access media under false pretenses, they provided them to an unidentified financial fraud organization, which used them for voice phishing and other financial fraud crimes, receiving compensation from this criminal organization in return.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendants were aware of the detailed execution plan of the financial fraud and, through this, embezzled a large amount of money from the victims.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The fact that the defendants provided access media to the financial fraud organization, and through this, the scale of the money embezzled, proves that they had knowledge of the detailed execution plans of the crime and actively carried it out.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"Defendants A, B, and C, using the same method from around July 16, 2014, to November 6, 2014, as detailed in Crime List 2, defrauded 56 victims of a total of 2,453,427,559 won, while Defendant D, from around November 3, 2014, to November 6, 2014, as detailed in Crime List 3, defrauded 3 victims of a total of 13,186,000 won.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "There is insufficient evidence that the defendants maintained ongoing cooperation with the criminal organization.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "Without specific communication records, financial transaction histories, or direct evidence supporting ongoing collaboration with a criminal organization, such claims are considered to lack foundation.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"Contrary to the claim that 'in cases where the issued bankbook becomes blocked from transactions such as a payment suspension, the holder will be contacted to lift the suspension, and if the bankbook holder arbitrarily withdraws the deposited money, a certain amount will be recovered in collusion with the above criminal organization,' no specific communication records or financial transaction details were presented.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "Defendant A was limited to the role of recruiting access media, without any instructions or consent regarding a specific transaction.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "If the defendant did not directly instruct or consent to the financial fraud transaction, they cannot be held fully responsible for that act.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The defendant A's claim that 'I should not be held responsible for transfers made to an account not conspired by me,' indicates that defendant A was merely limited to the role of recruiting access media, without direct instruction or consent to a specific transaction.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The appropriation of access media from the victim J was not an intentional criminal plan.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "There are claims that the defendants misappropriated access media, but this could be due to a mistake rather than an intentional criminal plan.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"There is a fact that the victim J was called and lied to by saying that if they would rent out their bank account or other access media, they would be paid 6 million won a month, pretending to be employee K of an imported liquor company.\" However, this suggests that rather than the defendants intentionally planning a crime, it could have been due to a mistake intended to deceive the victim.",
+                "label_expanded": "D_18"
+            },
+            {
+                "node_id": "c00019",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_19",
+                "text": "The evidence that the defendants knew the access media would be used for a crime at the time of its acquisition is not sufficient.",
+                "label_expanded": "C_19"
+            },
+            {
+                "node_id": "w00019",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_19",
+                "text": "The fact that the defendants approached the victim with lies and obtained the access medium does not necessarily mean that they knew the access medium would be used for a crime.",
+                "label_expanded": "D_19=>C_19"
+            },
+            {
+                "node_id": "d00019",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_19",
+                "text": "\"It is true that there was a phone call made to the victim J from the office recruiting dummy bank accounts in late August 2014, but this does not directly prove that the defendants were aware of the ultimate goal of the crime.\"",
+                "label_expanded": "D_19"
+            },
+            {
+                "node_id": "c00020",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_20",
+                "text": "The act of proposing a bank account lease can be argued to be merely a simple intermediary role rather than an intention to commit financial fraud.",
+                "label_expanded": "C_20"
+            },
+            {
+                "node_id": "w00020",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_20",
+                "text": "The act of the defendants recruiting access media itself can be seen as merely playing an intermediary role, rather than directly participating in the decision-making or planning for the execution of a crime.",
+                "label_expanded": "D_20=>C_20"
+            },
+            {
+                "node_id": "d00020",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_20",
+                "text": "\"The fact that Defendant A rented an office and installed telephones, computers, etc., exists, but this can be interpreted as an act focused more on the recruitment and distribution of access media rather than the execution of financial fraud crimes.\"",
+                "label_expanded": "D_20"
+            },
+            {
+                "node_id": "c00021",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_21",
+                "text": "It can be argued that the defendants had no specific knowledge or plan regarding the financial fraud crime.",
+                "label_expanded": "C_21"
+            },
+            {
+                "node_id": "w00021",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_21",
+                "text": "It is difficult to prove the defendants' intent to commit a crime if they only played a role in recruiting access media, without specific knowledge of the detailed execution plans or methods of the financial fraud.",
+                "label_expanded": "D_21=>C_21"
+            },
+            {
+                "node_id": "d00021",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_21",
+                "text": "\"The mere fact that the defendants agreed to pay according to the number of access media they recruited does not necessarily mean that the defendants were aware of the specific execution plans or methods of financial fraud.\"",
+                "label_expanded": "D_21"
+            },
+            {
+                "node_id": "c00022",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_22",
+                "text": "The defendants were fully aware of the consequences of the financial fraud crime.",
+                "label_expanded": "C_22"
+            },
+            {
+                "node_id": "w00022",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_22",
+                "text": "The defendants' meticulous planning and organized actions in recruiting access media and providing it to a criminal organization indicate that the outcome of the financial fraud could have been fully anticipated.",
+                "label_expanded": "D_22=>C_22"
+            },
+            {
+                "node_id": "d00022",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_22",
+                "text": "The defendant A rented an office, installed telephones, computers, etc., and directed the recruitment of access media. He agreed to pay defendants B, C, and D according to the number of access media they recruited.",
+                "label_expanded": "D_22"
+            },
+            {
+                "node_id": "c00023",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_23",
+                "text": "The defendants acted with a clear intent to gain benefits through financial fraud crimes.",
+                "label_expanded": "C_23"
+            },
+            {
+                "node_id": "w00023",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_23",
+                "text": "The acquisition of access media and the provision of its consideration are clear evidence of the intent to commit financial fraud.",
+                "label_expanded": "D_23=>C_23"
+            },
+            {
+                "node_id": "d00023",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_23",
+                "text": "After stealing access media, the defendants provided the same to an unknown financial fraud organization, which used it for committing other financial frauds such as voice phishing. In return, they received compensation from the said criminal organization.",
+                "label_expanded": "D_23"
+            },
+            {
+                "node_id": "c00024",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_24",
+                "text": "The defendants are responsible for the consequences of the financial fraud crime as they were directly involved in the execution of the financial fraud crime and received compensation for it.",
+                "label_expanded": "C_24"
+            },
+            {
+                "node_id": "w00024",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_24",
+                "text": "The direct execution of criminal acts and the sharing of benefits derived therefrom clearly establish intent and awareness of responsibility.",
+                "label_expanded": "D_24=>C_24"
+            },
+            {
+                "node_id": "d00024",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_24",
+                "text": "The defendants, from around July 16, 2014, to November 6, 2014, as listed in Annexed Crime Schedule 1, appropriated a total of 121 cash cards and passwords connected to financial accounts, and Defendant D, from around November 3, 2014, to November 6, 2014, as listed from number 55 to 121 in Annexed Crime Schedule 1, appropriated 67 cash cards and passwords connected to financial accounts, and received compensation for these acts.",
+                "label_expanded": "D_24"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00013",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018"
+            ]
+        }
+    }
+}

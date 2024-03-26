@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000414202208312022077000397",
+    "crime_fact": "Crime Facts\nThe defendant, after leasing part of a 5-story building located in Saha-gu, Busan, from the landlord BW around February 14, 2020, has been operating a sports center under the name 'BX' in the said building since around March 2020.\n1. Fraud Related to the Sale of Prepaid Memberships\nAround June 1, 2021, the defendant sent text messages or advertised to multiple people, including the victim AI, under the title \"June All-Sports Event,\" claiming to sell long-term prepaid memberships at a discounted price at the BX Sports Center he was operating. However, in reality, since leasing the sports center, the defendant had continuously failed to pay most of the monthly rent of 17 million won, leaving a small amount of the security deposit after deducting the unpaid rent. Consequently, after the landlord BW notified the termination of the lease agreement due to non-payment of rent, BW filed an application for a prohibition of real estate possession transfer against the defendant at the Busan District Court Western Branch on May 3, 2021, and a lawsuit for eviction on May 27, 2021. Therefore, the defendant had neither the intention nor the ability to allow the victims to use the sports center as per the contract even after selling them the prepaid memberships.\nThe defendant deceived the victims in this manner and received a transfer of 899,000 won on June 3, 2021, to his wife BY's Nonghyup Bank account under the guise of a fee for using the sports center for 12 months, among other instances. From around June 1, 2021, to August 5, 2021, he fraudulently obtained a total of 70,544,500 won from 118 victims through cash or card payments, as listed in the attached crime list.\n2. Fraud Regarding the Security Deposit to Victim BZ\nAround June 28, 2021, the defendant told victim BZ at the sports center, \"I will enter into a lease agreement allowing you to operate a snack bar in the women's bathhouse of BX Sports Center from around July 1, 2021, to June 30, 2023. Please give me 11,000,000 won for the security deposit and other fees.\" However, in reality, since leasing the sports center, the defendant had continuously failed to pay most of the monthly rent of 17 million won, leaving a small amount of the security deposit after deducting the unpaid rent. Consequently, after the landlord BW notified the termination of the lease agreement due to non-payment of rent, BW filed an application for a prohibition of real estate possession transfer against the defendant at the Busan District Court Western Branch on May 3, 2021, and a lawsuit for eviction on May 27, 2021. Therefore, the defendant had neither the intention nor the ability to allow the victim to use the snack bar during the lease period even after receiving the security deposit and other fees.\nThe defendant deceived the victim in this manner and received a transfer of 11,000,000 won on June 28, 2021, to his own IBK account under the guise of a security deposit, thereby embezzling it.",
+    "target_node": {
+        "node_id": "c00014",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_14",
+        "text": "The defendant deceived the victims by providing false information.",
+        "label_expanded": "C_14"
+    },
+    "target_reason": "Claim c00014 argues that it is unbelievable that the defendant was unaware of the overall plan or intent of the voice phishing organization. However, the basis of this claim, d00014, only mentions the fact that the defendant agreed to manage a relay device and was to receive three million won per month. This alone is insufficient to conclude that the defendant was clearly aware of the organization's overall plan or intent. Therefore, the basis of this claim does not directly prove the defendant's awareness of the overall plan or intent, weakening the validity of the claim. This indicates a weak logical connection between the claim and its basis, and thus, the warrant of claim c00014 can be considered weak.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant had no intention of fraud in relation to the sale of prepaid memberships and the termination of the lease agreement was merely a temporary issue caused by financial difficulties, with absolutely no intention to deceive the victims while selling the memberships.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant, fully aware that the lease agreement was to be terminated, sold prepaid memberships, which was a premeditated act of deception intended to embezzle money from the victims. Therefore, the defendant's actions constitute the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "At the time of selling prepaid memberships to the victims, the defendant had the intention to continue operating the sports center.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "If there was an intention to continue the business, financial difficulties at that time do not indicate fraudulent intent.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant has failed to pay the monthly rent since leasing the sports center, but this was due to financial difficulties, and the defendant intended to continue operating the sports center until receiving notice of lease termination from the lessor, BW.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant planned to use the revenue generated from the sale of prepaid memberships as operating funds for the sports center.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Efforts to overcome financial difficulties and normalize business operations are contrary to the intent of fraud.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant received a total of 70,544,500 won in cash or card payments from the sale of prepaid memberships from around June 1, 2021, to August 5, 2021. This was intended to resolve the issue of unpaid rent for the sports center and to continue its operation.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant had the legal authority to provide the promised services to the victims until receiving the notice of termination of the lease agreement.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "As long as the lease agreement is valid, the lessee has the right to use and profit from the leased property.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant had been legally leasing the sports center until before the application for an injunction prohibiting the transfer of possession and the eviction lawsuit were filed by the Busan District Court Western Division on May 3, 2021, and therefore, was in a position to provide the victims with the right to use the sports center.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant intentionally planned to defraud the victims through the sale of prepaid memberships.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Sending text messages and advertising for the sale of prepaid memberships suggests a premeditated act.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The defendant sent or advertised text messages to the victims around June 1, 2021, under the title 'June All-Items Event,' with the intent of selling prepaid memberships at a discounted price.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant received money from the victims despite having no intention or ability to provide services.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The sale of prepaid memberships in the event of a lease termination constitutes fraud by the defendant, who was aware that they would not be able to provide services to the victims.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "\"After leasing the sports center, the defendant consistently failed to pay most of the monthly rent of 17 million won, resulting in a negligible remaining security deposit after deducting the unpaid rent. Consequently, the landlord BW notified the defendant of the termination of the lease agreement due to non-payment of rent and subsequently filed a petition with the Busan District Court, Western Division, on May 3, 2021, for an injunction against the transfer of possession of the sports center based on the termination of the lease agreement, and on May 27, 2021, filed an eviction lawsuit against the defendant for the sports center.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant embezzled a large sum of money from the victims.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The fact that the defendant received a large sum of money from numerous victims proves that the defendant's deceitful actions were not mere misunderstandings or mistakes, but premeditated fraudulent activities.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "\"The defendant embezzled a total of 70,544,500 won in cash or card payments from a total of 118 victims from around June 1, 2021, to August 5, 2021.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "Sending text messages and advertising related to the sale of prepaid memberships is merely a common method of business promotion, and cannot be considered a premeditated act intended for fraud.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Using text messages and advertisements for business promotion is a common marketing strategy, and it does not necessarily imply an intent to defraud.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant sent a text message around June 1, 2021, under the title \"June All-Items Event,\" indicating that prepaid memberships would be sold at a discount.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "Just because the defendant sold prepaid memberships despite the risk of the lease agreement being terminated, it does not constitute sufficient evidence of fraudulent intent.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The possibility of terminating a lease agreement can arise from various external factors, and such situations do not necessarily imply fraudulent intent.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant, having rented from the landlord BW, failed to pay most of the monthly rent of 17 million won, resulting in a negligible amount of the rental deposit remaining after deducting the unpaid rent.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant had the intention to provide services while selling prepaid memberships to the victims and merely failed to fulfill the contract due to business difficulties.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Financial difficulties that may arise during business operations or the risk of termination of a lease agreement are considered ordinary business risks, which are separate from the intent to deceive.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant sold prepaid memberships even after the landlord BW filed an application for an injunction against the transfer of real estate possession and an eviction lawsuit on May 3, 2021, and May 27, 2021.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant clearly intended to embezzle money from the victims through the sale of prepaid memberships.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Despite the defendant's financial difficulties in paying the rent, the continued sale of prepaid memberships indicates a clear intent to profit, even in situations where operating the sports center was impossible.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant sent text messages to the victims or advertised around June 1, 2021, under the title \"June All-Items Event,\" indicating that prepaid memberships were being sold at a discount. At this time, the defendant had already received a notice of lease termination due to unpaid rent.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant embezzled the lease deposit while knowing that they could not continue operating the sports center.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The act of demanding a rental deposit from the victim even after receiving a notice of lease termination from the landlord can be seen as the defendant deceiving the victim to embezzle money, knowing that they could not fulfill the lease agreement.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant, around June 28, 2021, demanded 11,000,000 won from the victim BZ, promising to enter into a lease agreement that would allow BZ to operate a concession stand in the women's bathhouse at BX Sports Center from around July 1, 2021, to June 30, 2023. However, the defendant had already received a notice of lease termination from the lessor.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant embezzled money from the victims by providing false information even after receiving a lease termination notice from the landlord.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "Continuing to sell prepaid memberships to the victims after receiving a notice of lease termination, and demanding a rental deposit, can be seen as a clear act of fraud where the defendant obtained money by providing false information to the victims.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant, despite having received a notice of termination of the lease agreement, embezzled a total of 70,544,500 won from a total of 118 victims between approximately June 1, 2021, and August 5, 2021, under the guise of selling prepaid memberships and for the purpose of lease deposits.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The act of the defendant selling prepaid memberships clearly demonstrates an intent to defraud.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Selling prepaid memberships despite knowing the possibility of terminating the lease contract implies an intention to embezzle money from the victims.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"The defendant filed an application for an injunction against the transfer of possession of the real estate for the sports center on May 3, 2021, and filed an eviction lawsuit against the sports center on May 27, 2021. Therefore, the defendant was unable to continue operating the sports center and, even if they sold prepaid memberships to the victims, they had neither the intention nor the ability to allow the victims to use the sports center as per the contract.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant deceived the victims by providing false information.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Despite being aware of the risk of lease termination and the impossibility of operating the sports center, the act of selling prepaid memberships to the victims constitutes a deliberate act of deception by distorting the facts.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"The defendant, around June 1, 2021, at the BX Sports Center he was operating, sent text messages to the victim AI and several others or advertised under the title 'June All-Sports Event,' stating that 'prepaid memberships are being sold at a discount,' indicating that long-term prepaid memberships were being sold at a reduced price.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's actions are consistent with the pattern of fraud observed in previous cases.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "In past cases, instances where contracts were entered into and money was embezzled despite the impossibility of fulfilling the contract were classified as fraud. Similarly, the defendant's act of selling prepaid memberships also constitutes fraud.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"The defendant embezzled a total of 70,544,500 won in cash or card payments from a total of 118 victims from around June 1, 2021, to August 5, 2021.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant did not have the intention to deceive at the time of selling prepaid memberships.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The defendant's sale of a prepaid membership to the victim was due to an unexpected situation that the lease agreement would be terminated, and this was the result of an unpredictable external situation, not a premeditated act of deception.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant, around June 1, 2021, at the BX Sports Center he was operating, sent text messages to multiple people including the victim AI or advertised under the title 'June All-Sports Event', stating the purpose of 'selling prepaid memberships at a low price', thereby claiming to sell long-term prepaid memberships at a discounted rate.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant intended to continue operating the sports center even after the termination of the lease agreement.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Even in the situation where the lease agreement was terminated, the defendant had the intention to seek alternative ways to provide services to the victims, which shows that there was no intention to deceive the victims deliberately.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"In this case, the landlord BW notified the termination of the lease agreement due to non-payment of rent and then filed an application for an injunction against the transfer of possession of the real estate for the sports center on May 3, 2021, and a lawsuit for eviction against the sports center on May 27, 2021, at the Busan District Court, Western Division. Therefore, it was impossible to continue operating the sports center, and even if they sold prepaid memberships to the victims, they had neither the intention nor the ability to allow the victims to use the sports center as per the contract.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant did not pay the rent due to financial difficulties, not with the intention of committing fraud.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Financial difficulties are a problem that many businesses can face, and this should be distinguished from deliberate fraudulent acts. In the case of the defendant, the continued non-payment of rent was due to the defendant's financial difficulties, and this is a separate issue from the intent to deceive.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"After leasing the sports center, the defendant continuously failed to pay most of the monthly rent of 17 million won, resulting in a negligible remaining security deposit after deducting the unpaid rent. Consequently, the landlord BW notified the termination of the lease agreement due to non-payment of rent and then filed an application for an injunction against the transfer of possession of the real estate for the sports center on May 3, 2021, and a lawsuit for eviction against the defendant for the sports center on May 27, 2021, at the Busan District Court, Western Division. Therefore, the defendant was unable to continue operating the sports center and had neither the intention nor the ability to allow the victims to use the sports center as per the contract, even though they sold prepaid memberships to the victims.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00009",
+                "w00018",
+                "c00018",
+                "d00007",
+                "w00012",
+                "c00012",
+                "d00016",
+                "d00010",
+                "d00014",
+                "w00010",
+                "c00010",
+                "d00005",
+                "d00008",
+                "d00001",
+                "d00004",
+                "w00004",
+                "c00004",
+                "d00013",
+                "d00012",
+                "d00003",
+                "d00018",
+                "w00017",
+                "c00017",
+                "w00006",
+                "c00006",
+                "d00017",
+                "w00016",
+                "c00016",
+                "w00008",
+                "c00008",
+                "d00015",
+                "w00003",
+                "c00003",
+                "w00009",
+                "c00009",
+                "d00002",
+                "d00006",
+                "w00007",
+                "c00007",
+                "w00011",
+                "c00011",
+                "w00015",
+                "c00015",
+                "w00013",
+                "c00013",
+                "d00011"
+            ]
+        }
+    }
+}

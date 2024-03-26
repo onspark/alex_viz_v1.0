@@ -1,0 +1,943 @@
+﻿{
+    "case_id": "CASE000422202211232022077001132",
+    "crime_fact": "Crime Details\n1. Defendant B\nThe defendant, having been in contact with someone known as 'C' through an internet chat site, received an email from an unidentified person stating that 'C' had died and left an inheritance for the defendant. To receive the inheritance, fees for legal expenses and processing costs were needed. The defendant decided to deceive victims to raise the fees.\na. Fraud against victim D\nAround February 15, 2019, in the office of A located in Geoje City E, the defendant told the victim through A, \"A woman (C) I used to date died in Turkey, leaving an inheritance of 8.3 million dollars. To receive the inheritance, I need to make a passport and prepare some money, so could you lend me 1 million won? I can receive the inheritance in 2-3 months, and I will give you 2-3 times the amount of money you lend me.\"\nHowever, in reality, the defendant had only known 'C', whom he had never actually met, through an internet chat site and had falsely claimed 'C' to be his ex-girlfriend. The defendant had not verified the identity or death of 'C', nor the existence of the inheritance, and had no significant assets or income at the time, thus lacking the intention or ability to repay the borrowed money or fees for the supposed inheritance.\nEventually, by deceiving the victim in this manner, the defendant received a transfer of 1,000,000 won into an account under the name of A (account number omitted) from the victim on the same day, and between that time and around July 16, 2019, received a total of 52,020,000 won from the victim in 10 transactions as listed in the attached crime summary table (1).\nb. Fraud against victim G\nAround March 15, 2019, at an unknown location, the defendant told the victim over the phone, \"I need fees to receive an inheritance in Turkey. I will give you 1 billion won after receiving the inheritance and prize money.\"\nHowever, in reality, the defendant had only known 'C', whom he had never actually met, through an internet chat site and had falsely claimed 'C' to be his ex-girlfriend. The defendant had not verified the identity or death of 'C', nor the existence of the inheritance, and had no significant assets or income at the time, thus lacking the intention or ability to repay the borrowed money or fees for the supposed inheritance.\nFurthermore, from around July 2019, the defendant lied to the victim, claiming he would repay the borrowed money with winnings from lotteries in the United States and Africa, despite not having won any such lotteries.\nEventually, by deceiving the victim in this manner, the defendant received a transfer of 4,000,000 won into an account under his name (account number omitted) from the victim on the same day, and between that time and around August 30, 2019, received a total of 10,650,000 won from the victim in 8 transactions as listed in the attached crime summary table (2).\n2. Defendant A\nAround April 27, 2019, at an unknown location, the defendant lied to victim D over the phone, saying, \"There is a general meeting at I for J, and I need you to pay the expenses on my behalf. I will give it to you next Thursday.\"\nHowever, in reality, the defendant had no intention or ability to repay the victim, as he was burdened with personal debts amounting to approximately 132,100,000 won at the time.\nEventually, by deceiving the victim in this manner, the defendant caused the victim to pay 5,267,000 won on his behalf at I located in Geoje City K on the same day, without repaying the amount, thereby acquiring a financial benefit of the same value.",
+    "target_node": {
+        "node_id": "w00015",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_15",
+        "text": "The defendant's demand for money under the guise of a fee without verifying the existence of the inheritance amounts to nothing more than a baseless claim intended to deceive the victim.",
+        "label_expanded": "D_15=>C_15"
+    },
+    "target_reason": "Explanation: The warranty of w00015 claims that the defendant exaggerated their financial capability to gain the victims' trust and received property, but it does not provide sufficient information to directly prove the defendant's intention or plan. Moreover, this warranty is not directly connected to specific evidence or facts that the defendant actually used the property received from the victims for personal purposes, such as paying off personal debts and living expenses. Therefore, this warranty appears to be based on assumptions, has weak logical connectivity with the criminal facts, and is insufficient to clearly prove the defendant's actual intentions or actions. For these reasons, w00015 is considered a weak warranty.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant requested funds from the victim as part of a genuine effort to receive inheritance money, and this was not an intentional embezzlement but stemmed from financial difficulties.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant defrauded the victim by lying to obtain money, and demanding money from the victim without actual verification of the inheritance clearly demonstrates the intent to defraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant can prove that requesting funds from the victim was part of a genuine effort to receive inheritance money.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The defendant's attempt to secure the necessary fees to receive the inheritance money demonstrates that it originated from the intention to actually receive the inheritance, thus showing there was no deliberate intent to embezzle.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant received an email from an unidentified person stating, 'C has passed away and left an inheritance for the defendant. To receive the inheritance, fees for legal expenses, processing fees, etc., are required.'",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant had the intention to repay the funds borrowed from the victims.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The defendant's failure to make payment due to an unforeseen state of financial insolvency is an event beyond the control of the defendant, and this should be distinguished from intentional embezzlement.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "Defendant A had the intention to repay the victim and emphasized that they actually attempted to secure funds from B. The reason the defendant failed to make the repayment was due to B's unforeseen insolvency.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant actually believed in the existence of the inheritance and acted accordingly, which is far from intentional embezzlement.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "If the defendant acted with certainty about the existence and possibility of receiving the inheritance, it suggests that the action was not embezzlement with the purpose of financial gain, but rather an action based on genuine belief.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant received information from 'C', whom they met through an internet chat site, about the existence of an inheritance and requested funds from the victims without any verification process. However, this was because the defendant truly believed in the existence of the inheritance.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant demanded money from the victim on the grounds of a non-existent inheritance.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The fact that the defendant knew the inheritance money they demanded from the victim was entirely fictitious demonstrates that the defendant intentionally deceived the victim.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The defendant, having only become acquainted through an internet chat site and never having actually met, spoke of 'C' as though they were a former lover, and had never verified the identity or the living status of 'C', who they chatted with, nor the existence of any inheritance money,\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant borrowed money from the victims but had no intention or ability to repay it.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Borrowing money despite having no intention or ability to repay indicates an intent to embezzle.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "\"The defendant, having no significant assets or income at the time, lacked the intention or ability to repay the borrowed funds or fees purportedly for the purpose of receiving loan or inheritance money from the victim.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant deceived the victims and received money transfers.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The act of the victims transferring money due to being deceived by the defendant's lies demonstrates that the defendant had the intent to commit fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "\"The defendant ultimately deceived the victim as described above, and as a result, received a transfer of 1,000,000 won into account F under the name of A (account number partially omitted) from the deceived victim on the same day. From then until around July 16, 2019, as listed in the attached crime schedule (1), the defendant received a total of 52,020,000 won transferred from the victim over 10 occasions.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant's request for funds from the victim was part of a genuine effort to receive inheritance money, without any intention of deliberate embezzlement.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The fact that the defendant actually attempted to secure funds from B demonstrates that the defendant had the intention to repay.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant A emphasizes that they had the intention to make restitution to the victim and actually attempted to secure funds from B.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant argued against the prosecution's claim that they had no intention or ability to repay the borrowed money from the victims, stating that the cause was the unexpected insolvency of B, and that this was an event beyond the defendant's control.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The defendant's inability to make restitution is due to unforeseen external factors, thus negating any intention of deliberate embezzlement.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant's failure to make the payment was due to B's unforeseen insolvency, which was an event beyond the defendant's control.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant's actions were serious efforts to receive inheritance and prize money, indicating that the purpose of borrowing money from the victims was not embezzlement.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The fact that the defendant made efforts to receive inheritance and prize money from the victim proves that the defendant had no intention of embezzlement.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant, from around July 2019, despite the fact that they had not actually won any lottery in the United States or Africa, lied to the victim, claiming they would pay the borrowed money with the winnings.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's act of demanding money from the victim without actually verifying the inheritance can be seen as intentional embezzlement.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The act of demanding money from the victim without verifying the identity or death of the defendant and 'C', or the existence of the inheritance, constitutes an act of deception, proving the intent to embezzle.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant claimed to have known 'C', whom they had met through an internet chat site and had never actually met in person, as if 'C' had been a former lover. The defendant had not verified the identity of 'C', who they had been chatting with, nor whether 'C' was alive or dead, or the existence of any inheritance.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant demanded money from the victim despite having no intention or ability to repay.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Demanding and receiving money from the victim without the intention or ability to repay demonstrates a clear intent to defraud the victim by obtaining financial benefits through deception.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "At the time, since there was no significant property or income, there was neither the intention nor the ability to repay the borrowed funds or inheritance money received from the victim, even if money was borrowed under the guise of a fee for receiving such funds.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant deceived the victim with lies about inheritance money and lottery winnings.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The act of the defendant receiving money transfers from the victim by lying about having inheritance and lottery winnings can be seen as an act of intentionally deceiving the victim to misappropriate financial benefits.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant falsely claimed to the victim that they had won the lottery in places like the United States and Africa and would pay the borrowed money with the winnings, despite the fact that they had not actually won any lottery.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant demanded money from the victim without verifying the existence of the inheritance, thereby intentionally deceiving the victim to embezzle funds.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The defendant's demand for money from the victim without substantial verification of the inheritance can be seen as originating from an intent to deceive the victim.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "In fact, the defendant, having become acquainted through an internet chat site, had never actually met the person known as 'C' and had not verified C's identity, whether C was deceased, or the existence of any inheritance.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The fact that the defendant demanded money from the victim despite having no intention or ability to make restitution clearly indicates an intent to embezzle.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The fact that the defendant demanded money from the victim despite having no intention or ability to repay can be interpreted as having the intention to deceive the victim and gain financial benefits.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "At the time, the defendant had no significant assets or income, and thus, even if they borrowed money from the victim under the guise of a fee for borrowing or inheritance funds, they had neither the intention nor the ability to repay it.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's claim for a fee to receive the inheritance money is an unfounded assertion that demanded money from the victim without verifying the actual existence of the inheritance.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The defendant's demand for money under the guise of a fee without verifying the existence of the inheritance amounts to nothing more than a baseless claim intended to deceive the victim.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant, having only become acquainted through an internet chat site, had never actually met the person known as 'C', nor had they verified C's identity, whether C was alive or deceased, or the existence of any inheritance. At that time, the defendant also had no significant assets or income.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's request for money under the guise of inheritance fees was not intended to deceive the victim, but because they believed in the actual possibility of receiving the inheritance.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "If the defendant acted with certainty about the existence of the inheritance, this becomes a request based on genuine belief, not intentional embezzlement.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "Given that the defendant obtained information about the inheritance through communication with 'C' and believed in the actual existence of the inheritance based on this, it can be seen that the defendant's actions were not deliberate deception but were based on a genuine belief.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's purpose in requesting money from the victim was to secure attorney fees and processing costs for receiving inheritance money, which suggests that the defendant had the intention to repay.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "If there is an intention to make restitution, the defendant's actions can be interpreted as an attempt to resolve financial difficulties rather than deliberate embezzlement.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The fact that the defendant requested victim D to \"make a passport to receive the inheritance money, and since preparation money is needed, please lend me 1 million won,\" indicates that the defendant was in the process of preparing to receive the inheritance money, and this shows that there was an intention to repay.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant requested the victim for the inheritance processing fee without the intention of deceit, and this request was based on a trust relationship with the victim.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The defendant's request for money from the victim, utilizing their relationship, can be seen as part of a genuine effort to receive inheritance money, and this is far from the intention of deceit.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant promised the victim D that they could receive an inheritance of 8.3 million dollars, and if they received the inheritance within 2 to 3 months, they would give back double or triple the amount of money borrowed. From this fact, it can be seen that the defendant requested the money based on a trust relationship with the victim.",
+                "label_expanded": "D_18"
+            },
+            {
+                "node_id": "c00019",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_19",
+                "text": "The defendant made a genuine effort to receive the inheritance, which indicates that there was no intention of deliberate embezzlement.",
+                "label_expanded": "C_19"
+            },
+            {
+                "node_id": "w00019",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_19",
+                "text": "The defendant requested funds from the victim because there was a need to pay expenses in order to receive an inheritance, which demonstrates that there was a genuine intention to receive the inheritance.",
+                "label_expanded": "D_19=>C_19"
+            },
+            {
+                "node_id": "d00019",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_19",
+                "text": "The defendant received an email from 'C', whom they met through an internet chat site, stating that fees for attorney costs, processing fees, etc., were needed to receive inheritance money.",
+                "label_expanded": "D_19"
+            },
+            {
+                "node_id": "c00020",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_20",
+                "text": "The defendant borrowed money from the victim due to an unexpected state of financial insolvency, which was an event beyond the control of the defendant.",
+                "label_expanded": "C_20"
+            },
+            {
+                "node_id": "w00020",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_20",
+                "text": "The defendant A emphasizes that they had the intention to make restitution and actually attempted to secure funds from B. This situation was due to unforeseen circumstances that made it impossible for the defendant to secure the funds.",
+                "label_expanded": "D_20=>C_20"
+            },
+            {
+                "node_id": "d00020",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_20",
+                "text": "The defendant A emphasizes that they had the intention to make restitution to the victim and actually attempted to secure funds from B.",
+                "label_expanded": "D_20"
+            },
+            {
+                "node_id": "c00021",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_21",
+                "text": "The claim that the defendant lied about the inheritance and lottery winnings has not been substantiated, and it is unfair to attribute an intentional intent to embezzle to the defendant.",
+                "label_expanded": "C_21"
+            },
+            {
+                "node_id": "w00021",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_21",
+                "text": "The identity of the defendant and 'C', the existence of the inheritance money, or the fact of winning the lottery could not be confirmed, and this means that the defendant could not be certain of the existence of the inheritance money and lottery winnings.",
+                "label_expanded": "D_21=>C_21"
+            },
+            {
+                "node_id": "d00021",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_21",
+                "text": "The defendant, who had only come to know 'C' through an internet chat site and had never actually met them, had not verified the existence of the inheritance money or anything related to it.",
+                "label_expanded": "D_21"
+            },
+            {
+                "node_id": "c00022",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_22",
+                "text": "The defendant's act of defrauding the victim by lying constitutes a deliberate action and invalidates any claim of an intention to repay.",
+                "label_expanded": "C_22"
+            },
+            {
+                "node_id": "w00022",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_22",
+                "text": "The defendant's act of demanding money from the victim without verifying the substance of the inheritance clearly demonstrates the defendant's intentional intent to embezzle, regardless of an unexpected state of financial insolvency.",
+                "label_expanded": "D_22=>C_22"
+            },
+            {
+                "node_id": "d00022",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_22",
+                "text": "\"The defendant, having only become acquainted through an internet chat site and never actually met, spoke of 'C', a person they referred to as if they were a former lover. The defendant had not verified the identity or the death status of 'C', who they chatted with, nor the existence of any inheritance money. At the time, the defendant had no significant assets or income, thus lacking the intention or ability to repay any borrowed money or fees solicited under the pretense of receiving an inheritance or loan from the victim.\"",
+                "label_expanded": "D_22"
+            },
+            {
+                "node_id": "c00023",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_23",
+                "text": "The defendant's act of demanding money from the victims by making false promises about inheritance and lottery winnings proves the intent to embezzle.",
+                "label_expanded": "C_23"
+            },
+            {
+                "node_id": "w00023",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_23",
+                "text": "The defendant's act of demanding money from the victim under the guise of fees for receiving inheritance and lottery winnings, without actually verifying the existence of the inheritance or lottery winnings, clearly reveals an intent to deliberately deceive the victim and embezzle funds.",
+                "label_expanded": "D_23=>C_23"
+            },
+            {
+                "node_id": "d00023",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_23",
+                "text": "\"The defendant, from around July 2019, despite the fact that they had not actually won any lotteries in the United States, Africa, or elsewhere, lied to the victim, claiming they would pay the borrowed money with the winnings.\"",
+                "label_expanded": "D_23"
+            },
+            {
+                "node_id": "c00024",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_24",
+                "text": "The act of making the victim pay money on behalf of the defendant, despite the defendant's lack of intention or ability to repay, constitutes an intentional act of embezzlement.",
+                "label_expanded": "C_24"
+            },
+            {
+                "node_id": "w00024",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_24",
+                "text": "The act of the defendant making the victim pay a sum of money on their behalf through lies, despite having significant personal debts, can be seen as an act of intentionally deceiving the victim to acquire financial benefits without the intention or ability to repay.",
+                "label_expanded": "D_24=>C_24"
+            },
+            {
+                "node_id": "d00024",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_24",
+                "text": "\"The defendant, at the time, was bearing personal debts amounting to approximately 132,100,000 won and had absolutely no intention or ability to repay the money that the victim had paid on their behalf.\"",
+                "label_expanded": "D_24"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "d00018",
+                "d00001",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

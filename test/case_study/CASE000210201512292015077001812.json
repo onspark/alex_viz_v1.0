@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000210201512292015077001812",
+    "crime_fact": "Criminal Facts\n[Criminal Record]\nThe defendant was sentenced to 10 months in prison for violating the Electronic Financial Transactions Act, among other charges, by the Daejeon District Court, Nonsan Branch, on November 9, 2012, and completed the execution of the sentence at the Daejeon Prison, Nonsan Branch, on September 10, 2013.\n[Criminal Facts]\n「2015고단1812」\nThe defendant, along with unidentified individuals known as 'D' (operating in China), 'E' (domestic mastermind), F, G, H, I, J, and other members of a so-called voice phishing fraud group, deceived numerous unspecified individuals in Korea through phone calls or internet messengers, pretending to arrange compensated dating to receive money under the guise of introduction fees, lying about providing loans to receive money as commission fees, and using illegally obtained personal information to transfer money through telebanking methods, among various fraud acts to embezzle money. 'D', an unidentified mastermind, directed the execution of the fraud, withdrawal of money, and methods of transferring money to China. F was responsible for recruiting mule accounts and managing cash withdrawals, the defendant and G were in charge of recruiting mule accounts and managing cash withdrawal agents, H, I, and J were tasked with withdrawing cash, and other unidentified members were responsible for contacting numerous unspecified individuals via phone or messenger in a sequentially conspired manner.\nFollowing such conspiracy, the unidentified members of the voice phishing fraud group acquired the victim K's agricultural cooperative account number, password, telebanking registration phone number, telebanking password, and security card serial number through unknown means, and then, around 02:15 on June 28, 2014, from an unspecified location in China, they used the victim's financial information to transfer 2,252,000 won from the victim's agricultural cooperative account (account number L) to the defendant's Hyundai Securities account, among other transactions, transferring a total of 123,792,000 won to 15 mule accounts including the defendant's Hyundai Securities account from June 26, 2014, 22:51 to June 28, 2014, 02:18, as listed in the attached crime summary table 1. Following the instructions of 'D' and F, the defendant, G, H, I, and J immediately withdrew the 2,252,000 won, while other unidentified members of the fraud group withdrew the remaining money.\nThus, the defendant, in conspiracy with 'D' and other members of the voice phishing fraud group, acquired property benefits totaling 123,792,000 won by unauthorizedly entering information into a computer or other information processing device to process information.\n「2015고단6208」\nThe defendant, along with unidentified individuals known as 'D' (operating in China), P, 'E' (domestic mastermind), F, G, H, I, J, and other members of a so-called voice phishing fraud group, deceived numerous unspecified individuals in Korea through phone calls or internet messengers, pretending to arrange compensated dating to receive money under the guise of introduction fees, lying about providing loans to receive money as commission fees, and using illegally obtained personal information to transfer money through telebanking methods, among various fraud acts to embezzle money. 'D', an unidentified mastermind, directed the execution of the fraud, withdrawal of money, and methods of transferring money to China. F was responsible for recruiting mule accounts and managing cash withdrawals, the defendant and G were in charge of recruiting mule accounts and managing cash withdrawal agents, H, I, and J were tasked with withdrawing cash, and other unidentified members were responsible for contacting numerous unspecified individuals via phone or messenger in a sequentially conspired manner.\nFollowing such conspiracy, from around 19:45 on June 17, 2014, through KakaoTalk, the unidentified members of the voice phishing fraud group lied to the victim M under the name N about arranging a compensated date, deceiving the victim into transferring a total of 400,000 won in two transactions to the defendant's agricultural cooperative account (O) as the cost of the compensated date, and from that time until June 30 of the same year, they received a total of 10,435,000 won in 9 transactions as listed in the attached crime summary table 2, serial numbers 1 to 9.\nThus, the defendant, in conspiracy with 'D' and other members of the voice phishing fraud group, deceived the victims and acquired property benefits totaling 10,435,000 won in 9 transactions.",
+    "target_node": {
+        "node_id": "c00011",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_11",
+        "text": "Even the defendant's admission of participation in specific criminal acts alone is sufficient to prove a conspiracy relationship with the entire voice phishing fraud group.",
+        "label_expanded": "C_11"
+    },
+    "target_reason": "Claim c00011 argues that the act of the defendants receiving investment funds from investors itself proves the intent to embezzle, but this argument has a somewhat weak logical connection. Simply receiving investment funds does not clearly prove the intent to embezzle. The act of receiving investment funds can occur in normal business activities, and to prove the intent to embezzle, it is necessary to reveal specific facts and intentions, such as the defendants providing false information to investors and inducing them to invest in unfeasible projects. Therefore, claim c00011 does not provide sufficient logical basis to prove the intent to embezzle.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was only limitedly involved in a specific financial fraud and had no specific knowledge of the overall activities of the organization or other crimes. Therefore, it is not possible to recognize a conspiracy in relation to the crimes of the entire fraud organization.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "Even if the defendant only participated in specific criminal acts, their role as a cash withdrawal agent was an essential part of the organized fraud, indicating that the defendant actively participated in organized crime. Therefore, the defendant should be recognized as an accomplice in the entire crime as a member of the voice phishing fraud group.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant was not fully aware of the activities of the entire criminal organization.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The fact that the defendant only participated in a specific crime and the amount withdrawn was only a part of the total embezzled amount suggests that they had no specific knowledge of the full scope of the organization's activities or other crimes.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant acknowledges participation in only specific criminal acts and claims to have had no involvement in the remaining crimes.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant's role was limited.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Given that the amount withdrawn by the defendant was only a part of the total embezzled amount, it can be understood that the defendant's role was relatively unimportant compared to other members of the fraud group.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The amount withdrawn by the defendant constitutes only a portion of the total embezzled amount.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "It cannot be conclusively determined that the defendant was in a conspiracy regarding the entire crime.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The defendant's limited participation and restricted role demonstrate a lack of deep understanding or conspiracy in the overall organization's activities. Therefore, it is unjust to acknowledge a conspiracy relationship regarding the entire crime.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant acknowledges participation only in specific criminal acts and claims to have had no involvement in the remaining crimes.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant played a key role in the fraud organization by recruiting straw bank accounts and managing cash withdrawals.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Recruiting straw bank accounts and withdrawing cash are crucial methods for embezzling money in voice phishing fraud crimes, and individuals who perform such roles occupy important positions within the organization and are essential to the execution of the crime.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant and G were responsible for recruiting phantom bank accounts and managing cash withdrawal schemes.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant directly participated in an organized fraud, thereby obtaining financial benefits.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The act of directly participating in the withdrawal and distribution of funds obtained through fraud can be seen as evidence of conspiracy and execution of the crime.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant, around 02:15 on June 28, 2014, used the victim's financial information to transfer 2,252,000 won from the victim's Nonghyup account to the defendant's Hyundai Securities account, and immediately upon receiving the misappropriated funds, the defendant, G, H, I, J collectively withdrew the said amount.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant performed a specific role according to the structural role division of the voice phishing fraud group, which clearly establishes their responsibility as a co-principal in the entire organized crime.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Within a criminal organization, performing specific roles according to the division of labor is an important part of the organization's criminal plan, and this serves as clear evidence that the individual is conspiring in the criminal activities of the organization.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant conspired with an unidentified mastermind known as 'D', along with F, G, H, I, J, and other unidentified members of a so-called voice phishing fraud group, to defraud an unspecified number of people in Korea through various fraudulent acts such as meeting scam, loan scam, and telebanking scam, by making phone calls or using internet messengers, with the intent to embezzle funds.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The fact that the defendant was not fully aware of the activities of the entire voice phishing scam organization demonstrates that the defendant did not hold an important position within the organization.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "It is difficult for an individual who lacks an overall understanding of the organization's activities or specific knowledge about other crimes to play a key role within the organization.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant acknowledges participation in only specific criminal acts and claims to have had no involvement in the remaining crimes.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The fact that the amount withdrawn by the defendant was only a part of the total embezzled amount indicates that the defendant's role was limited.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "An individual who plays a limited role within a criminal organization and handles only a small amount of money is unlikely to be considered deeply involved in the main activities of the organization.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The fact that the amount withdrawn by the defendant was only a part of the total embezzled amount indicates that the defendant's role was limited.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "Recruiting straw bank accounts and withdrawing cash are merely one of the many roles in voice phishing fraud crimes, and it is inappropriate to determine the defendant's significance within the organization based on this alone.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The mere fact that an individual held a specific role within a criminal organization does not constitute sufficient evidence to conclude that the individual played a significant role within the organization.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The mere fact that the defendant and G were responsible for recruiting dummy bank accounts and managing cash withdrawal agents does not necessarily mean that the defendant played a key role within the voice phishing fraud organization.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's role as a cash withdrawal agent as part of a voice phishing fraud group signifies essential and active participation in the activities of the entire criminal organization.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The defendant's activities went beyond mere 'participation', taking on the responsibility of withdrawing funds, a core function of the criminal organization, thereby playing a significant role in the realization of the entire criminal plan.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant and G were responsible for recruiting dummy bank accounts and managing cash withdrawal schemes.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "Even the defendant's admission of participation in specific criminal acts alone is sufficient to prove a conspiracy relationship with the entire voice phishing fraud group.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "According to the court's judgment, a conspiracy relationship is sufficient with just the combination of intentions to commit a crime, and a defendant's specific participation in a crime can be seen as evidence of such a combination of intentions.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant conspired with numerous members of a so-called voice phishing fraud group, including the mastermind known as 'D' (active in China), the domestic mastermind known as 'E', and individuals F, G, H, I, J, along with other unidentified members of the fraud group, to commit multiple crimes.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "Not only did the defendant directly participate in the crime, but following the instructions for the withdrawal and transfer of funds shows deep involvement in the overall criminal plan.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The defendant's actions went beyond merely withdrawing money and were in accordance with specific instructions to realize the overall objective of the criminal organization, indicating that the defendant was deeply involved in the criminal plan.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "ENGLISH OUTPUT \nImmediately upon receiving the embezzled funds as per the instructions of 'D' and F, the defendants, G, H, I, J, together withdrew the 2,252,000 won, while the remaining funds were withdrawn by unidentified members of the fraud group.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The fact that the defendant was previously sentenced to imprisonment for violating the Electronic Financial Transactions Act suggests that the defendant actively participated in this voice phishing fraud crime.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Individuals with prior convictions often participate again in the same or similar crimes, indicating that they possess experience and skills related to criminal activities.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant was sentenced to 10 months in prison for violations of the Electronic Financial Transactions Act, among other charges, by the Daejeon District Court, Nonsan Branch, on November 9, 2012, and completed serving the sentence at the Daejeon Prison, Nonsan Branch, on September 10, 2013.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's role as a cash withdrawal agent in the voice phishing fraud should be interpreted as having played a significant role within the organization.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The cash withdrawal agent plays a crucial role in fraud crimes by physically withdrawing the embezzled amount and delivering it to the organization, making it difficult to realize criminal profits without this role.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant conspired with unidentified members of a voice phishing fraud group to deceive an unspecified number of people in Korea through phone calls or internet messengers, intending to defraud them of money by receiving transfers through various fraudulent acts. The defendant and G were responsible for recruiting dummy bank accounts and managing cash withdrawal agents.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "Even if the amount withdrawn by the defendant due to the fraud is only a part of the total embezzled amount, this means that the defendant was directly involved in the fraudulent act.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "In fraud crimes, acts of directly obtaining financial benefits can be seen as evidence of conspiracy and execution of the crime.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant, around 02:15 on June 28, 2014, in an unknown location in China, transferred 2,252,000 KRW to their Hyundai Securities account using the victim's financial information through telebanking. Furthermore, from around 22:51 on June 26, 2014, to 02:18 on June 28, 2014, as listed in the attached crime summary table 1, the defendant transferred a total of 123,792,000 KRW from the victim's Nonghyup account to 15 different \"straw\" accounts, including the defendant's Hyundai Securities account, in 41 separate transactions.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "There is no direct relevance between the defendant's previous violation of the Electronic Financial Transactions Act and the current fraud offense.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "There is insufficient evidence to conclusively determine that previous criminal experience had a direct impact on the current offense.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant was only limitedly involved in a specific financial fraud and had no specific knowledge of the overall activities of the organization or other crimes.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant only played a limited role within the criminal organization and was not complicit in the overall fraudulent activities.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The fact that the amount withdrawn by the defendant is only a part of the total embezzled amount suggests that his role was limited to a lower level.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant performed the role of recruiting phantom bank accounts and managing cash withdrawals, which does not imply direct involvement in the overall scope of the organization or other criminal activities.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The claim of the defendant's conspiracy in the entire fraud organization's criminal act does not match the defendant's actual actions.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The fact that the defendant was not fully aware of the activities of the entire organization and was only involved in specific fraudulent acts serves as a basis for denying a conspiracy relationship.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant claimed to have only participated in a specific financial fraud, and stated that they had no involvement in the remaining crimes. This suggests that the defendant was not fully aware of the activities of the entire criminal organization.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00011",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00001",
+                "c00001",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

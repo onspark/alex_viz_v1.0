@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000272202211102022077000231",
+    "crime_fact": "Crime Details\nThe telephone financial fraud organization operates in areas where it is difficult for Chinese or other domestic investigative agencies to track, using internet calls and other means to deceive an unspecified number of victims in Korea. They impersonate investigative agencies or the Financial Supervisory Service, pretend to offer loans, claim family kidnappings, or leak personal information, thereby tricking victims into transferring money to accounts they manage or making deposits without a bankbook, or by receiving money from the victims and embezzling it, using the so-called 'voice phishing' method. The organization commits crimes with roles divided among members: the 'mastermind' who oversees the entire operation and manages organic communication between internal cells, the 'manager' who receives instructions from the mastermind to manage internal members and educates/instructs them on deception methods and cash collection methods, the 'lure call center' that calls an unspecified number of victims and deceives them by lying about being a government agency, the 'cash withdrawal agent/cash collector' who withdraws the victim's deposited money and delivers it or meets the victims in person to receive money, and the 'recruiter' who recruits straw bank accounts or organization members, etc., operating in a highly segmented organizational form in preparation for arrest. The defendant, upon proposal from an unidentified member of the telephone financial fraud organization, conspired in sequence with unidentified members of the telephone financial fraud organization to commit the crime of telephone financial fraud by taking on the role of collecting cash from victims and delivering it.\n\nAn unidentified member of the telephone financial fraud organization, pretending to be an employee of IBK B branch, called victim C (female, 53 years old) around 12:26 on November 12, 2021, and lied, \"A low-interest loan is available. If you pay off the existing D debt of 6.7 million won, you can get a loan as a livelihood support fund for the common people. Install the app and apply for the loan.\" Another unidentified member of the telephone financial fraud organization, pretending to be a D employee around the 15th of the same month, called the victim and said, \"You should not have done a debt swap loan when making the loan contract. Why did you do a debt swap loan? I will issue a payment suspension order now. If you don't pay 6.7 million won immediately, I will report you to the Financial Supervisory Service, and then you will have to pay a fine twice the loan amount. I will send someone, so come out in front of E with 6.7 million won in cash.\" Thus, they made the victim prepare cash and come to the promised place.\n\nHowever, in fact, the unidentified individuals were not employees of a financial institution, and they had no intention or ability to provide a loan to the victim as claimed.\nNevertheless, the unidentified individuals deceived as described above, and the defendant, following the instructions of the unidentified individual, met the victim in front of E in Donghae City around 14:26 on November 15, 2021, and acted as if they were a D employee, receiving 6.7 million won in cash from the victim.\nThus, the defendant, in conspiracy with the unidentified individuals, deceived the victim and received property.",
+    "target_node": {
+        "node_id": "w00012",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_12",
+        "text": "In the establishment of joint criminal enterprise, mutual understanding and role allocation regarding the criminal act are important.",
+        "label_expanded": "D_12=>C_12"
+    },
+    "target_reason": "Explanation: w00012's guarantee argues that if defendants, who have been convicted of fraud in the past, commit fraud again, it indicates a clear tendency for them to commit fraud. However, this logic is based on the assumption that 'past behavior predicts future behavior,' which is too broad an assumption that cannot always be considered true. There is no guarantee that everyone who has committed a crime in the past will repeat it, and such an assumption can undermine fairness in legal judgments. Therefore, w00012's guarantee is considered a weak component because of its weak logical connection with the facts of the crime and the limitations of generalizing future behavior based on past actions.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was not aware of acting as part of a voice phishing organization and merely performed the role of collecting cash as instructed. Therefore, since the defendant did not share a common criminal intent, the allegation of conspiracy must be denied.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant acted as an essential cash collector in a voice phishing crime, and this role fundamentally contributed to the execution of the crime. Even if the defendant did not fully understand the overall structure of the crime, they were aware that their actions were part of the crime, and therefore, they must bear criminal responsibility as an accomplice.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant lacked awareness of the specific methods of deception or the plan of the crime.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "A lack of awareness about criminal conspiracy acts as a significant factor in denying conspiracy charges.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "\"An unidentified member of a telephone financial fraud organization impersonated an employee of IBK Bank B on November 12, 2021, around 12:26 PM, and called the victim C (female, 53 years old) claiming, \"You can get a loan at a low interest rate. If you pay off your existing debt of 6.7 million won to D, you can get a loan as support for low-income households. Install the app and apply for the loan,\" lying to her. Another unidentified member of the telephone financial fraud organization, around the 15th of the same month, impersonated an employee of D and called the victim saying, \"You should not have done a debt consolidation loan when making the loan contract. Why did you do a debt consolidation loan? We will issue a stop payment order now. If you do not pay back 6.7 million won immediately, we will report you to the Financial Supervisory Service, and then you will have to pay a fine twice the amount of the loan. Someone will come, so withdraw 6.7 million won in cash and come out in front of E,\" thus making the victim prepare cash and come to the agreed place.\" As shown, the defendant was unaware of the specific plan of the crime or the method of deception.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant acted merely in accordance with instructions received, without awareness of the organization's overall criminal plan.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "If one acts merely in accordance with instructions without recognizing the overall plan or intention behind the criminal act, the subjective requirements for complicity are not satisfied.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "As seen in \"The defendant, following the orders of an unidentified person, met the victim in front of E in Donghae City F at approximately 14:26 on November 15, 2021, and, pretending to be an employee of D, received a cash amount of 6.7 million won from the victim,\" the defendant simply acted upon instructions, without awareness of the overall criminal plan.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant was unaware of being a member of a voice phishing organization.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "If one is unaware as a member of an organization, they cannot be held criminally responsible as a co-principal.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "\"As can be seen from 'The defendant was unaware of being a member of a voice phishing organization and simply believed they were carrying out debt collection tasks,' the defendant did not realize that they were participating in the criminal activities of the organization.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant, as a cash collector, played a key role in the voice phishing crime by directly receiving cash from the victim.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "In voice phishing crimes, the role of cash collectors is a crucial step in actually securing the proceeds of the crime, and without this process, it is impossible to complete the ultimate goal of the crime, which is property embezzlement.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant met the victim in front of E in F, Donghae City, around 14:26 on November 15, 2021, and received 6.7 million won in cash.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant participated in the crime through sequential collusion with an unidentified member of a voice phishing organization, which supports criminal liability as a co-principal.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "According to legal principles, conspiracy means participating in a joint criminal execution plan, and proving such conspiracy establishes liability as a co-principal.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant conspired in sequence with unidentified members of a telephone financial fraud organization, agreeing to take on the role of a cash collector who would receive and deliver cash from victims, following a proposal from an unidentified member of the telephone financial fraud organization.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The role of the cash collector performed by the defendant caused serious economic losses to the victims, reflecting the severity of the crime.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "When a criminal act causes economic loss to the victim, holding the perpetrator accountable aligns with the legal principle that emphasizes the severity of the crime and the need for victim protection.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant received 6.7 million won in cash from the victim C, and this caused significant economic loss to the victim.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant is not the primary actor who caused economic loss to the victim, and the responsibility for this is not clear.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "There is a significant difference in liability between the principal perpetrator of a crime and a defendant who merely acted under orders.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant undertook the role of collecting and delivering cash from the victims upon receiving an offer from an unidentified member of a telephone financial fraud organization.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant was unaware of the specific methods of deception or the criminal plans of the voice phishing organization.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "In order to hold criminal responsibility for joint principals, a clear recognition of the joint criminal intent is required.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant believed that they were simply performing debt collection tasks and were not aware of being a part of a voice phishing organization.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant lacks the subjective requirement of a joint principal offender, which is the intent of joint fabrication.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "To prove a conspiracy, a shared awareness of the criminal plan and intentional participation are required.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant claims that they were unaware of the specific methods of deception or the plan of the crime, and that they conspired sequentially with unidentified members of a telephone financial fraud organization to commit telephone financial fraud, but this was merely an act of following orders.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant played a significant role in a voice phishing organization, which demonstrates that they were aware of their contribution to the crime.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The division of roles within a criminal organization refers to each member being aware of how their role contributes to the execution of a crime.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "As can be seen in \"The defendant conspired in sequence with unidentified members of a telephone financial fraud organization, agreeing to take on the role of a cash collector who would receive and deliver cash from victims upon the suggestion of an unidentified telephone financial fraud organization member.\",",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant directly participated in the act of receiving property by lying to the victim, making an essential contribution to the execution of the voice phishing crime.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Direct contact with the victim and receipt of property play a decisive role in the establishment of a crime.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "As can be seen from \"The defendant, following the instructions of an unidentified person, met the victim in front of E in Donghae City, F, at approximately 14:26 on November 15, 2021, and, pretending to be an employee of D, received a cash payment of 6.7 million won from the victim.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's actions are sufficient to acknowledge criminal liability as a co-principal, and the recognition of roles within the organization influences the establishment of complicity.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "In the establishment of joint criminal enterprise, mutual understanding and role allocation regarding the criminal act are important.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The defendant was not aware of being a member of a voice phishing organization and simply believed that they were carrying out debt collection tasks.\" As can be seen, although the defendant perceived their role as simplistic, in reality, they played a significant role within the criminal organization.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "Even if the defendant was unaware of the specific details of the criminal plan, the act of collecting cash itself plays an essential role in the realization of voice phishing crimes, thereby proving that there was sufficient awareness of the criminal conspiracy.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Even if one did not know the specific plan of the crime, it is clear that they contributed to the crime by performing an essential role.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "As can be seen from \"Under the orders of an unidentified person, the defendant met the victim in front of E in Donghae City F at approximately 14:26 on November 15, 2021, and, pretending to be an employee of D, received a cash payment of 6.7 million won from the victim,\" the defendant played a significant role in the execution of the crime.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "Despite the defendant being acknowledged for having conspired in advance with an unidentified member of a telephone financial fraud organization, this implies that the defendant was aware of the overall structure and plan of the crime.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Pre-conspiracy presupposes a mutual understanding of the specific plan of the crime and the division of roles.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant's agreement to take on the role of a cash collector, receiving and delivering cash from victims upon the suggestion of an unidentified member of a telephone financial fraud organization, and sequentially conspiring with unidentified members of the telephone financial fraud organization to commit telephone financial fraud, demonstrates that the defendant had a clear understanding of the conspiracy to commit a crime.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The act of the defendant personally collecting cash and delivering it was not merely following orders but was a key contribution to the successful execution of the crime, thereby proving that there was intent to commit the crime.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The defendant's actions directly contributed to the success of the voice phishing crime, and such a role clearly indicates the defendant's intent to conspire in the crime.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "As can be seen from \"The defendant, under the orders of an unidentified person, met with the victim in front of E in Donghae City F at approximately 14:26 on November 15, 2021, and, pretending to be an employee of D, received a cash payment of 6.7 million won from the victim,\" the defendant played a direct role in the crucial phase of executing the crime.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The fact that the defendant was unaware of the organization's overall criminal plan makes it unjust to hold the defendant criminally responsible as a co-conspirator.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "As a member of an organization, arguing that one cannot be held criminally responsible as a co-principal if unaware, is based on the fact that mutual understanding and role division regarding the criminal act are important.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant was unaware of being a member of a voice phishing organization and simply believed they were performing debt collection tasks.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's mere act of collecting cash indicates the absence of intent to conspire as a co-principal.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "In establishing joint criminal enterprise, it is based on the fact that mutual understanding and role allocation regarding the criminal act are important. The defendant's actions were carried out without awareness of the organization's overall criminal plan, and it can be said that there is a lack of the subjective requirement for joint criminal enterprise, which is the intent to co-perpetrate.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The act carried out by the defendant was done without awareness of the organization's overall criminal plan, lacking the subjective requirement of joint criminal intent necessary for co-perpetration.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant denies the conspiracy charges on the grounds that the specific instructions given to them were solely focused on the collection of cash, and they did not receive information about the overall structure of the criminal plan or the roles of other members of the organization.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Given the recognized importance of mutual understanding and role allocation in the commission of a crime, the fact that the defendant was unaware of the specific method of deception or the plan of the crime becomes a significant basis for denying a conspiracy relationship.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant was unaware of the specific methods of deception or the plan of the crime.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00006",
+                "c00006",
+                "d00001",
+                "w00016",
+                "c00016",
+                "w00013",
+                "c00013",
+                "d00018",
+                "d00008",
+                "d00010",
+                "w00004",
+                "c00004",
+                "w00008",
+                "c00008",
+                "d00003",
+                "d00004",
+                "w00003",
+                "c00003",
+                "w00017",
+                "c00017",
+                "d00002",
+                "d00014",
+                "w00011",
+                "c00011",
+                "d00012",
+                "w00014",
+                "c00014",
+                "d00015",
+                "d00011",
+                "d00006",
+                "w00009",
+                "c00009",
+                "w00018",
+                "c00018",
+                "d00007",
+                "w00015",
+                "c00015",
+                "w00001",
+                "c00001",
+                "d00009",
+                "d00005",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00017",
+                "d00016"
+            ]
+        }
+    }
+}

@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000212202209152020077006443",
+    "crime_fact": "Crime Details\nThe defendant, around January 17, 2019, at an unknown location, lied to the victim B by stating, \"From October to December 2018, I made over 1.5 billion won in sales and tens of millions of won in profit through the C rice business. In 2019, I plan to actively pursue the C rice sales business. If you pay 50 million won, I will open a C rice direct sales store in Busan for you. The 50 million won will be used as a deposit for the C direct sales store, and the rice will be supplied by C; you only need to handle the distribution. I will introduce you to the clients. A monthly profit of ten million won is guaranteed.\"\n\nHowever, in reality, the defendant intended to use the deposit received from the victim for operating funds and repayment of existing debts of D Corporation, a bearing export company he previously operated, and had neither the intention nor the ability to allow the victim to operate a C rice direct sales store or to supply C rice.\n\nBy deceiving the victim in this manner, the defendant fraudulently received a total of 50 million won in the name of a deposit for the C rice direct sales store: 20 million won on January 18, 2019, 27 million won on January 25, 2019, and 3 million won on January 30, 2019, transferred to the C Bank account under the name of D Corporation.",
+    "target_node": {
+        "node_id": "c00010",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_10",
+        "text": "The defendant's use of the deposit for business operating expenses and debt repayment demonstrates that the purpose was for personal gain rather than the success of the business.",
+        "label_expanded": "C_10"
+    },
+    "target_reason": "Explanation: c00010 argues that the defendant being a salaried employee receiving regular wages does not invalidate the fact that they had no intention or ability to repay at the time of borrowing money from the victim. However, this argument is not directly related to the facts of the crime and does not provide specific evidence or logical basis regarding the defendant's financial status or intention to repay. Therefore, this argument has relatively weak logical coherence and strength of evidence compared to other arguments.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant had the intention to make restitution and did not lie to the victim. The business failure was caused by unforeseen external factors, which were beyond the control of the defendant. Therefore, the defendant did not have fraudulent intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant intentionally provided the victim with false information and claimed fraudulent sales and profits about the business, thereby embezzling money from the victim. This constitutes an act of deception under the crime of fraud, and it is clear that the defendant had the intention of deceiving the victim to gain financial benefits.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant attempted transparent communication by providing the victim with information about the business.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "Sharing specific information and plans about the business demonstrates that the defendant sincerely hoped for the success of the business and sought to build trust with investors.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant stated, \"From October 2018 to December 2018, the C rice business generated sales of over 1.5 billion won and profits of tens of millions of won, and in 2019, there was an active attempt to pursue the C rice sales business.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant continuously expressed an intention to repay even after the failure of the business.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The continuous expression of the intention to make restitution indicates that the defendant did not act with the intention of committing fraud, and shows an attitude of acknowledging responsibility for potential business failure.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant denied having no intention to repay, arguing that \"the lack of ability to repay could be due to external factors beyond the defendant's control.\"",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant's business plan was actually viable, but it failed due to unforeseen external factors.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "If the failure of the business plan was due to external factors, it can be considered that the defendant had no intent to defraud, and there was no falsehood told to the victim.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "\"The defendant claims that the business failure occurred due to unforeseen external factors, which were beyond the control of the defendant.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant deceived the victim by claiming false sales and profits about the business, thereby obtaining money with the intent of embezzlement.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The fact that the defendant provided false information to the victim and gained financial benefits through this constitutes a typical case of deceitful behavior, which falls under the crime of fraud.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The fact that I lied with the intent that from October 2018 to December 2018, I generated over 1.5 billion won in sales and tens of millions of won in profit through the C rice business.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant used the security deposit received from the victim for operating funds for their bearing export business and for repaying existing debts, which proves that they had neither the intention nor the ability to allow the victim to operate a C rice direct sales outlet or to supply C rice to them.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The defendant's use of the money received from the victim for personal purposes clearly demonstrates the intent to embezzle funds.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "\"The defendant intended to use the security deposit received from the victim for operating funds and repayment of existing debts of D Corporation, a bearing export business previously operated by the defendant, and had neither the intention nor the ability to allow the victim to operate a C rice direct sales outlet or to supply C rice to the victim.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant defrauded the victim and embezzled a total of 50 million won under the guise of a security deposit for the C rice direct sales store, which constitutes an act of embezzlement corresponding to the crime of fraud.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The defendant's act of receiving payment from the victim and using it for purposes other than those specified, and failing to provide the promised service, is legally considered embezzlement.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant embezzled a total of 50 million won by receiving transfers into the C Bank account under the name of D Co., Ltd., from the victim under the pretext of a security deposit for the C rice direct sales store, in the amounts of 20 million won on January 18, 2019, 27 million won on January 25, 2019, and 3 million won on January 30, 2019.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The fact that the defendant used the amount received from the victim for personal purposes does not directly indicate the defendant's lack of intent to repay.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "If the defendant loses the ability to repay due to business failure, the amount used as business operating funds can be seen as a result of the business failure.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant denies the absence of intent to repay. The lack of ability to repay may be due to external factors beyond the control of the defendant.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant did not embezzle money from the victim by lying, but was unable to fulfill the promise due to business failure.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "If predictions about the business fail and the outcomes change due to external factors, this is not due to intentional manipulation but occurs due to the risks associated with the business.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The bond or promise presented by the defendant may have been the best possible course of action under the circumstances. Therefore, it cannot be conclusively determined that the defendant had constructive intent.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant's use of the received security deposit for business operating expenses and debt repayment can be seen as a necessary measure for the success of the C rice direct sales business.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The defendant's use of the deposit received for financing the business is characterized as an initial investment for the success of the business.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant intended to use the security deposit received from the victim as operating funds for D Corporation, a bearing export business previously operated by the defendant, and for the repayment of existing debts.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's use of the deposit for business operating expenses and debt repayment demonstrates that the purpose was for personal gain rather than the success of the business.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The argument that the defendant used the deposit received for financing the business as an initial investment for the success of the business is meaningless, considering that the defendant actually had no intention or ability to supply C rice.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "In fact, the defendant had neither the intention nor the ability to allow the victim to operate a direct sales outlet for C rice or to supply C rice to them.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant intentionally provided the victim with false information, committing an act of fraud.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The false sales and revenue information provided to the victim originated from the defendant's intention to deceive the victim in order to gain financial benefits.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant falsely claimed that from October 2018 to December 2018, the C rice business generated sales of over 1.5 billion won and profits of tens of millions of won.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's use of the amount received from the victim for personal debt repayment and other business operating expenses satisfies the elements of the crime of fraud.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The defendant's act of making a false promise to the victim and using the deposit received for personal financial problems constitutes an act of deception, which legally clearly demonstrates the deceitful act and intent to embezzle characteristic of fraud.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant intended to use the security deposit received from the victim for operating funds of Corporation D and for the repayment of existing debts.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant clearly intended to defraud the victim by deliberately providing false information to misappropriate funds.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The information provided by the defendant to the victim was a premeditated falsehood, and this was an intentional act aimed at deceiving the victim to gain financial benefits.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"The defendant, around January 17, 2019, at an unspecified location, lied to the victim B, stating, \\\"I have generated over 1.5 billion won in sales and tens of millions of won in profit from the C rice business from October to December 2018, and I plan to actively pursue the C rice sales business in 2019. If you pay 50 million won, I will open a C rice direct sales store in Busan for you. The 50 million won will be used as a deposit for the C direct sales store, and the rice will be supplied by C; you only need to handle the distribution. I will introduce you to the clients. A monthly profit of ten million won is guaranteed.\\\" This is based on the fact stated.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "ENGLISH OUTPUT \nThe defendant falsely claimed to the victim that they had the intention and ability to operate a C rice direct sales outlet, despite lacking both.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The business proposal provided by the defendant to the victim was in fact infeasible, and this can be seen as an act intended to defraud the victim of money through deliberate deception.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"However, the fact is that the defendant intended to use the deposit received from the victim for operating funds and repayment of existing debts of D Corporation, a bearing export company previously operated by the defendant, and had neither the intention nor the ability to allow the victim to operate a C rice direct sales outlet or to supply C rice to the victim.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant used the amount received from the victim to pay off the debts of the business they were previously operating, and this clearly proves the fact that the victim was defrauded.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The defendant's use of the funds received from the victim for the repayment of their personal or other business debts constitutes a clear act of deception regarding the authenticity of the business plan provided to the victim.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant, by deceiving the victim in such a manner, and thereby misleading the victim, received transfers into the C Bank account under the name of D Corporation, under the guise of a security deposit for the C rice direct sales store, in the amounts of 20 million won on January 18, 2019, 27 million won on January 25, 2019, and 3 million won on January 30, 2019, thereby embezzling a total of 50 million won.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's use of the deposit received from the victim for business operating funds and debt repayment supports the argument that it was an inevitable measure for the success of the business.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The defendant needed to use the deposit to secure liquidity for the funds during the initial stage of the business.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant claimed that \"from October 2018 to December 2018, the C rice business generated sales of over 1.5 billion won and profits of tens of millions of won.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant had the intention to repay, and it is argued that the business failure was due to uncontrollable external factors.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "It is a reasonable judgment considering the uncertainty of the business environment to view the defendant's inability to repay as caused by external factors beyond their control.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant denied having no intention to repay, arguing, \"The lack of ability to repay could be due to external factors beyond the control of the defendant.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The claim that the defendant had no intention or ability to supply C rice may be an excessive assumption, considering that the defendant was seriously considering and planning the business.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Failure in business can always occur due to unforeseen issues, and this does not necessarily reflect the defendant's true intentions or capabilities.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant proposed, \"In 2019, I intend to actively engage in the C rice sales business. If you pay 50 million won, I will open a C rice direct sales store in Busan for you.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "c00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "c00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "c00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00013",
+                "c00013",
+                "w00014",
+                "c00014",
+                "d00010",
+                "w00017",
+                "c00017",
+                "w00011",
+                "c00011",
+                "d00014",
+                "d00012",
+                "d00009",
+                "d00018",
+                "w00004",
+                "c00004",
+                "d00015",
+                "d00006",
+                "w00002",
+                "c00002",
+                "d00005",
+                "w00007",
+                "c00007",
+                "d00008",
+                "d00004",
+                "w00016",
+                "c00016",
+                "w00008",
+                "c00008",
+                "d00001",
+                "w00012",
+                "c00012",
+                "d00017",
+                "d00011",
+                "d00013",
+                "w00018",
+                "c00018",
+                "w00005",
+                "c00005",
+                "d00003",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00002",
+                "d00007",
+                "w00009",
+                "c00009"
+            ]
+        }
+    }
+}

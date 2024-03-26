@@ -1,0 +1,903 @@
+﻿{
+    "case_id": "CASE000212202212232022077000734",
+    "crime_fact": "Criminal Facts\n[Criminal Record]\nDefendant A was sentenced by the Seoul Southern District Court on February 10, 2022, to 2 months in prison with a 1-year suspended sentence and an additional 6 months in prison for fraud, and the judgment became final on April 18, 2022.\n[Criminal Facts]\nThe defendants, a married couple, visited the office of 'F' located in Mapo-gu, Seoul, which is operated by D, the de facto spouse of the victim C, several times around September 2019. During those visits, they told the victim about a redevelopment project in Mapo-gu, Seoul, G, with Defendant A stating that 'the redevelopment project would generate about 40 billion won in profits, and about 3.9 billion won in profits from the distribution rights' and the defendants decided to lease an office for the redevelopment project under Defendant B's name through the mediation of F around December 2019, signing a lease agreement with a security deposit of 10 million won and a premium of 13 million won.\nLater, around December 17, 2019, when they met to pay the remaining security deposit according to the lease agreement at F, they told the victim that the money was not ready yet. Defendant A lied to the victim, saying 'I will receive investment money from an investor in 2-3 days, if you lend me 25 million won, I will repay it as soon as I receive the investment money. I will also give you the profits from the redevelopment distribution rights.' Defendant B also lied to the victim, saying 'The project will go well, so please trust and lend us the money.'\nHowever, in reality, the defendants had no significant assets or steady income, and Defendant A had personal debts of over 100 million won. The redevelopment project was not progressing properly, and there was no promise to receive investment money from an investor, so they had no intention or ability to repay the borrowed money by the agreed date.\nNevertheless, conspiring together, after deceiving the victim in such a manner, they received 25 million won on the same day through the bank account of H, the son of the defendants, at I Bank (account number omitted) under the pretext of a loan.",
+    "target_node": {
+        "node_id": "w00002",
+        "node_type": "warrant",
+        "role": "defense",
+        "label": "W_02",
+        "text": "Even if one has failed in business or faced unexpected difficulties, the willingness to start the business from the beginning suggests that there was no intent to deceive.",
+        "label_expanded": "D_02=>C_02"
+    },
+    "target_reason": "w00002's claim is that the defendant's inability to repay due to an unforeseen financial incapacity is an event beyond the defendant's control, and this should be distinguished from deliberate embezzlement. However, this claim does not align with the defendant's actions as specified in the criminal facts. According to the criminal facts, the defendant deceived the victims into lending money despite having no intention or ability to repay from the beginning. Therefore, the argument that the defendant's actions were due to an event beyond their control is weakly connected to the criminal facts, and cannot be distinguished from deliberate embezzlement. For these reasons, w00002 is considered a weak argument.",
+    "current_role": "defense",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendants had the intention to proceed with the reconstruction project, and the failure of the project was due to unforeseeable external factors, with no intention to deceive the victims.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendants provided false information that the reconstruction project would proceed, and by doing so, they borrowed money from the victims, clearly indicating an intent to deceive.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "Defendant A did not directly participate at the scene at the time of borrowing, therefore, there was no intention to deceive the victim.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "If one did not directly participate in the borrowing process, it is difficult to bear direct responsibility for any fraudulent acts that occurred during that process.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant A claims that they were not present at the scene at the time of the borrowing and also does not know the specific circumstances of the borrowing.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendants had genuine intentions regarding the reconstruction project, which demonstrates that they had no intention to deceive the victims.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Even if one has failed in business or faced unexpected difficulties, the willingness to start the business from the beginning suggests that there was no intent to deceive.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendants agreed to lease an office for the purpose of proceeding with a reconstruction project and entered into a contract regarding the lease deposit and goodwill.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant A's personal debt situation is unrelated to the intent to deceive the victim, and instead indicates that a person in financial difficulty attempted to improve their situation through business.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Seeking business opportunities in a situation where one has a significant amount of personal debt can be seen as part of normal economic activities, and this does not necessarily imply an intent to deceive.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant A stated that they had personal debts exceeding 100 million won, but intended to generate profits through a reconstruction project.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "There is clear evidence that the defendants borrowed money from victim C by providing false information.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The act of providing detailed and specific false information in order to borrow money from the victim clearly indicates an intent to deceive.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant A stated, \"The reconstruction project will generate a profit of approximately 40 billion won, and about 3.9 billion won in profits from the right to allotment,\" and the defendants agreed to lease an office for the progress of the reconstruction project, entering into a contract for the lease deposit and the premium.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "Despite having neither the intention nor the ability to repay, the defendants borrowed money from the victim.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Borrowing money despite having no intention or ability to repay constitutes the elements of the crime of fraud.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "Defendant A had personal debts of over 100 million won, the reconstruction project was not proceeding properly, and there was no agreement to receive investment funds from investors.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendants conspired to deceive the victim and then gained financial benefits.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Conspiring to commit acts of deception and gaining financial benefits as a result is significant evidence of fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendants lied to the victim, saying, \"In 2-3 days, we will receive money from an investor. If you lend us 25 million won, we will pay you back as soon as we get the investment money. We will also give you profits from the reconstruction project rights,\" and on the same day, they received 25 million won through the bank account of I Bank under the name of the defendants' son, H, under the pretext of a loan.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant A did not provide specific false information to the victim at the time of borrowing money.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The information provided by the defendant A to the victim C was a general outlook on the business progress, and it is not specific enough to indicate an intent to deceive.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant A stated that 'the reconstruction project will generate a profit of about 40 billion won, and about 3.9 billion won in profits from the right to allocate new housing will also occur.' However, this represents a general expectation of profits from the reconstruction project and does not specify concrete amounts or contractual conditions.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendants had the intention to proceed with the reconstruction project, and the failure of the project was due to inevitable external factors.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The failure of a business can occur due to unforeseeable external factors, and this does not prove that the defendants had the intention to deceive the victims.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"In December 2019, through the mediation of F, the defendants agreed to lease an office under the name of defendant B for the purpose of proceeding with a reconstruction project, and entered into a lease agreement with a security deposit of 10 million won and a key money of 13 million won.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "Defendant A was not present at the scene at the time of the loan and did not directly deceive the victim C.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "If the defendant A did not directly deceive the victim to borrow money, it cannot be conclusively determined that he had the intent to deceive.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant A claims that they were not present at the scene at the time of borrowing and also does not know the specific circumstances of the borrowing.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The information provided by Defendant A clearly indicates an intent to deceive.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The information provided by the defendant included specific expected profits and profits from the sale of subscription rights, which can be interpreted as specific lies beyond general expectations.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"The defendant A stated, 'The reconstruction project will generate a profit of approximately 40 billion won, and approximately 3.9 billion won in profits from the sale of subscription rights will also occur.'\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendants deceived the victim despite having neither the intention nor the ability to borrow money.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The defendants, having no significant assets or steady income, and with Defendant A being in personal debt of over 100 million won, promising the victim substantial profits was an act intended to deceive the victim.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"In fact, the defendants had no significant assets or steady income, and Defendant A had personal debts exceeding 100 million won. Additionally, the redevelopment project was not progressing properly, and there was no agreement in place to receive investment funds from investors.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendants engaged in preparatory acts to deceive the victim.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "Leasing an office necessary for a reconstruction project and issuing related contracts, among other actions, constitute specific preparatory processes intended to deceive the victim, and this proves a premeditated act of fraud.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"In December 2019, through the mediation of F, the defendants agreed to lease an office under the name of defendant B for the purpose of proceeding with a reconstruction project, and entered into a lease agreement with a security deposit of 10 million won and a key money of 13 million won.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant A's absence from the scene at the time of borrowing does not exempt them from liability for the act of deception.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Even if one did not directly participate on-site, according to the legal principle that holds joint responsibility for premeditated fraudulent acts that were conspired and planned",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"The defendants conspired to deceive the victim as described above, and on the same day, under the pretense of having been deceived, they received a transfer of 25 million won from the victim into the I Bank account under the name of H, the son of the defendants, as a loan.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendants A and B deceived the victim by exaggerating the profits from the reconstruction project.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "One of the elements of the crime of fraud is to deceive the victim to gain financial benefits, and distorting the victim's judgment through exaggerated profit forecasts clearly constitutes an act of deception.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"The defendant A stated that 'the reconstruction project will generate a profit of about 40 billion won, and approximately 3.9 billion won in profits from the right to allotment will also occur.'\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendants borrowed money from the victim despite having no intention or ability to repay.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "In the crime of fraud, what is important is that the defendant knew at the time of receiving the property from the victim that they had neither the intention nor the ability to repay, and this can be seen as an act of deceiving the victim.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"However, in reality, the defendants had no significant assets or steady income, and Defendant A had personal debts exceeding 100 million won. The redevelopment project was not progressing properly, and there was no agreement to receive investment funds from investors. Therefore, even if they borrowed money from the victim, they had neither the intention nor the ability to repay it by the agreed deadline.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The fact that Defendant A did not participate at the scene at the time of borrowing suggests a lack of evidence for conspiracy.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "Not being physically present at the scene means there was no direct involvement in the planned deceitful act, which weakens the argument for joint liability.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant A claims that they were not present at the scene at the time of borrowing and also does not know the specific circumstances of the borrowing.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendants had the intention to proceed with the reconstruction project, and the failure of the project is attributable to the inherent risks of the reconstruction project.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The failure of the business is due to unpredictable external factors, and such risks may not have been clearly recognized at the time of starting the business.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"Furthermore, although the defendants had the intention to proceed with the reconstruction project, the fact that the project did not progress as expected only implies the inherent risk of failure in the project, and does not prove criminal intent.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant A's personal debt and property status indicate that there was no intention to deceive the victim.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Efforts to improve one's situation through business when one has a lot of personal debt and no assets can be seen as attempts to solve economic difficulties rather than having criminal intent.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"In fact, the defendants had no significant assets or steady income, and Defendant A had personal debts exceeding 100 million won, and the reconstruction project was not progressing properly.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00019",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00019",
+                "to": "c00019",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00019",
+                "to": "w00019",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00020",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00020",
+                "to": "c00020",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00020",
+                "to": "w00020",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00021",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00021",
+                "to": "c00021",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00021",
+                "to": "w00021",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00022",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00022",
+                "to": "c00022",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00022",
+                "to": "w00022",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00023",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00023",
+                "to": "c00023",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00023",
+                "to": "w00023",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00024",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00024",
+                "to": "c00024",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00024",
+                "to": "w00024",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00020",
+                "d00016",
+                "d00023",
+                "d00018",
+                "d00001",
+                "d00017",
+                "w00023",
+                "c00023",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00021",
+                "c00021",
+                "d00003",
+                "d00010",
+                "w00019",
+                "c00019",
+                "d00005",
+                "d00021",
+                "d00019",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "w00006",
+                "c00006",
+                "d00024",
+                "d00015",
+                "d00022",
+                "d00008",
+                "d00011",
+                "w00024",
+                "c00024",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00020",
+                "c00020",
+                "w00018",
+                "c00018",
+                "w00022",
+                "c00022",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

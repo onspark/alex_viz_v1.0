@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000211202211242022077001388",
+    "crime_fact": "Crime Details\nThe defendant, in early June 2012, lied to the victim B, saying, \"If you buy G stocks, you will make several times the profit. My friend 'H' is a director at G company, and if you purchase G stocks through this friend, you will make several times the profit, so if you lend me 100 million won, I will give you back the principal and the profit.\"\nHowever, in reality, the defendant had already borrowed 500,000,000 won from the victim around February 2008 under the pretext of purchasing stocks of company I but had failed to repay it and had no other source of income, thus lacking the intention or ability to repay the victim even if they received the money, nor did they have the intention or ability to use it for the purchase of G stocks or to pay the profits.\nThe defendant, deceiving the victim, received a check worth 100,000,000 won (K) from the victim at a cafe of unknown name located near J in Songpa-gu, Seoul, in the same month.\nThus, the defendant defrauded the victim and received property.",
+    "target_node": {
+        "node_id": "c00014",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_14",
+        "text": "The defendant had neither the intention nor the ability to repay at the time of borrowing.",
+        "label_expanded": "C_14"
+    },
+    "target_reason": "Explanation: c00014 argues that the defendant's past criminal record and the similarity of the current case can prove that the defendant acted with the intent to commit fraud. However, the weakness of this argument lies in the fact that while d00014's data mentions the defendant's past criminal record, it lacks a detailed explanation of how exactly this record is specifically similar to the current case. Inferring the defendant's intent in the current case merely based on the fact that they committed a crime in the past, without clearly explaining the direct relevance or similarity between the past criminal record and the current case, is a logical leap. Therefore, this argument fails to provide sufficient evidence and has a weakness in that it does not directly connect to the specific facts of the current case.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant has made restitution to the victim, which demonstrates that there was no intention to embezzle funds deliberately. The fact that the defendant actually attempted to transfer funds to a brokerage account for the purpose of purchasing stocks indicates that the defendant did not intend to deceive the victim.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant, despite lacking the intention or ability to repay at the time of borrowing money from the victim, received the money through deception. Even if the defendant later repaid a portion of the amount, this does not negate the intent to embezzle, and is merely a repayment of a debt separate from the purpose for which the money was borrowed from the victim. The lack of sufficient objective evidence to support the defendant's claim that the money was used for stock purchases indicates that the defendant acted with intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant had the intention to make restitution to the victim.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The fact of payment proves that the defendant had no intention of embezzlement.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant has repaid the adjudicated amount.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant attempted to fulfill the promise made to the victim.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The act of transferring an amount for the promised purpose demonstrates the absence of an intentional intent to deceive.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant claims to have transferred the amount to the securities company's account for the purpose of purchasing stocks.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant did not have the intention to deceive the victim.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The intention and act of payment indicate that the defendant was aware of their responsibility towards the victim and shows that there was no intent to deceive.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The amount paid by the defendant to the victim was in settlement of a debt related to a financial investment agreement, indicating that the defendant was aware of their responsibility towards the victim.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant knew at the time of borrowing money from the victim B that they had neither the intention nor the ability to repay it.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The defendant's attempt to borrow additional funds while already failing to repay previous debts suggests a lack of intention or ability to repay.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant had already borrowed 500,000,000 won from the victim around February 2008 under the guise of purchasing stocks of Company I, but was in a situation where he had not been able to repay it.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant borrowed money from the victim by claiming that profits would arise from purchasing G stocks, but in reality, had no intention or ability to do so.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The act of the defendant borrowing money from the victim by providing false information demonstrates that the defendant had neither the intention nor the ability to use the money for a legitimate purpose.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant lied by stating that \"buying G stocks would yield several times the profit,\" but in reality, had neither the intention nor the ability to use the funds to purchase G stocks or to pay the proceeds.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant intentionally deceived the victim in the process of receiving money.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Given the falsity of the information presented by the defendant to the victim and considering the defendant's actual situation, the act of deceiving the victim to receive money was intentional.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant, by lying to the victim B, received a check valued at 100,000,000 won (K) at a cafe located near J in Songpa District, Seoul.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "There is insufficient evidence that the information provided by the defendant to the victim was false.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The defendant's action of attempting to transfer funds to the brokerage account for the actual purchase of stocks supports the reliability of the information provided by the defendant to the victim.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant claims to have actually transferred the amount to the securities company's account for the purpose of purchasing stocks\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant did not have the intention to deceive the victim.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The fact that the defendant repaid the amount received from the victim in advance suggests that the defendant had a sense of responsibility towards the victim and did not have the intention to embezzle.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant has repaid the adjudicated amount, which suggests that the defendant had no intention of embezzlement.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The act of the defendant borrowing money from the victim was for a legitimate purpose.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The fact that the defendant actually intended to use the funds for the purpose of purchasing stocks indicates that the defendant had the intention to use the funds for a legitimate purpose.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"The defendant has repaid the adjudicated amount, and this payment to the victim was in settlement of a debt related to a financial investment agreement, demonstrating that the defendant was aware of their responsibility towards the victim.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's action of transferring funds to a brokerage account for the purchase of stocks was part of the process of deceiving the victim.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "ENGLISH OUTPUT \nSince the defendant did not actually use it for the purpose of purchasing stocks, nor did they have the intention or ability to pay the proceeds, the act of transfer was an intentional action to deceive the victim.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "In fact, the defendant had already borrowed 500,000,000 won from the victim around February 2008 under the guise of purchasing stocks of Company I, but was unable to repay it. Moreover, without any significant income, the defendant had neither the intention nor the ability to repay the money even if it was received from the victim, nor did the defendant have the intention or ability to use it for the purchase of G stocks or to pay the profits therefrom.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "Despite lacking the intention or ability to repay, the defendant borrowed money from the victim by providing false information.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Borrowing money in a state where there is no intention or ability to repay can be considered an intentional act of deception.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant, in early June 2012, lied to the victim B, saying, \"If you buy G stocks, you will make several times the profit. My friend 'H' works as a director at G company, and if you purchase G stocks through this friend, you will make several times the profit, so if you lend me 100 million won, I will give you back the principal and the profit.\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "Even if the defendant later repaid some of the amount, this does not negate the intent to embezzle.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "Partial repayments made later do not change the original intent of embezzlement and suggest that there was no intention to repay the victim from the beginning.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "Despite having neither the intention nor the ability to repay at the time of borrowing money from the victim, the defendant received the money by lying.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "There is a lack of evidence that the defendant actually used the said amount for the purchase of stocks.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Without specific and clear evidence of fund transfers for stock purchases, the defendant's claim lacks credibility.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The evidence related to the stock purchase claimed by the defendant is insufficient, and no objective evidence has been found that the defendant actually used the said amount for the stock purchase.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant had neither the intention nor the ability to repay at the time of borrowing.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Borrowing money despite having no intention or ability to repay constitutes intentional deception.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant had already borrowed 500,000,000 won from the victim around February 2008 under the guise of purchasing stocks in Company I, but was unable to repay it. Furthermore, without any other source of income, the defendant had neither the intention nor the ability to repay the victim even if they had received money from them.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "Even if the defendant used the amount for stock purchases as claimed, this merely constitutes debt repayment separate from the original purpose of borrowing money from the victim.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Even if a portion of the amount is repaid later, this does not negate the intent to embezzle, and if there is no consistency with the initial borrowing purpose, the intent to defraud intentionally remains valid.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant, despite lacking the intention or ability to repay at the time of borrowing money from the victim, received the money by lying. Even if the defendant later repaid a portion of the amount, this repayment of a separate debt does not negate the intent to embezzle the borrowed money from the victim.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The fact that the defendant took actions showing an intention to repay victim B suggests that the defendant did not have the intent to deceive.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "Acting with the intention to fulfill an obligation is an important act that indicates the absence of intent to deceive.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant has repaid the adjudicated amount, which suggests that the defendant had no intent to embezzle.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The fact that the defendant actually attempted to transfer funds to the brokerage account for the purchase of stocks supports the reliability of the information provided by the defendant to the victim.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The actual attempt to transfer funds serves as an act to prove the truthfulness of the information provided by the defendant and the defendant's good faith.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant claims to have actually transferred the amount to the securities company account for the purchase of stocks, and this can be interpreted as the defendant's attempt to use the amount received from the victim as promised.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "Despite the defendant's failure to repay the amount borrowed from the victim in the past, this does not prove the defendant's intent to embezzle.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Past failures to make payments do not necessarily reflect the defendant's current intentions, and especially, the defendant's attempts to make payments suggest a positive intention.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant had already borrowed 500,000,000 won from the victim around February 2008 under the pretext of purchasing stocks of Company I but was unable to repay it. However, the defendant has repaid the said amount, which suggests that the defendant had no intention of embezzlement.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00001",
+                "c00001",
+                "d00017",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

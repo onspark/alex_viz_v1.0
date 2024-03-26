@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000210202209152022077001672",
+    "crime_fact": "<translated text>\n\nCrime Details\nThe defendant, in early January 2019, at the residence of the victim D, located in B building, C suite, Seocho District, Seoul, told the victim, \"My company, E Corporation, is suing F and we are supposed to receive some money. We need a deposit of 20 million won, and if you lend me 20 million won, I will repay it within two weeks.\"\nHowever, in reality, the defendant had no intention or ability to repay the borrowed money in a short period as claimed. The defendant planned to use the money for personal purposes instead of for the purpose of securing a deposit necessary for the debt collection process against F by E Corporation.\nBy lying in such a manner, the defendant fraudulently obtained a transfer of 20 million won into their account from the victim around January 11, 2019.",
+    "target_node": {
+        "node_id": "c00012",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_12",
+        "text": "The defendant's lies constitute clear acts of deception, amounting to the crime of fraud.",
+        "label_expanded": "C_12"
+    },
+    "target_reason": "Claim c00012 argues that the defendant's fraudulent actions were not due to failure to perform a contract or lack of managerial skills, but were clearly motivated by an intent to defraud. However, the weakness of this claim is found in its connection with document d00012. Document d00012 merely states, \"The defendant is an individual who operates Corporation C, a company aimed at aggregate wholesale and retail business, located in Hadong County, Gyeongsangnam-do, B.\" This does not provide sufficient information to directly prove the defendant's intent to defraud. Therefore, claim c00012 is considered weak as it fails to provide sufficient logical basis or evidence based on the presented document (d00012). This is categorized as a rebut attack type due to the lack of logical connection between the claim and the evidence.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant did not intend to deceive the victim from the beginning, and the purpose was to receive the necessary security deposit for the preservation of claims under the circumstances at the time. Therefore, since there was no intent to deceive, it cannot be considered as fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant obtained a loan from the victim by providing false information, and since there was neither the intention nor the ability to repay the loan from the beginning, this constitutes a clear act of deception and falls under the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant acted based on the fact that, even though they had neither the intention nor the ability to repay the borrowed money within a short period, a deposit was necessary for the preservation of the creditor's rights.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The fact that the defendant received the amount for the purpose of a security deposit for the preservation of claims indicates that there was no intent to deceive.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant claimed, \"I received 20 million won for the purpose of depositing a security deposit necessary for the preservation of E Corporation's claims, and this was lent by the victim with the understanding that through litigation, E Corporation's claims could be realized and the money could be recovered.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "After receiving money from the victim, the defendant proceeded with an application for attachment of claims and actually carried out procedures for the preservation of claims.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Taking specific measures such as applying for a seizure of claims proves that the defendant had no intention of deceiving the victim from the beginning.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "After the victim lent the money, E Corporation, represented by the defendant, actually filed for a provisional attachment of claims to preserve the creditor's rights.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant's statement to the victim that a deposit was needed was a reasonable request based on the circumstances and necessity at the time.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Explaining to the victim the possibility of realizing the claim through litigation and requesting a deposit was a process of explaining the necessary procedures for preserving the claim without any intent to deceive.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant told the victim, \"I, as the representative of E Corporation, have money to receive from F due to a lawsuit. I need a deposit of 20 million won, and if you lend me 20 million won, I will repay it within two weeks.\"",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The fact that the defendant deceived the victim through the falsity of the information provided to the victim meets the constitutive requirements of the crime of fraud.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The falsity of the information provided by the defendant was a decisive factor in making the victim trust the defendant and lend money.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"The fact that the defendant stated, 'My corporation, E, is suing F and is entitled to receive money. I need a deposit of 20 million won, and if you lend me 20 million won, I will repay it within two weeks,' and the reality that the defendant had no intention or ability to repay the borrowed money in the short term, as they planned to use it for personal purposes instead of for the intended deposit.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The act of the defendant requesting a loan from the victim despite having no intention or ability to repay the borrowed money from the beginning indicates a premeditated act of deception.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The fact that the defendant attempts to borrow money despite having no intention or ability to repay the loan clearly demonstrates the defendant's intent to commit fraud.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant intended to use the money for personal purposes rather than for the deposit required in the debt collection procedure against F by E Co., Ltd., without any intention or ability to repay the borrowed money in a short period.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The act of the defendant receiving a money transfer from the victim is clear evidence that the defendant defrauded the victim by providing false information and then embezzled the loan.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The victim's transfer of money to the defendant was due to the defendant's lies, and this is a result of the defendant's fraudulent act.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant, by lying in such a manner, embezzled 20 million won by receiving a transfer into an account under the defendant's name from the victim around January 11, 2019.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant's use of the deposit was for the purpose of securing the claim, which shows that there was no intent to deceive.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The fact that the defendant received money for the purpose of depositing a security bond for the preservation of claims indicates that the preservation of claims was actually necessary under the circumstances.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant received 20 million won for the purpose of depositing collateral necessary for the preservation of E Corporation's claims, and this was lent by the victim with the understanding that the claims of E Corporation could be realized and the money recovered through litigation.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant had the intention to repay the borrowed money, and the repayment was delayed due to unforeseen circumstances.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "If there was an intention to repay the borrowed money, but repayment became difficult within a short period due to unforeseen circumstances, this cannot be considered an intentional act of fraud.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant actually applied for a provisional attachment of claims against E Corporation to preserve the claims, which suggests that the defendant did not intend to defraud the victim and embezzle money from the beginning.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant attempted transparent communication with the victim, indicating that there was no intent to deceive.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "If the defendant honestly conveyed to the victim information related to the lawsuit and the necessary amount, this demonstrates an attempt at transparent communication, showing a lack of intent to deceive.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant told the victim, \"I, as the representative of E Corporation, have money to receive from F due to a lawsuit. I need a deposit of 20 million won, and if you lend me 20 million won, I will repay it within two weeks.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's claim that a deposit was necessary was a strategy used for the purpose of deception.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Despite the defendant's lack of intention or ability to repay the borrowed money from the beginning, providing false information that a deposit was needed constitutes an intentional act to deceive the victim.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "ENGLISH OUTPUT \nIn fact, the defendant intended to use the money for personal purposes, not for the deposit required in the debt collection procedure against F by E Co., Ltd., and had neither the intention nor the ability to repay the borrowed money in a short period.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant defrauded the victim to gain financial benefits.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The fact that the defendant obtained money from the victim along with the falsity of the information provided clearly proves the act of fraud through deception.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant, by lying in such a manner, embezzled 20 million won by receiving a transfer into an account under the defendant's name from the victim around January 11, 2019.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's lies constitute clear acts of deception, amounting to the crime of fraud.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The fact that the defendant provided the victim with false information and actually had no intention or ability to repay the borrowed money satisfies the elements of the crime of fraud.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant stated, \"My corporation, E, has money to receive from F through a lawsuit. I need a deposit of 20 million won, and if you lend me 20 million won, I will repay it within two weeks.\" However, in reality, there was neither the intention nor the ability to repay the borrowed money in a short period.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant's lack of intention or ability to repay the borrowed money from the beginning can be seen as an act of deliberate deception.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The fact that the defendant borrowed money from the victim by lying, despite having no intention or ability to repay the borrowed money, clearly demonstrates the intent to commit fraud.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant stated, \"My corporation, E, has money to receive from F through a lawsuit. I need a deposit of 20 million won for this purpose. If you lend me 20 million won, I will repay it within two weeks.\" However, in reality, the defendant had no intention or ability to repay the borrowed money in the short term and planned to use it for personal purposes, not for the intended purpose of depositing it as part of the debt collection process against F on behalf of Corporation E.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's actions are a clear case of embezzling borrowed money by deceiving the victim.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "One of the elements of the crime of fraud is to deceive the victim to acquire financial benefits, and the act of the defendant providing false information to the victim and borrowing money falls under this category.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The fact that the defendant deceived the victim by lying that \"a deposit of 20 million won is needed\" and then embezzled 20 million won by receiving a transfer is a clear case of fraud.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "Even if, as the defendant claims, there was an intention to repay the borrowed money, considering the actual impossibility of repayment, this can be seen as deceiving the victim.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Claiming an intention to repay a loan and actually having the ability to repay it are separate issues, and borrowing money despite lacking the ability to repay can be considered an act of deception.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "Despite the defendant having neither the intention nor the ability to repay the borrowed money from the beginning, the fact that they lied to the victim by stating they would repay within two weeks to borrow money can be seen as deceiving the victim despite lacking the ability to repay.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's intention to repay the borrowed money demonstrates that there was no intent to deceive in this case.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The intention and ability to repay borrowed money can change due to unforeseen external circumstances, and this should be distinguished from deliberate fraudulent acts.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "If there was an intention to repay the borrowed money, but repayment became difficult within a short period due to unforeseen circumstances, this cannot be seen as an intentional act of fraud.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's purpose in borrowing money from the victim was not for personal use, but rather as a security deposit for the preservation of claims on behalf of E Corporation.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Borrowing funds necessary for the preservation of claims is part of the legal process, which refutes the intent to deceive.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant received 20 million won for the purpose of depositing collateral necessary for the preservation of E Corporation's claims, and this was lent by the victim with the understanding that the claims of E Corporation could be realized and the money recovered through litigation.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant's actions were due to unforeseen financial difficulties, suggesting that there was no intention of deliberate deception.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Facing economic difficulties, if the repayment plan has been changed, this should be considered separately from the intention of deliberate deception.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "If there was an intention to repay the borrowed money, but repayment became difficult within a short period due to unforeseen circumstances, this cannot be considered an intentional act of deception.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00004",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00008",
+                "c00008",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

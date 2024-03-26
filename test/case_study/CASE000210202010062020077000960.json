@@ -1,0 +1,801 @@
+﻿{
+    "case_id": "CASE000210202010062020077000960",
+    "crime_fact": "1. Summary of the Indictment\nThe defendant, around April 15, 2019, in Seoul or an unknown location, impersonated 'C' during a phone call and via KakaoTalk, and lied to the victim B, saying, \"If you transfer your EOS coins to a Meet.One app account, you will receive airdropped cryptocurrencies in the amount you transferred. If you move your 18,000 EOS coins, you can make about 20 million won through the airdrop.\" The defendant instructed the victim on how to create a Meet.One app account, leading the victim to create account D. However, the victim, distrusting the account, did not transfer any EOS coins to it.\nOn May 2, 2019, at approximately 20:34, at the victim's residence located in E building, F apartment, Gwonseon-gu, Suwon city, the defendant wrote and provided a written promise to the victim, stating, \"The defendant will take responsibility if the EOS coins stored in the Meet.One app account (D) disappear following the defendant's advice.\" Trusting this, the victim transferred 18,000 EOS coins, owned by the victim and stored in exchange G, to account D at around 21:14 the same day. The next day, at approximately 03:07, in Seoul or an unknown location, the defendant accessed the Meet.One app account D using an unknown computer and, by entering the discovered private key of the account, moved 17,988 EOS coins (valued at 5,540 won each) to an unknown account H, thereby acquiring property benefits worth approximately 99.65 million won.",
+    "target_node": {
+        "node_id": "w00015",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_15",
+        "text": "The act of the defendant using an unknown computer to access the victim's Meetwon app D account, then entering a private key to unauthorizedly move the victim's EOS coins, signifies the execution of a premeditated criminal act. This clearly demonstrates that the defendant had previously prepared and planned the criminal act to embezzle the victim's cryptocurrency.",
+        "label_expanded": "D_15=>C_15"
+    },
+    "target_reason": "The guarantee of w00015 argues that the distribution of profits obtained from crime reflects the importance of the role and the awareness of participation in criminal acts. However, this guarantee has a weak link in indirectly proving the intentionality of the crime. The assumption that excessive compensation indicates the intentionality of the crime is too broad and not a universal standard that can be applied in all cases. Moreover, since no specific evidence or amount of excessive compensation has been presented, this guarantee does not provide sufficient grounds. Therefore, this guarantee has a weak logical connection in proving the intentionality of the crime, and it can be seen as having low relevance to the criminal facts.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant merely encouraged the victim to transfer cryptocurrency and did not directly engage in the act of cryptocurrency theft, which can be seen as an act without intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant deceived the victim into transferring cryptocurrency and intentionally acquired financial benefits by unauthorizedly moving the victim's cryptocurrency to a pre-prepared account. This constitutes a clear act of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant is not the direct perpetrator of the cryptocurrency theft.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "While the victim transferred the EOS coins to account D at the defendant's suggestion, the actual transfer of the coins was carried out by an unknown individual using an unknown computer.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "On May 2, 2019, around 20:34, in building E, unit F, Suwon-si, Gwonseon-gu, the victim transferred EOS coins to account D. The following day, an unknown computer was used in an unknown manner to enter the private key of account D, moving the EOS coins to account H.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant had no intention of causing harm to the victim.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The fact that the defendant wrote a letter of undertaking to the victim, containing the content that they would take responsibility if the EOS coins disappeared, demonstrates that there was an intention to protect the victim.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "On May 2, 2019, around 20:34, in F unit of E building, Gwonseon District, Suwon City, the fact that the defendant had the victim write a letter of agreement stating 'If the EOS coins stored in the Meetwon app account (D) disappear following the defendant's recommendation, the defendant will take responsibility.'",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant's act merely constitutes abetment, not joint principalship.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Even though the defendant informed the victim of how to create a Mithril application account and recommended transferring EOS coins, the actual act of cryptocurrency theft was committed by another individual, and the defendant was not directly involved in the execution of this act.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant lied to the victim B, saying, \"If you transfer your EOS coins to a Meet.One app account, you will receive a certain cryptocurrency in the airdrop cryptocurrency market for free, in proportion to the amount transferred, based on the amount held or invested,\" while instructing on how to create a Meet.One app account (D), and the fact that the victim did not transfer the EOS coins to the D account.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant's act of deceiving the victim to induce the transfer of cryptocurrency is a premeditated and intentional act of fraud.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Deceiving the victim and acquiring financial benefits as a result constitute elements of the crime of fraud, and the intentional nature of such acts proves the criminal intent.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "Around April 15, 2019, in Seoul or an unknown location, the defendant, impersonating as 'C', lied by saying, \"If you transfer your EOS coins to a Meet.One app account, you can earn about 20 million won through an airdrop just for the amount transferred,\" thereby inducing the victim to create a Meet.One app account (D).",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant unfairly gained trust from the victim regarding the transfer of cryptocurrency by providing a written pledge.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The provision of a written pledge was used as a means to gain the victim's trust, and this was an act of deliberately manipulating the victim to move their property in the direction desired by the defendant.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "On May 2, 2019, at approximately 20:34, in F unit of E building, Gwonseon District, Suwon City, the defendant provided the victim with a written pledge stating that the defendant would be responsible if the EOS coins stored in the victim's Meetwon app account (D) disappeared following the defendant's advice.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant, using a pre-prepared account, unauthorizedly transferred the victim's cryptocurrency, thereby gaining financial benefit.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The act of unauthorized movement of virtual currency is a clear infringement of property rights, and the defendant's act of transferring the victim's virtual currency to a pre-prepared account was aimed at the planned acquisition of financial benefits.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "On or around May 3, 2019, in Seoul or an unknown location, the accused accessed the Meetwon App D account using an unknown computer, then entered the private key to transfer 17,988 EOS coins (valued at 5,540 KRW each) stored in the account to the accused's H account, thereby acquiring property benefits worth approximately 99.65 million KRW.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant's act of recommending the transfer of virtual currency to the victim merely constitutes a simple recommendation lacking criminal intent.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The content of the written pledge provided by the defendant indicates a willingness to take responsibility for the victim's losses, showing that they were prepared to be accountable for any damages that could arise during the planning and execution of the crime.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"On May 2, 2019, at approximately 20:34, at the victim's residence located in E building, F apartment, Gwonseon District, Suwon City, the defendant had the victim write a pledge stating that 'if the EOS coins stored in the Meetwon app account (D) disappear following the defendant's recommendation, the defendant would take responsibility.' Trusting this, the victim transferred 18,000 EOS coins, which were stored in the G exchange and owned by the victim, to account D at around 21:14 on the same day.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant is merely an accomplice, not a co-principal, and did not play a leading role.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The information and tools provided by the defendant merely served as means to assist the victim in making decisions and taking actions voluntarily, indicating that they were not planned and executed with a leading role in the crime.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The defendant A maintains the position that they were merely an accomplice, not a co-principal. The defendant only performed the role of paying for items from J and gifting them to the buyer, which was not a leading role in the overall criminal plan.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant had no intent, and only provided information out of respect for the victim's decision.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The information and written pledge provided by the defendant to the victim merely constitute the provision of necessary information that allows the victim to make decisions regarding their own property, and this does not suffice as adequate evidence to view the defendant as having intentionally engaged in criminal activity.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"On May 2, 2019, at approximately 20:34, in the victim's residence located in E building, F apartment, Gwonseon District, Suwon City, the defendant had the victim write a letter of agreement stating, 'If the EOS coins stored in the Meetwon app account (D) disappear following the defendant's recommendation, the defendant will take responsibility.' Trusting this, the victim transferred 18,000 EOS coins, owned by the victim and stored in the G exchange, to the D account around 21:14 on the same day.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's act of unauthorizedly moving the victim's EOS coins is an intentional act of fraud, and the writing of a pledge is merely a trick to reassure the victim.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The fact that the defendant accessed the Meetwon App D account using an unknown computer, then entered a private key to transfer 17,988 EOS coins to an unknown H account, demonstrates that the defendant's actions were premeditated criminal acts.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"On May 2, 2019, at approximately 20:34, at the victim's residence located in E building, F apartment, Gwonseon District, Suwon City, the defendant had the victim write a letter of agreement stating, 'If the EOS coins stored in the Meetwon app account (D) disappear following my recommendation, I will take responsibility.' Trusting this, the victim transferred 18,000 EOS coins, which were stored in the G exchange under the victim's ownership, to account D at around 21:14 on the same day. The next day, at approximately 03:07, from an unknown location in Seoul or elsewhere, an unknown individual accessed the Meetwon app account D using an unknown computer and, by unknown means, discovered the account's private key. They then transferred 17,988 EOS coins (valued at 5,540 KRW each), which were stored in the account, to an unknown account H, thereby acquiring property benefits worth approximately 99.65 million KRW.\"",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant induced the transfer of EOS coins from the victim by providing false information, which is clear evidence of fraud.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The fact that the defendant pretended to be 'C' and lied to the victim that they could earn about 20 million won through an airdrop by transferring their EOS coins to a Meetwon app account reveals the intention to deceive the victim and gain financial benefits.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "\"On or around April 15, 2019, in Seoul or an unknown location, the accused impersonated 'C' during a phone call and through KakaoTalk messages, deceiving the victim B by stating, \"If you transfer your EOS coins to a Meet.One app account, you will receive an airdrop of a certain cryptocurrency in the cryptocurrency market, which is given for free to those who hold or have invested in a specific cryptocurrency, in proportion to the amount they hold or have invested. If you transfer your 18,000 EOS coins, you could earn about 20 million won through the airdrop,\" thereby lying to the victim and instructing them on how to create a Meet.One app account, leading the victim to create a Meet.One app account (D).\"",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant planned and executed the crime based on the victim's trust, which constitutes joint complicity.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The fact that the defendant made the victim trust them by writing a letter of apology, and then unauthorizedly transferred the victim's EOS coins to a pre-planned account, shows that the defendant was directly involved in the execution of the crime.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "\"The defendant, on May 2, 2019, around 20:34, at the victim's residence located in E building, F apartment, Gwonsun District, Suwon City, had the victim write a pledge stating 'If the EOS coins stored in the Meetwon app account (D) disappear following the defendant's recommendation, the defendant will take responsibility.' Trusting this, the victim transferred 18,000 EOS coins, which were stored in the G exchange under the victim's ownership, to account D around 21:14 on the same day. Then, on the next day at approximately 03:07, from an unknown location in Seoul, using an unknown computer, the defendant accessed the Meetwon app account D and, by unknown means, discovered the account's private key, transferring 17,988 EOS coins (valued at 5,540 KRW each) stored in the account to an unknown account H, thereby illicitly acquiring property benefits amounting to approximately 99.65 million KRW.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The written pledge provided by the defendant to the victim proves the defendant's intent and the existence of a criminal plan.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "A written pledge to take responsibility for the victim's losses shows that the defendant had anticipated the occurrence of harm before committing the crime and had promised to take responsibility for it, which can be interpreted as evidence of a deliberate plan to commit the offense.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"On May 2, 2019, at approximately 20:34, at the victim's residence located in E building, F apartment, Gwonseon District, Suwon City, the defendant had the victim write a letter of undertaking stating 'If the EOS coins stored in the Meetwon app account (D) disappear following the defendant's advice, the defendant will take responsibility for it'\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant committed a clear act of fraud by deceiving the victim and unauthorizedly transferring cryptocurrency.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The defendant's act of impersonating 'C' through KakaoTalk and phone calls, and deceiving the victim by lying about being able to gain benefits through airdrops, is a typical method of fraud, intentionally deceiving the victim to acquire financial gain.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"On or around April 15, 2019, in Seoul or an unknown location, by making a phone call and using KakaoTalk, while impersonating themselves as 'C', they lied to the victim B, saying, \"If you transfer your EOS coins to a Meet.One app account...\" and thus instructed the victim on how to create a Meet.One app account.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant made prior preparations to deliberately move the victim's cryptocurrency without authorization.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The act of the defendant using an unknown computer to access the victim's Meetwon app D account, then entering a private key to unauthorizedly move the victim's EOS coins, signifies the execution of a premeditated criminal act. This clearly demonstrates that the defendant had previously prepared and planned the criminal act to embezzle the victim's cryptocurrency.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"At around 03:07 the next day, in an unknown location in Seoul or below, by using an unknown computer to access the Meetwon AppD account, then by entering the Private Key of the above account, which was discovered through unknown means, moved 17,988 EOS coins (valued at 5,540 KRW each) to an unknown H account\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant recommended the victim to create a Meetwon app account, but did not directly participate in the transfer of EOS coins, and therefore cannot be considered an accomplice.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The defendant merely informed the victim of how to create an app account, leaving room for the victim to decide whether to voluntarily move coins into the account. Therefore, the defendant did not directly move the coins or deceive the victim into moving them.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "Around April 15, 2019, in Seoul or an unknown location, the defendant, impersonating as 'C', informed the victim B on how to create a Meetwon app account, but the victim did not transfer EOS coins into the account.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant wrote a pledge with the intention of protecting the victim's EOS coins, and it was not an act of deliberate fraud.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The written pledge provided by the defendant contains content that they would take responsibility if the victim's coins were to disappear, which can be interpreted as a measure to protect the victim. This contradicts the claim that the defendant intended to deceive the victim.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "On May 2, 2019, at approximately 20:34, in F unit of E building, Gwonseon District, Suwon City, the defendant provided the victim with a written pledge stating that the defendant would be responsible if the EOS coins stored in the Meetwon app account (D) disappeared following the defendant's recommendation.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant's actions cannot be seen as those of a joint principal offender, and the defendant is merely an accomplice.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The information and actions provided by the defendant did not play a leading role in the overall criminal plan, and are more characterized by aiding the actions of the victim rather than being a co-principal.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "Defendant A maintains the position that they were merely an accomplice, not a co-principal, arguing that they only performed the role of paying for items from J and gifting them to the buyer.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "d00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "d00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "d00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00015",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00008",
+                "w00007",
+                "c00007",
+                "w00009",
+                "c00009",
+                "w00012",
+                "c00012",
+                "w00010",
+                "c00010",
+                "w00017",
+                "c00017",
+                "w00014",
+                "c00014",
+                "d00016",
+                "d00002",
+                "d00017",
+                "w00008",
+                "c00008",
+                "d00015",
+                "w00018",
+                "c00018",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00011",
+                "d00006",
+                "w00004",
+                "c00004",
+                "w00006",
+                "c00006",
+                "w00001",
+                "c00001",
+                "w00011",
+                "c00011",
+                "d00007",
+                "d00003",
+                "d00018",
+                "w00013",
+                "c00013",
+                "d00005",
+                "d00013",
+                "d00014",
+                "d00001",
+                "d00010",
+                "d00009",
+                "d00004",
+                "d00012"
+            ]
+        }
+    }
+}

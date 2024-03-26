@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000420201304162012077002071",
+    "crime_fact": "Criminal Facts\n1. Fraud Using Computers\na. The defendant, around 10:10 on November 12, 2011, in D located in Gangseo-gu, Busan, told the victim, a coworker named E, \"I urgently need 100,000 won,\" and the victim gave the defendant their Samsung card and HanaSK card, one of each, allowing them to withdraw about 100,000 won for use. The defendant, around the said time, inserted the cards into an ATM within the company and entered the PIN number provided by the victim, withdrawing 4 million won, which exceeded the consent given by the victim. Thus, the defendant acquired property benefits worth 3.9 million won by unauthorizedly entering information into a computer or other information processing device, causing it to process information.\nb. The defendant, around 10:10 on November 13, 2011, at the same location as above, told the victim, \"I urgently need 100,000 won,\" and the victim gave the defendant their HanaSK card, allowing them to withdraw about 100,000 won for use. The defendant, around the said time, inserted the card into an ATM within the company and entered the PIN number provided by the victim, withdrawing 900,000 won, which exceeded the consent given by the victim. Thus, the defendant acquired property benefits worth 800,000 won by unauthorizedly entering information into a computer or other information processing device, causing it to process information.\n2. Fraud\nThe defendant, around November 2011, had debts amounting to approximately 43 million won to financial institutions and had to pay about 2 million won in interest every month. The defendant used any money they acquired for internet gambling and had neither the intention nor the ability to repay money borrowed from others. Despite this, around November 16, 2011, within D mentioned above, the defendant lied to the victim E, saying, \"I will repay you within a week, including what I borrowed before, so please lend me 2 million won,\" and deceived the victim into handing over 2 million won on the same day. As such, until around January 10, 2012, the defendant received a total of 44.22 million won over 13 occasions, as listed in the attached crime summary table.",
+    "target_node": {
+        "node_id": "w00014",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_14",
+        "text": "Requesting and receiving a loan in a state where there is no intention or ability to repay the money constitutes an element of the crime of fraud, and this clearly reveals the defendant's criminal intent.",
+        "label_expanded": "D_14=>C_14"
+    },
+    "target_reason": "The guarantee by w00014 argues that if the defendant planned to use the investment funds for personal purposes, it suggests that from the beginning, there was no intention or capability to return profits to the victim. However, this guarantee does not provide a sufficient logical link to directly prove the defendant's intent. The mere fact that the defendant used the funds for personal purposes does not directly lead to the conclusion that the defendant had no intention or capability to return the profits from the start. Since this is not direct evidence of the defendant's initial intent or plan, this guarantee is based on a speculative and weak logical connection, and therefore, is considered the weakest element.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant withdrew the amount with the explicit consent of the victim, therefore, it does not constitute unauthorized use of an information processing device. Even if there were withdrawals exceeding the limit set by the victim, it was a temporary lapse in judgment due to an urgent economic situation, and not an act intended for the acquisition of financial gain.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant, despite having received consent from the victim to withdraw a certain amount of money, clearly met the elements of the crime of fraud using a computer or similar device by withdrawing an additional amount beyond the agreed limit. Regardless of the defendant's financial situation or the intent of the withdrawal, the unauthorized use of an information processing device is a legally prohibited act, and culpability must be clearly recognized.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant does not fall under the category of unauthorized use of an information processing device since they withdrew money with the explicit consent of the victim.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The fact that the victim provided the defendant with their card and PIN and instructed them to withdraw money can be seen as granting authority to the defendant.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant, around 10:10 on November 12, 2011, in D located in Gangseo-gu, Busan, told the victim E, a coworker, that they \"urgently needed 100,000 won.\" In response, the victim withdrew approximately 100,000 won and told the defendant to use it, handing over one Samsung card and one Hana SK card to the defendant.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant's withdrawal exceeding the victim's consent was due to an urgent economic situation, and it was not an act intended for the acquisition of financial benefits.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The economic pressure due to debts to financial institutions and monthly interest expenses can explain the motive behind the defendant's withdrawal exceeding the amount.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "Around November 2011, the defendant had debts amounting to approximately 43 million won to financial institutions and others, requiring a monthly interest payment of about 2 million won. Whenever the defendant had money, it was all spent on online gambling, and even when borrowing from others, there was neither the intention nor the ability to repay the debt.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant lied to receive additional financial support from the victim, but this was derived from a desperate economic situation rather than an act of fraud intended to gain financial benefit.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "ENGLISH OUTPUT \nAlthough the defendant's act of borrowing money from the victim by lying was inappropriate, it was due to the defendant's severe economic difficulties and debt burden, which is different from the main purpose of fraud.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant, around November 16, 2011, within the premises described in the preceding clause, lied to the victim E, saying, \"I will pay you back within a week, including what I borrowed before, so lend me 2 million won,\" and received 2 million won on the same day. Furthermore, until around January 10, 2012, as listed in the attached crime schedule, the defendant received a total of 44.22 million won over 13 occasions.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant committed the crime of fraud using a computer by withdrawing a loan beyond the scope consented to by the victim.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Withdrawal actions that exceed the scope of the victim's consent constitute unauthorized use of an information processing device.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "On November 12, 2011, in D located in Gangseo-gu, Busan, the defendant told the victim E, \"I urgently need 100,000 won,\" and with the victim's consent, obtained the authority to withdraw 100,000 won. However, the defendant actually withdrew 4,000,000 won.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant illegally used an information processing device for the purpose of financial gain.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Acquiring financial benefits through the use of an information processing device is a core component of the offense of fraud using computers and similar devices.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "On November 13, 2011, the defendant withdrew 900,000 won using a HanaSK card, exceeding the victim's consent, and thereby acquired property benefits worth 800,000 won.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant defrauded the victim to gain economic benefits.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The act of the defendant receiving money from the victim by lying constitutes the elements of the crime of fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant, around November 16, 2011, lied to the victim E, saying, \"I will pay you back within a week, including what I borrowed before,\" and thereby received 2 million won from the victim on the same day.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "Since the defendant received explicit consent from the victim, it does not constitute unauthorized use of an information processing device.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The defendant had the explicit consent of the victim, and this consent granted the defendant the right to withdraw the amount.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The victim gave the defendant one Samsung card and one Hana SK card, telling them to withdraw and use about 100,000 won.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant's over-withdrawal of funds was a temporary lapse in judgment due to an urgent financial situation, and was not an act intended for deliberate acquisition of financial gain.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "Dire economic circumstances can lead individuals to make decisions that are out of the ordinary for them, and actions taken in such situations are different from the deliberate acquisition of financial gain.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant had debts amounting to 43 million won to financial institutions, etc., requiring a monthly interest payment of about 2 million won, and whenever they acquired money, it was all spent on online gambling, showing no intention or ability to repay any borrowed money from others.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant withdrew the amount with prior agreement from the victim, therefore, it does not meet the element of 'presence of deceit' required for the constitution of fraud.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Deception, one of the elements of the crime of fraud, means to deceive the victim to acquire financial benefits. However, since there was a prior agreement on the withdrawal of money between the defendant and the victim, the element of deception is absent.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant told the victim E that \"I urgently need 100,000 won,\" and in response, the victim withdrew about 100,000 won and gave it to the defendant, saying to use it, along with one Samsung card and one Hana SK card each.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The act of the defendant withdrawing beyond the scope of the victim's consent is a clear criminal act, and the claim of an urgent economic situation cannot justify it.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Even in urgent economic situations, acquiring property beyond the legally permitted scope constitutes a crime.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant, around 10:10 on November 12, 2011, in D located in Gangseo-gu, Busan, told the victim E that \"I urgently need 100,000 won,\" upon which the victim gave the defendant one Samsung card and one Hana SK card each. However, the defendant withdrew 4 million won, exceeding the scope of the victim's consent.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant's intention to gain financial benefit is clear, and this represents a premeditated criminal act that exploited the victim's consent.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Despite having obtained the authority to withdraw a certain amount of money with the victim's consent, the act of withdrawing an additional amount beyond the agreed scope can be seen as a planned and intentional act of acquiring financial benefits.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant withdrew more than 4 million won from the victim using Samsung Card and Hana SK Card, which was executed by unauthorized entry of information into an information processing device using the password provided by the victim.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant has a history of previously obtaining money from the victim in a premeditated manner, so this act of computer and internet fraud can also be seen as part of a plan to deceive the victim.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "Similar to past behavior patterns, the defendant used lies to receive money from the victim, and such actions can be seen as evidence of a planned and intentional criminal act.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "Despite having debts to financial institutions and others around November 2011, the defendant deceitfully obtained 2 million won from the victim E by lying, \"I will pay you back within a week, including what I borrowed before,\" and acted in a premeditated manner.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The act of the defendant withdrawing an additional amount beyond the consent of the victim constitutes unauthorized use of an information processing device.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Withdrawing beyond the scope of the victim's consent is clearly an act against the victim's will, and the defendant's acquisition of financial benefits through this act constitutes a legally prohibited act.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"The defendant, around 10:10 on November 12, 2011, received consent from the victim to withdraw and use approximately 100,000 won, but exceeded this amount and withdrew 4 million won.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant had the intention to commit fraud, including borrowing money from the victim despite having no intention or ability to repay it.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Requesting and receiving a loan in a state where there is no intention or ability to repay the money constitutes an element of the crime of fraud, and this clearly reveals the defendant's criminal intent.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"The defendant, around November 2011, had debts amounting to approximately 43 million won to financial institutions and others, requiring a monthly interest payment of about 2 million won. Whenever the defendant had money, it was all spent on online gambling, and there was neither the intention nor the ability to repay any money borrowed from others.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's actions constitute the use of an information processing device without authority, which is legally prohibited, even if explicit consent was obtained from the victim.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "Even if explicit consent has been obtained, actions that exceed the scope of the consent go against the will of the victim, and acquiring financial benefits through such actions constitutes the crime of fraud using computers or similar devices.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"The defendant received consent from the victim to withdraw a certain amount of money, but exceeded the agreed limit by withdrawing 4 million won around 10:10 on November 12, 2011, and then 900,000 won the following day.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "Even if the amount withdrawn by the defendant exceeded the scope of the victim's consent, since it was done under a prior agreement with the victim, it does not constitute unauthorized use of an information processing device.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The act of the victim providing the defendant with the card and its PIN can be interpreted as granting the defendant the right to use said card.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant, around 10:10 on November 12, 2011, at D located in Gangseo-gu, Busan, told the victim E, a coworker, that they urgently needed 100,000 won. In response, the victim withdrew approximately 100,000 won and gave it to the defendant, along with one Samsung card and one Hana SK card each.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's financial difficulties are acknowledged, however, this cannot be considered as 'deceptive acts' which are a constituent element of the crime of fraud.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Financial difficulties are a separate issue from the defendant's intent to defraud the victim for financial gain, and it can be seen that the victim voluntarily lent the money.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The defendant, around November 2011, had debts amounting to approximately 43 million won to financial institutions and others, requiring a monthly interest payment of about 2 million won. Whenever the defendant acquired money, it was all spent on online gambling, and even when borrowing from others, there was neither the intention nor the ability to repay.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "Since the defendant withdrew the amount with the consent of the victim, this act is based on the will of the victim and does not meet the criteria for fraud, which is legally prohibited.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The victim providing the card and PIN and allowing the withdrawal of money is an expression of trust towards the defendant, and this weakens the argument that the defendant attempted to deceive the victim to gain financial benefits.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"The defendant, around 10:10 on November 13, 2011, at a location in Jeon Nahang, told the victim from Jeon Nahang that they \"urgently needed 100,000 won.\" In response, the victim withdrew approximately 100,000 won and gave it to the defendant, along with their HanaSK card.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00008",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00014",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "d00013",
+                "w00010",
+                "c00010",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "w00003",
+                "c00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "w00006",
+                "c00006",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

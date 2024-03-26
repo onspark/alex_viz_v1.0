@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000313202210172021077001302",
+    "crime_fact": "Crime Facts\nCase Number: 2021고단1302\nThe mastermind of a voice phishing (hereinafter referred to as 'voice phishing') criminal organization, whose name is unknown, organized various stages such as recruiters, managers, baiters, and cash collectors to commit voice phishing crimes. A member of the organization belonging to the recruiters recruited cash collectors and withdrawers who could operate domestically, connected them to the managers, and a member of the organization belonging to the managers functionally managed the voice phishing members by instructing them on specific criminal acts. Members of the organization belonging to the baiters randomly called victims, pretending to be financial institutions offering loans or impersonating investigative agencies claiming the need to verify identity theft, thus deceiving the victims into withdrawing cash and delivering it to the cash collectors impersonating employees of financial institutions. The cash collectors, pretending to be employees of financial institutions in front of the deceived victims, presented forged documents from the Financial Supervisory Service or financial institutions, and transferred the money received from the victims to an account directed by the voice phishing manager according to their respective roles, thereby conspiring to commit the crime.\nThe defendant was proposed by an unknown voice phishing member (alias 'AD') around April 2021 to take on the role of a cash collector, meeting the victims in person, collecting the defrauded money, and transferring it to a designated account without a bankbook. In relation to this, the defendant received specific precautions from 'AD', such as \"Use only cash for all expenses, do not use your own vehicle when moving, and if a bank employee asks when depositing money in someone else's name, notify immediately,\" thereby sequentially conspiring with the unknown voice phishing members to commit fraud.\nAn unknown person acting as a baiter for voice phishing sent a loan advertisement text message to victim AC around 08:40 on April 13, 2021. When the victim called back, despite having no intention or ability to provide a loan, the person impersonated an employee of AE Bank to induce the victim to apply for a loan. Another unknown baiter, impersonating an AF employee, called the victim and lied, saying, \"Applying for an additional loan is a breach of contract, so if you do not repay the existing loan within 24 hours, you will have to pay more than double,\" and \"An AF employee will be sent, so deliver the existing loan amount of 30.2 million won.\"\nThe aforementioned unknown persons deceived the victim in this manner, and following 'AD's instructions, the defendant met the victim around 18:10 on April 13, 2021, in front of AH restaurant operated by the victim in Cheongsong-gun, Gyeongsangbuk-do, and received a black plastic bag containing 30.2 million won in cash.\nThus, the defendant, in sequential conspiracy with the unknown voice phishing members, deceived the victim and received 30.2 million won from the victim.\nCase Number: 2022고단926\n1. Insult, Assault\nThe defendant was a customer visiting AJ Mart in Gimcheon City, and the victim AK (male, 38 years old) was working as the head of the security team at the mart.\na. Insult\nAround 17:05 on April 25, 2022, in front of the information desk on the first floor of AJ Mart, while making noise with an electronic whistle, the defendant was asked by the victim to stop the noise. In response, in front of many other employees and customers of the mart, the defendant loudly said, \"Hey, you pervert bastard, what are you looking at?\"\nThus, the defendant publicly insulted the victim.\nb. Assault\nAt the same time and place as item a., believing that the victim was staring at his chest, the defendant became angry and said to the victim, \"I'll gouge your eyes out,\" threatening to poke the victim's eyes by bringing two fingers close to the victim's face, and acted as if he was going to kick the victim with his knee.\nThus, the defendant assaulted the victim.\n2. Obstruction of Business\nFrom 12:18 to 12:23 on May 17, 2022, in the AJ Mart's first-floor store as described in item 1, without any particular reason, the defendant suddenly shouted at the victim AL, who was working as a mart employee, thrust an electronic whistle in AL's face while making a loud noise with the whistle, and continued to make noise. Despite being told by another mart employee, victim AM, who was arranging bottled water nearby, \"Please wait, move aside, you'll get hurt,\" the defendant did not move aside and continued to thrust the electronic whistle in AM's face and make loud noises, and when AM protested, the defendant shouted, causing a disturbance for about 5 minutes.\nThus, the defendant obstructed the mart employees' store management and customer service work by force.",
+    "target_node": {
+        "node_id": "w00012",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_12",
+        "text": "Through specific instructions and actions received from a voice phishing organization member, it can be understood that the defendant had sufficient awareness of the crime and thereby consented to the occurrence of the crime.",
+        "label_expanded": "D_12=>C_12"
+    },
+    "target_reason": "Explanation: The guarantee of w00012 indirectly proves that the defendant had awareness and agreement to the crime by performing a specific role, and that role being a significant part of the criminal process. However, this guarantee provides a weak logical connection for proving implied intent. Indirectly proving awareness and agreement to the crime is a weaker basis than directly proving the intent of the crime. Moreover, the mere fact that the defendant participated in the crime is not sufficient to prove implied intent. Therefore, this guarantee is the weakest component in terms of providing a weak logical connection and insufficient evidence to prove implied intent towards the crime.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant lacked intent as they were not clearly aware of the structure and purpose of the voice phishing organization and acted under the misconception that they were merely carrying out simple tasks.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant directly participated in voice phishing crimes, colluded in the crime by deceiving victims and collecting money, which clearly demonstrates intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant did not clearly recognize their role and function as a member of the voice phishing organization.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "Without a concrete understanding of the structure and individual roles within a criminal organization, merely acting upon instructions cannot be considered as intentional participation in criminal activities.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant only received specific instructions such as \"Use cash for all expenses, do not use your own vehicle when moving, and if a bank clerk asks when making a deposit into someone else's account without a bankbook, notify immediately.\"",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant was unaware of the overall structure or purpose of the voice phishing crime.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "Actions carried out without knowledge of the overall structure or purpose of a crime do not sufficiently prove implied intent or the intentionality of the criminal act.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant was unaware of the conspiracy with members of the organization whose names are unknown and believed they were simply carrying out tasks of delivering documents and collecting cash.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant believed that they were hired as an employee of a purchasing agency.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The defendant's actions, believed to have been carried out through a general hiring process, do not constitute sufficient evidence to be considered as having intentionally participated in a crime.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant believed that they were not intentionally involved in the voice phishing crime but were employed as a staff member of a purchasing agency.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant, acting as a cash collector for a voice phishing organization and collecting money from victims, proves that the defendant directly participated in the crime.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "Performing a specific role as a member of a voice phishing organization is clear evidence of complicity in the criminal activities of that organization.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant was approached around April 2021 by an unidentified member of a voice phishing organization (known as 'AD') and was offered the role of a cash collector. The defendant met with the victims in person, collected the money, and then performed the role of transferring it to an account as instructed.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The specific instructions received by the defendant demonstrate that the defendant was fully aware of the nature and dangers of voice phishing crimes, and acted with conditional intent.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Receiving specific instructions regarding criminal acts and following them indicates that the defendant understands the nature of the crime and also demonstrates a willingness to actively participate in the crime.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant received specific instructions such as \"Use only cash for all expenses, do not use your own vehicle when moving, and if a bank clerk asks when making a deposit into someone else's account without a bankbook, notify immediately.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The act of the defendant pretending to be a financial institution employee and collecting the damages from the victim is clear evidence of deceiving the victim to gain financial benefits.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Approaching the victim by impersonating a financial institution employee and collecting money is an act of high-level deception, which is a core element of voice phishing crimes that deceive the victim to embezzle money.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant met the victim around 18:10 on April 13, 2021, in front of the AH restaurant operated by the victim in AG, Cheongsong County, Gyeongbuk, and received a black plastic bag containing 30.2 million won in cash from the victim.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The caution received by the defendant indicates that it could be perceived as a simple work directive rather than an intention to participate in a crime.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Receiving specific instructions without fully understanding the nature and dangers of the criminal organization points to the possibility that the defendant did not intend to commit a criminal act but merely understood it as carrying out a task.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant received specific instructions such as \"Use only cash for all expenses, do not use your own vehicle when moving, and immediately notify if a bank employee asks when making a deposit into someone else's account without a bankbook.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "There is evidence indicating that the defendant was unaware of the entire structure or purpose of the crime.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "Actions taken without a comprehensive understanding of the crime are more likely to be acts of inadvertence rather than intentional misconduct.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant claimed that they did not intentionally participate in the voice phishing crime but believed they were hired as an employee of a purchasing agency, and did not recognize the collusion with members of the organization whose names were unknown.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The information provided to the defendant lacks specificity regarding the criminal act, making it difficult to prove intent.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "If there had been a will to actively participate in the crime, there would have been more specific and clear instructions for criminal actions. Mere precautions are insufficient to fully prove the defendant's intent.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant was only given specific instructions to \"use cash for all expenses, not to use their own vehicle when moving, and to immediately notify if a bank employee asks when making a deposit into someone else's account without a bankbook.\" These instructions were not directives regarding the specific details of the criminal act.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's actions in accordance with specific instructions indicate a thorough understanding of the structure and roles within the voice phishing organization.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The specific instructions received by the defendant from the voice phishing organization member demonstrate that the defendant was aware of the role and function of the organization.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "\"All expenses should be made in cash only, do not use your own vehicle for transportation, and if a bank employee asks when making a deposit into someone else's account without a bankbook, notify them immediately.\" were among the specific precautions received.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant directly participated in the voice phishing crime by playing a key role in defrauding the victim and collecting money.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Collecting money from the victim and transferring it to the account as instructed constitutes a core process of voice phishing crime, and this demonstrates that the defendant clearly understood the structure of the crime and their role in it.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "On April 13, 2021, at approximately 18:10, in front of the AH restaurant operated by the victim in AG, Cheongsong County, North Gyeongsang Province, a black plastic bag containing 30.2 million won in cash was handed over from the victim.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's actions demonstrate implied intent, recognizing and acquiescing to the possibility of a crime occurring.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "Through specific instructions and actions received from a voice phishing organization member, it can be understood that the defendant had sufficient awareness of the crime and thereby consented to the occurrence of the crime.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant received specific instructions from a voice phishing organization member, such as \"Use only cash for all expenses, do not use your own vehicle when moving, and immediately notify if a bank employee asks when making a deposit into someone else's account without a bankbook.\"",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The defendant demonstrates an intention to conspire in the crime by performing a specific role within the voice phishing organization.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Within the voice phishing organization, carrying out specific roles and instructions can be seen as having fully understood and agreed to the organization's objectives and structure.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "In April 2021, the defendant was approached by an unidentified member of a voice phishing organization (known as 'AD') and was offered the role of a cash collector, which involved meeting the victims in person to collect the defrauded money and then transferring it to an account specified by the organization via bank deposit without a bankbook. In connection with this, the defendant received specific instructions from 'AD', such as \"Use only cash for all expenses, do not use your own vehicle for transportation, and if a bank clerk asks when making a deposit in someone else's name, notify immediately.\" By receiving these instructions, the defendant conspired with the unidentified members of the voice phishing organization to commit fraud in a sequential manner.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's act of posing as a bank employee and presenting forged documents to the victim clearly reveals an intent to deceive the victim.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Impersonating a bank employee and presenting forged documents clearly indicates an intent to deceive the victim and gain financial benefits.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant met with victims who were deceived by a lure, pretending to be an employee of a financial institution, presenting forged documents from the Financial Supervisory Service or a financial institution, and engaged in acts such as transferring money received from the victims to an account directed by the voice phishing manager through bank transfers without a passbook.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant's claim of being unaware of collusion with the voice phishing organization is refuted by the actions demonstrated during the specific execution of the crime.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The claim of not recognizing collusion with a criminal organization loses credibility due to actions that have been carried out, which are specific and active roles consistent with the organization's objectives.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant met the victim at around 18:10 on April 13, 2021, in front of the AH restaurant operated by the victim in Cheongsong County, North Gyeongsang Province, and received a black plastic bag containing 30.2 million won in cash from the victim. The defendant then transferred this amount to an account as directed by the voice phishing scheme's manager. This act indicates that the defendant was fully aware of the collusion with the voice phishing organization.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "There is evidence proving that the defendant was unaware of the specific purpose and structure of the voice phishing crime organization.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "Receiving specific instructions can be mistaken for mere guidelines for performing tasks, which indicates a lack of intent.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant received specific instructions to \"use only cash for all expenses, not to use their own vehicle when moving, and to immediately notify if a bank employee asks when making a deposit into someone else's account without a bankbook.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "There is insufficient evidence that the defendant was aware of the comprehensive collusion of the voice phishing organization.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Performing simple tasks without a concrete understanding of the overall criminal process or structure of a voice phishing organization cannot be clear evidence of complicity awareness.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant received instructions solely on cash collection and bank transfer tasks without any direct explanation of the criminal intent or the overall structure of the organization from an unidentified member of a voice phishing group.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "ENGLISH OUTPUT \nThe defendant was involved in the voice phishing crime not by voluntary participation but by being deceived.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "If deceived by a member of a criminal organization disguised as an employee of a purchasing agency, and participated under the misconception that it was related to one's job duties, the intentionality can be denied.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant claimed to have been hired as an employee of a purchasing agency and did not realize the collusion with members of a voice phishing organization.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "c00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "c00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "c00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00016",
+                "c00016",
+                "w00011",
+                "c00011",
+                "w00015",
+                "c00015",
+                "w00013",
+                "c00013",
+                "w00008",
+                "c00008",
+                "d00016",
+                "d00009",
+                "d00003",
+                "d00013",
+                "d00014",
+                "d00002",
+                "d00001",
+                "w00018",
+                "c00018",
+                "w00005",
+                "c00005",
+                "w00014",
+                "c00014",
+                "d00004",
+                "d00008",
+                "w00003",
+                "c00003",
+                "d00017",
+                "d00011",
+                "d00010",
+                "d00007",
+                "d00006",
+                "w00004",
+                "c00004",
+                "d00005",
+                "d00018",
+                "w00002",
+                "c00002",
+                "w00010",
+                "c00010",
+                "w00017",
+                "c00017",
+                "d00015",
+                "d00012"
+            ]
+        }
+    }
+}

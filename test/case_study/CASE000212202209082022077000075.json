@@ -1,0 +1,803 @@
+﻿{
+    "case_id": "CASE000212202209082022077000075",
+    "crime_fact": "<translated text>\n\nCrime Details\nThe defendant is the sibling of D, the CEO of C Corporation, which is the executing company of the B Area Housing Association project, and the victim E is the CEO of F Corporation, the business agent for the B Area Housing Association project.\nAround July 2019, in the B Area Housing Association office located in Dongjak-gu, Seoul, the defendant lied to the victim, saying, \"My brother is currently detained in Seoul Detention Center due to a fraud case. For the association project to proceed smoothly, my brother needs to be released soon. To release him, we need a settlement with you. If you lend us 150 million won as a settlement, we will change your business agent share in the association project from 44% to 53% and pay you 60 million won as interest.\"\nHowever, in reality, it was impossible to settle with the victim of D's criminal case with the 150 million won, and the defendant had no intention of using the money received from the victim for the settlement with the victim of the criminal case. Instead, the defendant planned to use it for personal living expenses, debt repayment, and abnormal lobbying funds for D's release.\nBy deceiving the victim in such a manner, the defendant fraudulently received 150 million won from the victim, who was deceived, on August 9, 2019, into the bank account of H, the defendant's mother-in-law, at I Bank, and embezzled it.",
+    "target_node": {
+        "node_id": "w00012",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_12",
+        "text": "The fact that the settlement money requested by the defendant was actually used for the defendant's personal purposes indicates that the defendant lied to the victim, and this meets the criteria for the establishment of a fraud crime.",
+        "label_expanded": "D_12=>C_12"
+    },
+    "target_reason": "<translated text>\n\nExplanation: The argument is that if the purpose of w00012 is to verify the amount of cryptocurrency held, then the use of such information must be made with the explicit consent of the victim, and unauthorized use of it is clear evidence of deception. However, this argument focuses only on the specific situation of verifying the amount of cryptocurrency held and lacks direct relevance to the given criminal facts. The criminal facts are related to fraud using gift cards, not to the verification of the amount of cryptocurrency held. Therefore, since w00012's logical connection is not directly related to the criminal facts, it is considered a weak argument.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant received funds from the victim with the genuine intention of making the business successful, and due to unforeseen circumstances, had no choice but to use the funds for other purposes. Therefore, it was not a deliberate act of deceiving the victim.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant had no intention or ability to conduct the business from the beginning, and it is clear that they defrauded the victim by lying to obtain money. The amount the defendant used for personal purposes clearly demonstrates their fraudulent intent.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant sincerely attempted to reach a settlement with the victim.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "Even if the amount demanded for a settlement with the victim was used for the defendant's living expenses, debt repayment, and abnormal lobbying funds, it could be a method inevitably chosen by the defendant facing practical difficulties.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant is described as having lied by saying, 'My brother is currently detained at Seoul Detention Center due to a fraud case, and to smoothly proceed with the cooperative business, it is necessary for my brother to be released soon. To release him, we need a settlement amount with the victim, so if you lend me 150 million won as the settlement amount, I will change your share in the cooperative business from 44% to 53% and pay you 60 million won as interest.' However, this can be seen as evidence of the defendant's efforts to improve the situation.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant had a genuine intent to proceed with the business.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The fact that a portion of the amount received from the victim was used for business-related expenses indicates that the defendant used the funds with the intention of making the business successful.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "'The defendant can argue that they had a genuine intention to proceed with the project in question, and the failure of the business was an unforeseen result. There is evidence that the defendant used part of the amount received from the victim for business-related expenses,' which shows that the defendant had the intention to carry out the business.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The business failure was an unforeseeable outcome.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "The fact that the failure of the business was an unforeseeable outcome indicates that the problems that arose during the conduct of the business were beyond the defendant's prediction and were not acts intended to deliberately deceive the victim.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "'The defendant can argue that they had a genuine intention to proceed with the project in question, and the failure of the business was an unforeseen result.' This demonstrates that the defendant made efforts to succeed in the business, but it resulted in failure due to unpredictable circumstances.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant clearly intended to defraud the victim and embezzle funds.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The defendant's use of the money received from the victim for personal purposes clearly demonstrates the intent to commit fraud.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant used the 150 million won received from the victim for living expenses, debt repayment, and abnormal lobbying funds.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The conditions presented by the defendant were impossible to fulfill from the beginning, and this proves that there was a plan to commit fraud.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The fact that the settlement amount proposed by the defendant is under conditions that cannot actually be fulfilled shows that the defendant entered into a contract with the victim with fraudulent intent.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "Not only is it impossible to reach a settlement with the victim of D's criminal case with the 150 million won, but the defendant also intended to use this money for abnormal lobbying efforts to secure D's release.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant embezzled money from the victim by providing false information.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The act of the victim transferring money based on false information provided by the defendant clearly proves the defendant's guilt of fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant lied to the victim, stating, \"I am currently detained at Seoul Detention Center due to a fraud case. To smoothly proceed with the cooperative business, I need to be released soon. To secure my release, we need a settlement amount with the victim. If you lend me 150 million won as the settlement amount, I will increase your stake in the cooperative business from 44% to 53% and pay you 60 million won as interest.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant had the intention to faithfully fulfill the settlement agreement with the victim.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The fact that the defendant used a portion of the amount received from the victim for business-related expenses demonstrates the defendant's serious attitude towards their business and their will to succeed.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant can argue that there was a genuine intention to proceed with the project in question, and the failure of the business was an unforeseen outcome. There is evidence that the defendant used part of the amount received from the victim for business-related expenses, which demonstrates an intention to carry out the business.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant had no intention of deceiving the victim.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The drafting of a joint venture agreement and the establishment of a specific plan for the progress of the business is evidence of the defendant's intention to deal sincerely with the victim.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant drafted a joint business agreement to establish a concrete plan for the progress of the business. These facts suggest that the defendant had no intention of deceiving the victim.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The amount used by the defendant was not used for abnormal lobbying funds but was used for unexpected business expenses.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "Unexpected costs that may arise in the course of conducting a business are situations that the business operator must address, and this issue is separate from the intent of deliberate fraud.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant can argue that there was a genuine intention to proceed with the project in question, and the failure of the business was an unforeseen outcome. There is evidence that the defendant used a portion of the amount received from the victim for business-related expenses, which demonstrates an intention to carry out the business.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's claim that they sincerely attempted to reach a settlement with the victim is contrary to the facts, and it is clear instead that there was an intent to defraud.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The fact that the defendant used the amount received from the victim for personal purposes shows that the defendant had no intention or ability to conduct the business from the beginning.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant intended to use the money received from the victim not as a settlement with the victim of this criminal case, but for living expenses, debt repayment, and as abnormal lobbying funds for the release of D.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant's actions are a clear case of fraud, involving the deception of the victim to misappropriate funds.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The balance of the G consortium account prior to the amount transferred by the victim and the business-related documents submitted by the defendant are not sufficient to support the defendant's claims, and this proves the defendant's intent to defraud.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant, as described above, deceived the victim and, having fooled the victim, received a transfer of 150 million won into the bank account of I Bank under the name of H, the defendant's mother-in-law, on August 9, 2019, and embezzled it.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's demand for 150 million won as a settlement with the victim, under the pretense of securing release from punishment and advancing a union project, is false and constitutes the basis for fraud.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The fact that the settlement money requested by the defendant was actually used for the defendant's personal purposes indicates that the defendant lied to the victim, and this meets the criteria for the establishment of a fraud crime.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "'However, the 150 million won was not only insufficient for a settlement with the victim of the criminal case D, but the defendant also intended to use the money received from the victim not as settlement funds for the criminal case, but for living expenses, debt repayment, and abnormal lobbying funds for the release of D.'",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "It is clear that the defendant defrauded the victim of money by lying.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The fact that the amount received from the victim was used for personal purposes proves that the defendant had no intention or ability to conduct the business from the beginning.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "'The money received from the victim was not intended as a settlement with the victim of this criminal case, but was planned to be used for the defendant's living expenses, debt repayment, and abnormal lobbying funds for the release of D.'",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant's actions clearly constitute fraud.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The act of the defendant providing false information to the victim to induce monetary gain, despite the conditions and promises presented by the defendant being unfeasible, constitutes the crime of fraud.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "'My brother is currently detained at the Seoul Detention Center due to a fraud case. To smoothly proceed with the cooperative project, it is necessary for my brother to be released soon. To secure his release, a settlement with the victim is required. Thus, I lied by stating that if you could lend me 150 million won for the settlement, I would increase your stake in the cooperative project from 44% to 53% and pay an interest of 60 million won.'",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant had no intention or ability to proceed with the business, and never sincerely attempted to reach an agreement with the victim.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The defendant, knowing that an agreement could not be reached with the amount demanded from the victim, requested the money not for the purpose of business progress or advancing an agreement, but for personal gain.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "```\nHowever, the fact is that the 150 million won was not only insufficient for a settlement with the victim of the criminal case D, but the defendant also intended to use the money received from the victim not as settlement money for the criminal case, but for living expenses, debt repayment, and abnormal lobbying funds for the release of D.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "There is evidence that the defendant used the funds received from the victim for actual business-related expenses.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The fact that the defendant used a portion of the received funds for business-related expenses indicates that the defendant had the intention to proceed with the business.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant can argue that there was a genuine intention to proceed with the project in question, and the failure of the business was an unforeseen result. There is evidence that the defendant used part of the amount received from the victim for business-related expenses, which demonstrates an intention to carry out the business.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant genuinely attempted to reach a settlement with the victim but faced unexpected financial difficulties.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "Unexpected financial difficulties arising in the process of securing funds for a settlement with the victim led to outcomes that were different from the defendant's original intentions.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "However, the claim that \"the 150 million won was not only insufficient for a settlement with the victim of the criminal case D, but also the defendant intended to use the money received from the victim not as a settlement for the criminal case, but for living expenses, debt repayment, and abnormal lobbying funds for the release of D\" reflects the unexpected financial difficulties faced by the defendant.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The defendant drafted a joint business agreement to establish a concrete plan for the business operation.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The drafting of the joint venture agreement proves the defendant's serious intention and specific execution plan for the business.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant drafted a joint business agreement, setting up specific plans for the progress of the business. These facts suggest that the defendant had no intention of deceiving the victim.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "d00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "d00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "d00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "d00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "d00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "d00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00007",
+                "w00002",
+                "c00002",
+                "w00014",
+                "c00014",
+                "w00017",
+                "c00017",
+                "w00008",
+                "c00008",
+                "w00007",
+                "c00007",
+                "w00004",
+                "c00004",
+                "w00009",
+                "c00009",
+                "d00015",
+                "d00018",
+                "d00004",
+                "d00005",
+                "w00006",
+                "c00006",
+                "d00016",
+                "w00003",
+                "c00003",
+                "d00009",
+                "d00014",
+                "d00010",
+                "d00012",
+                "w00010",
+                "c00010",
+                "w00018",
+                "c00018",
+                "d00011",
+                "w00001",
+                "c00001",
+                "d00008",
+                "w00011",
+                "c00011",
+                "d00006",
+                "w00015",
+                "c00015",
+                "w00013",
+                "c00013",
+                "d00001",
+                "w00016",
+                "c00016",
+                "d00003",
+                "d00002",
+                "d00013",
+                "d00017"
+            ]
+        }
+    }
+}

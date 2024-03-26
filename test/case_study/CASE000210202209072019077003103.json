@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000210202209072019077003103",
+    "crime_fact": "Criminal Facts\n「2019고단3103」\nThe defendant is the actual operator of Corporation C, which aims to supply food ingredients, among other purposes.\nAround April 2017, in the office of Corporation C located on the 3rd floor in Jung-gu, Seoul, the defendant told Directors E and F of the victim company, Corporation B, \"I have arranged to supply snow crab from Canada to G, and if you lend me 350 million won, I will definitely repay the loan by June 20, 2017.\" E and F conveyed this message to H, the CEO of the victim company, around May 4, 2017, and the defendant met with H at a hotel in Jung-gu, Seoul, around May 10, 2017, and spoke to the same effect.\nHowever, at that time, to import snow crab from Canada, including customs clearance fees, at least 650 million won was needed, but despite having no means to secure funds other than the 350 million won borrowed from the victim company, the defendant lied to borrow money under the pretext of importing snow crab, intending to use it for company operating expenses and repayment of existing debts.\nAs a result, by deceiving H in the manner described above, the defendant received a transfer of 350 million won into the account of Corporation C at J Bank (account number omitted) under the pretext of a loan from the victim company on May 11 of the same year.\n「2019고단6753」\nThe defendant is a person who leases restaurants in hotels to operate hotel buffets.\n1. Fraud\nAround mid-January 2018, in the office of the victim L in Gangnam-gu, Seoul, the defendant lied to the victim, saying, \"I am currently leasing restaurants in various hotels to operate hotel buffets, but I am short of operating funds. If you lend me money, I will pay 8% interest monthly and will definitely repay it in 3 months.\"\nHowever, in reality, the defendant had been in a state of bad credit due to tax arrears since around 2000, and at the time of the said borrowing, was in a state of insolvency with debts exceeding 350 million won, and the buffet business operated by the defendant had been running at a loss continuously, failing to pay employees' wages, food ingredient costs, and various utility bills since around September 2017, thus having no intention or ability to repay the borrowed money.\nThe defendant, by deceiving the victim in this manner, received a transfer of 70 million won into the defendant's M account under the pretext of a loan around January 19, 2018, and embezzled it.\n2. Embezzlement in the Course of Duty\nThe defendant and L agreed to establish a new hotel buffet operating company, with L providing the entire startup capital of 50 million won and the defendant in charge of the company's operation, sharing the profits 50:50, and thus established Corporation N.\nOn February 12, 2018, the defendant received a transfer of 50 million won, the startup capital of the victim company, from L through P's Q Bank account in the name of the defendant's spouse, and between February 13 and February 20, 2018, arbitrarily used a total of 48.85 million won for personal purposes such as repaying the defendant's debts, paying wages of employees of another company operated by the defendant, and paying unpaid food ingredient costs, thereby embezzling it.\n「2020고단2492」\nThe defendant, while effectively operating the food distribution company Corporation C (CEO P), leases hotel restaurants to operate buffets through Corporation R (CEO S: operating T buffet), Corporation U (CEO V: operating W buffet), Corporation X (CEO Y: operating Z Myeongdong hotel buffet), and Corporation AA (CEO AB: operating AC hotel buffet).\nAround early December 2017, on the 14th floor in Jung-gu, Seoul, at T, the defendant lied to the victim AE, saying, \"If you deliver the bakery ingredients as ordered, I will make the payment by the 5th of the following month.\" However, in reality, since around July 2016, after receiving investments of hundreds of millions of won from others and operating a buffet on the 14th floor of the hotel, the defendant rapidly expanded the business by operating 7 hotel restaurants including W restaurant and Z Myeongdong hotel as well as AC hotel from around February 2017, but due to accumulated debts and deficits of hundreds of millions of won, had been in arrears with employees' wages, food ingredient costs, and various utility bills since around September 2017, thus having no intention or ability to make the promised payment on the delivery costs.\nThe defendant, by deceiving the victim in this manner, received delivery of goods including peeled ginger and 17 other items worth 896,400 won on December 8, 2017, and from then until April 27, 2018, received a total of 26,232,577 won worth of goods in 106 instances as listed in the crime summary table.\n「2020고단3166」\nOn June 12, 2019, in the office of Corporation AG operated by the defendant on the 3rd floor in Gangnam-gu, Seoul, the defendant showed AI, a friend of the victim AH, a sales agreement promising to purchase Corporation AK, which owns 5 AJ apartments, for 60 billion won, and lied, saying, \"3 billion won of the 6 billion won deposit has already been paid, and with just another 3 billion won, we can acquire not only the 5 apartments owned by AK but also 11 apartments under lien. The profit will be at least 50 billion won, so if you lend me 3 billion won for just two weeks, I will give you 70 million won in interest. I will definitely repay the total of 370 million won, including the principal of 3 billion won and the interest, by June 27, 2019.\" However, in reality, 3 billion won of the 6 billion won contract deposit for purchasing Corporation AK had not been deposited, and even if the remaining 3 billion won were received from the victim, it would not be possible to acquire the 16 AJ apartments, thus having no intention or ability to repay the borrowed money and interest by the promised date.\nThe defendant, through deceiving the victim via AI in this manner, received a transfer of 3 billion won into the account of Corporation AK at AL Bank under the pretext of a loan on June 13, 2019.",
+    "target_node": {
+        "node_id": "w00006",
+        "node_type": "warrant",
+        "role": "prosecution",
+        "label": "W_06",
+        "text": "The fact that the victim suffered financial loss by providing funds based on the defendant's false information is clear evidence of fraud.",
+        "label_expanded": "D_06=>C_06"
+    },
+    "target_reason": "Explanation: w00006 argues that the defendant used the loan for purposes other than those promised, but this claim does not present any concrete evidence or facts that the defendant spent the money on gambling or other activities. This is considered the weakest element because it lacks logical connection and does not provide sufficient evidence to support the claim. Particularly, this argument is based on speculation that does not directly prove the defendant's intent or actions, and it is also lacking in terms of relevance to the criminal facts and the strength of the evidence.",
+    "current_role": "defense",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant used the borrowed money with the consent of the victim and had no intention of committing fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant provided the victim with false information and used the borrowed money for personal purposes, committing a clear act of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant's use of the borrowed money was in accordance with a prior agreement with the victim.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "If there is a prior agreement with the victim, it can be seen that the defendant's intention in using the borrowed money was not fraud, but aligned with the agreed purpose.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant claims to have received consent for the use of the victim's company's operating expenses, indicating that there was no intent to deceive the victim.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant did not have a clear intent to deceive the victim.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The mention of a specific use during the conversation with the victim suggests that the defendant intended to share information transparently, indicating that there was no intent to deceive for the purpose of fraud.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "During the conversation with the victim, the defendant mentioned a specific purpose of use, which suggests that the defendant had no intention of deceiving the victim.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "There is a lack of decisive evidence to prove the defendant's intent to commit fraud.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "Based on the testimony in court and the recorded content alone, there is a lack of decisive evidence that the defendant explicitly deceived the victim, making it difficult to clearly prove the intent to commit fraud.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "Based on the testimony and recorded content in court alone, there is a lack of decisive evidence to conclude that the defendant explicitly deceived the victim.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant committed fraud by using the amount borrowed from the victim's company for purposes other than the import costs of snow crabs.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The defendant's use of the borrowed amount for purposes other than the actual intended use constitutes an intentional distortion of the truthfulness of the information provided to the victim.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant borrowed 350 million won under the pretext of snow crab import expenses, but in reality, used it for company operating expenses and repayment of existing debts.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant, despite having neither the intention nor the ability to repay at the time of borrowing funds from the victim, lied to induce the transfer of funds.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "The act of inducing funds by concealing the lack of intention or ability to repay, despite such lack, constitutes the elements of the crime of fraud.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant was already in a state of poor credit since around the year 2000 due to tax delinquency, among other reasons, and at the time of borrowing, was also burdened with debts exceeding 350 million won, while the buffet business they were operating was continuously operating at a loss.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant committed an act of fraud that resulted in financial damage to the victim.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The fact that the victim suffered financial loss by providing funds based on the defendant's false information is clear evidence of fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant received a transfer of 350 million won from the victim's company under the guise of a loan, and thus embezzled the funds by having them transferred to an account in the defendant's name.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The defendant's use of the borrowed money with the victim's consent indicates that there was no intent to defraud.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "The explicit agreement with the victim is an important piece of evidence showing that the defendant had no intention of embezzling funds.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant claims to have received consent for the use of the victim's company's operating expenses, suggesting that there was no intent to deceive the victim.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The defendant's statement regarding the intended use of the funds provided by the victim denies the clear intent of fraud.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "The fact that the defendant discussed a specific use purpose with the victim shows that the defendant aimed to maintain transparency, which is contrary to the intent to commit fraud.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "During the conversation with the victim, the defendant mentioned a specific use purpose, which suggests that the defendant had no intention of deceiving the victim.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The evidence presented in court is insufficient to conclusively determine that the defendant clearly deceived the victim.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The absence of decisive evidence is not sufficient to prove the fraud charges against the defendant, and this leaves room for doubt in favor of the defendant.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "Based on the testimony and recorded content in court alone, there is a lack of decisive evidence to conclude that the defendant explicitly deceived the victim.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's claim that there was a prior agreement with the victim is false.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The defendant's use of the borrowed money for business operating expenses and repayment of existing debts is different from the prior agreement with the victim.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant met H at a hotel located in Jung-gu, Seoul, around May 10, 2017, and spoke with the same intent. This was because the defendant lied in order to use the borrowed money for business operating expenses and to repay existing debts.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant presented a business plan to the victim that was unfeasible from the beginning.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The business plan presented by the defendant was impracticable, and this clearly constitutes the defendant's act of deception.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "At the time, the defendant needed at least 650 million won, including customs fees, to import snow crab from Canada. Despite having no other means to secure funds besides the 350 million won borrowed from the victim's company, the defendant lied about borrowing money under the guise of snow crab import costs, only to use it for company operating expenses and repayment of existing debts.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant had neither the intention nor the ability to repay the money borrowed from the victim.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The fact that the defendant was already in a state of insolvency and was continuously operating at a loss, indicating that they had neither the intention nor the ability to repay, demonstrates that the defendant deceived the victim.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "In fact, the defendant had been in a state of poor credit since around the year 2000 due to tax delinquency, among other reasons, and at the time of the aforementioned borrowing, was already burdened with debts exceeding 350 million won, indicating a state of insolvency. Furthermore, the buffet business operated by the defendant had been continuously running at a loss, such that by around September 2017, there was an inability to pay employees' wages, the cost of food supplies, various utility bills, etc. This indicates that even if the defendant borrowed money from the victim, there was neither the intention nor the capability to repay it.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The fact that the information provided by the defendant to the victim was false can be seen as the defendant inducing money from the victim while knowing that they had neither the intention nor the ability to repay the borrowed money.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "If the conversation with the victim mentioned a specific use purpose based on false information, it suggests that the defendant did not intend to share information transparently, but rather had an intention to deceive.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "At the time, the defendant needed at least 650 million won, including customs fees, to import snow crab from Canada. Despite having no other means to secure funds besides the 350 million won borrowed from the victim's company, the defendant lied about borrowing money under the guise of snow crab import costs, using it instead for company operating expenses and to repay existing debts.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The defendant, despite being in a state of poor credit, enticed the victim to lend money by offering high interest rates, which can be seen as a case of intentionally deceiving the victim.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The act of enticing money by offering high interest rates despite being in a state of poor credit clearly indicates that the defendant is lying to the victim.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "In fact, the defendant had been in a state of poor credit since around the year 2000 due to tax delinquency, among other reasons, and at the time of the aforementioned borrowing, was already burdened with debts exceeding 350 million won, indicating a state of insolvency. Furthermore, the buffet business operated by the defendant had been continuously running at a loss, such that by around September 2017, the defendant was unable to pay employees' wages, the cost of food supplies, various public charges, etc. This indicates that even if the defendant borrowed money from the victim, there was neither the intention nor the capability to repay it.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant made a false promise regarding the possibility of return when entering into a contract with the victim, which indicates that the defendant acted with the intention of committing fraud.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The act of making a false promise to the victim to return the borrowed money and its interest by the promised repayment date, despite the defendant's lack of intention or ability to repay, clearly indicates an intent to deceive.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The defendant, in purchasing the corporation AK, had not deposited 300 million won out of the 600 million won contract payment for the sale, and thus, even if they received the remaining 300 million won from the victim, they would not have been able to acquire the 16 AJ apartments. Therefore, they had neither the intention nor the ability to repay the borrowed money and its interest by the promised deadline to the victim.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The defendant's claim that the use of the borrowed money is in accordance with the prior agreement with the victim is valid.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The conversation between the defendant and the victim suggests an agreement on the purpose of the loan usage.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "During the conversation with the victim, the defendant mentioned a specific purpose of use, which suggests that the defendant had no intention to deceive the victim.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The defendant's use of the borrowed money for business operating expenses and repayment of existing debts indicates a lack of intent to commit fraud.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The defendant's claim that they received consent for the use of the victim company's operating expenses supports the absence of intent to commit fraud.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant claims to have received consent for the use of the victim company's operating expenses, indicating that the defendant had no intent to commit fraud.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "Based on the testimony in court and the recorded content alone, there is a lack of decisive evidence to conclude that the defendant explicitly deceived the victim.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "The absence of conclusive evidence provides significant grounds for denying the defendant's fraud charges.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "Based on the testimony and recorded content in court alone, there is a lack of decisive evidence to conclude that the defendant explicitly deceived the victim.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00005",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00009",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "d00011",
+                "d00016",
+                "w00003",
+                "c00003",
+                "d00004",
+                "d00007",
+                "d00010",
+                "w00001",
+                "c00001",
+                "d00017",
+                "w00002",
+                "c00002",
+                "w00018",
+                "c00018",
+                "d00005",
+                "d00002",
+                "d00006",
+                "d00015",
+                "w00004",
+                "c00004",
+                "d00001",
+                "d00014",
+                "w00008",
+                "c00008",
+                "w00014",
+                "c00014",
+                "d00003",
+                "d00018",
+                "w00015",
+                "c00015",
+                "d00012",
+                "w00013",
+                "c00013",
+                "d00009",
+                "d00008",
+                "d00013",
+                "w00017",
+                "c00017",
+                "w00007",
+                "c00007",
+                "w00016",
+                "c00016",
+                "w00012",
+                "c00012",
+                "w00011",
+                "c00011"
+            ]
+        }
+    }
+}

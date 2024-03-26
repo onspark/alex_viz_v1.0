@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE000210201402132013077007692",
+    "crime_fact": "Crime Facts\n\nThe normal bidding process through the National On-Line Procurement System\nThe Public Procurement Service's National On-Line Procurement System (commonly known as 'Nara Market') allows a financial officer of the ordering party (local governments, etc.) to announce facility construction projects by specifying the base amount, adjustment rate (±2% for central government procurement, ±3% for local government procurement), etc. During the bidding period, eligible bidders (construction companies) use a certified bidder's PC to enter their bid amount. They randomly select 2 out of 15 blank spaces, where the estimated price is not displayed, to save those values on the Public Procurement Service server. The financial officer uses a certified financial officer's PC to generate 15 estimated prices within the range of the adjustment rate of the construction base amount, then sends these to the Public Procurement Service server, which shuffles the order of the estimated prices before sending them back to the financial officer's PC. The financial officer encrypts the estimated prices with their certificate and sends them back to the Public Procurement Service server for storage, although this process is not displayed on the financial officer's PC screen.\nWhen the bidding period ends, the system automatically averages the top 4 most selected estimated prices chosen by the bidders to determine the expected construction cost. Then, it calculates the minimum bid price by multiplying the expected construction cost by the bid rate (87.745% for construction costs less than 1 billion, 86.745% for construction costs between 1 billion and less than 3 billion), and finally determines the winning bidder as the one whose bid is closest to the minimum bid price.\n\n1. Defendant A's Crime\nThe defendant, along with AH, AI (both detained and indicted on September 13, 2013), and an unidentified programmer, developed and installed a malicious program for the financial officer's PC (hereinafter referred to as 'financial officer PC malware') that converts the 15 estimated prices (including sequence numbers) generated on the financial officer's PC into specific values based on a certain algorithm using the announcement number, construction base amount, etc. They also developed and installed a malicious program for the bidder's PC (hereinafter referred to as 'bidder PC malware') that manipulates the selection of the 2 estimated price lottery numbers chosen by the bidder (construction company) while entering the bid amount to be transmitted to the Public Procurement Service server from among 4 predetermined numbers, as well as a connection server that automatically connects with the bidder PC malware. They installed the financial officer PC malware on the ordering party's financial officer's PC and the bidder PC malware on the PCs of the bidding managers of the participating construction companies. This manipulation ensured that the 2 estimated price lottery numbers chosen by the bidders were selected from the 4 predetermined numbers on the connection server, and they manipulated the 15 estimated prices (including sequence numbers) on the financial officer's PC to be converted into predetermined values. They then discovered the minimum bid price and informed a specific construction company of the bid amount that would win the bid, illegally securing the construction contract and agreeing to share the proceeds from the successful bid.\nThus, the defendant, in conspiracy with AH, AI, and an unidentified programmer, used the financial officer PC malware distributed and installed around November 2011 to manipulate and store the 15 estimated prices (including sequence numbers) on the financial officer's PC of the ordering party 'AJ' into the Nara Market server. Through the bidder PC malware, they manipulated the selection of the estimated price numbers chosen by the bidder at the time of entering the bid amount to ensure the selection of 4 predetermined estimated prices. They averaged these 4 estimated prices and applied the bid rate to calculate the minimum bid price of 1,942,410,305 won. Then, AL, AH, AI, and others sequentially informed the defendant of the bid amount that could win based on the minimum bid price. The defendant, under the name of AM Co., Ltd., bid with this amount and won the construction contract on around November 21, 2011, for 1,942,412,000 won, which was 1,695 won higher than the minimum bid price.\nAs a result, the defendant, in conspiracy with AI and others, entered and altered information in a computer or other information processing device without authorization, thereby processing information to acquire a financial benefit of 1,942,412,000 won and simultaneously undermining the fairness of the bidding process.\nThe defendant, along with AH and others, conspired from around November 2011 to April 2012 to commit similar acts as listed in the attached crime list (1), entering and altering information in a computer or other information processing device without authorization to process information, thereby acquiring a total financial benefit of 5,221,978,400 won and simultaneously undermining the fairness of the bidding process.\n\n2. Defendant B's Crime\nThe defendant conspired with AH and an unidentified programmer in the same manner as described in item 1 to ensure that his construction company would receive illegal bids in sequence.\nThus, the defendant, along with AH and an unidentified programmer, used the financial officer PC malware distributed and installed around July 2012 to manipulate and store the 15 estimated prices (including sequence numbers) on the financial officer's PC of the ordering party 'AN' into the Nara Market server. Through the bidder PC malware, they manipulated the selection of the estimated price numbers chosen by the bidder at the time of entering the bid amount to ensure the selection of 4 predetermined estimated prices. They averaged these 4 estimated prices and applied the bid rate to calculate the minimum bid price of 2,857,627,979 won. Then, AL, AH, and others sequentially informed the defendant of the bid amount that could win based on the minimum bid price. The defendant, under the name of AP Co., Ltd., bid with this amount and won the construction contract on July 11, 2012, for 2,857,629,000 won, which was 1,021 won higher than the minimum bid price.\nAs a result, the defendant, in conspiracy with AH and others, entered and altered information in a computer or other information processing device without authorization, thereby processing information to acquire a financial benefit of 2,857,629,000 won and simultaneously undermining the fairness of the bidding process.\nThe defendant, along with AH and others, conspired from around July 2012 to October 2012 to commit similar acts as listed in the attached crime list (2), entering and altering information in a computer or other information processing device without authorization to process information, thereby acquiring a total financial benefit of 6,717,725,000 won and simultaneously undermining the fairness of the bidding process.\n\n3. Defendant C's Crime\nThe defendant conspired with AH and an unidentified programmer in the same manner as described in item 1 to ensure that his construction company would receive illegal bids in sequence.\nThus, the defendant, along with AH and an unidentified programmer, used the financial officer PC malware distributed and installed around October 2011 to manipulate and store the 15 estimated prices (including sequence numbers) on the financial officer's PC of the ordering party 'AQ' into the Nara Market server. Through the bidder PC malware, they manipulated the selection of the estimated price numbers chosen by the bidder at the time of entering the bid amount to ensure the selection of 4 predetermined estimated prices. They averaged these 4 estimated prices and applied the bid rate to calculate the minimum bid price of 419,602,250 won. Then, AL, AH, and others sequentially informed the defendant of the bid amount that could win based on the minimum bid price. The defendant, under the name of AS Co., Ltd., bid with this amount and won the construction contract on October 4, 2011, for 419,603,000 won, which was 750 won higher than the minimum bid price.\nAs a result, the defendant, in conspiracy with AH and others, entered and altered information in a computer or other information processing device without authorization, thereby processing information to acquire a financial benefit of 419,603,000 won and simultaneously undermining the fairness of the bidding process.\nThe defendant, along with AH and others, conspired from around October 2011 to May 2012 to commit similar acts as listed in the attached crime list (3), entering and altering information in a computer or other information processing device without authorization to process information, thereby acquiring a total financial benefit of 3,668,439,400 won and simultaneously undermining the fairness of the bidding process.\n\n4. Defendant D's Crime\nThe defendant conspired with AH and an unidentified programmer in the same manner as described in item 1 to ensure that his construction company would receive illegal bids in sequence.\nThus, the defendant, along with AH and an unidentified programmer, used the financial officer PC malware distributed and installed around September 2011 to manipulate and store the 15 estimated prices (including sequence numbers) on the financial officer's PC of the ordering party 'AU' into the Nara Market server. Through the bidder PC malware, they manipulated the selection of the estimated price numbers chosen by the bidder at the time of entering the bid amount to ensure the selection of 4 predetermined estimated prices. They averaged these 4 estimated prices and applied the bid rate to calculate the minimum bid price of 1,142,477,929 won. Then, AL, AH, and others sequentially informed the defendant of the bid amount that could win based on the minimum bid price. The defendant, under the name of AW Construction, bid with this amount and won the construction contract on September 8, 2011, for 1,142,485,000 won, which was 7,071 won higher than the minimum bid price.\nAs a result, the defendant, in conspiracy with AH and others, entered and altered information in a computer or other information processing device without authorization, thereby processing information to acquire a financial benefit of 1,142,485,000 won and simultaneously undermining the fairness of the bidding process.\nThe defendant, along with AH and others, conspired from around September 2011 to November 2011 to commit similar acts as listed in the attached crime list (4), entering and altering information in a computer or other information processing device without authorization to process information, thereby acquiring a total financial benefit of 2,249,346,000 won and simultaneously undermining the fairness of the bidding process.\n\n5. Defendant E's Crime\nThe defendant conspired with AH and an unidentified programmer in the same manner as described in item 1 to ensure that his construction company would receive illegal bids in sequence.\nThus, the defendant, along with AH and an unidentified programmer, used the financial officer PC malware distributed and installed around December 2011 to manipulate and store the 15 estimated prices (including sequence numbers) on the financial officer's PC of the ordering party 'AX' into the Nara Market server. Through the bidder PC malware, they manipulated the selection of the estimated price numbers chosen by the bidder at the time of entering the bid amount to ensure the selection of 4 predetermined estimated prices. They averaged these 4 estimated prices and applied the bid rate to calculate the minimum bid price of 695,383,490 won. Then, AL, AH, and others sequentially informed the defendant of the bid amount that could win based on the minimum bid price. The defendant, under the name of AZ Construction, bid with this amount and won the construction contract on December 2, 2011, for 695,384,000 won, which was 510 won higher than the minimum bid price.\nAs a result, the defendant, in conspiracy with AH and others, entered and altered information in a computer or other information processing device without authorization, thereby processing information to acquire a financial benefit of 695,384,000 won and simultaneously undermining the fairness of the bidding process.\nThe defendant, along with AH and others, conspired from around December 2011 to February 2012 to commit similar acts as listed in the attached crime list (5), entering and altering information in a computer or other information processing device without authorization to process information, thereby acquiring a total financial benefit of 1,521,464,000 won and simultaneously undermining the fairness of the bidding process.\n\n6. Defendant F's Crime\nThe defendant conspired with AH and an unidentified programmer in the same manner as described in item 1 to ensure that his construction company would receive illegal bids in sequence.\nThus, the defendant, along with AH and an unidentified programmer, used the financial officer PC malware distributed and installed around August 2011 to manipulate and store the 15 estimated prices (including sequence numbers) on the financial officer's PC of the ordering party 'BA' into the Nara Market server. Through the bidder PC malware, they manipulated the selection of the estimated price numbers chosen by the bidder at the time of entering the bid amount to ensure the selection of 4 predetermined estimated prices. They averaged these 4 estimated prices and applied the bid rate to calculate the minimum bid price of 1,768,867,022 won. Then, AL, AH, and others sequentially informed the defendant of the bid amount that could win based on the minimum bid price. The defendant, under the name of BC Co., Ltd., bid with this amount and won the construction contract on August 2, 2011, for 1,768,875,200 won, which was 8,178 won higher than the minimum bid price.\nAs a result, the defendant, in conspiracy with AH and others, entered and altered information in a computer or other information processing device without authorization, thereby processing information to acquire a financial benefit of 1,768,875,200 won and simultaneously undermining the fairness of the bidding process.\nThe defendant, along with AH and others, conspired from around August 2011 to May 2012 to commit similar acts as listed in the attached crime list (6), entering and altering information in a computer or other information processing device without authorization to process information, thereby acquiring a total financial benefit of 4,509,130,200 won and simultaneously undermining the fairness of the bidding process.\n\n7. Defendant G's Crime\nThe defendant conspired with AH and an unidentified programmer in the same manner as described in item 1 to ensure that his construction company would receive illegal bids in sequence.\nThus, the defendant, along with AH and an unidentified programmer, used the financial officer PC malware distributed and installed around November 2011 to manipulate and store the 15 estimated prices (including sequence numbers) on the financial officer's PC of the ordering party 'BD' into the Nara Market server. Through the bidder PC malware, they manipulated the selection of the estimated price numbers chosen by the bidder at the time of entering the bid amount to ensure the selection of 4 predetermined estimated prices. They averaged these 4 estimated prices and applied the bid rate to calculate the minimum bid price of 901,859,278 won. Then, AL, AH, and others sequentially informed the defendant of the bid amount that could win based on the minimum bid price. The defendant, under the name of BE Co., Ltd., bid with this amount and won the construction contract on November 8, 2011, for 901,860,000 won, which was 722 won higher than the minimum bid price.\nAs a result, the defendant, in conspiracy with AH and others, entered and altered information in a computer or other information processing device without authorization, thereby processing information to acquire a financial benefit of 901,860,000 won and simultaneously undermining the fairness of the bidding process.\nThe defendant, along with AH and others, conspired from around November 2011 to May 2012 to commit similar acts as listed in the attached crime list (7), entering and altering information in a computer or other information processing device without authorization to process information, thereby acquiring a total financial benefit of 3,783,066,000 won and simultaneously undermining the fairness of the bidding process.\n\n8. Defendant H's Crime\nThe defendant conspired with AH and an unidentified programmer in the same manner as described in item 1 to ensure that his construction company would receive illegal bids in sequence.\nThus, the defendant, along with AH and an unidentified programmer, used the financial officer PC malware distributed and installed around August 2011 to manipulate and store the 15 estimated prices (including sequence numbers) on the financial officer's PC of the ordering party 'BF' into the Nara Market server. Through the bidder PC malware, they manipulated the selection of the estimated price numbers chosen by the bidder at the time of entering the bid amount to ensure the selection of 4 predetermined estimated prices. They averaged these 4 estimated prices and applied the bid rate to calculate the minimum bid price of 469,478,526 won. Then, AL, AH, and others sequentially informed the defendant of the bid amount that could win based on the minimum bid price. The defendant, under the name of BH Co., Ltd., bid with this amount and won the construction contract on August 11, 2011, for 469,478,600 won, which was 74 won higher than the minimum bid price.\nAs a result, the defendant, in conspiracy with AH and others, entered and altered information in a computer or other information processing device without authorization, thereby processing information to acquire a financial benefit of 469,478,600 won and simultaneously undermining the fairness of the bidding process.\nThe defendant, along with AH and others, conspired from around August 2011 to April 2012 to commit similar acts as listed in the attached crime list (8), entering and altering information in a computer or other information processing device without authorization to process information, thereby acquiring a total financial benefit of 6,371,380,300 won and simultaneously undermining the fairness of the bidding process.",
+    "target_node": {
+        "node_id": "c00010",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_10",
+        "text": "The defendant's claim that he was not directly involved in the bidding process is unpersuasive, considering his active role and fundamental understanding of the crime.",
+        "label_expanded": "C_10"
+    },
+    "target_reason": "Claim c00010 argues that the defendant's claim of having used the borrowed funds for investment purposes is contradicted by the fact that the defendant used the amount received from the victim for personal purposes. However, this argument attempts to refute the defendant's claim of investment intent merely on the basis that the defendant used the money for personal purposes, without presenting direct evidence of the defendant's intent or actions. This constitutes a logical leap and does not conclusively prove that the defendant had no intention of investing from the beginning. Therefore, this argument is based on a weak logical connection and lacks direct relevance to the criminal facts.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "The defendant was not involved in the direct manipulation of the bidding process and was only aware of the bid amounts received. Therefore, there is insufficient evidence for the conspiracy charge.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The fact that the defendant received bid amounts through connections with other co-conspirators clearly proves that there was a collusion among them. Such actions are criminal acts that seriously undermine the fairness of the bidding process, making the defendant's responsibility evident.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant was not directly involved in the development and installation of the malicious software.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The defendant's direct involvement in the development and installation of the malicious software was not proven, and no evidence was presented that the defendant had knowledge or expertise in the relevant technology.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant denies any collusion with AH and an unidentified programmer, only admitting to having received bid amounts from AI, etc.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant had no prior knowledge of the manipulation of the bidding process.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "There is no direct evidence that the defendant was aware of the manipulation of the bidding process in advance, and it is difficult to see that the defendant was involved in the conspiracy, given that the defendant did not have any specific information about the bidding process other than the bid amount received.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant only acknowledges the fact that they received bidding amounts from AI, etc., and states that they were unaware of any other manipulation processes or the installation of malicious software.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "The defendant did not intend any illegal actions during the bidding process.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "There is insufficient evidence that the defendant intended and planned illegal actions during the bidding process, and the defendant's actions were merely based on information received from a third party.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant denies having prior knowledge or intent regarding the development of malicious software and manipulation of the bidding process, arguing that the evidence for the conspiracy charge is insufficient.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant's direct involvement in the development and distribution of malware is clear evidence of the defendant's contribution to criminal activity.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "The development and distribution of malicious software were central criminal methods in this case, through which the bidding process was manipulated. The defendant's significant role in this demonstrates his clear responsibility for the crime.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "The defendant, along with AH, AI, and an unidentified programmer, developed and installed malicious software that altered 15 examples created on the financial manager's PC, as well as malicious software for bidder PCs and a connecting server.",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant's act of informing a specific construction company of a bid amount likely to win the contract is clear evidence of bid rigging through collusion.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "Providing favorable information to a specific construction company during the bidding process is a serious criminal act that undermines the fairness of the bidding. The fact that the defendant provided such information clearly demonstrates his complicity in the crime.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "The defendant found out the minimum bid price and then informed a specific construction company of a bid amount that would enable them to win the contract illegally. Afterward, they agreed to receive and share the proceeds from that construction company for securing the contract.",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant's actions of manipulating bids in the same manner on multiple occasions prove that it was an intentional and continuous criminal act.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "Committing crimes repeatedly in the same manner over several occasions indicates that these are not incidents that occurred by chance, but are intentional and premeditated actions. This significantly increases the defendant's culpability.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "The defendant, in conspiracy with AH and others from November 2011 to May 2012, manipulated the bidding process multiple times in the same manner.",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "There is a lack of clear evidence that the defendant directly manipulated the bidding process.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "If there is no specific direct evidence that the defendant manipulated the bid amount, it cannot be conclusively determined that the defendant intentionally committed a crime.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "The defendant E denies any collusion with AH and an unidentified programmer, and only acknowledges the fact that they received the bidding amount from AI, etc.",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The conspiracy charges against the defendant were not legally proven.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "To prove conspiracy, there must be clear evidence of a mutual agreement, and without such proof, the defendant cannot be punished for conspiracy charges.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "The defendant, along with AH and others from around November 2011 to May 2012, is accused of conspiring to commit the crimes listed in Appendix Crime List (3) by using the method described above to win bids in the name of AS Inc. or AT Inc., which the defendant operates. This was done by unauthorizedly entering and altering information in computer or other information processing devices on seven occasions, thereby obtaining a total financial benefit of 3,668,439,400 won and simultaneously undermining the fairness of the bidding process. However, clear evidence of conspiracy has not been presented.",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The defendant only received the bid amount and did not directly participate in the bidding process.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The mere fact of having received the bid amount cannot be seen as direct involvement in manipulative actions during the bidding process, and this is an important factor that can mitigate the defendant's culpability.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "The defendant E denies any collusion with AH and an unidentified programmer, admitting only to having received bid amounts from AI, etc.",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's claim that he was not directly involved in the bidding process is unpersuasive, considering his active role and fundamental understanding of the crime.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "The fact that the defendant was directly involved in the development and installation of malicious software, and through this, discovered the minimum bid price before informing a specific construction company of a bid amount that would likely win, contradicts the claim that the defendant merely received the bidding amount.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The defendant, along with AH, AI, and an unidentified programmer, developed and installed a malicious program that manipulated 15 examples created on the finance manager's PC. Through this, they illegally secured bids by determining the bidder who offered the amount closest to the minimum acceptable bid as the final awardee. Subsequently, they received and shared the contract price from the construction company involved.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant's claim of not being involved in the manipulation of the bidding process overlooks his role in the development and distribution of the malicious software that was actually implemented.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "The individuals who conspired with the defendant developed malicious software for finance management PCs and bidder PCs, which were actually used to manipulate the bidding process. Such manipulation would have been impossible without the direct involvement of the defendant.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant installed malicious software on the financial manager's PC of the ordering party and on the PCs of the bid managers of the construction companies participating in the bid, respectively. This software manipulated the system so that when bidders entered their bid amounts, the two preliminary bid selection numbers they chose were altered to be among the four pre-designated preliminary bid selection numbers on the connected server.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The defendant's claim that they were not directly involved in the bidding process does not align with the fact that their actions compromised the fairness of the bidding process and consequently resulted in illegal gains.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The defendant's actions, by unauthorizedly inputting and altering information in a computer or other information processing device, severely compromised the fairness of the bidding process, and as a result, the defendant gained substantial financial benefits. This clearly demonstrates the significant role the defendant played in the bidding process.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "In November 2011, the defendant used a pre-distributed and installed malicious program for financial management PCs to alter 15 estimates and transmit and store them on the national procurement server. Through a malicious program for bidder PCs, the defendant manipulated the process so that when bidders entered their bid amounts, only four pre-designated estimates were selected. Subsequently, the defendant calculated the minimum successful bid price and illegally conveyed a bid amount that would ensure a successful bid to a specific construction company.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "Even if the defendant did not directly intervene technically, the existence of a conspiracy clearly proves the defendant's involvement in the crime.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "Crimes committed through conspiracy can be carried out not only by the direct perpetrators but also indirectly, such as by planning and directing the crime or providing necessary information.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "The defendant acknowledged receiving bid amounts from AI, etc., and this can be seen as the defendant having formed a conspiracy with AH and an unidentified programmer to support the crime.",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The information on the bid amount received by the defendant reflects the lowest bid price information obtained through illegal means.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "Accurately determining the minimum bid price and bidding accordingly promotes unfair competition in the bidding process, and the provision and use of such information constitute a serious criminal act that undermines the fairness of the bidding.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "The defendant received information from AI, among others, that allowed them to bid slightly above the minimum bid price, and indeed, they successfully won the bid by bidding at that amount.",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The defendant played a crucial role in the illegal bid rigging through a conspiracy.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "In the case of criminal conspiracy, even if the roles of each co-conspirator differ, all acts of cooperation for a common purpose are considered elements of the crime committed by conspiracy.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "The fact that the construction company operated by the defendant was awarded a bid through illegal means suggests that the defendant provided essential information for the criminal plan and carried it out.",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "Lack of specific evidence proving that the defendant was not involved in the bid rigging process",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "It is unreasonable to assert the defendant's guilt because specific actions or evidence directly involved in bid rigging have not been clearly presented.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "\"The defendant E denies any collusion with AH and an unidentified programmer, admitting only to having received the bid amount from AI, etc.\"",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "There is insufficient evidence that the defendant discovered the minimum successful bid price and then informed a specific construction company of a bid amount that could win the contract.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The fact that the defendant received a bid amount alone cannot be seen as direct involvement in manipulative actions during the bidding process, and clear evidence proving such direct involvement has not been presented.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "\"The defendant, along with AH, AI, and an unidentified programmer, developed and installed a malicious program that transforms 15 examples (including sequence numbers) created on the finance manager's PC into specific values based on the bid announcement number, the base amount of the construction work, etc., according to a certain algorithm. This program also manipulates and alters the system so that when bidders enter their bid amounts, two of the example lottery numbers they select are chosen from four pre-determined numbers and transmitted to the Public Procurement Service's server. Additionally, a connection server that automatically connects to the bidder's PC malicious program was developed and installed. The defendant installed the malicious program for the finance manager's PC on the finance manager's PC and the malicious program for the bidder's PC on the PCs of the bidding managers of the construction companies participating in the bid. This setup manipulated and altered the system so that the two example lottery numbers selected by the bidders while entering their bid amounts were chosen from the four pre-determined example lottery numbers on the connection server. By manipulating and altering the 15 examples (including sequence numbers) on the finance manager's PC into pre-determined specific values, the defendant discovered the minimum bid price that would win the bid. Then, the defendant informed a specific construction company of the bid amount that would win the bid, enabling the company to illegally win the construction contract. Subsequently, the defendant planned to receive and share the proceeds from the winning bid with that construction company.\"",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The conspiracy charges against the defendant were not legally proven",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "Since the evidence of conspiracy is not clear, and the proof of agreement is insufficient, the defendant cannot be held legally responsible for the conspiracy charges.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "\"The defendant E denies any collusion with AH and an unidentified programmer, admitting only to having received the bidding amount from AI, etc.\"",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00003",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00010",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00009",
+                "c00009",
+                "w00008",
+                "c00008",
+                "d00013",
+                "d00016",
+                "w00015",
+                "c00015",
+                "d00018",
+                "d00001",
+                "w00002",
+                "c00002",
+                "d00017",
+                "w00014",
+                "c00014",
+                "w00013",
+                "c00013",
+                "w00012",
+                "c00012",
+                "d00003",
+                "d00010",
+                "d00005",
+                "d00002",
+                "d00009",
+                "w00017",
+                "c00017",
+                "d00012",
+                "w00005",
+                "c00005",
+                "w00016",
+                "c00016",
+                "d00014",
+                "d00006",
+                "w00004",
+                "c00004",
+                "d00015",
+                "d00008",
+                "d00011",
+                "d00007",
+                "w00011",
+                "c00011",
+                "d00004",
+                "w00018",
+                "c00018",
+                "w00007",
+                "c00007"
+            ]
+        }
+    }
+}

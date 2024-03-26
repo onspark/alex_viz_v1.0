@@ -1,0 +1,799 @@
+﻿{
+    "case_id": "CASE250826202209072022077000187",
+    "crime_fact": "Crime Fact 1)\nThe defendant is the actual operator of 'B', a packaging material manufacturing company, and C is the actual operator of D Co., Ltd., a plastic bag printing machine manufacturing company (hereinafter referred to as 'D').\nThe defendant borrowed and used a bill of exchange issued by D worth 55,130,000 won (with a maturity date of February 28, 2020, hereinafter referred to as 'the bill in question') around October 17, 2019, and accordingly had an obligation to pay the bill amount to D by the maturity date. However, due to a lack of funds, the defendant was unable to pay the bill amount and faced a situation where payment could not be made.\nIn this situation, around February 28, 2020, the defendant lied to the victim E, saying, \"I am in a situation where I cannot pay the bill amount, so please lend me 50 million won. I have delivered goods, but the payment for the goods was made by card and the money has not yet been deposited into the account. The card approval will be completed within 10 days, and I will immediately repay the borrowed money.\" The defendant then had C send photos of two sales slips of B (total sales amount of 30 million won) to the victim.\nHowever, the two sales slips sent to the victim by the defendant were not card sales slips but cash sales slips for which the payment for the goods had already been received. The defendant, having numerous debts and being in poor financial condition, had neither the intention nor the ability to repay the borrowed money even if it was borrowed from the victim.\nThe defendant, by deceiving the victim in this manner, fraudulently obtained a transfer of 50 million won from the victim, who was deceived by the defendant, into the Woori Bank account under the name of D (account number omitted) on the same day.",
+    "target_node": {
+        "node_id": "c00012",
+        "node_type": "claim",
+        "role": "prosecution",
+        "label": "C_12",
+        "text": "The act committed jointly by the defendant and C was a planned and organized act intended to deceive the victim.",
+        "label_expanded": "C_12"
+    },
+    "target_reason": "Claim c00012 argues that the defendant planned and executed the crime based on the victim's trust, and this constitutes complicity. However, the evidence and warrant provided indicate that the defendant acted alone, with no mention or evidence of an accomplice. This represents a weak logical connection, and the mention of an accomplice is deemed the weakest argument since it is not directly related to the facts of the case. Mentioning an accomplice solely based on the defendant's actions, without any specific evidence or explanation of the situation, amounts to a baseless assumption.",
+    "current_role": "prosecution",
+    "source": "hallym_lifs",
+    "arguments": {
+        "nodes": [
+            {
+                "node_id": "mc00001",
+                "node_type": "main_claim",
+                "role": "defense",
+                "label": "MC_01",
+                "text": "It is true that the defendant borrowed money from the victim, but it cannot be considered guilty because the action was not carried out with the intention to deceive, but rather stemmed from a poor judgment due to financial difficulties.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "-mc00001",
+                "node_type": "main_claim",
+                "role": "prosecution",
+                "label": "MC_01",
+                "text": "The defendant provided the victim with false information and intentionally misled the nature of the sales slip to embezzle money, clearly indicating an intent to deceive. Therefore, the defendant's actions constitute the crime of fraud.",
+                "label_expanded": "MC_01"
+            },
+            {
+                "node_id": "c00001",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_01",
+                "text": "The defendant had no intent to deceive.",
+                "label_expanded": "C_01"
+            },
+            {
+                "node_id": "w00001",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_01",
+                "text": "The fact that the defendant was in financial difficulty indicates that it was a poor judgment due to financial difficulties rather than an intent to deceive.",
+                "label_expanded": "D_01=>C_01"
+            },
+            {
+                "node_id": "d00001",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_01",
+                "text": "The defendant showed an intention to repay by stating that they would immediately repay the borrowed money as soon as the card approval is completed within 10 days.",
+                "label_expanded": "D_01"
+            },
+            {
+                "node_id": "c00002",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_02",
+                "text": "The defendant's presentation of the sales slip as a cash sales slip was a mere oversight.",
+                "label_expanded": "C_02"
+            },
+            {
+                "node_id": "w00002",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_02",
+                "text": "The fact that the defendant actually delivered the goods and claimed that the money did not enter the account because it was paid with a card indicates that the presentation of the cash sales slip was not intentional deception but originated from a misunderstanding or mistake.",
+                "label_expanded": "D_02=>C_02"
+            },
+            {
+                "node_id": "d00002",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_02",
+                "text": "The defendant instructed C to send the victim photos of two card sales slips from B, but what was actually sent were cash sales slips for which payment for the goods had already been received.",
+                "label_expanded": "D_02"
+            },
+            {
+                "node_id": "c00003",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_03",
+                "text": "It cannot be conclusively determined that the defendant lacked the intention and ability to make restitution.",
+                "label_expanded": "C_03"
+            },
+            {
+                "node_id": "w00003",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_03",
+                "text": "There is a lack of concrete evidence indicating the absence of an intention to perform, and even if the defendant was in financial difficulty, this does not mean that there was absolutely no intention or ability to perform.",
+                "label_expanded": "D_03=>C_03"
+            },
+            {
+                "node_id": "d00003",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_03",
+                "text": "The defendant acknowledged borrowing money from the victim but argued that being in a financially difficult situation does not mean there was a complete absence of intention or ability to repay.",
+                "label_expanded": "D_03"
+            },
+            {
+                "node_id": "c00004",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_04",
+                "text": "The defendant met the elements of the fraud charge by providing false information to the victim.",
+                "label_expanded": "C_04"
+            },
+            {
+                "node_id": "w00004",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_04",
+                "text": "If the information provided by the defendant to the victim is false, and through this, they gained financial benefits, then that act satisfies the elements of the crime of fraud according to legal principles.",
+                "label_expanded": "D_04=>C_04"
+            },
+            {
+                "node_id": "d00004",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_04",
+                "text": "\"On or around February 28, 2020, the defendant lied to the victim E, stating, 'I am unable to pay the promissory note, so please lend me 50 million won. I have delivered some goods, but the payment for these goods was made by card and the money has not yet been deposited into my account. I will repay the borrowed money as soon as the card is approved, which should be within 10 days.' Furthermore, the defendant caused C to send photos of two sales slips for B's card transactions (totaling 30 million won) to the victim.\"",
+                "label_expanded": "D_04"
+            },
+            {
+                "node_id": "c00005",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_05",
+                "text": "The defendant, in collusion with a co-conspirator, took premeditated actions to deceive the victim.",
+                "label_expanded": "C_05"
+            },
+            {
+                "node_id": "w00005",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_05",
+                "text": "When actions are taken in advance with a co-conspirator, such actions highlight the seriousness of the crime more than if the actions were taken by an individual alone. This serves as important evidence of the intent and premeditation behind fraud crimes.",
+                "label_expanded": "D_05=>C_05"
+            },
+            {
+                "node_id": "d00005",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_05",
+                "text": "\"The defendant made C send photos of two card sales slips of B to the victim.\"",
+                "label_expanded": "D_05"
+            },
+            {
+                "node_id": "c00006",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_06",
+                "text": "The defendant intentionally caused the victim to misunderstand the nature of the sales slip presented.",
+                "label_expanded": "C_06"
+            },
+            {
+                "node_id": "w00006",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_06",
+                "text": "The act of deliberately misleading the nature of a sales slip constitutes an act of deception towards the victim, clearly establishing the presence of deceit, which is one of the elements of the crime of fraud.",
+                "label_expanded": "D_06=>C_06"
+            },
+            {
+                "node_id": "d00006",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_06",
+                "text": "\"However, the two sales slips that the defendant sent to the victim were not credit card sales slips, but cash sales slips for goods for which payment had already been received.\"",
+                "label_expanded": "D_06"
+            },
+            {
+                "node_id": "c00007",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_07",
+                "text": "The claim that the defendant acted in a premeditated manner with a co-conspirator does not clearly prove intent.",
+                "label_expanded": "C_07"
+            },
+            {
+                "node_id": "w00007",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_07",
+                "text": "Cooperation with a co-conspirator does not necessarily imply intent, and the transmission of incorrect information can stem from a simple mistake.",
+                "label_expanded": "D_07=>C_07"
+            },
+            {
+                "node_id": "d00007",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_07",
+                "text": "\"The defendant can acknowledge borrowing money from the victim but may argue that the action was not carried out with the intent to deceive. This could be due to a simple mistake, and it cannot be conclusively determined that the act was intended to defraud.\"",
+                "label_expanded": "D_07"
+            },
+            {
+                "node_id": "c00008",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_08",
+                "text": "The fact that the defendant was in a financially difficult situation can indicate the absence of intent to deceive.",
+                "label_expanded": "C_08"
+            },
+            {
+                "node_id": "w00008",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_08",
+                "text": "An individual facing financial difficulties seeking short-term solutions is a separate issue from intentional fraudulent acts.",
+                "label_expanded": "D_08=>C_08"
+            },
+            {
+                "node_id": "d00008",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_08",
+                "text": "\"The fact that the defendant was in a financially difficult situation does not mean that there was absolutely no intention or ability to repay.\"",
+                "label_expanded": "D_08"
+            },
+            {
+                "node_id": "c00009",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_09",
+                "text": "The fact that the sales slip presented by the defendant was a cash sales slip was not for the purpose of intentional deception, but occurred in a situation that could lead to misunderstanding.",
+                "label_expanded": "C_09"
+            },
+            {
+                "node_id": "w00009",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_09",
+                "text": "The presentation of a cash sales slip cannot be clear evidence that the defendant intentionally provided the victim with incorrect information, and it could simply be an error.",
+                "label_expanded": "D_09=>C_09"
+            },
+            {
+                "node_id": "d00009",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_09",
+                "text": "\"It is true that the sales slips presented by the defendant were cash sales slips, but this could be due to a simple mistake, and cannot be conclusively determined as an act intended to deceive.\"",
+                "label_expanded": "D_09"
+            },
+            {
+                "node_id": "c00010",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_10",
+                "text": "The defendant's deliberate misrepresentation of the nature of the sales slips presented is clear evidence of an intent to deceive.",
+                "label_expanded": "C_10"
+            },
+            {
+                "node_id": "w00010",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_10",
+                "text": "Despite the sales slip sent to the victim being a cash sales slip, falsely claiming it to be a card sales slip constitutes an intentional act of deception.",
+                "label_expanded": "D_10=>C_10"
+            },
+            {
+                "node_id": "d00010",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_10",
+                "text": "The two sales slips that the defendant sent to the victim were not credit card sales slips, but cash sales slips for which payment for the goods had already been received.",
+                "label_expanded": "D_10"
+            },
+            {
+                "node_id": "c00011",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_11",
+                "text": "The defendant borrowed money from the victim and did so by lying, despite having neither the intention nor the ability to repay the debt.",
+                "label_expanded": "C_11"
+            },
+            {
+                "node_id": "w00011",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_11",
+                "text": "Despite being in a financially difficult situation and having numerous debts, the defendant's act of lying to the victim to borrow money was with the intention of defrauding money through deception, despite having no intention or ability to repay.",
+                "label_expanded": "D_11=>C_11"
+            },
+            {
+                "node_id": "d00011",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_11",
+                "text": "The defendant, due to having numerous debts and being in poor financial circumstances, had neither the intention nor the ability to repay the money even if it was borrowed from the victim.",
+                "label_expanded": "D_11"
+            },
+            {
+                "node_id": "c00012",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_12",
+                "text": "The act committed jointly by the defendant and C was a planned and organized act intended to deceive the victim.",
+                "label_expanded": "C_12"
+            },
+            {
+                "node_id": "w00012",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_12",
+                "text": "The fact that the defendant made C send a false sales slip to the victim indicates that it was not a mere personal mistake or misunderstanding, but a deceitful act planned jointly.",
+                "label_expanded": "D_12=>C_12"
+            },
+            {
+                "node_id": "d00012",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_12",
+                "text": "The defendant made C send photos of two card sales slips of B to the victim.",
+                "label_expanded": "D_12"
+            },
+            {
+                "node_id": "c00013",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_13",
+                "text": "The fact that the sales slips presented by the defendant were cash sales slips is clear evidence that the defendant intentionally attempted to deceive the victim.",
+                "label_expanded": "C_13"
+            },
+            {
+                "node_id": "w00013",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_13",
+                "text": "The defendant indicated an intention to borrow money from the victim by deceiving them with a credit card sales slip, and such an act can be seen as a deliberate act of deception.",
+                "label_expanded": "D_13=>C_13"
+            },
+            {
+                "node_id": "d00013",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_13",
+                "text": "\"The defendant lied to the victim E, saying, 'I am in a situation where I cannot pay the promissory note, so please lend me 50 million won. I have delivered some goods, but the payment for the goods was made by card and the money has not yet been deposited into my account. I will repay the borrowed money as soon as the card is approved within 10 days.' and made C send photos of two card sales slips of B to the victim.\"",
+                "label_expanded": "D_13"
+            },
+            {
+                "node_id": "c00014",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_14",
+                "text": "The act of the defendant and C jointly drafting a fair document for a monetary loan contract shows that there was absolutely no intention to repay the borrowed money.",
+                "label_expanded": "C_14"
+            },
+            {
+                "node_id": "w00014",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_14",
+                "text": "The drafting of the contract was used as a means to reassure the victim, and considering the defendant's financial situation, attempting to borrow money despite the lack of ability to repay is part of an intentional act of deception.",
+                "label_expanded": "D_14=>C_14"
+            },
+            {
+                "node_id": "d00014",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_14",
+                "text": "\"However, the two sales slips that the defendant sent to the victim were not credit card sales slips but cash sales slips for goods already paid for, and the defendant, having numerous debts and being in poor financial circumstances, had neither the intention nor the ability to repay the money even if borrowed from the victim.\"",
+                "label_expanded": "D_14"
+            },
+            {
+                "node_id": "c00015",
+                "node_type": "claim",
+                "role": "prosecution",
+                "label": "C_15",
+                "text": "The act of the defendant receiving a money transfer from the victim itself proves that it was embezzlement through premeditated deception.",
+                "label_expanded": "C_15"
+            },
+            {
+                "node_id": "w00015",
+                "node_type": "warrant",
+                "role": "prosecution",
+                "label": "W_15",
+                "text": "The defendant's lies and manipulation of sales receipts led the victim to make incorrect judgments, and receiving money through this means clearly constitutes the crime of fraud.",
+                "label_expanded": "D_15=>C_15"
+            },
+            {
+                "node_id": "d00015",
+                "node_type": "datum",
+                "role": "prosecution",
+                "label": "D_15",
+                "text": "\"The defendant, as described above, deceived the victim and, having fooled the victim, embezzled 50 million won by receiving a transfer into a Woori Bank account under the name D (account number omitted) on the same day.\"",
+                "label_expanded": "D_15"
+            },
+            {
+                "node_id": "c00016",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_16",
+                "text": "The act of the defendant and C jointly drafting a fair document for a monetary loan contract does not show that there was no intention to repay.",
+                "label_expanded": "C_16"
+            },
+            {
+                "node_id": "w00016",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_16",
+                "text": "The preparation of a notarized loan agreement document represents the defendant's intention to comply with legal procedures.",
+                "label_expanded": "D_16=>C_16"
+            },
+            {
+                "node_id": "d00016",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_16",
+                "text": "The defendant explained to the victim E, \"I am in a situation where I cannot pay the promissory note, so please lend me 50 million won.\" This suggests that the defendant had the intention to repay the money after borrowing it.",
+                "label_expanded": "D_16"
+            },
+            {
+                "node_id": "c00017",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_17",
+                "text": "The sales slip presented by the defendant may not have been intended for deception, but could have been due to a simple mistake.",
+                "label_expanded": "C_17"
+            },
+            {
+                "node_id": "w00017",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_17",
+                "text": "The defendant was in a financially difficult situation, which does not mean that there was an absolute lack of intent or ability to repay.",
+                "label_expanded": "D_17=>C_17"
+            },
+            {
+                "node_id": "d00017",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_17",
+                "text": "The defendant promised the victim, \"I will repay the borrowed money as soon as the card is approved within 10 days.\" This suggests that the defendant had the intention to repay and that the presentation of the sales slip might have been a mistake.",
+                "label_expanded": "D_17"
+            },
+            {
+                "node_id": "c00018",
+                "node_type": "claim",
+                "role": "defense",
+                "label": "C_18",
+                "text": "The fact that the defendant had numerous debts and was in poor financial condition does not prove that there was no intention or ability to repay the money borrowed from the victim.",
+                "label_expanded": "C_18"
+            },
+            {
+                "node_id": "w00018",
+                "node_type": "warrant",
+                "role": "defense",
+                "label": "W_18",
+                "text": "When a person in financial difficulty borrows money, it does not mean that the person has no intention or ability to repay.",
+                "label_expanded": "D_18=>C_18"
+            },
+            {
+                "node_id": "d00018",
+                "node_type": "datum",
+                "role": "defense",
+                "label": "D_18",
+                "text": "The defendant explained to the victim, \"I have delivered the goods, but the payment for the goods was made by card, so the money has not yet been deposited into the account.\" This indicates that the defendant had the intention to pay, but the payment was delayed due to unavoidable circumstances.",
+                "label_expanded": "D_18"
+            }
+        ],
+        "edges": [
+            {
+                "from": "mc00001",
+                "to": "-mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "-mc00001",
+                "to": "mc00001",
+                "edge_type": "attack"
+            },
+            {
+                "from": "c00001",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00001",
+                "to": "c00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00001",
+                "to": "w00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00002",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00002",
+                "to": "c00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00002",
+                "to": "w00002",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00003",
+                "to": "mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00003",
+                "to": "c00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00003",
+                "to": "w00003",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00004",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00004",
+                "to": "c00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00004",
+                "to": "w00004",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00005",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00005",
+                "to": "c00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00005",
+                "to": "w00005",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00006",
+                "to": "-mc00001",
+                "edge_type": "support"
+            },
+            {
+                "from": "w00006",
+                "to": "c00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00006",
+                "to": "w00006",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00007",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00007",
+                "to": "c00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00007",
+                "to": "w00007",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00008",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00008",
+                "to": "c00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00008",
+                "to": "w00008",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00009",
+                "to": "w00006",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00009",
+                "to": "c00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00009",
+                "to": "w00009",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00010",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00010",
+                "to": "c00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00010",
+                "to": "w00010",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00011",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00011",
+                "to": "c00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00011",
+                "to": "w00011",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00012",
+                "to": "w00002",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00012",
+                "to": "c00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00012",
+                "to": "w00012",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00013",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00013",
+                "to": "c00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00013",
+                "to": "w00013",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00014",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00014",
+                "to": "c00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00014",
+                "to": "w00014",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00015",
+                "to": "w00007",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00015",
+                "to": "c00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00015",
+                "to": "w00015",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00016",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00016",
+                "to": "c00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00016",
+                "to": "w00016",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00017",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00017",
+                "to": "c00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00017",
+                "to": "w00017",
+                "edge_type": "support"
+            },
+            {
+                "from": "c00018",
+                "to": "c00012",
+                "edge_type": "attack"
+            },
+            {
+                "from": "w00018",
+                "to": "c00018",
+                "edge_type": "support"
+            },
+            {
+                "from": "d00018",
+                "to": "w00018",
+                "edge_type": "support"
+            }
+        ],
+        "extensions": {
+            "grounded": [
+                "w00011",
+                "c00011",
+                "d00008",
+                "w00016",
+                "c00016",
+                "w00013",
+                "c00013",
+                "d00007",
+                "w00010",
+                "c00010",
+                "w00017",
+                "c00017",
+                "d00002",
+                "d00012",
+                "d00014",
+                "d00005",
+                "w00009",
+                "c00009",
+                "d00015",
+                "w00018",
+                "c00018",
+                "d00009",
+                "w00008",
+                "c00008",
+                "d00018",
+                "w00014",
+                "c00014",
+                "d00010",
+                "d00004",
+                "w00005",
+                "c00005",
+                "d00003",
+                "w00015",
+                "c00015",
+                "d00006",
+                "w00003",
+                "c00003",
+                "d00017",
+                "w00004",
+                "c00004",
+                "d00011",
+                "d00013",
+                "w00001",
+                "c00001",
+                "d00001",
+                "d00016"
+            ]
+        }
+    }
+}
