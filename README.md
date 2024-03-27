@@ -52,6 +52,14 @@ The visualization interface is built with Streamlit. It is designed to provide t
     streamlit run app.py
     ```
 
+## Loading a Generated Argumentation Network
+To load a previously generated argumentation network, run the Streamlit app, then load the JSON file and click 'visualize'. 
+
+![load-network](https://github.com/onspark/images/blob/main/load_json_demo.png)
+
+This process can be used to load and review the case study test files in this repository.
+
+
 ## How to cite
 ```
 @misc{park_alex_2024,
