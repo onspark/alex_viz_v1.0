@@ -7,6 +7,14 @@ This is the repository for ALEX, an Argumentation System for Legal Explanations.
 
 
 
+# UPDATE
+## Prompts Location
+
+All project prompts can be found in the following directory:
+
+`backend/app/prompts`
+
+
 ## Setup Instructions
 
 1. Set up an `OPEN_AI_API` key in `backend/app/.env`. Replace 'YOUR API KEY' with your actual key.
