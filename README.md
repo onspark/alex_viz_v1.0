@@ -69,13 +69,17 @@ This process can be used to load and review the case study test files in this re
 
 
 ## How to cite
+
+This work was published in Artificial Intelligence and Law, 2025. 
+
 ```
-@misc{park_alex_2024,
-    author={Park, Sungmi and Choi, Ari and Park, Roseop},
-    title = {ALEX: Argumentation System for Legal Explanations},
-    year = {2024},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished={\url{https://github.com/onspark/alex_viz_v1.0}}
+@article{parkObjectionYourHonor2025,
+  title = {Objection, Your Honor!: An {{LLM-driven}} Approach for Generating {{Korean}} Criminal Case Counterarguments},
+  author = {Park, Sungmi and Choi, Ari and Park, Roseop},
+  year = {2025},
+  month = feb,
+  journal = {Artificial Intelligence and Law},
+  issn = {1572-8382},
+  doi = {10.1007/s10506-025-09432-2}
 }
 ```
